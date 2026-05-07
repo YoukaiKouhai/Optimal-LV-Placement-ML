@@ -1,0 +1,2812 @@
+{
+  "10001": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10001_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10001_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10001_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10001_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10001_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10001_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10002": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10002_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10002_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10002_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10002_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10002_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10002_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10003": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10003_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10003_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10003_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10003_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10003_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10003_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10004": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10004_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10004_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10004_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10004_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10004_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10004_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10005": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10005_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10005_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10005_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10005_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10005_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10005_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10006": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10006_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10006_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10006_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10006_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10006_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10006_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10007": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10007_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10007_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10007_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10007_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10007_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10007_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10008": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10008_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10008_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10008_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10008_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10008_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10008_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10009": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10009_HCT2_HCT2.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10009_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10009_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10009_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10010": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10010_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10010_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10010_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10010_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10010_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10010_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10011": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10011_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10011_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10011_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10011_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10011_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10011_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10012": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10012_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10012_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10012_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10012_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10012_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10012_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10014": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10014_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10014_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10014_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10014_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10014_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10014_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10015": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10015_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10015_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10015_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10015_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10015_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10015_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10017": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10017_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10017_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10017_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10017_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10017_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10017_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10018": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10018_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10018_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10018_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10018_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10018_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10018_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10019": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10019_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10019_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10019_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10019_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10019_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10019_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10020": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10020_HCT2_HCT2.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10020_HCT2_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png\\10020_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10020_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10020_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10020_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20"
+  },
+  "10021": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10021_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10021_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10021_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10021_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10021_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10021_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10023": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10023_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10023_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10023_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10023_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10023_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10023_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10024": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10024_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10024_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10024_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10024_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10024_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10024_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10025": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10025_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10025_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10025_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10025_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10025_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10025_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10026": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10026_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10026_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10026_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10026_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10026_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10026_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10027": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10027_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10027_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10027_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10027_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10027_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10027_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10028": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10028_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10028_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10028_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10028_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10028_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10028_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10029": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10029_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10029_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10029_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10029_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10029_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10029_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10030": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10030_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10030_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10030_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10030_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10030_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10030_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10031": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10031_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10031_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10031_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10031_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10031_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10031_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10033": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10033_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10033_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10033_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10033_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10033_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10033_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10034": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10034_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10034_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10034_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10034_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10034_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10034_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10037": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10037_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10037_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10037_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10037_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10037_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10037_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10038": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10038_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10038_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10038_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10038_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10038_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10038_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10040": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10040_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10040_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10040_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10040_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10040_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10040_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10041": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10041_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10041_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10041_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10041_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10041_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10041_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10042": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10042_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10042_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10042_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10042_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10042_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10042_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10043": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10043_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10043_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10043_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10043_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10043_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10043_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10044": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10044_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10044_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10044_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10044_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10044_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10044_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10045": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10045_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10045_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10045_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10045_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10045_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10045_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10046": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10046_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10046_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10046_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10046_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10046_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10046_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10047": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10047_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10047_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10047_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10047_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10047_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10047_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10048": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10048_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10048_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10048_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10048_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10048_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10048_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10050": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10050_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10050_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10050_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10050_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10050_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10050_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10051": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10051_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10051_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10051_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10051_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10051_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10051_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10052": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10052_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10052_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10052_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10052_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10052_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10052_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10053": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10053_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10053_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10053_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10053_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10053_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10053_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10054": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10054_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10054_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10054_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10054_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10054_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10054_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10055": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10055_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10055_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10055_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10055_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10055_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10055_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10056": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10056_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10056_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10056_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10056_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10056_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10056_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10058": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10058_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10058_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10058_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10058_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10058_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10058_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10060": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10060_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10060_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10060_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10060_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10060_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10060_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10061": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10061_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10061_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10061_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10061_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10061_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10061_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10062": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10062_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10062_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10062_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10062_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10063": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10063_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10063_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10063_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10063_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10063_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10063_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10064": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10064_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10064_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10064_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10064_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10064_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10064_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10065": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10065_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10065_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10065_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10065_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10065_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10065_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10066": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10066_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10066_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10066_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10066_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10066_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10066_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10067": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10067_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10067_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10067_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10067_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10067_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10067_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10070": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10070_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10071": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10071_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10073": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10073_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10074": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10074_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10076": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10076_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10077": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10077_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10078": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10078_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10088": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10088_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10089": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10089_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10090": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10090_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10091": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10091_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10092": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10092_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10093": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10093_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10095": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10095_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10096": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10096_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10097": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10097_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10098": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10098_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10099": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10099_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10101": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10101_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10102": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10102_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10103": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10103_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10104": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10104_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10105": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10105_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10106": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10106_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10107": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10107_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10108": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10108_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10109": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10109_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10110": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10110_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10111": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10111_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10112": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10112_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10113": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10113_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10114": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10114_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10115": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10115_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10116": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10116_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10117": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10117_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10118": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10118_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10119": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10119_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10120": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10120_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10121": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10121_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10122": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10122_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10123": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10123_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10124": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10124_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10126": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10126_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10127": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10127_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10129": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10129_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10130": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10130_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10131": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10131_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10132": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10132_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10133": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10133_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10136": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10136_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10137": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10137_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10140": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10140_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10141": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10141_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10142": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10142_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10144": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10144_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10145": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10145_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10146": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10146_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10149": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10149_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10150": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10150_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10151": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10151_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10153": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10153_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10154": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10154_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10155": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10155_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10157": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10157_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10158": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10158_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10159": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10159_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10160": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10160_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10161": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10161_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10162": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10162_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10163": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10163_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10164": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10164_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10166": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10166_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10167": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10167_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10168": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10168_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10169": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10169_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10170": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10170_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10172": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10172_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10173": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10173_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10174": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10174_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10175": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10175_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10178": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10178_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10179": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10179_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10180": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10180_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10181": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10181_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10182": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10182_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10183": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10183_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10184": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10184_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10185": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10185_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10186": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10186_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10187": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10187_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10188": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10188_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10189": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10189_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10190": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10190_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10191": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10191_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10192": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10192_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10193": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10193_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10194": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10194_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10196": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10196_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10197": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10197_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10199": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10199_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10200": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10200_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10201": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10201_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10202": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10202_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10203": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10203_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10204": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10204_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10205": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10205_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10207": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10207_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10208": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10208_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10209": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10209_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10210": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10210_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10211": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10211_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10212": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10212_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10214": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10214_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10215": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10215_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10216": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10216_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10217": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10217_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10219": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10219_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10220": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10220_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10221": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10221_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10222": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10222_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10223": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10223_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10224": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10224_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10225": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10225_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10226": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10226_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10228": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10228_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10229": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10229_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10230": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10230_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10231": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10231_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10232": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10232_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10233": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10233_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10234": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10234_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10235": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10235_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10236": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10236_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10237": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10237_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10238": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10238_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10240": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10240_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10241": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10241_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10242": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10242_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10243": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10243_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10244": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10244_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10245": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10245_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10246": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10246_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10247": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10247_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10248": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10248_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10249": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10249_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10250": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10250_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10251": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10251_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10253": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10253_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10254": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10254_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10256": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10256_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10257": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10257_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10258": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10258_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10259": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10259_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10260": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10260_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10264": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10264_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10266": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10266_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10268": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10268_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10269": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10269_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10270": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10270_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10271": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10271_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10272": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10272_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10273": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10273_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10274": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10274_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10275": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10275_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10276": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10276_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10277": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10277_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10279": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10279_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10280": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10280_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10283": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10283_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10284": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10284_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10285": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10285_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10286": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10286_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10287": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10287_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10290": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10290_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10291": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10291_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10292": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10292_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10295": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10295_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10297": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10297_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10299": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10299_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10300": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10300_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10301": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10301_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10302": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10302_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10302_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\10302_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10302_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10302_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10302_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10304": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10304_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10306": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10306_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10307": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10307_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10501": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10501_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10502": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10502_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10503": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10503_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10505": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10505_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10506": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10506_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10508": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10508_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10509": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10509_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10510": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10510_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10515": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10515_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10516": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10516_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10518": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10518_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10519": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10519_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10523": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10523_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10524": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10524_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10528": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10528_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10529": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10529_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10530": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10530_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10531": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10531_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10532": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10532_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10533": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10533_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10534": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10534_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10535": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10535_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10537": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10537_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "10538": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10538_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11001": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11001_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11002": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11002_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11002_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\11002_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11002_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11002_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11002_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11003": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11003_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11004": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11004_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11005": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11005_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11006": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11006_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11007": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11007_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11008": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11008_HCT2_img.nii.gz",
+    "seg_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11008_HCT2_leads_seg.nii.gz",
+    "png_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png\\11008_HCT2",
+    "rois_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11008_leads.csv",
+    "rois_bullseye_csv": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11008_leads_bullseye.csv",
+    "rois_bullseye_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11008_leads_bullseye.png",
+    "has_ground_truth": true,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11009": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11009_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11010": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11010_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11011": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11011_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11012": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11012_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11013": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11013_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11014": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11014_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  },
+  "11019": {
+    "raw_nii": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11019_HCT2_img.nii.gz",
+    "seg_nii": null,
+    "png_folder": null,
+    "rois_csv": null,
+    "rois_bullseye_csv": null,
+    "rois_bullseye_png": null,
+    "has_ground_truth": false,
+    "source_folder": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  }
+}
