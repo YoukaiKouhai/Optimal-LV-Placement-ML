@@ -1,0 +1,191 @@
+{
+    "patient_id": "10001",
+    "raw_image_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10001_HCT2_img.nii.gz",
+    "segmentation_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10001_HCT2_leads_seg.nii.gz",
+    "image_shape": [
+        512,
+        512,
+        189
+    ],
+    "affine_matrix": [
+        [
+            0.0,
+            -0.337890625,
+            0.0,
+            47.3310546875
+        ],
+        [
+            -0.337890625,
+            0.0,
+            0.0,
+            263.3310546875
+        ],
+        [
+            0.0,
+            0.0,
+            0.699999988079071,
+            140.89999389648438
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    ],
+    "labels": {
+        "LL1": {
+            "label_value": 4001,
+            "lead_type": "LV",
+            "electrode_order": 1,
+            "description": "LV distal tip",
+            "num_voxels": 27,
+            "voxel_centroid": [
+                190.0,
+                363.0,
+                120.0
+            ],
+            "world_centroid_mm": [
+                -75.3232421875,
+                199.1318359375,
+                224.8999924659729
+            ]
+        },
+        "LL2": {
+            "label_value": 4002,
+            "lead_type": "LV",
+            "electrode_order": 2,
+            "description": "LV electrode 2",
+            "num_voxels": 27,
+            "voxel_centroid": [
+                154.0,
+                425.0,
+                53.0
+            ],
+            "world_centroid_mm": [
+                -96.2724609375,
+                211.2958984375,
+                177.99999326467514
+            ]
+        },
+        "LL3": {
+            "label_value": 4003,
+            "lead_type": "LV",
+            "electrode_order": 3,
+            "description": "LV electrode 3",
+            "num_voxels": 27,
+            "voxel_centroid": [
+                367.0,
+                283.0,
+                105.0
+            ],
+            "world_centroid_mm": [
+                -48.2919921875,
+                139.3251953125,
+                214.39999264478683
+            ]
+        },
+        "LL4": {
+            "label_value": 4004,
+            "lead_type": "LV",
+            "electrode_order": 4,
+            "description": "LV proximal electrode",
+            "num_voxels": 27,
+            "voxel_centroid": [
+                375.0,
+                438.0,
+                90.0
+            ],
+            "world_centroid_mm": [
+                -100.6650390625,
+                136.6220703125,
+                203.89999282360077
+            ]
+        },
+        "RL1": {
+            "label_value": 4005,
+            "lead_type": "RV",
+            "electrode_order": 1,
+            "description": "RV distal tip",
+            "num_voxels": 27,
+            "voxel_centroid": [
+                412.0,
+                406.0,
+                97.0
+            ],
+            "world_centroid_mm": [
+                -89.8525390625,
+                124.1201171875,
+                208.79999274015427
+            ]
+        },
+        "RL2": {
+            "label_value": 4006,
+            "lead_type": "RV",
+            "electrode_order": 2,
+            "description": "RV proximal electrode",
+            "num_voxels": 27,
+            "voxel_centroid": [
+                424.0,
+                381.0,
+                96.0
+            ],
+            "world_centroid_mm": [
+                -81.4052734375,
+                120.0654296875,
+                208.0999927520752
+            ]
+        },
+        "APEX": {
+            "label_value": 4007,
+            "lead_type": "LANDMARK",
+            "electrode_order": null,
+            "description": "Cardiac apex",
+            "num_voxels": 27,
+            "voxel_centroid": [
+                439.0,
+                347.0,
+                108.0
+            ],
+            "world_centroid_mm": [
+                -69.9169921875,
+                114.9970703125,
+                216.49999260902405
+            ]
+        },
+        "BASE": {
+            "label_value": 4008,
+            "lead_type": "LANDMARK",
+            "electrode_order": null,
+            "description": "Mitral valve/base",
+            "num_voxels": 27,
+            "voxel_centroid": [
+                121.0,
+                368.0,
+                90.0
+            ],
+            "world_centroid_mm": [
+                -77.0126953125,
+                222.4462890625,
+                203.89999282360077
+            ]
+        },
+        "ANT": {
+            "label_value": 4009,
+            "lead_type": "LANDMARK",
+            "electrode_order": null,
+            "description": "Anterior wall reference",
+            "num_voxels": 27,
+            "voxel_centroid": [
+                122.0,
+                341.0,
+                85.0
+            ],
+            "world_centroid_mm": [
+                -67.8896484375,
+                222.1083984375,
+                200.3999928832054
+            ]
+        }
+    }
+}

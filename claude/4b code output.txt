@@ -1,18 +1,17 @@
-=================================================================
+
   CRT Lead — Step 4b: Improved ML Experiment
-=================================================================
+
 
   Mean heart axis length across dataset: 87.3 mm
   So t-MAE of 0.10 ≈ 8.7 mm along axis
 
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
   TARGET: LL1_t  (t-units)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   86 patients, 10 features
 
   Model              Train MAE     LOO MAE   vs Baseline    mm equiv
-  ──────────────────────────────────────────────────────────────
+  
   MeanBaseline         0.1627t-units     0.1646t-units  (reference)
   LinearRidge          0.1539t-units     0.1668t-units  +0.0022  ≈14.6 mm
   Lasso                0.1543t-units     0.1615t-units  -0.0031  ≈14.1 mm
@@ -23,19 +22,18 @@
 
   Feature Ablation (LinearRidge, LOO):
   Feature Set      N feats     LOO MAE
-  ──────────────────────────────────────
   A only               4      0.1696 t-units  ≈ 14.8 mm
   A + B                8      0.1658 t-units  ≈ 14.5 mm
   A + C                6      0.1721 t-units  ≈ 15.0 mm
   A + B + C           10      0.1668 t-units  ≈ 14.6 mm
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
   TARGET: LL1_ang  (°)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
   86 patients, 10 features
 
   Model              Train MAE     LOO MAE   vs Baseline    mm equiv
-  ──────────────────────────────────────────────────────────────
+  
   MeanBaseline        15.3101°    15.4903°  (reference)
   LinearRidge         14.9588°    16.4809°  +0.9906
   Lasso               14.9625°    16.5482°  +1.0579
@@ -46,15 +44,15 @@
 
   Feature Ablation (LinearRidge, LOO):
   Feature Set      N feats     LOO MAE
-  ──────────────────────────────────────
+  
   A only               4     15.8084 °
   A + B                8     16.1915 °
   A + C                6     16.0887 °
   A + B + C           10     16.4809 °
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
   OVERALL SUMMARY
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
   LL1_t       best=Lasso             LOO=0.1615 t-units  ≈ 14.1 mm  (+1.9% vs mean-baseline)
   LL1_ang     best=RandomForest      LOO=15.9143 °  (-2.7% vs mean-baseline)
 
