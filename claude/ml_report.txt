@@ -1,0 +1,33 @@
+
+────────────────────────────────────────────────────────────
+Model             Mode          LL1_t    LL1_ang      LL2_t    LL2_ang      LL3_t    LL3_ang      LL4_t    LL4_ang     AvgT    AvgAng
+────────────────────────────────────────────────────────────
+  LinearRidge       TRAIN        0.1588    14.9372     0.1783    15.4702     0.1633    16.7225     0.1560    19.5595   0.1641     16.67°
+  LinearRidge       LOO          0.1723    16.1421     0.1937    16.7025     0.1778    18.0143     0.1695    21.0193   0.1783     17.97°
+  RandomForest      TRAIN        0.0666     6.1506     0.0758     6.7239     0.0689     7.4541     0.0653     8.7339   0.0692      7.27°
+  RandomForest      LOO          0.1819    16.5585     0.2065    18.1410     0.1879    20.1135     0.1773    23.7124   0.1884     19.63°
+  MLP_Neural        TRAIN        0.1703     4.8689     0.2106     3.5915     0.1899     2.7700     0.2168     3.4920   0.1969      3.68°
+  MLP_Neural        LOO          0.2591    24.6072     0.2972    26.5469     0.2559    30.1850     0.3673    34.7456   0.2949     29.02°
+
+============================================================
+SUMMARY — Mean errors across all LV lead targets
+============================================================
+  Model                Train t-MAE   LOO t-MAE   Train ang-MAE   LOO ang-MAE
+──────────────────────────────────────────────────────────────────────────
+  LinearRidge               0.1641      0.1783         16.67°       17.97°  (gap: +0.014 / +1.3°)
+  RandomForest              0.0692      0.1884          7.27°       19.63°  (gap: +0.119 / +12.4°)
+  MLP_Neural                0.1969      0.2949          3.68°       29.02°  (gap: +0.098 / +25.3°)
+──────────────────────────────────────────────────────────────────────────
+
+HOW TO READ THIS:
+  Train MAE ≈ 0          → model memorised the data ✅ (expected)
+  LOO MAE << random      → real signal exists in the features ✅
+  LOO MAE >> Train MAE   → overfitting gap (normal with n=86)
+  LOO t-MAE < 0.10       → within ±10% of heart axis → clinically useful
+  LOO ang-MAE < 20°      → within 1 clock-hour → clinically useful
+
+NEXT STEPS:
+  • Add more features (raw image patches around RV lead)
+  • Try leave-10%-out or 5-fold CV for stabler estimates
+  • Once Dataset 2 (308 pts) is labelled: retrain with more data
+============================================================

@@ -15,6 +15,7 @@ Output:
 
 import os
 import re
+import csv
 import json
 from pathlib import Path
 from dataclasses import dataclass, field, asdict
@@ -51,7 +52,7 @@ class PatientRecord:
     png_folder:      Optional[str] = None
 
     # ROI / clinical files
-    leads_csv:       Optional[str] = None  # X,Y,Z coords clicked in Horos
+    leads_csv:       Optional[str] = None  # path to headerless CSV with rows: Name, X, Y, Z in mm
     bullseye_csv:    Optional[str] = None
     bullseye_png:    Optional[str] = None
     rois_series:     Optional[str] = None
@@ -83,6 +84,31 @@ def extract_patient_id(filename: str) -> Optional[str]:
     """Pull the 5-digit patient ID out of a filename."""
     match = PATIENT_ID_RE.search(filename)
     return match.group(1) if match else None
+
+
+def parse_leads_csv(csv_path: Path) -> list[dict[str, float | str]]:
+    """Read a headerless lead CSV and return labeled world coordinates.
+
+    The CSV format is expected to be headerless, one line per point:
+    Name, X, Y, Z
+    where X, Y, Z are world coordinates in millimeters.
+    """
+    points: list[dict[str, float | str]] = []
+    with open(csv_path, newline="", encoding="utf-8") as f:
+        reader = csv.reader(f)
+        for row in reader:
+            if not row or row[0].startswith("#"):
+                continue
+            if len(row) < 4:
+                continue
+            try:
+                x = float(row[1])
+                y = float(row[2])
+                z = float(row[3])
+            except ValueError:
+                continue
+            points.append({"name": row[0].strip(), "x": x, "y": y, "z": z})
+    return points
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -261,7 +287,6 @@ def build_inventory():
             if r.bullseye_png:status_parts.append("bull✓")
             missing_str = f"  ⚠ missing: {r.missing_files}" if r.missing_files else ""
             lines.append(f"  {pid}  [{', '.join(status_parts)}]{missing_str}")
-        lines.append("")
 
     report_text = "\n".join(lines)
     with open(OUTPUT_REPORT, "w", encoding="utf-8") as f:
@@ -270,36 +295,5 @@ def build_inventory():
     print()
     print(report_text)
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  HOW TO USE THIS JSON IN YOUR NEXT SCRIPT
-# ─────────────────────────────────────────────────────────────────────────────
-
-USAGE_EXAMPLE = '''
-# ── In any downstream script ─────────────────────────────────────────────────
-import json
-
-with open("data_inventory.json") as f:
-    inv = json.load(f)
-
-# Loop over only patients with ground truth (for training / validation)
-for pid, record in inv["ground_truth_patients"].items():
-    img_path = record["img_nii"]      # path to raw CT .nii.gz
-    seg_path = record["seg_nii"]      # path to label mask .nii.gz
-    csv_path = record["leads_csv"]    # path to clicked X,Y,Z coords
-
-    print(f"Patient {pid}: img={img_path}, seg={seg_path}")
-
-# Loop over raw-only patients (future inference targets)
-for pid, record in inv["raw_only_patients"].items():
-    img_path = record["img_nii"]
-    print(f"Unlabeled patient {pid}: {img_path}")
-
-# Check overall stats
-print(inv["summary"])
-'''
-
 if __name__ == "__main__":
     build_inventory()
-    print("\n── How to load this JSON in your next script ──────────────────")
-    print(USAGE_EXAMPLE)

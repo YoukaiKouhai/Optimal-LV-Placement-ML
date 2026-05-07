@@ -1,0 +1,7398 @@
+{
+  "10001": {
+    "apex_xyz": [
+      96.2724609375,
+      -211.2958984375,
+      177.99999326467514
+    ],
+    "base_xyz": [
+      48.2919921875,
+      -139.3251953125,
+      214.39999264478683
+    ],
+    "ant_xyz": [
+      75.3232421875,
+      -199.1318359375,
+      224.8999924659729
+    ],
+    "axis_len_mm": 93.84,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          100.6650390625,
+          -136.6220703125,
+          203.89999282360077
+        ],
+        "longitudinal_t": 0.6934,
+        "radial_angle_deg": 106.16,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 65.07
+      },
+      "LL2": {
+        "world_xyz": [
+          89.8525390625,
+          -124.1201171875,
+          208.79999274015427
+        ],
+        "longitudinal_t": 0.8747,
+        "radial_angle_deg": 108.57,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 82.08
+      },
+      "LL3": {
+        "world_xyz": [
+          81.4052734375,
+          -120.0654296875,
+          208.0999927520752
+        ],
+        "longitudinal_t": 0.951,
+        "radial_angle_deg": 114.37,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 89.24
+      },
+      "LL4": {
+        "world_xyz": [
+          69.9169921875,
+          -114.9970703125,
+          216.49999260902405
+        ],
+        "longitudinal_t": 1.0897,
+        "radial_angle_deg": 109.37,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 102.26
+      },
+      "RL1": {
+        "world_xyz": [
+          77.0126953125,
+          -222.4462890625,
+          203.89999282360077
+        ],
+        "longitudinal_t": 0.1209,
+        "radial_angle_deg": 333.47,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 11.34
+      },
+      "RL2": {
+        "world_xyz": [
+          67.8896484375,
+          -222.1083984375,
+          200.3999928832054
+        ],
+        "longitudinal_t": 0.1589,
+        "radial_angle_deg": 318.4,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 14.91
+      }
+    }
+  },
+  "10002": {
+    "apex_xyz": [
+      36.87890625,
+      -263.38671875,
+      205.29999655485153
+    ],
+    "base_xyz": [
+      7.39453125,
+      -168.55859375,
+      271.7999954223633
+    ],
+    "ant_xyz": [
+      35.68359375,
+      -234.30078125,
+      287.19999516010284
+    ],
+    "axis_len_mm": 119.52,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          65.96484375,
+          -178.51953125,
+          228.39999616146088
+        ],
+        "longitudinal_t": 0.6109,
+        "radial_angle_deg": 103.57,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 73.01
+      },
+      "LL2": {
+        "world_xyz": [
+          53.21484375,
+          -165.37109375,
+          226.29999619722366
+        ],
+        "longitudinal_t": 0.7148,
+        "radial_angle_deg": 117.4,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 85.42
+      },
+      "LL3": {
+        "world_xyz": [
+          48.83203125,
+          -156.20703125,
+          230.4999961256981
+        ],
+        "longitudinal_t": 0.8042,
+        "radial_angle_deg": 120.07,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 96.11
+      },
+      "LL4": {
+        "world_xyz": [
+          36.87890625,
+          -149.03515625,
+          238.89999598264694
+        ],
+        "longitudinal_t": 0.9156,
+        "radial_angle_deg": 125.91,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 109.43
+      },
+      "RL1": {
+        "world_xyz": [
+          -2.16796875,
+          -248.24609375,
+          269.69999545812607
+        ],
+        "longitudinal_t": 0.4809,
+        "radial_angle_deg": 311.81,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 57.48
+      },
+      "RL2": {
+        "world_xyz": [
+          -13.32421875,
+          -242.26953125,
+          267.59999549388885
+        ],
+        "longitudinal_t": 0.5339,
+        "radial_angle_deg": 299.6,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 63.8
+      }
+    }
+  },
+  "10003": {
+    "apex_xyz": [
+      105.791015625,
+      -230.685546875,
+      184.80000054836273
+    ],
+    "base_xyz": [
+      35.607421875,
+      -167.123046875,
+      251.99999940395355
+    ],
+    "ant_xyz": [
+      77.982421875,
+      -231.126953125,
+      263.89999920129776
+    ],
+    "axis_len_mm": 116.11,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          113.294921875,
+          -138.873046875,
+          225.39999985694885
+        ],
+        "longitudinal_t": 0.5962,
+        "radial_angle_deg": 109.29,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 69.22
+      },
+      "LL2": {
+        "world_xyz": [
+          103.583984375,
+          -133.576171875,
+          211.40000009536743
+        ],
+        "longitudinal_t": 0.6019,
+        "radial_angle_deg": 123.35,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 69.89
+      },
+      "LL3": {
+        "world_xyz": [
+          82.837890625,
+          -124.748046875,
+          204.40000021457672
+        ],
+        "longitudinal_t": 0.7166,
+        "radial_angle_deg": 138.83,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 83.21
+      },
+      "LL4": {
+        "world_xyz": [
+          71.361328125,
+          -119.451171875,
+          206.50000017881393
+        ],
+        "longitudinal_t": 0.8118,
+        "radial_angle_deg": 143.98,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 94.26
+      },
+      "RL1": {
+        "world_xyz": [
+          69.595703125,
+          -257.169921875,
+          242.19999957084656
+        ],
+        "longitudinal_t": 0.3497,
+        "radial_angle_deg": 333.23,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 40.6
+      },
+      "RL2": {
+        "world_xyz": [
+          58.119140625,
+          -258.935546875,
+          228.8999997973442
+        ],
+        "longitudinal_t": 0.3348,
+        "radial_angle_deg": 316.39,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 38.87
+      }
+    }
+  },
+  "10004": {
+    "apex_xyz": [
+      86.37109375,
+      -199.49609375,
+      127.60000240802765
+    ],
+    "base_xyz": [
+      41.72265625,
+      -145.35546875,
+      180.10000151395798
+    ],
+    "ant_xyz": [
+      65.62890625,
+      -199.49609375,
+      182.90000146627426
+    ],
+    "axis_len_mm": 87.64,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          93.75390625,
+          -129.18359375,
+          153.50000196695328
+        ],
+        "longitudinal_t": 0.6297,
+        "radial_angle_deg": 123.8,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 55.19
+      },
+      "LL2": {
+        "world_xyz": [
+          80.39453125,
+          -120.04296875,
+          151.40000200271606
+        ],
+        "longitudinal_t": 0.7575,
+        "radial_angle_deg": 137.21,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 66.38
+      },
+      "LL3": {
+        "world_xyz": [
+          75.12109375,
+          -116.87890625,
+          159.10000187158585
+        ],
+        "longitudinal_t": 0.863,
+        "radial_angle_deg": 135.2,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 75.64
+      },
+      "LL4": {
+        "world_xyz": [
+          65.27734375,
+          -113.36328125,
+          171.70000165700912
+        ],
+        "longitudinal_t": 1.0312,
+        "radial_angle_deg": 131.77,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 90.37
+      },
+      "RL1": {
+        "world_xyz": [
+          44.53515625,
+          -202.66015625,
+          168.90000170469284
+        ],
+        "longitudinal_t": 0.5032,
+        "radial_angle_deg": 322.21,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 44.1
+      },
+      "RL2": {
+        "world_xyz": [
+          36.80078125,
+          -199.84765625,
+          161.20000183582306
+        ],
+        "longitudinal_t": 0.5153,
+        "radial_angle_deg": 305.74,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 45.16
+      }
+    }
+  },
+  "10005": {
+    "apex_xyz": [
+      105.4375,
+      -242.5625,
+      175.1000024676323
+    ],
+    "base_xyz": [
+      36.0625,
+      -173.1875,
+      217.80000174045563
+    ],
+    "ant_xyz": [
+      80.6875,
+      -221.1875,
+      246.50000125169754
+    ],
+    "axis_len_mm": 107.0,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          80.6875,
+          -145.8125,
+          201.700002014637
+        ],
+        "longitudinal_t": 0.8354,
+        "radial_angle_deg": 103.6,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 89.39
+      },
+      "LL2": {
+        "world_xyz": [
+          65.6875,
+          -136.4375,
+          208.7000018954277
+        ],
+        "longitudinal_t": 1.0092,
+        "radial_angle_deg": 105.05,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 107.99
+      },
+      "LL3": {
+        "world_xyz": [
+          56.3125,
+          -135.3125,
+          212.20000183582306
+        ],
+        "longitudinal_t": 1.0859,
+        "radial_angle_deg": 106.42,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 116.19
+      },
+      "LL4": {
+        "world_xyz": [
+          51.0625,
+          -136.8125,
+          225.5000016093254
+        ],
+        "longitudinal_t": 1.1582,
+        "radial_angle_deg": 90.98,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 123.93
+      },
+      "RL1": {
+        "world_xyz": [
+          81.0625,
+          -251.1875,
+          184.9000023007393
+        ],
+        "longitudinal_t": 0.132,
+        "radial_angle_deg": 283.62,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 14.12
+      },
+      "RL2": {
+        "world_xyz": [
+          64.9375,
+          -245.5625,
+          180.0000023841858
+        ],
+        "longitudinal_t": 0.2455,
+        "radial_angle_deg": 261.41,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 26.27
+      }
+    }
+  },
+  "10006": {
+    "apex_xyz": [
+      85.43359375,
+      -175.50390625,
+      244.49999648332596
+    ],
+    "base_xyz": [
+      33.94140625,
+      -131.32421875,
+      294.19999563694
+    ],
+    "ant_xyz": [
+      70.19921875,
+      -173.37109375,
+      299.0999955534935
+    ],
+    "axis_len_mm": 84.1,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          70.19921875,
+          -111.82421875,
+          279.4999958872795
+        ],
+        "longitudinal_t": 0.7546,
+        "radial_angle_deg": 107.47,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 63.46
+      },
+      "LL2": {
+        "world_xyz": [
+          58.92578125,
+          -106.94921875,
+          292.79999566078186
+        ],
+        "longitudinal_t": 0.9605,
+        "radial_angle_deg": 101.7,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 80.78
+      },
+      "LL3": {
+        "world_xyz": [
+          55.87890625,
+          -109.08203125,
+          300.49999552965164
+        ],
+        "longitudinal_t": 1.0235,
+        "radial_angle_deg": 91.31,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 86.08
+      },
+      "LL4": {
+        "world_xyz": [
+          47.65234375,
+          -108.16796875,
+          302.59999549388885
+        ],
+        "longitudinal_t": 1.1038,
+        "radial_angle_deg": 94.23,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 92.84
+      },
+      "RL1": {
+        "world_xyz": [
+          52.83203125,
+          -187.99609375,
+          285.0999957919121
+        ],
+        "longitudinal_t": 0.4446,
+        "radial_angle_deg": 319.61,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 37.39
+      },
+      "RL2": {
+        "world_xyz": [
+          41.86328125,
+          -186.16796875,
+          276.6999959349632
+        ],
+        "longitudinal_t": 0.4768,
+        "radial_angle_deg": 298.97,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 40.1
+      }
+    }
+  },
+  "10007": {
+    "apex_xyz": [
+      57.6845703125,
+      -246.2353515625,
+      216.20000237226486
+    ],
+    "base_xyz": [
+      17.8896484375,
+      -168.5556640625,
+      249.80000180006027
+    ],
+    "ant_xyz": [
+      38.9013671875,
+      -221.4033203125,
+      278.5000013113022
+    ],
+    "axis_len_mm": 93.52,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          76.4677734375,
+          -173.9677734375,
+          242.80000191926956
+        ],
+        "longitudinal_t": 0.6585,
+        "radial_angle_deg": 91.02,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 61.59
+      },
+      "LL2": {
+        "world_xyz": [
+          70.7373046875,
+          -163.4619140625,
+          253.30000174045563
+        ],
+        "longitudinal_t": 0.8182,
+        "radial_angle_deg": 84.75,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 76.53
+      },
+      "LL3": {
+        "world_xyz": [
+          66.2802734375,
+          -154.8662109375,
+          252.60000175237656
+        ],
+        "longitudinal_t": 0.9122,
+        "radial_angle_deg": 89.41,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 85.31
+      },
+      "LL4": {
+        "world_xyz": [
+          54.5009765625,
+          -145.9521484375,
+          255.40000170469284
+        ],
+        "longitudinal_t": 1.0557,
+        "radial_angle_deg": 91.21,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 98.73
+      },
+      "RL1": {
+        "world_xyz": [
+          19.1630859375,
+          -249.7373046875,
+          225.30000221729279
+        ],
+        "longitudinal_t": 0.1791,
+        "radial_angle_deg": 281.79,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 16.75
+      },
+      "RL2": {
+        "world_xyz": [
+          9.2939453125,
+          -232.8642578125,
+          227.40000218153
+        ],
+        "longitudinal_t": 0.3819,
+        "radial_angle_deg": 273.82,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 35.72
+      }
+    }
+  },
+  "10008": {
+    "apex_xyz": [
+      88.4619140625,
+      -230.4443359375,
+      172.49999910593033
+    ],
+    "base_xyz": [
+      21.2783203125,
+      -155.5087890625,
+      199.09999865293503
+    ],
+    "ant_xyz": [
+      67.4208984375,
+      -193.1611328125,
+      241.0999979376793
+    ],
+    "axis_len_mm": 104.1,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          85.8779296875,
+          -156.9853515625,
+          186.49999886751175
+        ],
+        "longitudinal_t": 0.5584,
+        "radial_angle_deg": 81.66,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 58.12
+      },
+      "LL2": {
+        "world_xyz": [
+          77.0185546875,
+          -144.0654296875,
+          193.49999874830246
+        ],
+        "longitudinal_t": 0.7198,
+        "radial_angle_deg": 78.36,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 74.93
+      },
+      "LL3": {
+        "world_xyz": [
+          69.6357421875,
+          -138.1591796875,
+          189.9999988079071
+        ],
+        "longitudinal_t": 0.7978,
+        "radial_angle_deg": 85.22,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 83.05
+      },
+      "LL4": {
+        "world_xyz": [
+          56.3466796875,
+          -130.4072265625,
+          192.7999987602234
+        ],
+        "longitudinal_t": 0.9407,
+        "radial_angle_deg": 87.09,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 97.93
+      },
+      "RL1": {
+        "world_xyz": [
+          44.5341796875,
+          -237.4580078125,
+          228.499998152256
+        ],
+        "longitudinal_t": 0.3613,
+        "radial_angle_deg": 312.66,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 37.61
+      },
+      "RL2": {
+        "world_xyz": [
+          31.2451171875,
+          -239.3037109375,
+          215.19999837875366
+        ],
+        "longitudinal_t": 0.3983,
+        "radial_angle_deg": 294.98,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 41.46
+      }
+    }
+  },
+  "10010": {
+    "apex_xyz": [
+      110.7578125,
+      -162.2734375,
+      1707.6999751925468
+    ],
+    "base_xyz": [
+      39.5546875,
+      -127.8203125,
+      1769.299974143505
+    ],
+    "ant_xyz": [
+      99.2734375,
+      -170.4765625,
+      1780.4999739527702
+    ],
+    "axis_len_mm": 100.26,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          66.4609375,
+          -89.7578125,
+          1760.1999742984772
+        ],
+        "longitudinal_t": 0.8841,
+        "radial_angle_deg": 106.18,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 88.64
+      },
+      "LL2": {
+        "world_xyz": [
+          51.3671875,
+          -91.3984375,
+          1768.599974155426
+        ],
+        "longitudinal_t": 1.0369,
+        "radial_angle_deg": 108.76,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 103.95
+      },
+      "LL3": {
+        "world_xyz": [
+          41.8515625,
+          -93.3671875,
+          1770.6999741196632
+        ],
+        "longitudinal_t": 1.1104,
+        "radial_angle_deg": 115.16,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 111.33
+      },
+      "LL4": {
+        "world_xyz": [
+          31.6796875,
+          -103.2109375,
+          1769.9999741315842
+        ],
+        "longitudinal_t": 1.1444,
+        "radial_angle_deg": 132.11,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 114.74
+      },
+      "RL1": {
+        "world_xyz": [
+          68.7578125,
+          -195.7421875,
+          1764.3999742269516
+        ],
+        "longitudinal_t": 0.5303,
+        "radial_angle_deg": 315.26,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 53.16
+      },
+      "RL2": {
+        "world_xyz": [
+          63.5078125,
+          -194.4296875,
+          1758.09997433424
+        ],
+        "longitudinal_t": 0.5334,
+        "radial_angle_deg": 307.27,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 53.47
+      }
+    }
+  },
+  "10011": {
+    "apex_xyz": [
+      87.390625,
+      -256.046875,
+      1755.6999745965004
+    ],
+    "base_xyz": [
+      39.609375,
+      -191.421875,
+      1768.9999743700027
+    ],
+    "ant_xyz": [
+      68.828125,
+      -231.640625,
+      1807.4999737143517
+    ],
+    "axis_len_mm": 81.46,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          83.953125,
+          -193.140625,
+          1745.1999747753143
+        ],
+        "longitudinal_t": 0.6163,
+        "radial_angle_deg": 119.2,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 50.21
+      },
+      "LL2": {
+        "world_xyz": [
+          73.640625,
+          -183.171875,
+          1736.7999749183655
+        ],
+        "longitudinal_t": 0.7708,
+        "radial_angle_deg": 133.0,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 62.79
+      },
+      "LL3": {
+        "world_xyz": [
+          65.390625,
+          -184.203125,
+          1730.4999750256538
+        ],
+        "longitudinal_t": 0.8075,
+        "radial_angle_deg": 146.03,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 65.78
+      },
+      "LL4": {
+        "world_xyz": [
+          52.671875,
+          -176.984375,
+          1728.3999750614166
+        ],
+        "longitudinal_t": 0.9652,
+        "radial_angle_deg": 155.38,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 78.63
+      },
+      "RL1": {
+        "world_xyz": [
+          64.015625,
+          -265.328125,
+          1773.1999742984772
+        ],
+        "longitudinal_t": 0.113,
+        "radial_angle_deg": 304.22,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 9.2
+      },
+      "RL2": {
+        "world_xyz": [
+          55.078125,
+          -262.578125,
+          1768.2999743819237
+        ],
+        "longitudinal_t": 0.1943,
+        "radial_angle_deg": 289.29,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 15.83
+      }
+    }
+  },
+  "10012": {
+    "apex_xyz": [
+      108.537109375,
+      -193.341796875,
+      1784.4000238776207
+    ],
+    "base_xyz": [
+      33.533203125,
+      -160.994140625,
+      1815.2000233530998
+    ],
+    "ant_xyz": [
+      88.986328125,
+      -187.654296875,
+      1840.4000229239464
+    ],
+    "axis_len_mm": 87.3,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          68.013671875,
+          -129.001953125,
+          1801.2000235915184
+        ],
+        "longitudinal_t": 0.7399,
+        "radial_angle_deg": 101.64,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 64.59
+      },
+      "LL2": {
+        "world_xyz": [
+          56.994140625,
+          -122.603515625,
+          1811.7000234127045
+        ],
+        "longitudinal_t": 0.9179,
+        "radial_angle_deg": 94.52,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 80.13
+      },
+      "LL3": {
+        "world_xyz": [
+          46.685546875,
+          -120.470703125,
+          1812.4000234007835
+        ],
+        "longitudinal_t": 1.0312,
+        "radial_angle_deg": 98.6,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 90.02
+      },
+      "LL4": {
+        "world_xyz": [
+          32.466796875,
+          -122.248046875,
+          1818.000023305416
+        ],
+        "longitudinal_t": 1.1863,
+        "radial_angle_deg": 98.29,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 103.56
+      },
+      "RL1": {
+        "world_xyz": [
+          77.611328125,
+          -211.115234375,
+          1826.400023162365
+        ],
+        "longitudinal_t": 0.3987,
+        "radial_angle_deg": 321.22,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 34.8
+      },
+      "RL2": {
+        "world_xyz": [
+          69.435546875,
+          -212.181640625,
+          1822.9000232219696
+        ],
+        "longitudinal_t": 0.4605,
+        "radial_angle_deg": 311.59,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 40.2
+      }
+    }
+  },
+  "10014": {
+    "apex_xyz": [
+      48.8662109375,
+      -232.4794921875,
+      1641.6999751329422
+    ],
+    "base_xyz": [
+      22.1181640625,
+      -163.1923828125,
+      1678.099974513054
+    ],
+    "ant_xyz": [
+      41.4541015625,
+      -217.3330078125,
+      1697.6999741792679
+    ],
+    "axis_len_mm": 82.71,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          42.4208984375,
+          -161.2587890625,
+          1642.3999751210213
+        ],
+        "longitudinal_t": 0.7503,
+        "radial_angle_deg": 148.42,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 62.05
+      },
+      "LL2": {
+        "world_xyz": [
+          50.4775390625,
+          -151.9130859375,
+          1650.7999749779701
+        ],
+        "longitudinal_t": 0.8581,
+        "radial_angle_deg": 130.88,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 70.97
+      },
+      "LL3": {
+        "world_xyz": [
+          47.2548828125,
+          -144.5009765625,
+          1654.2999749183655
+        ],
+        "longitudinal_t": 0.9644,
+        "radial_angle_deg": 131.65,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 79.77
+      },
+      "LL4": {
+        "world_xyz": [
+          41.7763671875,
+          -134.1884765625,
+          1666.1999747157097
+        ],
+        "longitudinal_t": 1.1536,
+        "radial_angle_deg": 126.03,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 95.41
+      },
+      "RL1": {
+        "world_xyz": [
+          15.9951171875,
+          -226.3564453125,
+          1669.699974656105
+        ],
+        "longitudinal_t": 0.3395,
+        "radial_angle_deg": 303.42,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 28.08
+      },
+      "RL2": {
+        "world_xyz": [
+          6.3271484375,
+          -220.8779296875,
+          1665.4999747276306
+        ],
+        "longitudinal_t": 0.4105,
+        "radial_angle_deg": 287.48,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 33.95
+      }
+    }
+  },
+  "10015": {
+    "apex_xyz": [
+      127.314453125,
+      -236.888671875,
+      1742.399974644184
+    ],
+    "base_xyz": [
+      55.537109375,
+      -177.005859375,
+      1773.1999741196632
+    ],
+    "ant_xyz": [
+      108.037109375,
+      -221.302734375,
+      1811.6999734640121
+    ],
+    "axis_len_mm": 98.42,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          107.626953125,
+          -167.982421875,
+          1738.8999747037888
+        ],
+        "longitudinal_t": 0.5607,
+        "radial_angle_deg": 118.86,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 55.19
+      },
+      "LL2": {
+        "world_xyz": [
+          97.783203125,
+          -174.134765625,
+          1728.3999748826027
+        ],
+        "longitudinal_t": 0.5623,
+        "radial_angle_deg": 138.78,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 55.34
+      },
+      "LL3": {
+        "world_xyz": [
+          73.994140625,
+          -165.111328125,
+          1726.2999749183655
+        ],
+        "longitudinal_t": 0.7876,
+        "radial_angle_deg": 154.12,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 77.52
+      },
+      "LL4": {
+        "world_xyz": [
+          62.919921875,
+          -168.392578125,
+          1724.1999749541283
+        ],
+        "longitudinal_t": 0.8427,
+        "radial_angle_deg": 166.66,
+        "wall_label": "Posterior",
+        "dist_from_apex_mm": 82.94
+      },
+      "RL1": {
+        "world_xyz": [
+          76.865234375,
+          -224.173828125,
+          1810.999973475933
+        ],
+        "longitudinal_t": 0.6706,
+        "radial_angle_deg": 336.3,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 66.0
+      },
+      "RL2": {
+        "world_xyz": [
+          73.173828125,
+          -229.505859375,
+          1803.9999735951424
+        ],
+        "longitudinal_t": 0.6427,
+        "radial_angle_deg": 326.98,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 63.25
+      }
+    }
+  },
+  "10017": {
+    "apex_xyz": [
+      81.6689453125,
+      -199.5947265625,
+      1655.0999994874
+    ],
+    "base_xyz": [
+      50.9248046875,
+      -147.1123046875,
+      1719.4999983906746
+    ],
+    "ant_xyz": [
+      80.4267578125,
+      -202.7001953125,
+      1721.5999983549118
+    ],
+    "axis_len_mm": 88.58,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          74.8369140625,
+          -140.2802734375,
+          1662.7999993562698
+        ],
+        "longitudinal_t": 0.4867,
+        "radial_angle_deg": 148.23,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 43.11
+      },
+      "LL2": {
+        "world_xyz": [
+          76.3896484375,
+          -126.6162109375,
+          1675.3999991416931
+        ],
+        "longitudinal_t": 0.6754,
+        "radial_angle_deg": 139.46,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 59.83
+      },
+      "LL3": {
+        "world_xyz": [
+          74.2158203125,
+          -115.4365234375,
+          1697.7999987602234
+        ],
+        "longitudinal_t": 0.9425,
+        "radial_angle_deg": 129.18,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 83.49
+      },
+      "LL4": {
+        "world_xyz": [
+          73.9052734375,
+          -115.7470703125,
+          1709.6999985575676
+        ],
+        "longitudinal_t": 1.0393,
+        "radial_angle_deg": 119.92,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 92.07
+      },
+      "RL1": {
+        "world_xyz": [
+          55.2724609375,
+          -216.3642578125,
+          1683.099999010563
+        ],
+        "longitudinal_t": 0.2211,
+        "radial_angle_deg": 305.88,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 19.58
+      },
+      "RL2": {
+        "world_xyz": [
+          48.7509765625,
+          -210.4638671875,
+          1682.3999990224838
+        ],
+        "longitudinal_t": 0.2803,
+        "radial_angle_deg": 294.87,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 24.83
+      }
+    }
+  },
+  "10018": {
+    "apex_xyz": [
+      68.0478515625,
+      -237.6220703125,
+      1653.5999752283096
+    ],
+    "base_xyz": [
+      31.0927734375,
+      -173.6494140625,
+      1708.8999742865562
+    ],
+    "ant_xyz": [
+      62.4580078125,
+      -229.8583984375,
+      1725.699974000454
+    ],
+    "axis_len_mm": 92.28,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          76.1220703125,
+          -158.7431640625,
+          1687.899974644184
+        ],
+        "longitudinal_t": 0.7802,
+        "radial_angle_deg": 104.44,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 72.0
+      },
+      "LL2": {
+        "world_xyz": [
+          65.8740234375,
+          -146.0107421875,
+          1682.9999747276306
+        ],
+        "longitudinal_t": 0.8885,
+        "radial_angle_deg": 120.35,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 81.99
+      },
+      "LL3": {
+        "world_xyz": [
+          50.0361328125,
+          -132.6572265625,
+          1697.699974477291
+        ],
+        "longitudinal_t": 1.153,
+        "radial_angle_deg": 124.69,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 106.4
+      },
+      "LL4": {
+        "world_xyz": [
+          47.2412109375,
+          -134.5205078125,
+          1708.8999742865562
+        ],
+        "longitudinal_t": 1.2239,
+        "radial_angle_deg": 115.79,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 112.94
+      },
+      "RL1": {
+        "world_xyz": [
+          27.0556640625,
+          -246.6279296875,
+          1681.5999747514725
+        ],
+        "longitudinal_t": 0.292,
+        "radial_angle_deg": 291.36,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 26.95
+      },
+      "RL2": {
+        "world_xyz": [
+          18.9814453125,
+          -240.4169921875,
+          1686.499974668026
+        ],
+        "longitudinal_t": 0.4056,
+        "radial_angle_deg": 287.65,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 37.43
+      }
+    }
+  },
+  "10019": {
+    "apex_xyz": [
+      67.1396484375,
+      -206.8837890625,
+      -103.50000047683716
+    ],
+    "base_xyz": [
+      24.1513671875,
+      -155.1162109375,
+      -56.6000012755394
+    ],
+    "ant_xyz": [
+      58.9658203125,
+      -202.6455078125,
+      -36.30000162124634
+    ],
+    "axis_len_mm": 82.02,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          79.8544921875,
+          -149.6669921875,
+          -80.40000087022781
+        ],
+        "longitudinal_t": 0.5201,
+        "radial_angle_deg": 96.02,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 42.66
+      },
+      "LL2": {
+        "world_xyz": [
+          69.5615234375,
+          -134.8330078125,
+          -76.20000094175339
+        ],
+        "longitudinal_t": 0.7293,
+        "radial_angle_deg": 104.04,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 59.82
+      },
+      "LL3": {
+        "world_xyz": [
+          60.7822265625,
+          -129.6865234375,
+          -75.50000095367432
+        ],
+        "longitudinal_t": 0.8299,
+        "radial_angle_deg": 110.75,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 68.07
+      },
+      "LL4": {
+        "world_xyz": [
+          47.7646484375,
+          -122.4208984375,
+          -69.20000106096268
+        ],
+        "longitudinal_t": 1.0129,
+        "radial_angle_deg": 116.47,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 83.08
+      },
+      "RL1": {
+        "world_xyz": [
+          35.9580078125,
+          -219.2958984375,
+          -57.30000126361847
+        ],
+        "longitudinal_t": 0.4258,
+        "radial_angle_deg": 319.12,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 34.93
+      },
+      "RL2": {
+        "world_xyz": [
+          24.1513671875,
+          -217.4794921875,
+          -60.10000121593475
+        ],
+        "longitudinal_t": 0.4957,
+        "radial_angle_deg": 305.73,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 40.66
+      }
+    }
+  },
+  "10020": {
+    "apex_xyz": [
+      52.9833984375,
+      -238.9287109375,
+      -38.90000253915787
+    ],
+    "base_xyz": [
+      22.7666015625,
+      -171.7802734375,
+      -17.200002908706665
+    ],
+    "ant_xyz": [
+      43.2841796875,
+      -219.9033203125,
+      8.699996650218964
+    ],
+    "axis_len_mm": 76.76,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          75.7392578125,
+          -179.2412109375,
+          -24.900002777576447
+        ],
+        "longitudinal_t": 0.615,
+        "radial_angle_deg": 90.64,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 47.21
+      },
+      "LL2": {
+        "world_xyz": [
+          70.8896484375,
+          -164.3193359375,
+          -17.200002908706665
+        ],
+        "longitudinal_t": 0.8383,
+        "radial_angle_deg": 87.04,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 64.35
+      },
+      "LL3": {
+        "world_xyz": [
+          66.7861328125,
+          -154.9931640625,
+          -16.500002920627594
+        ],
+        "longitudinal_t": 0.9681,
+        "radial_angle_deg": 89.73,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 74.32
+      },
+      "LL4": {
+        "world_xyz": [
+          56.7138671875,
+          -145.6669921875,
+          -10.900003015995026
+        ],
+        "longitudinal_t": 1.1467,
+        "radial_angle_deg": 87.04,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 88.03
+      },
+      "RL1": {
+        "world_xyz": [
+          19.7822265625,
+          -243.4052734375,
+          -18.600002884864807
+        ],
+        "longitudinal_t": 0.194,
+        "radial_angle_deg": 299.08,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 14.89
+      },
+      "RL2": {
+        "world_xyz": [
+          10.8291015625,
+          -237.4365234375,
+          -22.100002825260162
+        ],
+        "longitudinal_t": 0.295,
+        "radial_angle_deg": 287.49,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 22.65
+      }
+    }
+  },
+  "10021": {
+    "apex_xyz": [
+      66.5263671875,
+      -214.8271484375,
+      -77.39999741315842
+    ],
+    "base_xyz": [
+      32.6142578125,
+      -159.2392578125,
+      -28.399998247623444
+    ],
+    "ant_xyz": [
+      60.5830078125,
+      -207.4853515625,
+      -17.199998438358307
+    ],
+    "axis_len_mm": 81.49,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          84.0068359375,
+          -152.9462890625,
+          -53.59999781847
+        ],
+        "longitudinal_t": 0.6043,
+        "radial_angle_deg": 100.45,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 49.25
+      },
+      "LL2": {
+        "world_xyz": [
+          74.9169921875,
+          -147.7021484375,
+          -66.19999760389328
+        ],
+        "longitudinal_t": 0.6017,
+        "radial_angle_deg": 120.19,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 49.03
+      },
+      "LL3": {
+        "world_xyz": [
+          67.2255859375,
+          -140.7099609375,
+          -64.79999762773514
+        ],
+        "longitudinal_t": 0.7098,
+        "radial_angle_deg": 126.99,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 57.84
+      },
+      "LL4": {
+        "world_xyz": [
+          53.2412109375,
+          -132.6689453125,
+          -61.29999768733978
+        ],
+        "longitudinal_t": 0.8743,
+        "radial_angle_deg": 138.47,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 71.25
+      },
+      "RL1": {
+        "world_xyz": [
+          25.6220703125,
+          -219.0224609375,
+          -32.59999817609787
+        ],
+        "longitudinal_t": 0.5043,
+        "radial_angle_deg": 305.81,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 41.1
+      },
+      "RL2": {
+        "world_xyz": [
+          17.2314453125,
+          -216.5751953125,
+          -38.89999806880951
+        ],
+        "longitudinal_t": 0.5212,
+        "radial_angle_deg": 292.36,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 42.47
+      }
+    }
+  },
+  "10023": {
+    "apex_xyz": [
+      88.1025390625,
+      -248.7197265625,
+      1742.6000481247902
+    ],
+    "base_xyz": [
+      59.1962890625,
+      -184.0419921875,
+      1752.4000479578972
+    ],
+    "ant_xyz": [
+      75.4560546875,
+      -221.9814453125,
+      1791.6000472903252
+    ],
+    "axis_len_mm": 71.52,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          108.3369140625,
+          -186.2099609375,
+          1747.5000480413437
+        ],
+        "longitudinal_t": 0.6855,
+        "radial_angle_deg": 93.21,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 49.02
+      },
+      "LL2": {
+        "world_xyz": [
+          101.1103515625,
+          -169.2275390625,
+          1751.7000479698181
+        ],
+        "longitudinal_t": 0.9491,
+        "radial_angle_deg": 91.08,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 67.88
+      },
+      "LL3": {
+        "world_xyz": [
+          93.8837890625,
+          -162.7236328125,
+          1751.000047981739
+        ],
+        "longitudinal_t": 1.0709,
+        "radial_angle_deg": 93.82,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 76.59
+      },
+      "LL4": {
+        "world_xyz": [
+          80.8759765625,
+          -152.6064453125,
+          1752.4000479578972
+        ],
+        "longitudinal_t": 1.275,
+        "radial_angle_deg": 95.59,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 91.18
+      },
+      "RL1": {
+        "world_xyz": [
+          76.1787109375,
+          -260.2822265625,
+          1741.9000481367111
+        ],
+        "longitudinal_t": -0.0802,
+        "radial_angle_deg": 271.14,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": -5.73
+      },
+      "RL2": {
+        "world_xyz": [
+          67.5068359375,
+          -254.1396484375,
+          1737.7000482082367
+        ],
+        "longitudinal_t": 0.0385,
+        "radial_angle_deg": 256.59,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 2.75
+      }
+    }
+  },
+  "10024": {
+    "apex_xyz": [
+      77.333984375,
+      -236.212890625,
+      1709.3000238537788
+    ],
+    "base_xyz": [
+      38.751953125,
+      -177.529296875,
+      1739.400023341179
+    ],
+    "ant_xyz": [
+      65.986328125,
+      -223.568359375,
+      1769.500022828579
+    ],
+    "axis_len_mm": 76.41,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          88.357421875,
+          -191.146484375,
+          1697.4000240564346
+        ],
+        "longitudinal_t": 0.3188,
+        "radial_angle_deg": 127.53,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 24.36
+      },
+      "LL2": {
+        "world_xyz": [
+          88.033203125,
+          -180.123046875,
+          1710.000023841858
+        ],
+        "longitudinal_t": 0.4967,
+        "radial_angle_deg": 114.29,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 37.95
+      },
+      "LL3": {
+        "world_xyz": [
+          81.224609375,
+          -161.318359375,
+          1719.1000236868858
+        ],
+        "longitudinal_t": 0.7776,
+        "radial_angle_deg": 111.42,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 59.42
+      },
+      "LL4": {
+        "world_xyz": [
+          72.470703125,
+          -152.240234375,
+          1717.7000237107277
+        ],
+        "longitudinal_t": 0.9195,
+        "radial_angle_deg": 119.48,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 70.26
+      },
+      "RL1": {
+        "world_xyz": [
+          55.935546875,
+          -245.291015625,
+          1719.800023674965
+        ],
+        "longitudinal_t": 0.1043,
+        "radial_angle_deg": 292.28,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 7.97
+      },
+      "RL2": {
+        "world_xyz": [
+          48.154296875,
+          -238.158203125,
+          1717.7000237107277
+        ],
+        "longitudinal_t": 0.2166,
+        "radial_angle_deg": 277.58,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 16.55
+      }
+    }
+  },
+  "10025": {
+    "apex_xyz": [
+      83.25390625,
+      -282.80859375,
+      1803.7999748587608
+    ],
+    "base_xyz": [
+      47.64453125,
+      -198.48828125,
+      1832.4999743700027
+    ],
+    "ant_xyz": [
+      71.49609375,
+      -257.27734375,
+      1859.0999739170074
+    ],
+    "axis_len_mm": 95.93,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          84.59765625,
+          -210.24609375,
+          1787.6999751329422
+        ],
+        "longitudinal_t": 0.6095,
+        "radial_angle_deg": 141.23,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 58.47
+      },
+      "LL2": {
+        "world_xyz": [
+          84.59765625,
+          -194.45703125,
+          1795.399975001812
+        ],
+        "longitudinal_t": 0.7782,
+        "radial_angle_deg": 133.29,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 74.65
+      },
+      "LL3": {
+        "world_xyz": [
+          77.54296875,
+          -187.06640625,
+          1796.099974989891
+        ],
+        "longitudinal_t": 0.8754,
+        "radial_angle_deg": 138.24,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 83.98
+      },
+      "LL4": {
+        "world_xyz": [
+          68.47265625,
+          -178.33203125,
+          1803.0999748706818
+        ],
+        "longitudinal_t": 1.0124,
+        "radial_angle_deg": 140.24,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 97.11
+      },
+      "RL1": {
+        "world_xyz": [
+          46.30078125,
+          -268.69921875,
+          1854.199974000454
+        ],
+        "longitudinal_t": 0.4295,
+        "radial_angle_deg": 325.57,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 41.2
+      },
+      "RL2": {
+        "world_xyz": [
+          40.58984375,
+          -267.35546875,
+          1847.1999741196632
+        ],
+        "longitudinal_t": 0.4421,
+        "radial_angle_deg": 315.19,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 42.41
+      }
+    }
+  },
+  "10026": {
+    "apex_xyz": [
+      54.494140625,
+      -258.447265625,
+      923.700023651123
+    ],
+    "base_xyz": [
+      4.201171875,
+      -197.693359375,
+      962.900022983551
+    ],
+    "ant_xyz": [
+      42.423828125,
+      -247.181640625,
+      988.1000225543976
+    ],
+    "axis_len_mm": 88.07,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          44.033203125,
+          -182.001953125,
+          926.5000236034393
+        ],
+        "longitudinal_t": 0.6807,
+        "radial_angle_deg": 125.65,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 59.95
+      },
+      "LL2": {
+        "world_xyz": [
+          39.607421875,
+          -169.931640625,
+          937.0000234246254
+        ],
+        "longitudinal_t": 0.857,
+        "radial_angle_deg": 119.15,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 75.48
+      },
+      "LL3": {
+        "world_xyz": [
+          32.365234375,
+          -164.701171875,
+          941.2000233530998
+        ],
+        "longitudinal_t": 0.9661,
+        "radial_angle_deg": 120.43,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 85.09
+      },
+      "LL4": {
+        "world_xyz": [
+          25.927734375,
+          -161.080078125,
+          954.5000231266022
+        ],
+        "longitudinal_t": 1.1034,
+        "radial_angle_deg": 111.54,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 97.18
+      },
+      "RL1": {
+        "world_xyz": [
+          37.595703125,
+          -274.541015625,
+          937.7000234127045
+        ],
+        "longitudinal_t": 0.0543,
+        "radial_angle_deg": 302.07,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 4.78
+      },
+      "RL2": {
+        "world_xyz": [
+          28.341796875,
+          -270.919921875,
+          935.6000234484673
+        ],
+        "longitudinal_t": 0.132,
+        "radial_angle_deg": 287.37,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 11.63
+      }
+    }
+  },
+  "10027": {
+    "apex_xyz": [
+      113.40625,
+      -239.03125,
+      1044.2999747991562
+    ],
+    "base_xyz": [
+      44.28125,
+      -173.40625,
+      1073.6999742984772
+    ],
+    "ant_xyz": [
+      90.21875,
+      -218.46875,
+      1107.2999737262726
+    ],
+    "axis_len_mm": 99.75,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          115.15625,
+          -176.03125,
+          1049.8999747037888
+        ],
+        "longitudinal_t": 0.4199,
+        "radial_angle_deg": 99.74,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 41.89
+      },
+      "LL2": {
+        "world_xyz": [
+          102.46875,
+          -170.34375,
+          1038.6999748945236
+        ],
+        "longitudinal_t": 0.5125,
+        "radial_angle_deg": 118.27,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 51.12
+      },
+      "LL3": {
+        "world_xyz": [
+          95.03125,
+          -163.78125,
+          1039.3999748826027
+        ],
+        "longitudinal_t": 0.6095,
+        "radial_angle_deg": 120.85,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 60.8
+      },
+      "LL4": {
+        "world_xyz": [
+          81.90625,
+          -155.90625,
+          1035.8999749422073
+        ],
+        "longitudinal_t": 0.7423,
+        "radial_angle_deg": 130.51,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 74.04
+      },
+      "RL1": {
+        "world_xyz": [
+          57.40625,
+          -242.96875,
+          1054.0999746322632
+        ],
+        "longitudinal_t": 0.3921,
+        "radial_angle_deg": 268.68,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 39.11
+      },
+      "RL2": {
+        "world_xyz": [
+          49.96875,
+          -236.40625,
+          1049.8999747037888
+        ],
+        "longitudinal_t": 0.4746,
+        "radial_angle_deg": 259.36,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 47.34
+      }
+    }
+  },
+  "10028": {
+    "apex_xyz": [
+      59.5478515625,
+      -223.7255859375,
+      1033.4999991059303
+    ],
+    "base_xyz": [
+      13.6591796875,
+      -178.5595703125,
+      1047.4999988675117
+    ],
+    "ant_xyz": [
+      45.8173828125,
+      -209.6337890625,
+      1085.2999982237816
+    ],
+    "axis_len_mm": 65.89,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          56.6572265625,
+          -173.5009765625,
+          1019.4999993443489
+        ],
+        "longitudinal_t": 0.5079,
+        "radial_angle_deg": 122.1,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 33.47
+      },
+      "LL2": {
+        "world_xyz": [
+          47.9853515625,
+          -180.3662109375,
+          1008.9999995231628
+        ],
+        "longitudinal_t": 0.4943,
+        "radial_angle_deg": 144.16,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 32.57
+      },
+      "LL3": {
+        "world_xyz": [
+          40.3974609375,
+          -174.5849609375,
+          1008.2999995350838
+        ],
+        "longitudinal_t": 0.6323,
+        "radial_angle_deg": 147.71,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 41.67
+      },
+      "LL4": {
+        "world_xyz": [
+          27.3896484375,
+          -164.1064453125,
+          1007.5999995470047
+        ],
+        "longitudinal_t": 0.8766,
+        "radial_angle_deg": 152.46,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 57.76
+      },
+      "RL1": {
+        "world_xyz": [
+          22.3310546875,
+          -226.9775390625,
+          1060.099998652935
+        ],
+        "longitudinal_t": 0.4453,
+        "radial_angle_deg": 305.74,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 29.34
+      },
+      "RL2": {
+        "world_xyz": [
+          12.9365234375,
+          -226.6162109375,
+          1056.5999987125397
+        ],
+        "longitudinal_t": 0.5371,
+        "radial_angle_deg": 294.14,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 35.39
+      }
+    }
+  },
+  "10029": {
+    "apex_xyz": [
+      83.400390625,
+      -179.060546875,
+      1037.1000117063522
+    ],
+    "base_xyz": [
+      50.341796875,
+      -146.001953125,
+      1088.2000108361244
+    ],
+    "ant_xyz": [
+      83.763671875,
+      -192.138671875,
+      1105.0000105500221
+    ],
+    "axis_len_mm": 69.26,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          84.490234375,
+          -114.759765625,
+          1084.00001090765
+        ],
+        "longitudinal_t": 0.9352,
+        "radial_angle_deg": 101.29,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 64.77
+      },
+      "LL2": {
+        "world_xyz": [
+          79.767578125,
+          -112.943359375,
+          1100.1000106334686
+        ],
+        "longitudinal_t": 1.1518,
+        "radial_angle_deg": 91.75,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 79.77
+      },
+      "LL3": {
+        "world_xyz": [
+          71.048828125,
+          -112.216796875,
+          1105.0000105500221
+        ],
+        "longitudinal_t": 1.2691,
+        "radial_angle_deg": 92.97,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 87.9
+      },
+      "LL4": {
+        "world_xyz": [
+          56.517578125,
+          -110.763671875,
+          1107.1000105142593
+        ],
+        "longitudinal_t": 1.4016,
+        "radial_angle_deg": 104.35,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 97.08
+      },
+      "RL1": {
+        "world_xyz": [
+          78.314453125,
+          -194.318359375,
+          1042.7000116109848
+        ],
+        "longitudinal_t": -0.0104,
+        "radial_angle_deg": 311.93,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": -0.72
+      },
+      "RL2": {
+        "world_xyz": [
+          69.595703125,
+          -193.591796875,
+          1044.800011575222
+        ],
+        "longitudinal_t": 0.077,
+        "radial_angle_deg": 295.21,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 5.33
+      }
+    }
+  },
+  "10030": {
+    "apex_xyz": [
+      72.025390625,
+      -252.865234375,
+      1069.4000481367111
+    ],
+    "base_xyz": [
+      29.349609375,
+      -179.759765625,
+      1098.800047636032
+    ],
+    "ant_xyz": [
+      52.728515625,
+      -232.455078125,
+      1121.9000472426414
+    ],
+    "axis_len_mm": 89.61,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          94.662109375,
+          -194.232421875,
+          1076.4000480175018
+        ],
+        "longitudinal_t": 0.4391,
+        "radial_angle_deg": 106.18,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 39.35
+      },
+      "LL2": {
+        "world_xyz": [
+          85.013671875,
+          -189.037109375,
+          1064.5000482201576
+        ],
+        "longitudinal_t": 0.4941,
+        "radial_angle_deg": 124.28,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 44.28
+      },
+      "LL3": {
+        "world_xyz": [
+          77.220703125,
+          -182.357421875,
+          1063.1000482439995
+        ],
+        "longitudinal_t": 0.5912,
+        "radial_angle_deg": 130.98,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 52.98
+      },
+      "LL4": {
+        "world_xyz": [
+          64.232421875,
+          -172.708984375,
+          1061.7000482678413
+        ],
+        "longitudinal_t": 0.743,
+        "radial_angle_deg": 141.8,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 66.58
+      },
+      "RL1": {
+        "world_xyz": [
+          45.306640625,
+          -263.998046875,
+          1090.4000477790833
+        ],
+        "longitudinal_t": 0.1175,
+        "radial_angle_deg": 311.84,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 10.53
+      },
+      "RL2": {
+        "world_xyz": [
+          37.884765625,
+          -259.544921875,
+          1087.600047826767
+        ],
+        "longitudinal_t": 0.1873,
+        "radial_angle_deg": 301.17,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 16.78
+      }
+    }
+  },
+  "10031": {
+    "apex_xyz": [
+      106.0478515625,
+      -225.3779296875,
+      1040.699974477291
+    ],
+    "base_xyz": [
+      39.4052734375,
+      -193.6220703125,
+      1059.599974155426
+    ],
+    "ant_xyz": [
+      86.3681640625,
+      -217.3271484375,
+      1097.3999735116959
+    ],
+    "axis_len_mm": 76.2,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          81.8955078125,
+          -158.2880859375,
+          1076.3999738693237
+        ],
+        "longitudinal_t": 0.7603,
+        "radial_angle_deg": 67.69,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 57.93
+      },
+      "LL2": {
+        "world_xyz": [
+          69.3720703125,
+          -147.5537109375,
+          1074.2999739050865
+        ],
+        "longitudinal_t": 0.9559,
+        "radial_angle_deg": 74.98,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 72.84
+      },
+      "LL3": {
+        "world_xyz": [
+          59.9794921875,
+          -145.3173828125,
+          1072.8999739289284
+        ],
+        "longitudinal_t": 1.0713,
+        "radial_angle_deg": 78.15,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 81.64
+      },
+      "LL4": {
+        "world_xyz": [
+          45.2197265625,
+          -145.7646484375,
+          1075.6999738812447
+        ],
+        "longitudinal_t": 1.2474,
+        "radial_angle_deg": 76.91,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 95.05
+      },
+      "RL1": {
+        "world_xyz": [
+          66.6884765625,
+          -253.1083984375,
+          1074.2999739050865
+        ],
+        "longitudinal_t": 0.4094,
+        "radial_angle_deg": 303.84,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 31.2
+      },
+      "RL2": {
+        "world_xyz": [
+          61.3212890625,
+          -250.8720703125,
+          1067.9999740123749
+        ],
+        "longitudinal_t": 0.4627,
+        "radial_angle_deg": 295.76,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 35.26
+      }
+    }
+  },
+  "10033": {
+    "apex_xyz": [
+      93.994140625,
+      -238.326171875,
+      1053.8999745845795
+    ],
+    "base_xyz": [
+      55.724609375,
+      -181.111328125,
+      1089.599973976612
+    ],
+    "ant_xyz": [
+      86.416015625,
+      -227.337890625,
+      1118.299973487854
+    ],
+    "axis_len_mm": 77.54,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          106.876953125,
+          -168.607421875,
+          1059.499974489212
+        ],
+        "longitudinal_t": 0.6147,
+        "radial_angle_deg": 110.63,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 47.66
+      },
+      "LL2": {
+        "world_xyz": [
+          95.888671875,
+          -173.912109375,
+          1049.699974656105
+        ],
+        "longitudinal_t": 0.576,
+        "radial_angle_deg": 126.94,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 44.66
+      },
+      "LL3": {
+        "world_xyz": [
+          88.689453125,
+          -167.091796875,
+          1048.299974679947
+        ],
+        "longitudinal_t": 0.6784,
+        "radial_angle_deg": 133.88,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 52.6
+      },
+      "LL4": {
+        "world_xyz": [
+          76.185546875,
+          -159.513671875,
+          1046.8999747037888
+        ],
+        "longitudinal_t": 0.8218,
+        "radial_angle_deg": 144.88,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 63.72
+      },
+      "RL1": {
+        "world_xyz": [
+          60.271484375,
+          -248.177734375,
+          1090.9999739527702
+        ],
+        "longitudinal_t": 0.3412,
+        "radial_angle_deg": 310.17,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 26.46
+      },
+      "RL2": {
+        "world_xyz": [
+          49.283203125,
+          -245.525390625,
+          1086.0999740362167
+        ],
+        "longitudinal_t": 0.4073,
+        "radial_angle_deg": 296.01,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 31.58
+      }
+    }
+  },
+  "10034": {
+    "apex_xyz": [
+      79.298828125,
+      -251.470703125,
+      1018.2999752163887
+    ],
+    "base_xyz": [
+      40.119140625,
+      -182.408203125,
+      1060.999974489212
+    ],
+    "ant_xyz": [
+      74.318359375,
+      -236.197265625,
+      1084.7999740839005
+    ],
+    "axis_len_mm": 90.16,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          76.310546875,
+          -175.435546875,
+          1021.099975168705
+        ],
+        "longitudinal_t": 0.6752,
+        "radial_angle_deg": 126.66,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 60.87
+      },
+      "LL2": {
+        "world_xyz": [
+          80.626953125,
+          -160.162109375,
+          1029.4999750256538
+        ],
+        "longitudinal_t": 0.8283,
+        "radial_angle_deg": 117.12,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 74.67
+      },
+      "LL3": {
+        "world_xyz": [
+          78.634765625,
+          -146.880859375,
+          1047.6999747157097
+        ],
+        "longitudinal_t": 1.0463,
+        "radial_angle_deg": 105.19,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 94.33
+      },
+      "LL4": {
+        "world_xyz": [
+          68.673828125,
+          -141.236328125,
+          1051.899974644184
+        ],
+        "longitudinal_t": 1.1644,
+        "radial_angle_deg": 108.48,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 104.98
+      },
+      "RL1": {
+        "world_xyz": [
+          47.423828125,
+          -256.119140625,
+          1060.999974489212
+        ],
+        "longitudinal_t": 0.3385,
+        "radial_angle_deg": 313.31,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 30.52
+      },
+      "RL2": {
+        "world_xyz": [
+          40.119140625,
+          -250.142578125,
+          1057.4999745488167
+        ],
+        "longitudinal_t": 0.4061,
+        "radial_angle_deg": 303.01,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 36.61
+      }
+    }
+  },
+  "10037": {
+    "apex_xyz": [
+      89.619140625,
+      -217.064453125,
+      573.400023818016
+    ],
+    "base_xyz": [
+      36.826171875,
+      -165.599609375,
+      597.9000234007835
+    ],
+    "ant_xyz": [
+      66.708984375,
+      -201.791015625,
+      620.3000230193138
+    ],
+    "axis_len_mm": 77.69,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          88.955078125,
+          -157.298828125,
+          578.3000237345695
+        ],
+        "longitudinal_t": 0.5353,
+        "radial_angle_deg": 109.56,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 41.59
+      },
+      "LL2": {
+        "world_xyz": [
+          76.337890625,
+          -145.013671875,
+          581.1000236868858
+        ],
+        "longitudinal_t": 0.7617,
+        "radial_angle_deg": 113.27,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 59.18
+      },
+      "LL3": {
+        "world_xyz": [
+          71.025390625,
+          -141.029296875,
+          588.1000235676765
+        ],
+        "longitudinal_t": 0.8706,
+        "radial_angle_deg": 107.56,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 67.64
+      },
+      "LL4": {
+        "world_xyz": [
+          58.740234375,
+          -135.384765625,
+          596.5000234246254
+        ],
+        "longitudinal_t": 1.0603,
+        "radial_angle_deg": 102.69,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 82.37
+      },
+      "RL1": {
+        "world_xyz": [
+          63.056640625,
+          -218.392578125,
+          609.8000231981277
+        ],
+        "longitudinal_t": 0.3687,
+        "radial_angle_deg": 333.94,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 28.65
+      },
+      "RL2": {
+        "world_xyz": [
+          52.431640625,
+          -215.072265625,
+          607.7000232338905
+        ],
+        "longitudinal_t": 0.4815,
+        "radial_angle_deg": 322.03,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 37.41
+      }
+    }
+  },
+  "10038": {
+    "apex_xyz": [
+      73.1025390625,
+      -249.3740234375,
+      536.5000054836273
+    ],
+    "base_xyz": [
+      31.6181640625,
+      -179.1962890625,
+      582.0000047087669
+    ],
+    "ant_xyz": [
+      63.0771484375,
+      -235.5458984375,
+      605.1000043153763
+    ],
+    "axis_len_mm": 93.36,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          73.4482421875,
+          -161.2197265625,
+          567.3000049591064
+        ],
+        "longitudinal_t": 0.8689,
+        "radial_angle_deg": 104.26,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 81.12
+      },
+      "LL2": {
+        "world_xyz": [
+          65.1513671875,
+          -149.8115234375,
+          575.0000048279762
+        ],
+        "longitudinal_t": 1.0404,
+        "radial_angle_deg": 104.78,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 97.14
+      },
+      "LL3": {
+        "world_xyz": [
+          61.3486328125,
+          -148.0830078125,
+          584.1000046730042
+        ],
+        "longitudinal_t": 1.12,
+        "radial_angle_deg": 97.07,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 104.56
+      },
+      "LL4": {
+        "world_xyz": [
+          52.3603515625,
+          -141.5146484375,
+          584.8000046610832
+        ],
+        "longitudinal_t": 1.2193,
+        "radial_angle_deg": 104.28,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 113.83
+      },
+      "RL1": {
+        "world_xyz": [
+          29.5439453125,
+          -235.2001953125,
+          577.1000047922134
+        ],
+        "longitudinal_t": 0.5334,
+        "radial_angle_deg": 303.47,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 49.8
+      },
+      "RL2": {
+        "world_xyz": [
+          19.5185546875,
+          -231.0517578125,
+          576.4000048041344
+        ],
+        "longitudinal_t": 0.6108,
+        "radial_angle_deg": 292.41,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 57.03
+      }
+    }
+  },
+  "10040": {
+    "apex_xyz": [
+      94.7744140625,
+      -200.6845703125,
+      196.4999994635582
+    ],
+    "base_xyz": [
+      34.4326171875,
+      -157.6865234375,
+      248.99999856948853
+    ],
+    "ant_xyz": [
+      85.0185546875,
+      -190.5673828125,
+      256.6999984383583
+    ],
+    "axis_len_mm": 90.81,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          83.9345703125,
+          -154.4345703125,
+          245.49999862909317
+        ],
+        "longitudinal_t": 0.6324,
+        "radial_angle_deg": 54.74,
+        "wall_label": "Anterolateral",
+        "dist_from_apex_mm": 57.43
+      },
+      "LL2": {
+        "world_xyz": [
+          73.8173828125,
+          -143.5947265625,
+          248.29999858140945
+        ],
+        "longitudinal_t": 0.7808,
+        "radial_angle_deg": 65.32,
+        "wall_label": "Anterolateral",
+        "dist_from_apex_mm": 70.91
+      },
+      "LL3": {
+        "world_xyz": [
+          66.2294921875,
+          -145.4013671875,
+          254.5999984741211
+        ],
+        "longitudinal_t": 0.867,
+        "radial_angle_deg": 57.96,
+        "wall_label": "Anterolateral",
+        "dist_from_apex_mm": 78.73
+      },
+      "LL4": {
+        "world_xyz": [
+          58.6416015625,
+          -149.0146484375,
+          267.1999982595444
+        ],
+        "longitudinal_t": 0.9839,
+        "radial_angle_deg": 38.54,
+        "wall_label": "Anterolateral",
+        "dist_from_apex_mm": 89.35
+      },
+      "RL1": {
+        "world_xyz": [
+          82.8505859375,
+          -216.9443359375,
+          218.89999908208847
+        ],
+        "longitudinal_t": 0.1451,
+        "radial_angle_deg": 308.36,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 13.17
+      },
+      "RL2": {
+        "world_xyz": [
+          73.0947265625,
+          -215.1376953125,
+          216.79999911785126
+        ],
+        "longitudinal_t": 0.2125,
+        "radial_angle_deg": 291.12,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 19.3
+      }
+    }
+  },
+  "10041": {
+    "apex_xyz": [
+      120.6201171875,
+      -244.7490234375,
+      116.59999787807465
+    ],
+    "base_xyz": [
+      48.3681640625,
+      -183.5185546875,
+      158.5999971628189
+    ],
+    "ant_xyz": [
+      93.6787109375,
+      -229.6455078125,
+      188.69999665021896
+    ],
+    "axis_len_mm": 103.6,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          127.1513671875,
+          -191.6826171875,
+          146.6999973654747
+        ],
+        "longitudinal_t": 0.3765,
+        "radial_angle_deg": 77.01,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 39.01
+      },
+      "LL2": {
+        "world_xyz": [
+          118.1708984375,
+          -176.9873046875,
+          145.99999737739563
+        ],
+        "longitudinal_t": 0.5181,
+        "radial_angle_deg": 86.81,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 53.67
+      },
+      "LL3": {
+        "world_xyz": [
+          102.6591796875,
+          -161.8837890625,
+          133.39999759197235
+        ],
+        "longitudinal_t": 0.6594,
+        "radial_angle_deg": 109.28,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 68.31
+      },
+      "LL4": {
+        "world_xyz": [
+          92.4541015625,
+          -154.5361328125,
+          135.49999755620956
+        ],
+        "longitudinal_t": 0.7782,
+        "radial_angle_deg": 112.86,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 80.62
+      },
+      "RL1": {
+        "world_xyz": [
+          83.8818359375,
+          -253.3212890625,
+          171.1999969482422
+        ],
+        "longitudinal_t": 0.412,
+        "radial_angle_deg": 329.68,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 42.69
+      },
+      "RL2": {
+        "world_xyz": [
+          76.5341796875,
+          -254.9541015625,
+          166.2999970316887
+        ],
+        "longitudinal_t": 0.433,
+        "radial_angle_deg": 319.81,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 44.86
+      }
+    }
+  },
+  "10042": {
+    "apex_xyz": [
+      70.5048828125,
+      -221.1494140625,
+      33.49999964237213
+    ],
+    "base_xyz": [
+      29.7470703125,
+      -164.6943359375,
+      81.79999881982803
+    ],
+    "ant_xyz": [
+      58.3876953125,
+      -209.5830078125,
+      97.1999985575676
+    ],
+    "axis_len_mm": 84.74,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          56.7353515625,
+          -147.6201171875,
+          71.99999898672104
+        ],
+        "longitudinal_t": 0.9151,
+        "radial_angle_deg": 106.35,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 77.55
+      },
+      "LL2": {
+        "world_xyz": [
+          49.8505859375,
+          -145.6923828125,
+          87.3999987244606
+        ],
+        "longitudinal_t": 1.0729,
+        "radial_angle_deg": 88.8,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 90.92
+      },
+      "LL3": {
+        "world_xyz": [
+          46.2705078125,
+          -145.9677734375,
+          95.79999858140945
+        ],
+        "longitudinal_t": 1.1476,
+        "radial_angle_deg": 75.12,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 97.25
+      },
+      "LL4": {
+        "world_xyz": [
+          36.3564453125,
+          -139.9091796875,
+          95.09999859333038
+        ],
+        "longitudinal_t": 1.2468,
+        "radial_angle_deg": 89.23,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 105.66
+      },
+      "RL1": {
+        "world_xyz": [
+          45.4443359375,
+          -226.6572265625,
+          82.4999988079071
+        ],
+        "longitudinal_t": 0.4285,
+        "radial_angle_deg": 329.72,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 36.31
+      },
+      "RL2": {
+        "world_xyz": [
+          36.9072265625,
+          -226.6572265625,
+          78.29999887943268
+        ],
+        "longitudinal_t": 0.4487,
+        "radial_angle_deg": 316.8,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 38.02
+      }
+    }
+  },
+  "10043": {
+    "apex_xyz": [
+      102.544921875,
+      -179.419921875,
+      158.89999622106552
+    ],
+    "base_xyz": [
+      33.228515625,
+      -150.708984375,
+      206.49999541044235
+    ],
+    "ant_xyz": [
+      84.498046875,
+      -181.470703125,
+      232.39999496936798
+    ],
+    "axis_len_mm": 88.85,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          61.529296875,
+          -107.642578125,
+          196.69999557733536
+        ],
+        "longitudinal_t": 0.8491,
+        "radial_angle_deg": 102.83,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 75.44
+      },
+      "LL2": {
+        "world_xyz": [
+          50.044921875,
+          -107.232421875,
+          212.09999531507492
+        ],
+        "longitudinal_t": 1.0442,
+        "radial_angle_deg": 94.26,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 92.78
+      },
+      "LL3": {
+        "world_xyz": [
+          41.431640625,
+          -109.693359375,
+          216.99999523162842
+        ],
+        "longitudinal_t": 1.1404,
+        "radial_angle_deg": 93.05,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 101.33
+      },
+      "LL4": {
+        "world_xyz": [
+          32.408203125,
+          -117.896484375,
+          226.7999950647354
+        ],
+        "longitudinal_t": 1.2489,
+        "radial_angle_deg": 80.88,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 110.97
+      },
+      "RL1": {
+        "world_xyz": [
+          80.806640625,
+          -212.642578125,
+          198.79999554157257
+        ],
+        "longitudinal_t": 0.3106,
+        "radial_angle_deg": 316.65,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 27.6
+      },
+      "RL2": {
+        "world_xyz": [
+          75.064453125,
+          -213.462890625,
+          195.9999955892563
+        ],
+        "longitudinal_t": 0.3412,
+        "radial_angle_deg": 309.82,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 30.31
+      }
+    }
+  },
+  "10044": {
+    "apex_xyz": [
+      72.517578125,
+      -249.552734375,
+      229.599995970726
+    ],
+    "base_xyz": [
+      36.412109375,
+      -185.982421875,
+      243.59999573230743
+    ],
+    "ant_xyz": [
+      58.939453125,
+      -225.791015625,
+      276.4999951720238
+    ],
+    "axis_len_mm": 74.44,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          86.404296875,
+          -200.486328125,
+          242.89999574422836
+        ],
+        "longitudinal_t": 0.5061,
+        "radial_angle_deg": 80.21,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 37.67
+      },
+      "LL2": {
+        "world_xyz": [
+          85.478515625,
+          -182.279296875,
+          242.1999957561493
+        ],
+        "longitudinal_t": 0.7192,
+        "radial_angle_deg": 86.79,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 53.54
+      },
+      "LL3": {
+        "world_xyz": [
+          81.466796875,
+          -174.873046875,
+          237.2999958395958
+        ],
+        "longitudinal_t": 0.818,
+        "radial_angle_deg": 94.99,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 60.89
+      },
+      "LL4": {
+        "world_xyz": [
+          76.529296875,
+          -166.849609375,
+          236.59999585151672
+        ],
+        "longitudinal_t": 0.9404,
+        "radial_angle_deg": 98.16,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 70.0
+      },
+      "RL1": {
+        "world_xyz": [
+          52.458984375,
+          -253.873046875,
+          224.69999605417252
+        ],
+        "longitudinal_t": 0.0688,
+        "radial_angle_deg": 253.14,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 5.12
+      },
+      "RL2": {
+        "world_xyz": [
+          45.052734375,
+          -248.318359375,
+          223.29999607801437
+        ],
+        "longitudinal_t": 0.1772,
+        "radial_angle_deg": 249.08,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 13.19
+      }
+    }
+  },
+  "10045": {
+    "apex_xyz": [
+      92.48046875,
+      -278.57421875,
+      162.09999614953995
+    ],
+    "base_xyz": [
+      43.62109375,
+      -204.04296875,
+      195.69999557733536
+    ],
+    "ant_xyz": [
+      78.40234375,
+      -259.94140625,
+      223.6999951004982
+    ],
+    "axis_len_mm": 95.24,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          86.26953125,
+          -203.62890625,
+          153.6999962925911
+        ],
+        "longitudinal_t": 0.6181,
+        "radial_angle_deg": 132.78,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 58.87
+      },
+      "LL2": {
+        "world_xyz": [
+          84.61328125,
+          -192.44921875,
+          168.3999960422516
+        ],
+        "longitudinal_t": 0.7733,
+        "radial_angle_deg": 119.17,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 73.65
+      },
+      "LL3": {
+        "world_xyz": [
+          81.71484375,
+          -184.58203125,
+          172.599995970726
+        ],
+        "longitudinal_t": 0.8692,
+        "radial_angle_deg": 116.98,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 82.78
+      },
+      "LL4": {
+        "world_xyz": [
+          79.64453125,
+          -179.61328125,
+          180.99999582767487
+        ],
+        "longitudinal_t": 0.9522,
+        "radial_angle_deg": 109.63,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 90.69
+      },
+      "RL1": {
+        "world_xyz": [
+          57.28515625,
+          -278.57421875,
+          208.29999536275864
+        ],
+        "longitudinal_t": 0.3607,
+        "radial_angle_deg": 322.86,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 34.35
+      },
+      "RL2": {
+        "world_xyz": [
+          49.83203125,
+          -275.67578125,
+          203.39999544620514
+        ],
+        "longitudinal_t": 0.4065,
+        "radial_angle_deg": 312.73,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 38.72
+      }
+    }
+  },
+  "10046": {
+    "apex_xyz": [
+      103.83984375,
+      -218.62890625,
+      125.80000239610672
+    ],
+    "base_xyz": [
+      34.27734375,
+      -160.24609375,
+      165.0000017285347
+    ],
+    "ant_xyz": [
+      82.30859375,
+      -202.89453125,
+      193.7000012397766
+    ],
+    "axis_len_mm": 98.91,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          56.63671875,
+          -116.76953125,
+          169.20000165700912
+        ],
+        "longitudinal_t": 1.1173,
+        "radial_angle_deg": 92.5,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 110.52
+      },
+      "LL2": {
+        "world_xyz": [
+          40.48828125,
+          -118.01171875,
+          176.20000153779984
+        ],
+        "longitudinal_t": 1.2527,
+        "radial_angle_deg": 89.76,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 123.91
+      },
+      "LL3": {
+        "world_xyz": [
+          36.34765625,
+          -123.80859375,
+          181.8000014424324
+        ],
+        "longitudinal_t": 1.27,
+        "radial_angle_deg": 78.94,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 125.62
+      },
+      "LL4": {
+        "world_xyz": [
+          28.06640625,
+          -124.63671875,
+          179.7000014781952
+        ],
+        "longitudinal_t": 1.3155,
+        "radial_angle_deg": 85.76,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 130.13
+      },
+      "RL1": {
+        "world_xyz": [
+          62.84765625,
+          -210.34765625,
+          190.20000129938126
+        ],
+        "longitudinal_t": 0.5989,
+        "radial_angle_deg": 337.8,
+        "wall_label": "Anterior",
+        "dist_from_apex_mm": 59.24
+      },
+      "RL2": {
+        "world_xyz": [
+          57.46484375,
+          -212.41796875,
+          181.8000014424324
+        ],
+        "longitudinal_t": 0.5911,
+        "radial_angle_deg": 326.96,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 58.47
+      }
+    }
+  },
+  "10047": {
+    "apex_xyz": [
+      71.232421875,
+      -217.345703125,
+      192.2999991774559
+    ],
+    "base_xyz": [
+      39.689453125,
+      -157.970703125,
+      227.99999856948853
+    ],
+    "ant_xyz": [
+      63.068359375,
+      -199.533203125,
+      242.69999831914902
+    ],
+    "axis_len_mm": 76.12,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          77.169921875,
+          -159.083984375,
+          186.69999927282333
+        ],
+        "longitudinal_t": 0.5301,
+        "radial_angle_deg": 128.59,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 40.36
+      },
+      "LL2": {
+        "world_xyz": [
+          79.025390625,
+          -145.724609375,
+          195.0999991297722
+        ],
+        "longitudinal_t": 0.7087,
+        "radial_angle_deg": 120.32,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 53.95
+      },
+      "LL3": {
+        "world_xyz": [
+          73.458984375,
+          -137.560546875,
+          197.1999990940094
+        ],
+        "longitudinal_t": 0.8356,
+        "radial_angle_deg": 123.76,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 63.61
+      },
+      "LL4": {
+        "world_xyz": [
+          65.294921875,
+          -127.912109375,
+          206.29999893903732
+        ],
+        "longitudinal_t": 1.0349,
+        "radial_angle_deg": 123.43,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 78.78
+      },
+      "RL1": {
+        "world_xyz": [
+          31.154296875,
+          -209.552734375,
+          223.7999986410141
+        ],
+        "longitudinal_t": 0.4921,
+        "radial_angle_deg": 294.57,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 37.46
+      },
+      "RL2": {
+        "world_xyz": [
+          27.072265625,
+          -211.037109375,
+          216.7999987602234
+        ],
+        "longitudinal_t": 0.456,
+        "radial_angle_deg": 282.63,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 34.71
+      }
+    }
+  },
+  "10048": {
+    "apex_xyz": [
+      78.5107421875,
+      -225.0224609375,
+      162.4000025987625
+    ],
+    "base_xyz": [
+      36.2080078125,
+      -158.5966796875,
+      206.500001847744
+    ],
+    "ant_xyz": [
+      63.1279296875,
+      -213.8349609375,
+      225.4000015258789
+    ],
+    "axis_len_mm": 90.26,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          87.6005859375,
+          -154.4013671875,
+          191.8000020980835
+        ],
+        "longitudinal_t": 0.6878,
+        "radial_angle_deg": 99.89,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 62.08
+      },
+      "LL2": {
+        "world_xyz": [
+          77.8115234375,
+          -140.7666015625,
+          193.9000020623207
+        ],
+        "longitudinal_t": 0.8611,
+        "radial_angle_deg": 107.99,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 77.73
+      },
+      "LL3": {
+        "world_xyz": [
+          77.1123046875,
+          -138.3193359375,
+          203.00000190734863
+        ],
+        "longitudinal_t": 0.934,
+        "radial_angle_deg": 99.4,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 84.3
+      },
+      "LL4": {
+        "world_xyz": [
+          71.5185546875,
+          -133.7744140625,
+          207.20000183582306
+        ],
+        "longitudinal_t": 1.0228,
+        "radial_angle_deg": 99.02,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 92.32
+      },
+      "RL1": {
+        "world_xyz": [
+          44.5986328125,
+          -217.3310546875,
+          224.00000154972076
+        ],
+        "longitudinal_t": 0.5723,
+        "radial_angle_deg": 338.13,
+        "wall_label": "Anterior",
+        "dist_from_apex_mm": 51.65
+      },
+      "RL2": {
+        "world_xyz": [
+          37.2568359375,
+          -215.9326171875,
+          219.80000162124634
+        ],
+        "longitudinal_t": 0.5991,
+        "radial_angle_deg": 328.44,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 54.07
+      }
+    }
+  },
+  "10050": {
+    "apex_xyz": [
+      84.2861328125,
+      -171.1689453125,
+      1010.9999874830246
+    ],
+    "base_xyz": [
+      42.5361328125,
+      -132.3544921875,
+      1070.4999864697456
+    ],
+    "ant_xyz": [
+      83.9599609375,
+      -167.9072265625,
+      1078.8999863266945
+    ],
+    "axis_len_mm": 82.4,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          69.9345703125,
+          -95.4970703125,
+          1058.5999866724014
+        ],
+        "longitudinal_t": 0.9379,
+        "radial_angle_deg": 101.82,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 77.29
+      },
+      "LL2": {
+        "world_xyz": [
+          59.1708984375,
+          -92.5615234375,
+          1072.5999864339828
+        ],
+        "longitudinal_t": 1.1436,
+        "radial_angle_deg": 100.22,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 94.23
+      },
+      "LL3": {
+        "world_xyz": [
+          56.2353515625,
+          -99.4111328125,
+          1079.5999863147736
+        ],
+        "longitudinal_t": 1.1838,
+        "radial_angle_deg": 91.8,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 97.55
+      },
+      "LL4": {
+        "world_xyz": [
+          56.2353515625,
+          -102.3466796875,
+          1088.6999861598015
+        ],
+        "longitudinal_t": 1.2468,
+        "radial_angle_deg": 78.03,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 102.74
+      },
+      "RL1": {
+        "world_xyz": [
+          69.6083984375,
+          -183.5634765625,
+          1073.299986422062
+        ],
+        "longitudinal_t": 0.5653,
+        "radial_angle_deg": 332.54,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 46.58
+      },
+      "RL2": {
+        "world_xyz": [
+          64.0634765625,
+          -185.5205078125,
+          1064.899986565113
+        ],
+        "longitudinal_t": 0.5146,
+        "radial_angle_deg": 321.44,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 42.41
+      }
+    }
+  },
+  "10051": {
+    "apex_xyz": [
+      84.5537109375,
+      -204.7783203125,
+      921.3999874591827
+    ],
+    "base_xyz": [
+      36.1630859375,
+      -146.8369140625,
+      964.0999867320061
+    ],
+    "ant_xyz": [
+      68.9541015625,
+      -189.1787109375,
+      985.0999863743782
+    ],
+    "axis_len_mm": 86.73,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          77.5498046875,
+          -122.3232421875,
+          954.2999868988991
+        ],
+        "longitudinal_t": 0.8669,
+        "radial_angle_deg": 98.22,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 75.19
+      },
+      "LL2": {
+        "world_xyz": [
+          64.8154296875,
+          -113.4091796875,
+          963.399986743927
+        ],
+        "longitudinal_t": 1.0692,
+        "radial_angle_deg": 98.06,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 92.73
+      },
+      "LL3": {
+        "world_xyz": [
+          56.2197265625,
+          -109.2705078125,
+          967.5999866724014
+        ],
+        "longitudinal_t": 1.1802,
+        "radial_angle_deg": 99.49,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 102.36
+      },
+      "LL4": {
+        "world_xyz": [
+          46.3505859375,
+          -111.4990234375,
+          978.7999864816666
+        ],
+        "longitudinal_t": 1.2901,
+        "radial_angle_deg": 87.55,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 111.89
+      },
+      "RL1": {
+        "world_xyz": [
+          34.8896484375,
+          -214.3291015625,
+          945.1999870538712
+        ],
+        "longitudinal_t": 0.381,
+        "radial_angle_deg": 283.6,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 33.05
+      },
+      "RL2": {
+        "world_xyz": [
+          29.4775390625,
+          -206.0517578125,
+          941.6999871134758
+        ],
+        "longitudinal_t": 0.4597,
+        "radial_angle_deg": 273.55,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 39.87
+      }
+    }
+  },
+  "10052": {
+    "apex_xyz": [
+      57.1162109375,
+      -235.1533203125,
+      1066.4999749660492
+    ],
+    "base_xyz": [
+      9.9130859375,
+      -171.8017578125,
+      1096.5999744534492
+    ],
+    "ant_xyz": [
+      40.3466796875,
+      -213.1044921875,
+      1118.2999740839005
+    ],
+    "axis_len_mm": 84.54,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          54.9423828125,
+          -167.1435546875,
+          1060.8999750614166
+        ],
+        "longitudinal_t": 0.5936,
+        "radial_angle_deg": 123.26,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 50.18
+      },
+      "LL2": {
+        "world_xyz": [
+          53.0791015625,
+          -155.3427734375,
+          1072.7999748587608
+        ],
+        "longitudinal_t": 0.7606,
+        "radial_angle_deg": 112.18,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 64.3
+      },
+      "LL3": {
+        "world_xyz": [
+          45.6259765625,
+          -149.1318359375,
+          1074.199974834919
+        ],
+        "longitudinal_t": 0.8707,
+        "radial_angle_deg": 115.56,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 73.62
+      },
+      "LL4": {
+        "world_xyz": [
+          38.1728515625,
+          -142.9208984375,
+          1084.699974656105
+        ],
+        "longitudinal_t": 1.0192,
+        "radial_angle_deg": 108.9,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 86.17
+      },
+      "RL1": {
+        "world_xyz": [
+          36.6201171875,
+          -228.0107421875,
+          1100.7999743819237
+        ],
+        "longitudinal_t": 0.3431,
+        "radial_angle_deg": 335.03,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 29.01
+      },
+      "RL2": {
+        "world_xyz": [
+          26.9931640625,
+          -226.1474609375,
+          1097.9999744296074
+        ],
+        "longitudinal_t": 0.4114,
+        "radial_angle_deg": 317.86,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 34.78
+      }
+    }
+  },
+  "10053": {
+    "apex_xyz": [
+      100.216796875,
+      -211.689453125,
+      1037.5999870300293
+    ],
+    "base_xyz": [
+      48.630859375,
+      -158.650390625,
+      1069.0999864935875
+    ],
+    "ant_xyz": [
+      78.419921875,
+      -188.439453125,
+      1096.3999860286713
+    ],
+    "axis_len_mm": 80.41,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          106.392578125,
+          -161.919921875,
+          1038.2999870181084
+        ],
+        "longitudinal_t": 0.3624,
+        "radial_angle_deg": 105.77,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 29.14
+      },
+      "LL2": {
+        "world_xyz": [
+          105.302734375,
+          -148.841796875,
+          1049.4999868273735
+        ],
+        "longitudinal_t": 0.5329,
+        "radial_angle_deg": 95.58,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 42.85
+      },
+      "LL3": {
+        "world_xyz": [
+          100.943359375,
+          -140.849609375,
+          1052.2999867796898
+        ],
+        "longitudinal_t": 0.6468,
+        "radial_angle_deg": 96.24,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 52.02
+      },
+      "LL4": {
+        "world_xyz": [
+          92.224609375,
+          -128.861328125,
+          1059.9999866485596
+        ],
+        "longitudinal_t": 0.8522,
+        "radial_angle_deg": 94.5,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 68.53
+      },
+      "RL1": {
+        "world_xyz": [
+          54.080078125,
+          -210.962890625,
+          1090.0999861359596
+        ],
+        "longitudinal_t": 0.6298,
+        "radial_angle_deg": 316.66,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 50.64
+      },
+      "RL2": {
+        "world_xyz": [
+          46.451171875,
+          -210.236328125,
+          1083.099986255169
+        ],
+        "longitudinal_t": 0.6625,
+        "radial_angle_deg": 304.7,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 53.27
+      }
+    }
+  },
+  "10054": {
+    "apex_xyz": [
+      79.7705078125,
+      -240.4091796875,
+      956.099974989891
+    ],
+    "base_xyz": [
+      29.7763671875,
+      -175.0322265625,
+      994.59997433424
+    ],
+    "ant_xyz": [
+      63.3388671875,
+      -217.3349609375,
+      1016.9999739527702
+    ],
+    "axis_len_mm": 90.86,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          95.8525390625,
+          -197.0576171875,
+          953.2999750375748
+        ],
+        "longitudinal_t": 0.2329,
+        "radial_angle_deg": 107.09,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 21.16
+      },
+      "LL2": {
+        "world_xyz": [
+          83.9658203125,
+          -182.7236328125,
+          947.6999751329422
+        ],
+        "longitudinal_t": 0.3922,
+        "radial_angle_deg": 122.78,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 35.64
+      },
+      "LL3": {
+        "world_xyz": [
+          66.8349609375,
+          -163.8447265625,
+          948.3999751210213
+        ],
+        "longitudinal_t": 0.6487,
+        "radial_angle_deg": 133.59,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 58.94
+      },
+      "LL4": {
+        "world_xyz": [
+          55.6474609375,
+          -159.6494140625,
+          949.0999751091003
+        ],
+        "longitudinal_t": 0.753,
+        "radial_angle_deg": 141.76,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 68.42
+      },
+      "RL1": {
+        "world_xyz": [
+          40.2646484375,
+          -232.0185546875,
+          1000.1999742388725
+        ],
+        "longitudinal_t": 0.5113,
+        "radial_angle_deg": 314.44,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 46.46
+      },
+      "RL2": {
+        "world_xyz": [
+          31.1748046875,
+          -225.3759765625,
+          998.0999742746353
+        ],
+        "longitudinal_t": 0.6092,
+        "radial_angle_deg": 303.51,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 55.35
+      }
+    }
+  },
+  "10055": {
+    "apex_xyz": [
+      80.3017578125,
+      -235.6669921875,
+      969.1999871134758
+    ],
+    "base_xyz": [
+      32.2841796875,
+      -180.8818359375,
+      1001.3999865651131
+    ],
+    "ant_xyz": [
+      65.4775390625,
+      -220.1982421875,
+      1023.0999861955643
+    ],
+    "axis_len_mm": 79.65,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          84.1689453125,
+          -180.5595703125,
+          971.299987077713
+        ],
+        "longitudinal_t": 0.4573,
+        "radial_angle_deg": 110.73,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 36.42
+      },
+      "LL2": {
+        "world_xyz": [
+          72.8896484375,
+          -175.0810546875,
+          958.6999872922897
+        ],
+        "longitudinal_t": 0.526,
+        "radial_angle_deg": 132.47,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 41.9
+      },
+      "LL3": {
+        "world_xyz": [
+          63.2216796875,
+          -174.4365234375,
+          957.2999873161316
+        ],
+        "longitudinal_t": 0.5977,
+        "radial_angle_deg": 142.4,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 47.6
+      },
+      "LL4": {
+        "world_xyz": [
+          49.0419921875,
+          -170.8916015625,
+          956.5999873280525
+        ],
+        "longitudinal_t": 0.732,
+        "radial_angle_deg": 155.46,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 58.31
+      },
+      "RL1": {
+        "world_xyz": [
+          61.6103515625,
+          -244.6904296875,
+          983.8999868631363
+        ],
+        "longitudinal_t": 0.1382,
+        "radial_angle_deg": 300.6,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 11.0
+      },
+      "RL2": {
+        "world_xyz": [
+          52.5869140625,
+          -242.1123046875,
+          981.7999868988991
+        ],
+        "longitudinal_t": 0.2181,
+        "radial_angle_deg": 285.0,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 17.37
+      }
+    }
+  },
+  "10056": {
+    "apex_xyz": [
+      77.087890625,
+      -224.568359375,
+      1071.3000239133835
+    ],
+    "base_xyz": [
+      41.966796875,
+      -166.666015625,
+      1103.5000233650208
+    ],
+    "ant_xyz": [
+      69.494140625,
+      -210.962890625,
+      1118.9000231027603
+    ],
+    "axis_len_mm": 74.99,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          82.150390625,
+          -154.958984375,
+          1088.8000236153603
+        ],
+        "longitudinal_t": 0.7854,
+        "radial_angle_deg": 101.15,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 58.89
+      },
+      "LL2": {
+        "world_xyz": [
+          77.087890625,
+          -148.947265625,
+          1104.900023341179
+        ],
+        "longitudinal_t": 0.9711,
+        "radial_angle_deg": 85.35,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 72.82
+      },
+      "LL3": {
+        "world_xyz": [
+          67.912109375,
+          -144.833984375,
+          1106.300023317337
+        ],
+        "longitudinal_t": 1.0788,
+        "radial_angle_deg": 88.61,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 80.9
+      },
+      "LL4": {
+        "world_xyz": [
+          61.900390625,
+          -139.455078125,
+          1111.2000232338905
+        ],
+        "longitudinal_t": 1.1998,
+        "radial_angle_deg": 86.53,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 89.97
+      },
+      "RL1": {
+        "world_xyz": [
+          63.798828125,
+          -231.845703125,
+          1096.50002348423
+        ],
+        "longitudinal_t": 0.1524,
+        "radial_angle_deg": 325.15,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 11.43
+      },
+      "RL2": {
+        "world_xyz": [
+          55.888671875,
+          -230.263671875,
+          1093.7000235319138
+        ],
+        "longitudinal_t": 0.202,
+        "radial_angle_deg": 308.97,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 15.15
+      }
+    }
+  },
+  "10058": {
+    "apex_xyz": [
+      62.7841796875,
+      -231.9580078125,
+      1197.1999748945236
+    ],
+    "base_xyz": [
+      20.3818359375,
+      -170.9638671875,
+      1226.5999743938446
+    ],
+    "ant_xyz": [
+      42.8876953125,
+      -215.3232421875,
+      1248.9999740123749
+    ],
+    "axis_len_mm": 79.89,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          75.5048828125,
+          -207.1689453125,
+          1192.9999749660492
+        ],
+        "longitudinal_t": 0.133,
+        "radial_angle_deg": 119.49,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 10.63
+      },
+      "LL2": {
+        "world_xyz": [
+          66.0458984375,
+          -216.9541015625,
+          1183.1999751329422
+        ],
+        "longitudinal_t": 0.0572,
+        "radial_angle_deg": 156.27,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 4.57
+      },
+      "LL3": {
+        "world_xyz": [
+          59.5224609375,
+          -219.2373046875,
+          1176.8999752402306
+        ],
+        "longitudinal_t": 0.0497,
+        "radial_angle_deg": 178.88,
+        "wall_label": "Posterior",
+        "dist_from_apex_mm": 3.97
+      },
+      "LL4": {
+        "world_xyz": [
+          45.8232421875,
+          -220.5419921875,
+          1176.1999752521515
+        ],
+        "longitudinal_t": 0.125,
+        "radial_angle_deg": 205.56,
+        "wall_label": "Posteromedial",
+        "dist_from_apex_mm": 9.99
+      },
+      "RL1": {
+        "world_xyz": [
+          46.4755859375,
+          -238.8076171875,
+          1196.4999749064445
+        ],
+        "longitudinal_t": 0.0397,
+        "radial_angle_deg": 273.34,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 3.17
+      },
+      "RL2": {
+        "world_xyz": [
+          38.6474609375,
+          -232.9365234375,
+          1195.0999749302864
+        ],
+        "longitudinal_t": 0.1413,
+        "radial_angle_deg": 261.69,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 11.29
+      }
+    }
+  },
+  "10060": {
+    "apex_xyz": [
+      82.0625,
+      -250.5625,
+      1164.699950516224
+    ],
+    "base_xyz": [
+      34.0625,
+      -180.0625,
+      1202.4999498724937
+    ],
+    "ant_xyz": [
+      64.0625,
+      -231.8125,
+      1219.2999495863914
+    ],
+    "axis_len_mm": 93.29,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          77.1875,
+          -160.1875,
+          1187.0999501347542
+        ],
+        "longitudinal_t": 0.8563,
+        "radial_angle_deg": 109.35,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 79.88
+      },
+      "LL2": {
+        "world_xyz": [
+          66.3125,
+          -150.4375,
+          1197.5999499559402
+        ],
+        "longitudinal_t": 1.0408,
+        "radial_angle_deg": 105.48,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 97.1
+      },
+      "LL3": {
+        "world_xyz": [
+          61.0625,
+          -150.4375,
+          1205.999949812889
+        ],
+        "longitudinal_t": 1.1063,
+        "radial_angle_deg": 97.08,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 103.2
+      },
+      "LL4": {
+        "world_xyz": [
+          50.9375,
+          -144.4375,
+          1208.0999497771263
+        ],
+        "longitudinal_t": 1.2198,
+        "radial_angle_deg": 101.23,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 113.8
+      },
+      "RL1": {
+        "world_xyz": [
+          11.5625,
+          -213.8125,
+          1160.4999505877495
+        ],
+        "longitudinal_t": 0.6683,
+        "radial_angle_deg": 235.64,
+        "wall_label": "Posteromedial",
+        "dist_from_apex_mm": 62.34
+      },
+      "RL2": {
+        "world_xyz": [
+          2.9375,
+          -212.6875,
+          1163.2999505400658
+        ],
+        "longitudinal_t": 0.7371,
+        "radial_angle_deg": 240.27,
+        "wall_label": "Posteromedial",
+        "dist_from_apex_mm": 68.77
+      }
+    }
+  },
+  "10061": {
+    "apex_xyz": [
+      89.6767578125,
+      -246.6865234375,
+      1163.7999745607376
+    ],
+    "base_xyz": [
+      34.3056640625,
+      -185.4091796875,
+      1191.7999740839005
+    ],
+    "ant_xyz": [
+      73.0654296875,
+      -225.6455078125,
+      1227.499973475933
+    ],
+    "axis_len_mm": 87.21,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          97.0595703125,
+          -191.3154296875,
+          1198.099973976612
+        ],
+        "longitudinal_t": 0.5187,
+        "radial_angle_deg": 61.91,
+        "wall_label": "Anterolateral",
+        "dist_from_apex_mm": 45.23
+      },
+      "LL2": {
+        "world_xyz": [
+          87.8310546875,
+          -175.8115234375,
+          1200.1999739408493
+        ],
+        "longitudinal_t": 0.7185,
+        "radial_angle_deg": 67.6,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 62.66
+      },
+      "LL3": {
+        "world_xyz": [
+          80.4482421875,
+          -168.7978515625,
+          1197.399973988533
+        ],
+        "longitudinal_t": 0.8185,
+        "radial_angle_deg": 74.07,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 71.38
+      },
+      "LL4": {
+        "world_xyz": [
+          67.5283203125,
+          -161.7841796875,
+          1201.5999739170074
+        ],
+        "longitudinal_t": 0.9845,
+        "radial_angle_deg": 73.09,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 85.86
+      },
+      "RL1": {
+        "world_xyz": [
+          68.6357421875,
+          -246.3173828125,
+          1146.2999748587608
+        ],
+        "longitudinal_t": 0.0917,
+        "radial_angle_deg": 213.97,
+        "wall_label": "Posteromedial",
+        "dist_from_apex_mm": 8.0
+      },
+      "RL2": {
+        "world_xyz": [
+          58.2998046875,
+          -245.2099609375,
+          1150.4999747872353
+        ],
+        "longitudinal_t": 0.1914,
+        "radial_angle_deg": 226.55,
+        "wall_label": "Posteromedial",
+        "dist_from_apex_mm": 16.69
+      }
+    }
+  },
+  "10062": {
+    "apex_xyz": [
+      53.1708984375,
+      -205.5947265625,
+      1073.2999995350838
+    ],
+    "base_xyz": [
+      21.7353515625,
+      -146.6982421875,
+      1129.2999985814095
+    ],
+    "ant_xyz": [
+      49.5576171875,
+      -198.3681640625,
+      1137.6999984383583
+    ],
+    "axis_len_mm": 87.14,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          73.7666015625,
+          -144.1689453125,
+          1090.0999992489815
+        ],
+        "longitudinal_t": 0.5151,
+        "radial_angle_deg": 108.18,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 44.88
+      },
+      "LL2": {
+        "world_xyz": [
+          62.2041015625,
+          -130.7998046875,
+          1092.1999992132187
+        ],
+        "longitudinal_t": 0.6822,
+        "radial_angle_deg": 119.98,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 59.44
+      },
+      "LL3": {
+        "world_xyz": [
+          58.9521484375,
+          -123.5732421875,
+          1097.0999991297722
+        ],
+        "longitudinal_t": 0.7878,
+        "radial_angle_deg": 120.96,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 68.65
+      },
+      "LL4": {
+        "world_xyz": [
+          48.8349609375,
+          -114.1787109375,
+          1104.099999010563
+        ],
+        "longitudinal_t": 0.9542,
+        "radial_angle_deg": 126.71,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 83.15
+      },
+      "RL1": {
+        "world_xyz": [
+          12.7021484375,
+          -193.3095703125,
+          1111.0999988913536
+        ],
+        "longitudinal_t": 0.5416,
+        "radial_angle_deg": 287.77,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 47.2
+      },
+      "RL2": {
+        "world_xyz": [
+          6.1982421875,
+          -186.0830078125,
+          1106.8999989628792
+        ],
+        "longitudinal_t": 0.5936,
+        "radial_angle_deg": 270.55,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 51.73
+      }
+    }
+  },
+  "10063": {
+    "apex_xyz": [
+      89.9267578125,
+      -231.6318359375,
+      1101.9000236988068
+    ],
+    "base_xyz": [
+      16.1220703125,
+      -178.6337890625,
+      1139.7000230550766
+    ],
+    "ant_xyz": [
+      70.2978515625,
+      -217.4990234375,
+      1172.600022494793
+    ],
+    "axis_len_mm": 98.41,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          68.3349609375,
+          -159.3974609375,
+          1135.5000231266022
+        ],
+        "longitudinal_t": 0.691,
+        "radial_angle_deg": 80.0,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 68.0
+      },
+      "LL2": {
+        "world_xyz": [
+          54.2021484375,
+          -148.0126953125,
+          1137.6000230908394
+        ],
+        "longitudinal_t": 0.8692,
+        "radial_angle_deg": 86.22,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 85.54
+      },
+      "LL3": {
+        "world_xyz": [
+          44.7802734375,
+          -144.8720703125,
+          1138.3000230789185
+        ],
+        "longitudinal_t": 0.9609,
+        "radial_angle_deg": 89.86,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 94.56
+      },
+      "LL4": {
+        "world_xyz": [
+          32.6103515625,
+          -141.7314453125,
+          1146.7000229358673
+        ],
+        "longitudinal_t": 1.1036,
+        "radial_angle_deg": 85.15,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 108.61
+      },
+      "RL1": {
+        "world_xyz": [
+          47.1357421875,
+          -235.1650390625,
+          1169.8000225424767
+        ],
+        "longitudinal_t": 0.5718,
+        "radial_angle_deg": 330.93,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 56.27
+      },
+      "RL2": {
+        "world_xyz": [
+          42.4248046875,
+          -238.3056640625,
+          1166.3000226020813
+        ],
+        "longitudinal_t": 0.5768,
+        "radial_angle_deg": 324.29,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 56.77
+      }
+    }
+  },
+  "10064": {
+    "apex_xyz": [
+      108.802734375,
+      -222.111328125,
+      1171.7000482678413
+    ],
+    "base_xyz": [
+      33.400390625,
+      -159.970703125,
+      1219.3000474572182
+    ],
+    "ant_xyz": [
+      83.416015625,
+      -206.197265625,
+      1245.9000470042229
+    ],
+    "axis_len_mm": 108.69,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          93.646484375,
+          -139.509765625,
+          1195.5000478625298
+        ],
+        "longitudinal_t": 0.6272,
+        "radial_angle_deg": 101.21,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 68.17
+      },
+      "LL2": {
+        "world_xyz": [
+          80.384765625,
+          -130.416015625,
+          1191.3000479340553
+        ],
+        "longitudinal_t": 0.7427,
+        "radial_angle_deg": 112.51,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 80.73
+      },
+      "LL3": {
+        "world_xyz": [
+          74.322265625,
+          -125.869140625,
+          1197.600047826767
+        ],
+        "longitudinal_t": 0.8307,
+        "radial_angle_deg": 110.29,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 90.29
+      },
+      "LL4": {
+        "world_xyz": [
+          62.197265625,
+          -119.806640625,
+          1206.700047671795
+        ],
+        "longitudinal_t": 0.9767,
+        "radial_angle_deg": 108.65,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 106.15
+      },
+      "RL1": {
+        "world_xyz": [
+          68.638671875,
+          -223.626953125,
+          1221.4000474214554
+        ],
+        "longitudinal_t": 0.4487,
+        "radial_angle_deg": 323.84,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 48.76
+      },
+      "RL2": {
+        "world_xyz": [
+          61.060546875,
+          -224.384765625,
+          1215.8000475168228
+        ],
+        "longitudinal_t": 0.4705,
+        "radial_angle_deg": 311.05,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 51.14
+      }
+    }
+  },
+  "10065": {
+    "apex_xyz": [
+      111.640625,
+      -247.265625,
+      1219.800048172474
+    ],
+    "base_xyz": [
+      33.828125,
+      -194.296875,
+      1247.8000476956367
+    ],
+    "ant_xyz": [
+      83.515625,
+      -229.453125,
+      1286.3000470399857
+    ],
+    "axis_len_mm": 98.21,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          65.703125,
+          -163.359375,
+          1228.9000480175018
+        ],
+        "longitudinal_t": 0.8579,
+        "radial_angle_deg": 110.85,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 84.25
+      },
+      "LL2": {
+        "world_xyz": [
+          52.578125,
+          -158.671875,
+          1234.5000479221344
+        ],
+        "longitudinal_t": 1.0058,
+        "radial_angle_deg": 110.51,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 98.77
+      },
+      "LL3": {
+        "world_xyz": [
+          47.890625,
+          -158.203125,
+          1243.6000477671623
+        ],
+        "longitudinal_t": 1.0726,
+        "radial_angle_deg": 100.94,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 105.33
+      },
+      "LL4": {
+        "world_xyz": [
+          35.234375,
+          -160.078125,
+          1246.4000477194786
+        ],
+        "longitudinal_t": 1.1725,
+        "radial_angle_deg": 103.76,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 115.15
+      },
+      "RL1": {
+        "world_xyz": [
+          75.546875,
+          -263.671875,
+          1242.9000477790833
+        ],
+        "longitudinal_t": 0.2682,
+        "radial_angle_deg": 296.81,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 26.34
+      },
+      "RL2": {
+        "world_xyz": [
+          70.390625,
+          -261.328125,
+          1239.400047838688
+        ],
+        "longitudinal_t": 0.3125,
+        "radial_angle_deg": 289.17,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 30.69
+      }
+    }
+  },
+  "10066": {
+    "apex_xyz": [
+      75.150390625,
+      -209.830078125,
+      1097.2999992370605
+    ],
+    "base_xyz": [
+      33.431640625,
+      -155.943359375,
+      1125.2999987602234
+    ],
+    "ant_xyz": [
+      56.029296875,
+      -191.056640625,
+      1144.8999984264374
+    ],
+    "axis_len_mm": 73.68,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          70.283203125,
+          -146.208984375,
+          1086.7999994158745
+        ],
+        "longitudinal_t": 0.6148,
+        "radial_angle_deg": 136.59,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 45.3
+      },
+      "LL2": {
+        "world_xyz": [
+          52.900390625,
+          -144.470703125,
+          1087.4999994039536
+        ],
+        "longitudinal_t": 0.7693,
+        "radial_angle_deg": 152.61,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 56.68
+      },
+      "LL3": {
+        "world_xyz": [
+          49.076171875,
+          -140.994140625,
+          1095.1999992728233
+        ],
+        "longitudinal_t": 0.8729,
+        "radial_angle_deg": 149.23,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 64.31
+      },
+      "LL4": {
+        "world_xyz": [
+          41.080078125,
+          -140.298828125,
+          1097.9999992251396
+        ],
+        "longitudinal_t": 0.9557,
+        "radial_angle_deg": 157.09,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 70.41
+      },
+      "RL1": {
+        "world_xyz": [
+          44.208984375,
+          -214.349609375,
+          1119.6999988555908
+        ],
+        "longitudinal_t": 0.3085,
+        "radial_angle_deg": 304.75,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 22.73
+      },
+      "RL2": {
+        "world_xyz": [
+          37.255859375,
+          -209.134765625,
+          1118.2999988794327
+        ],
+        "longitudinal_t": 0.4065,
+        "radial_angle_deg": 295.49,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 29.95
+      }
+    }
+  },
+  "10067": {
+    "apex_xyz": [
+      85.408203125,
+      -250.248046875,
+      1181.8999504446983
+    ],
+    "base_xyz": [
+      50.744140625,
+      -173.443359375,
+      1221.7999497652054
+    ],
+    "ant_xyz": [
+      78.951171875,
+      -226.119140625,
+      1239.2999494671822
+    ],
+    "axis_len_mm": 93.23,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          83.708984375,
+          -165.287109375,
+          1197.299950182438
+        ],
+        "longitudinal_t": 0.8282,
+        "radial_angle_deg": 114.72,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 77.21
+      },
+      "LL2": {
+        "world_xyz": [
+          76.572265625,
+          -155.771484375,
+          1211.9999499320984
+        ],
+        "longitudinal_t": 1.0082,
+        "radial_angle_deg": 104.4,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 93.99
+      },
+      "LL3": {
+        "world_xyz": [
+          77.251953125,
+          -155.771484375,
+          1221.7999497652054
+        ],
+        "longitudinal_t": 1.0504,
+        "radial_angle_deg": 88.47,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 97.94
+      },
+      "LL4": {
+        "world_xyz": [
+          70.115234375,
+          -153.052734375,
+          1234.3999495506287
+        ],
+        "longitudinal_t": 1.1608,
+        "radial_angle_deg": 69.69,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 108.22
+      },
+      "RL1": {
+        "world_xyz": [
+          44.626953125,
+          -233.595703125,
+          1191.6999502778053
+        ],
+        "longitudinal_t": 0.3547,
+        "radial_angle_deg": 255.39,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 33.07
+      },
+      "RL2": {
+        "world_xyz": [
+          33.751953125,
+          -231.896484375,
+          1192.3999502658844
+        ],
+        "longitudinal_t": 0.4163,
+        "radial_angle_deg": 254.71,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 38.82
+      }
+    }
+  },
+  "10302": {
+    "apex_xyz": [
+      100.2919921875,
+      -200.7626953125,
+      1160.2000237107277
+    ],
+    "base_xyz": [
+      48.7490234375,
+      -157.9423828125,
+      1185.4000232815742
+    ],
+    "ant_xyz": [
+      89.1904296875,
+      -192.8330078125,
+      1218.3000227212906
+    ],
+    "axis_len_mm": 71.59,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          113.7724609375,
+          -181.7314453125,
+          1186.8000232577324
+        ],
+        "longitudinal_t": 0.1542,
+        "radial_angle_deg": 44.93,
+        "wall_label": "Anterolateral",
+        "dist_from_apex_mm": 11.04
+      },
+      "LL2": {
+        "world_xyz": [
+          112.1865234375,
+          -164.6826171875,
+          1184.7000232934952
+        ],
+        "longitudinal_t": 0.3023,
+        "radial_angle_deg": 64.12,
+        "wall_label": "Anterolateral",
+        "dist_from_apex_mm": 21.64
+      },
+      "LL3": {
+        "world_xyz": [
+          109.0146484375,
+          -157.5458984375,
+          1189.6000232100487
+        ],
+        "longitudinal_t": 0.4179,
+        "radial_angle_deg": 63.7,
+        "wall_label": "Anterolateral",
+        "dist_from_apex_mm": 29.92
+      },
+      "LL4": {
+        "world_xyz": [
+          101.0849609375,
+          -143.2724609375,
+          1192.400023162365
+        ],
+        "longitudinal_t": 0.6307,
+        "radial_angle_deg": 69.87,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 45.15
+      },
+      "RL1": {
+        "world_xyz": [
+          63.0224609375,
+          -215.4326171875,
+          1208.5000228881836
+        ],
+        "longitudinal_t": 0.4897,
+        "radial_angle_deg": 318.73,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 35.06
+      },
+      "RL2": {
+        "world_xyz": [
+          61.4365234375,
+          -217.0185546875,
+          1203.60002297163
+        ],
+        "longitudinal_t": 0.4683,
+        "radial_angle_deg": 313.27,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 33.53
+      }
+    }
+  },
+  "11002": {
+    "apex_xyz": [
+      108.5234375,
+      -183.9296875,
+      164.39999783039093
+    ],
+    "base_xyz": [
+      32.3359375,
+      -152.3046875,
+      207.09999710321426
+    ],
+    "ant_xyz": [
+      87.3203125,
+      -180.3359375,
+      229.49999672174454
+    ],
+    "axis_len_mm": 92.89,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          70.0703125,
+          -123.9140625,
+          193.7999973297119
+        ],
+        "longitudinal_t": 0.705,
+        "radial_angle_deg": 96.82,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 65.49
+      },
+      "LL2": {
+        "world_xyz": [
+          53.1796875,
+          -119.2421875,
+          195.19999730587006
+        ],
+        "longitudinal_t": 0.8782,
+        "radial_angle_deg": 106.78,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 81.58
+      },
+      "LL3": {
+        "world_xyz": [
+          45.6328125,
+          -118.5234375,
+          200.79999721050262
+        ],
+        "longitudinal_t": 0.9752,
+        "radial_angle_deg": 104.94,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 90.59
+      },
+      "LL4": {
+        "world_xyz": [
+          32.3359375,
+          -121.7578125,
+          208.4999970793724
+        ],
+        "longitudinal_t": 1.1189,
+        "radial_angle_deg": 104.05,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 103.93
+      },
+      "RL1": {
+        "world_xyz": [
+          102.0546875,
+          -207.2890625,
+          184.699997484684
+        ],
+        "longitudinal_t": 0.072,
+        "radial_angle_deg": 314.58,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 6.68
+      },
+      "RL2": {
+        "world_xyz": [
+          93.7890625,
+          -208.3671875,
+          188.89999741315842
+        ],
+        "longitudinal_t": 0.1618,
+        "radial_angle_deg": 310.77,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 15.03
+      }
+    }
+  },
+  "11008": {
+    "apex_xyz": [
+      86.216796875,
+      -217.693359375,
+      1525.8000235557556
+    ],
+    "base_xyz": [
+      39.869140625,
+      -157.810546875,
+      1562.9000229239464
+    ],
+    "ant_xyz": [
+      73.501953125,
+      -198.826171875,
+      1590.2000224590302
+    ],
+    "axis_len_mm": 84.32,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          90.318359375,
+          -165.193359375,
+          1527.2000235319138
+        ],
+        "longitudinal_t": 0.4227,
+        "radial_angle_deg": 112.42,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 35.64
+      },
+      "LL2": {
+        "world_xyz": [
+          78.423828125,
+          -151.248046875,
+          1524.4000235795975
+        ],
+        "longitudinal_t": 0.6031,
+        "radial_angle_deg": 125.71,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 50.85
+      },
+      "LL3": {
+        "world_xyz": [
+          68.990234375,
+          -145.916015625,
+          1523.7000235915184
+        ],
+        "longitudinal_t": 0.7058,
+        "radial_angle_deg": 134.31,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 59.52
+      },
+      "LL4": {
+        "world_xyz": [
+          53.404296875,
+          -141.404296875,
+          1521.6000236272812
+        ],
+        "longitudinal_t": 0.8345,
+        "radial_angle_deg": 150.29,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 70.36
+      },
+      "RL1": {
+        "world_xyz": [
+          68.169921875,
+          -222.615234375,
+          1568.500022828579
+        ],
+        "longitudinal_t": 0.299,
+        "radial_angle_deg": 332.06,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 25.21
+      },
+      "RL2": {
+        "world_xyz": [
+          57.916015625,
+          -224.255859375,
+          1564.3000229001045
+        ],
+        "longitudinal_t": 0.3301,
+        "radial_angle_deg": 316.13,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 27.83
+      }
+    }
+  },
+  "11037": {
+    "apex_xyz": [
+      76.2314453125,
+      -205.9482421875,
+      -348.7999946475029
+    ],
+    "base_xyz": [
+      32.6162109375,
+      -160.1044921875,
+      -320.79999512434006
+    ],
+    "ant_xyz": [
+      54.5830078125,
+      -198.3076171875,
+      -296.29999554157257
+    ],
+    "axis_len_mm": 69.19,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          86.7373046875,
+          -170.9287109375,
+          -337.59999483823776
+        ],
+        "longitudinal_t": 0.3051,
+        "radial_angle_deg": 99.46,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 21.11
+      },
+      "LL2": {
+        "world_xyz": [
+          80.3701171875,
+          -162.9697265625,
+          -350.8999946117401
+        ],
+        "longitudinal_t": 0.3615,
+        "radial_angle_deg": 126.97,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 25.02
+      },
+      "LL3": {
+        "world_xyz": [
+          73.3662109375,
+          -155.9658203125,
+          -350.19999462366104
+        ],
+        "longitudinal_t": 0.4965,
+        "radial_angle_deg": 132.02,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 34.35
+      },
+      "LL4": {
+        "world_xyz": [
+          60.6318359375,
+          -148.9619140625,
+          -353.6999945640564
+        ],
+        "longitudinal_t": 0.6591,
+        "radial_angle_deg": 147.08,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 45.61
+      },
+      "RL1": {
+        "world_xyz": [
+          59.3583984375,
+          -213.9072265625,
+          -350.19999462366104
+        ],
+        "longitudinal_t": 0.0693,
+        "radial_angle_deg": 273.04,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 4.8
+      },
+      "RL2": {
+        "world_xyz": [
+          47.8974609375,
+          -207.5400390625,
+          -357.8999944925308
+        ],
+        "longitudinal_t": 0.1896,
+        "radial_angle_deg": 248.61,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 13.12
+      }
+    }
+  },
+  "11039": {
+    "apex_xyz": [
+      114.5146484375,
+      -247.9189453125,
+      1770.3000482320786
+    ],
+    "base_xyz": [
+      61.9736328125,
+      -191.0888671875,
+      1808.8000475764275
+    ],
+    "ant_xyz": [
+      99.5029296875,
+      -231.4775390625,
+      1820.7000473737717
+    ],
+    "axis_len_mm": 86.44,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          126.3095703125,
+          -211.1044921875,
+          1774.500048160553
+        ],
+        "longitudinal_t": 0.2187,
+        "radial_angle_deg": 97.75,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 18.9
+      },
+      "LL2": {
+        "world_xyz": [
+          119.8759765625,
+          -197.1650390625,
+          1784.30004799366
+        ],
+        "longitudinal_t": 0.4204,
+        "radial_angle_deg": 93.41,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 36.34
+      },
+      "LL3": {
+        "world_xyz": [
+          115.2294921875,
+          -188.5869140625,
+          1786.4000479578972
+        ],
+        "longitudinal_t": 0.5292,
+        "radial_angle_deg": 96.45,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 45.74
+      },
+      "LL4": {
+        "world_xyz": [
+          105.5791015625,
+          -177.1494140625,
+          1791.3000478744507
+        ],
+        "longitudinal_t": 0.7092,
+        "radial_angle_deg": 99.41,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 61.31
+      },
+      "RL1": {
+        "world_xyz": [
+          81.9892578125,
+          -266.8623046875,
+          1787.8000479340553
+        ],
+        "longitudinal_t": 0.1748,
+        "radial_angle_deg": 287.9,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 15.11
+      },
+      "RL2": {
+        "world_xyz": [
+          75.9130859375,
+          -261.8583984375,
+          1780.8000480532646
+        ],
+        "longitudinal_t": 0.2195,
+        "radial_angle_deg": 273.24,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 18.97
+      }
+    }
+  },
+  "11040": {
+    "apex_xyz": [
+      65.26953125,
+      -260.20703125,
+      1731.9999506473541
+    ],
+    "base_xyz": [
+      28.83203125,
+      -199.33984375,
+      1770.499949991703
+    ],
+    "ant_xyz": [
+      58.64453125,
+      -246.12890625,
+      1793.5999495983124
+    ],
+    "axis_len_mm": 80.71,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          80.17578125,
+          -193.12890625,
+          1766.9999500513077
+        ],
+        "longitudinal_t": 0.7502,
+        "radial_angle_deg": 79.72,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 60.55
+      },
+      "LL2": {
+        "world_xyz": [
+          73.13671875,
+          -176.98046875,
+          1769.799950003624
+        ],
+        "longitudinal_t": 0.957,
+        "radial_angle_deg": 86.85,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 77.24
+      },
+      "LL3": {
+        "world_xyz": [
+          66.09765625,
+          -170.76953125,
+          1767.6999500393867
+        ],
+        "longitudinal_t": 1.042,
+        "radial_angle_deg": 94.25,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 84.1
+      },
+      "LL4": {
+        "world_xyz": [
+          53.67578125,
+          -160.41796875,
+          1771.199949979782
+        ],
+        "longitudinal_t": 1.2288,
+        "radial_angle_deg": 100.7,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 99.18
+      },
+      "RL1": {
+        "world_xyz": [
+          34.62890625,
+          -268.90234375,
+          1752.9999502897263
+        ],
+        "longitudinal_t": 0.2142,
+        "radial_angle_deg": 293.36,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 17.29
+      },
+      "RL2": {
+        "world_xyz": [
+          26.76171875,
+          -261.03515625,
+          1752.2999503016472
+        ],
+        "longitudinal_t": 0.3276,
+        "radial_angle_deg": 282.75,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 26.44
+      }
+    }
+  },
+  "11041": {
+    "apex_xyz": [
+      84.7109375,
+      -242.7734375,
+      1688.2000482678413
+    ],
+    "base_xyz": [
+      24.6953125,
+      -182.7578125,
+      1728.8000475764275
+    ],
+    "ant_xyz": [
+      63.1484375,
+      -223.7265625,
+      1761.0000470280647
+    ],
+    "axis_len_mm": 94.09,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          86.8671875,
+          -189.9453125,
+          1704.30004799366
+        ],
+        "longitudinal_t": 0.4174,
+        "radial_angle_deg": 93.29,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 39.27
+      },
+      "LL2": {
+        "world_xyz": [
+          78.6015625,
+          -175.9296875,
+          1708.5000479221344
+        ],
+        "longitudinal_t": 0.5877,
+        "radial_angle_deg": 97.16,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 55.3
+      },
+      "LL3": {
+        "world_xyz": [
+          69.9765625,
+          -169.8203125,
+          1706.4000479578972
+        ],
+        "longitudinal_t": 0.678,
+        "radial_angle_deg": 106.01,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 63.79
+      },
+      "LL4": {
+        "world_xyz": [
+          58.1171875,
+          -161.5546875,
+          1710.6000478863716
+        ],
+        "longitudinal_t": 0.8337,
+        "radial_angle_deg": 110.1,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 78.44
+      },
+      "RL1": {
+        "world_xyz": [
+          43.0234375,
+          -256.0703125,
+          1730.9000475406647
+        ],
+        "longitudinal_t": 0.3883,
+        "radial_angle_deg": 309.43,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 36.54
+      },
+      "RL2": {
+        "world_xyz": [
+          32.9609375,
+          -252.1171875,
+          1729.5000475645065
+        ],
+        "longitudinal_t": 0.4769,
+        "radial_angle_deg": 301.29,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 44.87
+      }
+    }
+  },
+  "11044": {
+    "apex_xyz": [
+      119.3359375,
+      -187.8828125,
+      1080.7999504804611
+    ],
+    "base_xyz": [
+      43.3984375,
+      -136.4140625,
+      1139.599949479103
+    ],
+    "ant_xyz": [
+      103.3046875,
+      -173.5390625,
+      1161.2999491095543
+    ],
+    "axis_len_mm": 108.96,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          77.9921875,
+          -127.9765625,
+          1082.8999504446983
+        ],
+        "longitudinal_t": 0.5345,
+        "radial_angle_deg": 139.92,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 58.24
+      },
+      "LL2": {
+        "world_xyz": [
+          88.1171875,
+          -120.8046875,
+          1091.9999502897263
+        ],
+        "longitudinal_t": 0.5459,
+        "radial_angle_deg": 120.22,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 59.48
+      },
+      "LL3": {
+        "world_xyz": [
+          84.7421875,
+          -115.7421875,
+          1098.999950170517
+        ],
+        "longitudinal_t": 0.6241,
+        "radial_angle_deg": 115.67,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 68.01
+      },
+      "LL4": {
+        "world_xyz": [
+          83.4765625,
+          -111.1015625,
+          1114.3999499082565
+        ],
+        "longitudinal_t": 0.7286,
+        "radial_angle_deg": 101.25,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 79.39
+      },
+      "RL1": {
+        "world_xyz": [
+          97.3984375,
+          -192.1015625,
+          1150.7999492883682
+        ],
+        "longitudinal_t": 0.4687,
+        "radial_angle_deg": 339.67,
+        "wall_label": "Anterior",
+        "dist_from_apex_mm": 51.07
+      },
+      "RL2": {
+        "world_xyz": [
+          87.6953125,
+          -193.7890625,
+          1147.999949336052
+        ],
+        "longitudinal_t": 0.5096,
+        "radial_angle_deg": 329.96,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 55.52
+      }
+    }
+  },
+  "11046": {
+    "apex_xyz": [
+      76.76171875,
+      -226.30078125,
+      1151.9999747872353
+    ],
+    "base_xyz": [
+      28.14453125,
+      -169.26171875,
+      1186.9999741911888
+    ],
+    "ant_xyz": [
+      62.59765625,
+      -212.13671875,
+      1210.0999737977982
+    ],
+    "axis_len_mm": 82.72,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          75.61328125,
+          -163.13671875,
+          1157.5999746918678
+        ],
+        "longitudinal_t": 0.5634,
+        "radial_angle_deg": 113.3,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 46.6
+      },
+      "LL2": {
+        "world_xyz": [
+          66.42578125,
+          -151.26953125,
+          1168.099974513054
+        ],
+        "longitudinal_t": 0.7813,
+        "radial_angle_deg": 108.98,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 64.63
+      },
+      "LL3": {
+        "world_xyz": [
+          58.00390625,
+          -145.52734375,
+          1170.199974477291
+        ],
+        "longitudinal_t": 0.8998,
+        "radial_angle_deg": 113.11,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 74.42
+      },
+      "LL4": {
+        "world_xyz": [
+          49.58203125,
+          -139.78515625,
+          1181.3999742865562
+        ],
+        "longitudinal_t": 1.0648,
+        "radial_angle_deg": 105.83,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 88.07
+      },
+      "RL1": {
+        "world_xyz": [
+          53.02734375,
+          -237.01953125,
+          1191.8999741077423
+        ],
+        "longitudinal_t": 0.2834,
+        "radial_angle_deg": 324.97,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 23.44
+      },
+      "RL2": {
+        "world_xyz": [
+          46.13671875,
+          -236.25390625,
+          1189.099974155426
+        ],
+        "longitudinal_t": 0.3244,
+        "radial_angle_deg": 315.73,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 26.83
+      }
+    }
+  },
+  "11047": {
+    "apex_xyz": [
+      54.03515625,
+      -265.29296875,
+      1084.6999748945236
+    ],
+    "base_xyz": [
+      25.24609375,
+      -187.08984375,
+      1120.3999742865562
+    ],
+    "ant_xyz": [
+      48.01953125,
+      -235.64453125,
+      1148.399973809719
+    ],
+    "axis_len_mm": 90.66,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          63.48828125,
+          -212.44140625,
+          1079.099974989891
+        ],
+        "longitudinal_t": 0.4454,
+        "radial_angle_deg": 125.16,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 40.38
+      },
+      "LL2": {
+        "world_xyz": [
+          63.05859375,
+          -196.97265625,
+          1086.0999748706818
+        ],
+        "longitudinal_t": 0.6245,
+        "radial_angle_deg": 119.72,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 56.62
+      },
+      "LL3": {
+        "world_xyz": [
+          50.59765625,
+          -177.63671875,
+          1085.3999748826027
+        ],
+        "longitudinal_t": 0.8491,
+        "radial_angle_deg": 134.36,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 76.98
+      },
+      "LL4": {
+        "world_xyz": [
+          48.01953125,
+          -170.33203125,
+          1095.8999747037888
+        ],
+        "longitudinal_t": 0.9733,
+        "radial_angle_deg": 127.71,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 88.23
+      },
+      "RL1": {
+        "world_xyz": [
+          13.64453125,
+          -257.55859375,
+          1135.0999740362167
+        ],
+        "longitudinal_t": 0.434,
+        "radial_angle_deg": 311.53,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 39.34
+      },
+      "RL2": {
+        "world_xyz": [
+          8.05859375,
+          -257.12890625,
+          1123.8999742269516
+        ],
+        "longitudinal_t": 0.409,
+        "radial_angle_deg": 297.96,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 37.08
+      }
+    }
+  },
+  "11048": {
+    "apex_xyz": [
+      69.9228515625,
+      -217.5009765625,
+      1132.200024008751
+    ],
+    "base_xyz": [
+      31.8955078125,
+      -157.2373046875,
+      1191.0000230073929
+    ],
+    "ant_xyz": [
+      59.9326171875,
+      -206.5439453125,
+      1198.0000228881836
+    ],
+    "axis_len_mm": 92.39,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          75.4013671875,
+          -149.8251953125,
+          1179.1000232100487
+        ],
+        "longitudinal_t": 0.7765,
+        "radial_angle_deg": 91.33,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 71.74
+      },
+      "LL2": {
+        "world_xyz": [
+          67.0224609375,
+          -138.2236328125,
+          1188.9000230431557
+        ],
+        "longitudinal_t": 0.9633,
+        "radial_angle_deg": 93.48,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 88.99
+      },
+      "LL3": {
+        "world_xyz": [
+          63.7998046875,
+          -137.9013671875,
+          1198.7000228762627
+        ],
+        "longitudinal_t": 1.0474,
+        "radial_angle_deg": 83.9,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 96.77
+      },
+      "LL4": {
+        "world_xyz": [
+          53.8095703125,
+          -138.5458984375,
+          1209.9000226855278
+        ],
+        "longitudinal_t": 1.1645,
+        "radial_angle_deg": 70.83,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 107.59
+      },
+      "RL1": {
+        "world_xyz": [
+          43.4970703125,
+          -206.8662109375,
+          1209.2000226974487
+        ],
+        "longitudinal_t": 0.7233,
+        "radial_angle_deg": 343.13,
+        "wall_label": "Anterior",
+        "dist_from_apex_mm": 66.82
+      },
+      "RL2": {
+        "world_xyz": [
+          40.2744140625,
+          -210.7333984375,
+          1205.7000227570534
+        ],
+        "longitudinal_t": 0.6862,
+        "radial_angle_deg": 337.05,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 63.4
+      }
+    }
+  },
+  "11049": {
+    "apex_xyz": [
+      26.8349609375,
+      -314.7783203125,
+      240.50000554323196
+    ],
+    "base_xyz": [
+      8.0166015625,
+      -233.8994140625,
+      268.5000050663948
+    ],
+    "ant_xyz": [
+      20.0283203125,
+      -285.9501953125,
+      302.8000044822693
+    ],
+    "axis_len_mm": 87.63,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          41.6494140625,
+          -212.6787109375,
+          258.7000052332878
+        ],
+        "longitudinal_t": 1.1053,
+        "radial_angle_deg": 109.82,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 96.86
+      },
+      "LL2": {
+        "world_xyz": [
+          36.8447265625,
+          -209.0751953125,
+          276.2000049352646
+        ],
+        "longitudinal_t": 1.2189,
+        "radial_angle_deg": 87.29,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 106.81
+      },
+      "LL3": {
+        "world_xyz": [
+          38.0458984375,
+          -196.6630859375,
+          274.1000049710274
+        ],
+        "longitudinal_t": 1.339,
+        "radial_angle_deg": 96.33,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 117.34
+      },
+      "LL4": {
+        "world_xyz": [
+          36.8447265625,
+          -193.4599609375,
+          269.2000050544739
+        ],
+        "longitudinal_t": 1.3578,
+        "radial_angle_deg": 104.9,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 118.99
+      },
+      "RL1": {
+        "world_xyz": [
+          -17.2080078125,
+          -311.5751953125,
+          239.8000055551529
+        ],
+        "longitudinal_t": 0.1391,
+        "radial_angle_deg": 263.55,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 12.19
+      },
+      "RL2": {
+        "world_xyz": [
+          -19.6103515625,
+          -301.9658203125,
+          242.60000550746918
+        ],
+        "longitudinal_t": 0.2564,
+        "radial_angle_deg": 262.9,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 22.47
+      }
+    }
+  },
+  "11051": {
+    "apex_xyz": [
+      101.59375,
+      -215.53125,
+      1723.2000239491463
+    ],
+    "base_xyz": [
+      46.90625,
+      -173.09375,
+      1765.2000232338905
+    ],
+    "ant_xyz": [
+      92.84375,
+      -211.15625,
+      1782.7000229358673
+    ],
+    "axis_len_mm": 80.97,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          97.65625,
+          -154.71875,
+          1749.800023496151
+        ],
+        "longitudinal_t": 0.5969,
+        "radial_angle_deg": 90.14,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 48.33
+      },
+      "LL2": {
+        "world_xyz": [
+          85.84375,
+          -143.78125,
+          1748.4000235199928
+        ],
+        "longitudinal_t": 0.7573,
+        "radial_angle_deg": 101.71,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 61.32
+      },
+      "LL3": {
+        "world_xyz": [
+          81.46875,
+          -139.84375,
+          1756.8000233769417
+        ],
+        "longitudinal_t": 0.8731,
+        "radial_angle_deg": 96.71,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 70.69
+      },
+      "LL4": {
+        "world_xyz": [
+          71.40625,
+          -135.03125,
+          1766.6000232100487
+        ],
+        "longitudinal_t": 1.051,
+        "radial_angle_deg": 93.48,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 85.1
+      },
+      "RL1": {
+        "world_xyz": [
+          72.28125,
+          -218.15625,
+          1701.500024318695
+        ],
+        "longitudinal_t": 0.0885,
+        "radial_angle_deg": 216.37,
+        "wall_label": "Posteromedial",
+        "dist_from_apex_mm": 7.17
+      },
+      "RL2": {
+        "world_xyz": [
+          34.65625,
+          -214.65625,
+          1718.3000240325928
+        ],
+        "longitudinal_t": 0.5327,
+        "radial_angle_deg": 234.05,
+        "wall_label": "Posteromedial",
+        "dist_from_apex_mm": 43.13
+      }
+    }
+  },
+  "11052": {
+    "apex_xyz": [
+      107.73828125,
+      -211.18359375,
+      1670.2000482678413
+    ],
+    "base_xyz": [
+      55.15234375,
+      -147.41796875,
+      1717.8000474572182
+    ],
+    "ant_xyz": [
+      87.86328125,
+      -195.03515625,
+      1733.2000471949577
+    ],
+    "axis_len_mm": 95.38,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          118.91796875,
+          -167.29296875,
+          1703.1000477075577
+        ],
+        "longitudinal_t": 0.4152,
+        "radial_angle_deg": 74.33,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 39.6
+      },
+      "LL2": {
+        "world_xyz": [
+          114.36328125,
+          -148.66015625,
+          1706.600047647953
+        ],
+        "longitudinal_t": 0.5904,
+        "radial_angle_deg": 84.82,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 56.31
+      },
+      "LL3": {
+        "world_xyz": [
+          110.22265625,
+          -139.55078125,
+          1705.900047659874
+        ],
+        "longitudinal_t": 0.6745,
+        "radial_angle_deg": 91.87,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 64.34
+      },
+      "LL4": {
+        "world_xyz": [
+          101.52734375,
+          -130.85546875,
+          1713.6000475287437
+        ],
+        "longitudinal_t": 0.826,
+        "radial_angle_deg": 91.05,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 78.79
+      },
+      "RL1": {
+        "world_xyz": [
+          67.98828125,
+          -213.25390625,
+          1681.4000480771065
+        ],
+        "longitudinal_t": 0.2739,
+        "radial_angle_deg": 273.07,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 26.12
+      },
+      "RL2": {
+        "world_xyz": [
+          60.94921875,
+          -206.62890625,
+          1683.5000480413437
+        ],
+        "longitudinal_t": 0.372,
+        "radial_angle_deg": 268.15,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 35.48
+      }
+    }
+  },
+  "11053": {
+    "apex_xyz": [
+      72.6240234375,
+      -227.0654296875,
+      580.9999994039536
+    ],
+    "base_xyz": [
+      29.0478515625,
+      -173.6748046875,
+      622.9999986886978
+    ],
+    "ant_xyz": [
+      61.2392578125,
+      -214.1103515625,
+      640.4999983906746
+    ],
+    "axis_len_mm": 80.71,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          82.4384765625,
+          -180.3486328125,
+          599.1999990940094
+        ],
+        "longitudinal_t": 0.4346,
+        "radial_angle_deg": 90.96,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 35.08
+      },
+      "LL2": {
+        "world_xyz": [
+          76.5498046875,
+          -177.2080078125,
+          584.4999993443489
+        ],
+        "longitudinal_t": 0.405,
+        "radial_angle_deg": 115.45,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 32.68
+      },
+      "LL3": {
+        "world_xyz": [
+          58.0986328125,
+          -159.9345703125,
+          583.0999993681908
+        ],
+        "longitudinal_t": 0.661,
+        "radial_angle_deg": 134.79,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 53.35
+      },
+      "LL4": {
+        "world_xyz": [
+          46.3212890625,
+          -158.3642578125,
+          579.5999994277954
+        ],
+        "longitudinal_t": 0.7301,
+        "radial_angle_deg": 149.3,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 58.92
+      },
+      "RL1": {
+        "world_xyz": [
+          46.3212890625,
+          -241.1982421875,
+          616.6999987959862
+        ],
+        "longitudinal_t": 0.2903,
+        "radial_angle_deg": 314.06,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 23.43
+      },
+      "RL2": {
+        "world_xyz": [
+          40.0400390625,
+          -236.4873046875,
+          613.8999988436699
+        ],
+        "longitudinal_t": 0.3529,
+        "radial_angle_deg": 305.02,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 28.48
+      }
+    }
+  },
+  "11054": {
+    "apex_xyz": [
+      72.8330078125,
+      -228.4033203125,
+      552.5999994874
+    ],
+    "base_xyz": [
+      30.6787109375,
+      -172.8193359375,
+      606.4999985694885
+    ],
+    "ant_xyz": [
+      69.1025390625,
+      -223.5537109375,
+      616.2999984025955
+    ],
+    "axis_len_mm": 88.16,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          73.9521484375,
+          -187.7412109375,
+          549.7999995350838
+        ],
+        "longitudinal_t": 0.2653,
+        "radial_angle_deg": 130.37,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 23.39
+      },
+      "LL2": {
+        "world_xyz": [
+          75.0712890625,
+          -175.0576171875,
+          560.9999993443489
+        ],
+        "longitudinal_t": 0.4276,
+        "radial_angle_deg": 118.61,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 37.7
+      },
+      "LL3": {
+        "world_xyz": [
+          60.5224609375,
+          -158.2705078125,
+          571.499999165535
+        ],
+        "longitudinal_t": 0.6994,
+        "radial_angle_deg": 126.16,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 61.66
+      },
+      "LL4": {
+        "world_xyz": [
+          59.4033203125,
+          -150.8095703125,
+          579.1999990344048
+        ],
+        "longitudinal_t": 0.8123,
+        "radial_angle_deg": 121.02,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 71.61
+      },
+      "RL1": {
+        "world_xyz": [
+          61.6416015625,
+          -242.5791015625,
+          570.0999991893768
+        ],
+        "longitudinal_t": 0.0807,
+        "radial_angle_deg": 313.6,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 7.11
+      },
+      "RL2": {
+        "world_xyz": [
+          51.9423828125,
+          -240.3408203125,
+          567.2999992370605
+        ],
+        "longitudinal_t": 0.1299,
+        "radial_angle_deg": 292.24,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 11.45
+      }
+    }
+  },
+  "11056": {
+    "apex_xyz": [
+      70.970703125,
+      -201.931640625,
+      634.3999993801117
+    ],
+    "base_xyz": [
+      34.056640625,
+      -144.216796875,
+      665.8999988436699
+    ],
+    "ant_xyz": [
+      64.525390625,
+      -189.626953125,
+      686.199998497963
+    ],
+    "axis_len_mm": 75.4,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          87.962890625,
+          -150.662109375,
+          655.3999990224838
+        ],
+        "longitudinal_t": 0.5264,
+        "radial_angle_deg": 81.72,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 39.7
+      },
+      "LL2": {
+        "world_xyz": [
+          78.587890625,
+          -135.720703125,
+          663.7999988794327
+        ],
+        "longitudinal_t": 0.7855,
+        "radial_angle_deg": 81.39,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 59.23
+      },
+      "LL3": {
+        "world_xyz": [
+          74.486328125,
+          -127.517578125,
+          664.4999988675117
+        ],
+        "longitudinal_t": 0.8993,
+        "radial_angle_deg": 85.74,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 67.81
+      },
+      "LL4": {
+        "world_xyz": [
+          61.302734375,
+          -119.314453125,
+          669.3999987840652
+        ],
+        "longitudinal_t": 1.0953,
+        "radial_angle_deg": 87.47,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 82.59
+      },
+      "RL1": {
+        "world_xyz": [
+          60.716796875,
+          -203.103515625,
+          665.1999988555908
+        ],
+        "longitudinal_t": 0.2253,
+        "radial_angle_deg": 338.77,
+        "wall_label": "Anterior",
+        "dist_from_apex_mm": 16.99
+      },
+      "RL2": {
+        "world_xyz": [
+          53.685546875,
+          -201.931640625,
+          663.0999988913536
+        ],
+        "longitudinal_t": 0.2712,
+        "radial_angle_deg": 325.06,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 20.45
+      }
+    }
+  },
+  "11057": {
+    "apex_xyz": [
+      105.66015625,
+      -203.26953125,
+      1441.700048327446
+    ],
+    "base_xyz": [
+      38.32421875,
+      -158.24609375,
+      1480.200047671795
+    ],
+    "ant_xyz": [
+      84.14453125,
+      -190.91796875,
+      1511.700047135353
+    ],
+    "axis_len_mm": 89.69,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          83.34765625,
+          -131.15234375,
+          1490.700047492981
+        ],
+        "longitudinal_t": 0.825,
+        "radial_angle_deg": 69.97,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 73.99
+      },
+      "LL2": {
+        "world_xyz": [
+          68.60546875,
+          -121.58984375,
+          1489.3000475168228
+        ],
+        "longitudinal_t": 0.9952,
+        "radial_angle_deg": 79.58,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 89.26
+      },
+      "LL3": {
+        "world_xyz": [
+          58.24609375,
+          -121.19140625,
+          1491.40004748106
+        ],
+        "longitudinal_t": 1.0942,
+        "radial_angle_deg": 80.52,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 98.14
+      },
+      "LL4": {
+        "world_xyz": [
+          48.28515625,
+          -121.58984375,
+          1502.6000472903252
+        ],
+        "longitudinal_t": 1.229,
+        "radial_angle_deg": 69.17,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 110.22
+      },
+      "RL1": {
+        "world_xyz": [
+          60.63671875,
+          -225.98046875,
+          1467.6000478863716
+        ],
+        "longitudinal_t": 0.3738,
+        "radial_angle_deg": 288.03,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 33.52
+      },
+      "RL2": {
+        "world_xyz": [
+          55.05859375,
+          -221.59765625,
+          1466.2000479102135
+        ],
+        "longitudinal_t": 0.4383,
+        "radial_angle_deg": 282.86,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 39.31
+      }
+    }
+  },
+  "11058": {
+    "apex_xyz": [
+      79.0986328125,
+      -206.9267578125,
+      1367.2999749779701
+    ],
+    "base_xyz": [
+      28.7861328125,
+      -158.8154296875,
+      1423.2999740242958
+    ],
+    "ant_xyz": [
+      67.4638671875,
+      -195.2919921875,
+      1430.9999738931656
+    ],
+    "axis_len_mm": 89.34,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          75.6396484375,
+          -149.0673828125,
+          1386.899974644184
+        ],
+        "longitudinal_t": 0.5081,
+        "radial_angle_deg": 105.54,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 45.39
+      },
+      "LL2": {
+        "world_xyz": [
+          64.6337890625,
+          -142.1494140625,
+          1381.9999747276306
+        ],
+        "longitudinal_t": 0.5847,
+        "radial_angle_deg": 121.63,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 52.24
+      },
+      "LL3": {
+        "world_xyz": [
+          52.6845703125,
+          -129.2568359375,
+          1401.5999743938446
+        ],
+        "longitudinal_t": 0.8753,
+        "radial_angle_deg": 115.96,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 78.2
+      },
+      "LL4": {
+        "world_xyz": [
+          42.6220703125,
+          -127.0556640625,
+          1407.8999742865562
+        ],
+        "longitudinal_t": 0.9962,
+        "radial_angle_deg": 120.4,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 89.0
+      },
+      "RL1": {
+        "world_xyz": [
+          58.6591796875,
+          -209.1279296875,
+          1426.099973976612
+        ],
+        "longitudinal_t": 0.5281,
+        "radial_angle_deg": 336.73,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 47.18
+      },
+      "RL2": {
+        "world_xyz": [
+          51.1123046875,
+          -211.6435546875,
+          1422.5999740362167
+        ],
+        "longitudinal_t": 0.5359,
+        "radial_angle_deg": 324.43,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 47.88
+      }
+    }
+  },
+  "11061": {
+    "apex_xyz": [
+      41.5087890625,
+      -263.8994140625,
+      1020.0999870896339
+    ],
+    "base_xyz": [
+      9.7041015625,
+      -190.9560546875,
+      1052.2999865412712
+    ],
+    "ant_xyz": [
+      26.6435546875,
+      -234.1689453125,
+      1084.4999859929085
+    ],
+    "axis_len_mm": 85.84,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          54.6455078125,
+          -197.1787109375,
+          1025.6999869942665
+        ],
+        "longitudinal_t": 0.6282,
+        "radial_angle_deg": 114.29,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 53.93
+      },
+      "LL2": {
+        "world_xyz": [
+          50.8427734375,
+          -181.2763671875,
+          1034.0999868512154
+        ],
+        "longitudinal_t": 0.8387,
+        "radial_angle_deg": 110.76,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 72.0
+      },
+      "LL3": {
+        "world_xyz": [
+          46.0029296875,
+          -172.9794921875,
+          1036.1999868154526
+        ],
+        "longitudinal_t": 0.9509,
+        "radial_angle_deg": 113.28,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 81.63
+      },
+      "LL4": {
+        "world_xyz": [
+          36.3232421875,
+          -164.6826171875,
+          1043.8999866843224
+        ],
+        "longitudinal_t": 1.1085,
+        "radial_angle_deg": 112.3,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 95.16
+      },
+      "RL1": {
+        "world_xyz": [
+          12.1240234375,
+          -243.5029296875,
+          1081.6999860405922
+        ],
+        "longitudinal_t": 0.5979,
+        "radial_angle_deg": 339.76,
+        "wall_label": "Anterior",
+        "dist_from_apex_mm": 51.32
+      },
+      "RL2": {
+        "world_xyz": [
+          7.9755859375,
+          -247.6513671875,
+          1076.0999861359596
+        ],
+        "longitudinal_t": 0.5503,
+        "radial_angle_deg": 331.7,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 47.24
+      }
+    }
+  },
+  "11062": {
+    "apex_xyz": [
+      108.3955078125,
+      -244.7939453125,
+      1019.7999749183655
+    ],
+    "base_xyz": [
+      44.9951171875,
+      -189.8173828125,
+      1071.5999740362167
+    ],
+    "ant_xyz": [
+      89.3310546875,
+      -235.4833984375,
+      1089.7999737262726
+    ],
+    "axis_len_mm": 98.62,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          95.0947265625,
+          -160.1123046875,
+          1061.0999742150307
+        ],
+        "longitudinal_t": 0.7854,
+        "radial_angle_deg": 95.63,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 77.45
+      },
+      "LL2": {
+        "world_xyz": [
+          79.5771484375,
+          -152.5751953125,
+          1065.9999741315842
+        ],
+        "longitudinal_t": 0.9553,
+        "radial_angle_deg": 100.72,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 94.2
+      },
+      "LL3": {
+        "world_xyz": [
+          73.8134765625,
+          -149.4716796875,
+          1072.2999740242958
+        ],
+        "longitudinal_t": 1.0439,
+        "radial_angle_deg": 98.53,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 102.95
+      },
+      "LL4": {
+        "world_xyz": [
+          61.8427734375,
+          -152.1318359375,
+          1082.7999738454819
+        ],
+        "longitudinal_t": 1.1629,
+        "radial_angle_deg": 91.68,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 114.68
+      },
+      "RL1": {
+        "world_xyz": [
+          85.7841796875,
+          -251.8876953125,
+          1070.1999740600586
+        ],
+        "longitudinal_t": 0.3758,
+        "radial_angle_deg": 337.35,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 37.06
+      },
+      "RL2": {
+        "world_xyz": [
+          76.9169921875,
+          -252.3310546875,
+          1066.6999741196632
+        ],
+        "longitudinal_t": 0.4124,
+        "radial_angle_deg": 325.13,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 40.67
+      }
+    }
+  },
+  "11063": {
+    "apex_xyz": [
+      125.5009765625,
+      -221.4716796875,
+      1635.399950146675
+    ],
+    "base_xyz": [
+      60.7998046875,
+      -169.1337890625,
+      1657.0999497771263
+    ],
+    "ant_xyz": [
+      90.8837890625,
+      -206.6357421875,
+      1690.6999492049217
+    ],
+    "axis_len_mm": 86.0,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          108.6044921875,
+          -145.6435546875,
+          1644.499949991703
+        ],
+        "longitudinal_t": 0.7111,
+        "radial_angle_deg": 110.7,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 61.15
+      },
+      "LL2": {
+        "world_xyz": [
+          94.1806640625,
+          -137.8134765625,
+          1650.7999498844147
+        ],
+        "longitudinal_t": 0.9111,
+        "radial_angle_deg": 108.68,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 78.36
+      },
+      "LL3": {
+        "world_xyz": [
+          85.1142578125,
+          -135.3408203125,
+          1647.9999499320984
+        ],
+        "longitudinal_t": 0.9997,
+        "radial_angle_deg": 115.73,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 85.98
+      },
+      "LL4": {
+        "world_xyz": [
+          70.6904296875,
+          -133.6923828125,
+          1652.1999498605728
+        ],
+        "longitudinal_t": 1.1499,
+        "radial_angle_deg": 117.0,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 98.89
+      },
+      "RL1": {
+        "world_xyz": [
+          79.7568359375,
+          -224.7685546875,
+          1633.299950182438
+        ],
+        "longitudinal_t": 0.3707,
+        "radial_angle_deg": 264.49,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 31.88
+      },
+      "RL2": {
+        "world_xyz": [
+          72.3388671875,
+          -219.8232421875,
+          1630.4999502301216
+        ],
+        "longitudinal_t": 0.4623,
+        "radial_angle_deg": 257.35,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 39.76
+      }
+    }
+  },
+  "11064": {
+    "apex_xyz": [
+      95.2109375,
+      -222.2734375,
+      1569.1000482439995
+    ],
+    "base_xyz": [
+      41.0703125,
+      -162.8828125,
+      1625.1000472903252
+    ],
+    "ant_xyz": [
+      78.8046875,
+      -214.7265625,
+      1638.4000470638275
+    ],
+    "axis_len_mm": 97.95,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          89.9609375,
+          -150.7421875,
+          1619.5000473856926
+        ],
+        "longitudinal_t": 0.7666,
+        "radial_angle_deg": 86.84,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 75.09
+      },
+      "LL2": {
+        "world_xyz": [
+          78.8046875,
+          -141.5546875,
+          1630.0000472068787
+        ],
+        "longitudinal_t": 0.9477,
+        "radial_angle_deg": 85.73,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 92.83
+      },
+      "LL3": {
+        "world_xyz": [
+          70.2734375,
+          -135.6484375,
+          1631.4000471830368
+        ],
+        "longitudinal_t": 1.0406,
+        "radial_angle_deg": 91.45,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 101.92
+      },
+      "LL4": {
+        "world_xyz": [
+          57.4765625,
+          -133.3515625,
+          1637.7000470757484
+        ],
+        "longitudinal_t": 1.1638,
+        "radial_angle_deg": 91.02,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 113.99
+      },
+      "RL1": {
+        "world_xyz": [
+          44.3515625,
+          -209.1484375,
+          1585.2000479698181
+        ],
+        "longitudinal_t": 0.4622,
+        "radial_angle_deg": 255.93,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 45.27
+      },
+      "RL2": {
+        "world_xyz": [
+          39.4296875,
+          -215.3828125,
+          1588.0000479221344
+        ],
+        "longitudinal_t": 0.4677,
+        "radial_angle_deg": 264.8,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 45.82
+      }
+    }
+  },
+  "11065": {
+    "apex_xyz": [
+      81.24609375,
+      -280.26953125,
+      1679.099974513054
+    ],
+    "base_xyz": [
+      41.49609375,
+      -201.59765625,
+      1697.9999741911888
+    ],
+    "ant_xyz": [
+      64.68359375,
+      -247.14453125,
+      1744.1999734044075
+    ],
+    "axis_len_mm": 90.15,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          69.23828125,
+          -195.80078125,
+          1659.49997484684
+        ],
+        "longitudinal_t": 0.8309,
+        "radial_angle_deg": 142.67,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 74.9
+      },
+      "LL2": {
+        "world_xyz": [
+          67.99609375,
+          -182.96484375,
+          1673.4999746084213
+        ],
+        "longitudinal_t": 0.9938,
+        "radial_angle_deg": 127.72,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 89.59
+      },
+      "LL3": {
+        "world_xyz": [
+          56.40234375,
+          -166.81640625,
+          1688.899974346161
+        ],
+        "longitudinal_t": 1.2426,
+        "radial_angle_deg": 115.61,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 112.02
+      },
+      "LL4": {
+        "world_xyz": [
+          55.98828125,
+          -167.23046875,
+          1700.099974155426
+        ],
+        "longitudinal_t": 1.2667,
+        "radial_angle_deg": 95.88,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 114.19
+      },
+      "RL1": {
+        "world_xyz": [
+          54.74609375,
+          -267.01953125,
+          1733.6999735832214
+        ],
+        "longitudinal_t": 0.3849,
+        "radial_angle_deg": 339.78,
+        "wall_label": "Anterior",
+        "dist_from_apex_mm": 34.7
+      },
+      "RL2": {
+        "world_xyz": [
+          46.46484375,
+          -268.26171875,
+          1729.499973654747
+        ],
+        "longitudinal_t": 0.4036,
+        "radial_angle_deg": 329.48,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 36.38
+      }
+    }
+  },
+  "11066": {
+    "apex_xyz": [
+      66.6591796875,
+      -251.0927734375,
+      515.0999868512154
+    ],
+    "base_xyz": [
+      35.9033203125,
+      -184.9853515625,
+      532.5999865531921
+    ],
+    "ant_xyz": [
+      55.3466796875,
+      -225.9931640625,
+      562.6999860405922
+    ],
+    "axis_len_mm": 74.98,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          93.8798828125,
+          -200.8935546875,
+          533.2999865412712
+        ],
+        "longitudinal_t": 0.498,
+        "radial_angle_deg": 77.52,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 37.34
+      },
+      "LL2": {
+        "world_xyz": [
+          89.6376953125,
+          -185.3388671875,
+          540.999986410141
+        ],
+        "longitudinal_t": 0.728,
+        "radial_angle_deg": 73.96,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 54.59
+      },
+      "LL3": {
+        "world_xyz": [
+          86.1025390625,
+          -176.1474609375,
+          538.1999864578247
+        ],
+        "longitudinal_t": 0.8467,
+        "radial_angle_deg": 79.71,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 63.49
+      },
+      "LL4": {
+        "world_xyz": [
+          76.2041015625,
+          -165.5419921875,
+          541.6999863982201
+        ],
+        "longitudinal_t": 1.0365,
+        "radial_angle_deg": 78.52,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 77.72
+      },
+      "RL1": {
+        "world_xyz": [
+          32.0146484375,
+          -252.1533203125,
+          525.5999866724014
+        ],
+        "longitudinal_t": 0.2097,
+        "radial_angle_deg": 281.96,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 15.73
+      },
+      "RL2": {
+        "world_xyz": [
+          27.4189453125,
+          -244.3759765625,
+          524.1999866962433
+        ],
+        "longitudinal_t": 0.322,
+        "radial_angle_deg": 275.74,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 24.14
+      }
+    }
+  },
+  "11067": {
+    "apex_xyz": [
+      78.05859375,
+      -227.59765625,
+      478.9000113606453
+    ],
+    "base_xyz": [
+      31.05859375,
+      -169.58203125,
+      482.40001130104065
+    ],
+    "ant_xyz": [
+      51.25390625,
+      -194.91796875,
+      530.0000104904175
+    ],
+    "axis_len_mm": 74.75,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          87.23828125,
+          -183.16796875,
+          467.70001155138016
+        ],
+        "longitudinal_t": 0.3771,
+        "radial_angle_deg": 109.95,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 28.19
+      },
+      "LL2": {
+        "world_xyz": [
+          74.75390625,
+          -170.31640625,
+          460.0000116825104
+        ],
+        "longitudinal_t": 0.6108,
+        "radial_angle_deg": 122.46,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 45.65
+      },
+      "LL3": {
+        "world_xyz": [
+          68.87890625,
+          -162.60546875,
+          457.90001171827316
+        ],
+        "longitudinal_t": 0.7389,
+        "radial_angle_deg": 125.25,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 55.23
+      },
+      "LL4": {
+        "world_xyz": [
+          57.49609375,
+          -152.32421875,
+          458.60001170635223
+        ],
+        "longitudinal_t": 0.9419,
+        "radial_angle_deg": 127.25,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 70.4
+      },
+      "RL1": {
+        "world_xyz": [
+          61.16796875,
+          -232.00390625,
+          498.5000110268593
+        ],
+        "longitudinal_t": 0.1086,
+        "radial_angle_deg": 320.73,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 8.12
+      },
+      "RL2": {
+        "world_xyz": [
+          54.55859375,
+          -231.26953125,
+          490.10001116991043
+        ],
+        "longitudinal_t": 0.1666,
+        "radial_angle_deg": 297.62,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 12.45
+      }
+    }
+  },
+  "11069": {
+    "apex_xyz": [
+      76.7216796875,
+      -204.8759765625,
+      472.0999994277954
+    ],
+    "base_xyz": [
+      38.6142578125,
+      -162.2236328125,
+      502.89999890327454
+    ],
+    "ant_xyz": [
+      70.0791015625,
+      -199.6318359375,
+      528.0999984741211
+    ],
+    "axis_len_mm": 64.96,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          84.0634765625,
+          -160.8251953125,
+          514.7999987006187
+        ],
+        "longitudinal_t": 0.6906,
+        "radial_angle_deg": 56.89,
+        "wall_label": "Anterolateral",
+        "dist_from_apex_mm": 44.86
+      },
+      "LL2": {
+        "world_xyz": [
+          73.2255859375,
+          -149.9873046875,
+          524.5999985337257
+        ],
+        "longitudinal_t": 0.9695,
+        "radial_angle_deg": 54.71,
+        "wall_label": "Anterolateral",
+        "dist_from_apex_mm": 62.98
+      },
+      "LL3": {
+        "world_xyz": [
+          67.6318359375,
+          -142.9951171875,
+          523.1999985575676
+        ],
+        "longitudinal_t": 1.0805,
+        "radial_angle_deg": 61.41,
+        "wall_label": "Anterolateral",
+        "dist_from_apex_mm": 70.19
+      },
+      "LL4": {
+        "world_xyz": [
+          60.2900390625,
+          -137.7509765625,
+          523.8999985456467
+        ],
+        "longitudinal_t": 1.2049,
+        "radial_angle_deg": 64.65,
+        "wall_label": "Anterolateral",
+        "dist_from_apex_mm": 78.27
+      },
+      "RL1": {
+        "world_xyz": [
+          36.8662109375,
+          -216.0634765625,
+          467.1999995112419
+        ],
+        "longitudinal_t": 0.2111,
+        "radial_angle_deg": 252.64,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 13.71
+      },
+      "RL2": {
+        "world_xyz": [
+          27.0771484375,
+          -210.8193359375,
+          469.9999994635582
+        ],
+        "longitudinal_t": 0.3729,
+        "radial_angle_deg": 251.21,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 24.22
+      }
+    }
+  },
+  "11073": {
+    "apex_xyz": [
+      74.162109375,
+      -243.251953125,
+      1552.899974822998
+    ],
+    "base_xyz": [
+      39.673828125,
+      -189.779296875,
+      1587.8999742269516
+    ],
+    "ant_xyz": [
+      61.189453125,
+      -225.849609375,
+      1612.399973809719
+    ],
+    "axis_len_mm": 72.62,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          84.287109375,
+          -235.658203125,
+          1551.49997484684
+        ],
+        "longitudinal_t": 0.0015,
+        "radial_angle_deg": 99.5,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 0.11
+      },
+      "LL2": {
+        "world_xyz": [
+          87.451171875,
+          -217.306640625,
+          1555.6999747753143
+        ],
+        "longitudinal_t": 0.1947,
+        "radial_angle_deg": 102.32,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 14.14
+      },
+      "LL3": {
+        "world_xyz": [
+          85.236328125,
+          -208.130859375,
+          1552.899974822998
+        ],
+        "longitudinal_t": 0.2837,
+        "radial_angle_deg": 113.81,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 20.6
+      },
+      "LL4": {
+        "world_xyz": [
+          83.654296875,
+          -198.955078125,
+          1554.9999747872353
+        ],
+        "longitudinal_t": 0.401,
+        "radial_angle_deg": 115.09,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 29.12
+      },
+      "RL1": {
+        "world_xyz": [
+          45.052734375,
+          -237.556640625,
+          1596.2999740839005
+        ],
+        "longitudinal_t": 0.5361,
+        "radial_angle_deg": 324.77,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 38.93
+      },
+      "RL2": {
+        "world_xyz": [
+          37.458984375,
+          -238.822265625,
+          1589.2999742031097
+        ],
+        "longitudinal_t": 0.5265,
+        "radial_angle_deg": 307.82,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 38.24
+      }
+    }
+  },
+  "11077": {
+    "apex_xyz": [
+      82.8896484375,
+      -239.2294921875,
+      1177.5999748110771
+    ],
+    "base_xyz": [
+      26.5595703125,
+      -186.6298828125,
+      1199.9999744296074
+    ],
+    "ant_xyz": [
+      66.8486328125,
+      -219.8310546875,
+      1232.8999738693237
+    ],
+    "axis_len_mm": 80.26,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          48.9423828125,
+          -148.5791015625,
+          1194.3999745249748
+        ],
+        "longitudinal_t": 1.0955,
+        "radial_angle_deg": 96.59,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 87.92
+      },
+      "LL2": {
+        "world_xyz": [
+          34.3935546875,
+          -148.2060546875,
+          1195.799974501133
+        ],
+        "longitudinal_t": 1.2306,
+        "radial_angle_deg": 102.26,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 98.77
+      },
+      "LL3": {
+        "world_xyz": [
+          38.8701171875,
+          -152.6826171875,
+          1202.7999743819237
+        ],
+        "longitudinal_t": 1.1793,
+        "radial_angle_deg": 88.18,
+        "wall_label": "Lateral",
+        "dist_from_apex_mm": 94.65
+      },
+      "LL4": {
+        "world_xyz": [
+          28.7978515625,
+          -148.2060546875,
+          1188.7999746203423
+        ],
+        "longitudinal_t": 1.2552,
+        "radial_angle_deg": 116.75,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 100.74
+      },
+      "RL1": {
+        "world_xyz": [
+          51.9267578125,
+          -241.4677734375,
+          1217.4999741315842
+        ],
+        "longitudinal_t": 0.3912,
+        "radial_angle_deg": 320.92,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 31.4
+      },
+      "RL2": {
+        "world_xyz": [
+          43.3466796875,
+          -239.9755859375,
+          1213.2999742031097
+        ],
+        "longitudinal_t": 0.4638,
+        "radial_angle_deg": 309.74,
+        "wall_label": "Anteroseptal",
+        "dist_from_apex_mm": 37.23
+      }
+    }
+  },
+  "11078": {
+    "apex_xyz": [
+      51.482421875,
+      -260.623046875,
+      1084.899950504303
+    ],
+    "base_xyz": [
+      34.412109375,
+      -178.611328125,
+      1114.999949991703
+    ],
+    "ant_xyz": [
+      46.287109375,
+      -223.142578125,
+      1133.1999496817589
+    ],
+    "axis_len_mm": 89.01,
+    "electrodes": {
+      "LL1": {
+        "world_xyz": [
+          61.501953125,
+          -195.681640625,
+          1077.1999506354332
+        ],
+        "longitudinal_t": 0.6213,
+        "radial_angle_deg": 136.14,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 55.31
+      },
+      "LL2": {
+        "world_xyz": [
+          58.162109375,
+          -180.466796875,
+          1083.4999505281448
+        ],
+        "longitudinal_t": 0.81,
+        "radial_angle_deg": 135.68,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 72.1
+      },
+      "LL3": {
+        "world_xyz": [
+          49.626953125,
+          -174.529296875,
+          1082.0999505519867
+        ],
+        "longitudinal_t": 0.8845,
+        "radial_angle_deg": 148.83,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 78.73
+      },
+      "LL4": {
+        "world_xyz": [
+          42.947265625,
+          -164.880859375,
+          1089.7999504208565
+        ],
+        "longitudinal_t": 1.028,
+        "radial_angle_deg": 153.58,
+        "wall_label": "Posterolateral",
+        "dist_from_apex_mm": 91.51
+      },
+      "RL1": {
+        "world_xyz": [
+          31.814453125,
+          -261.736328125,
+          1084.199950516224
+        ],
+        "longitudinal_t": 0.0282,
+        "radial_angle_deg": 260.71,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 2.51
+      },
+      "RL2": {
+        "world_xyz": [
+          25.876953125,
+          -254.685546875,
+          1082.0999505519867
+        ],
+        "longitudinal_t": 0.106,
+        "radial_angle_deg": 250.6,
+        "wall_label": "Septal/Inferior",
+        "dist_from_apex_mm": 9.43
+      }
+    }
+  }
+}

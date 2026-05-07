@@ -91,7 +91,6 @@ Total patients found : 308
   11073  [seg✓, csv✓, bull✓]  ⚠ missing: ['img_nii']
   11077  [seg✓, csv✓, bull✓]  ⚠ missing: ['img_nii']
   11078  [seg✓, csv✓, bull✓]  ⚠ missing: ['img_nii']
-
 ── RAW-ONLY PATIENTS ──────────────────────────
   10009  [img✓, csv✓, bull✓]  ⚠ missing: ['seg_nii']
   10070  [img✓]  ⚠ missing: ['seg_nii', 'leads_csv']

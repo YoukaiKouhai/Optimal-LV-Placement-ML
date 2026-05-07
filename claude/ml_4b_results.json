@@ -1,0 +1,119 @@
+{
+  "mean_axis_mm": 87.29279069767442,
+  "results_by_target": {
+    "LL1_t": {
+      "MeanBaseline": {
+        "train_mae": 0.1627,
+        "loo_mae": 0.1646
+      },
+      "LinearRidge": {
+        "train_mae": 0.1539,
+        "loo_mae": 0.1668
+      },
+      "Lasso": {
+        "train_mae": 0.1543,
+        "loo_mae": 0.1615
+      },
+      "KNN_5": {
+        "train_mae": 0.1529,
+        "loo_mae": 0.1883
+      },
+      "KNN_3": {
+        "train_mae": 0.1331,
+        "loo_mae": 0.1954
+      },
+      "RandomForest": {
+        "train_mae": 0.0669,
+        "loo_mae": 0.1828
+      },
+      "GradientBoost": {
+        "train_mae": 0.0304,
+        "loo_mae": 0.202
+      }
+    },
+    "LL1_ang": {
+      "MeanBaseline": {
+        "train_mae": 15.3101,
+        "loo_mae": 15.4903
+      },
+      "LinearRidge": {
+        "train_mae": 14.9588,
+        "loo_mae": 16.4809
+      },
+      "Lasso": {
+        "train_mae": 14.9625,
+        "loo_mae": 16.5482
+      },
+      "KNN_5": {
+        "train_mae": 14.7132,
+        "loo_mae": 18.0556
+      },
+      "KNN_3": {
+        "train_mae": 12.6621,
+        "loo_mae": 18.8873
+      },
+      "RandomForest": {
+        "train_mae": 5.905,
+        "loo_mae": 15.9143
+      },
+      "GradientBoost": {
+        "train_mae": 2.1624,
+        "loo_mae": 16.6073
+      }
+    }
+  },
+  "ablation": {
+    "LL1_t": [
+      {
+        "combo": "A only",
+        "n_feat": 4,
+        "loo_mae": 0.16963806748390198,
+        "extra": "  \u2248 14.8 mm"
+      },
+      {
+        "combo": "A + B",
+        "n_feat": 8,
+        "loo_mae": 0.16584022343158722,
+        "extra": "  \u2248 14.5 mm"
+      },
+      {
+        "combo": "A + C",
+        "n_feat": 6,
+        "loo_mae": 0.1720869541168213,
+        "extra": "  \u2248 15.0 mm"
+      },
+      {
+        "combo": "A + B + C",
+        "n_feat": 10,
+        "loo_mae": 0.1668195128440857,
+        "extra": "  \u2248 14.6 mm"
+      }
+    ],
+    "LL1_ang": [
+      {
+        "combo": "A only",
+        "n_feat": 4,
+        "loo_mae": 15.808420181274414,
+        "extra": ""
+      },
+      {
+        "combo": "A + B",
+        "n_feat": 8,
+        "loo_mae": 16.191476821899414,
+        "extra": ""
+      },
+      {
+        "combo": "A + C",
+        "n_feat": 6,
+        "loo_mae": 16.088708877563477,
+        "extra": ""
+      },
+      {
+        "combo": "A + B + C",
+        "n_feat": 10,
+        "loo_mae": 16.480876922607422,
+        "extra": ""
+      }
+    ]
+  }
+}

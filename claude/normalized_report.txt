@@ -1,0 +1,1039 @@
+
+==========================================================
+NORMALIZATION SUMMARY
+==========================================================
+  Patients normalised  : 86
+  Patients skipped     : 0  (missing APEX/BASE/ANT)
+==========================================================
+
+──────────────────────────────────────────────────────────
+Patient 10001   (heart axis = 93.8 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.693    106.2           Lateral         65.1 mm
+  LL2      0.875    108.6           Lateral         82.1 mm
+  LL3      0.951    114.4    Posterolateral         89.2 mm
+  LL4      1.090    109.4           Lateral        102.3 mm
+  RL1      0.121    333.5      Anteroseptal         11.3 mm
+  RL2      0.159    318.4      Anteroseptal         14.9 mm
+
+──────────────────────────────────────────────────────────
+Patient 10002   (heart axis = 119.5 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.611    103.6           Lateral         73.0 mm
+  LL2      0.715    117.4    Posterolateral         85.4 mm
+  LL3      0.804    120.1    Posterolateral         96.1 mm
+  LL4      0.916    125.9    Posterolateral        109.4 mm
+  RL1      0.481    311.8      Anteroseptal         57.5 mm
+  RL2      0.534    299.6      Anteroseptal         63.8 mm
+
+──────────────────────────────────────────────────────────
+Patient 10003   (heart axis = 116.1 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.596    109.3           Lateral         69.2 mm
+  LL2      0.602    123.3    Posterolateral         69.9 mm
+  LL3      0.717    138.8    Posterolateral         83.2 mm
+  LL4      0.812    144.0    Posterolateral         94.3 mm
+  RL1      0.350    333.2      Anteroseptal         40.6 mm
+  RL2      0.335    316.4      Anteroseptal         38.9 mm
+
+──────────────────────────────────────────────────────────
+Patient 10004   (heart axis = 87.6 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.630    123.8    Posterolateral         55.2 mm
+  LL2      0.757    137.2    Posterolateral         66.4 mm
+  LL3      0.863    135.2    Posterolateral         75.6 mm
+  LL4      1.031    131.8    Posterolateral         90.4 mm
+  RL1      0.503    322.2      Anteroseptal         44.1 mm
+  RL2      0.515    305.7      Anteroseptal         45.2 mm
+
+──────────────────────────────────────────────────────────
+Patient 10005   (heart axis = 107.0 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.835    103.6           Lateral         89.4 mm
+  LL2      1.009    105.0           Lateral        108.0 mm
+  LL3      1.086    106.4           Lateral        116.2 mm
+  LL4      1.158     91.0           Lateral        123.9 mm
+  RL1      0.132    283.6   Septal/Inferior         14.1 mm
+  RL2      0.245    261.4   Septal/Inferior         26.3 mm
+
+──────────────────────────────────────────────────────────
+Patient 10006   (heart axis = 84.1 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.755    107.5           Lateral         63.5 mm
+  LL2      0.961    101.7           Lateral         80.8 mm
+  LL3      1.024     91.3           Lateral         86.1 mm
+  LL4      1.104     94.2           Lateral         92.8 mm
+  RL1      0.445    319.6      Anteroseptal         37.4 mm
+  RL2      0.477    299.0      Anteroseptal         40.1 mm
+
+──────────────────────────────────────────────────────────
+Patient 10007   (heart axis = 93.5 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.658     91.0           Lateral         61.6 mm
+  LL2      0.818     84.8           Lateral         76.5 mm
+  LL3      0.912     89.4           Lateral         85.3 mm
+  LL4      1.056     91.2           Lateral         98.7 mm
+  RL1      0.179    281.8   Septal/Inferior         16.8 mm
+  RL2      0.382    273.8   Septal/Inferior         35.7 mm
+
+──────────────────────────────────────────────────────────
+Patient 10008   (heart axis = 104.1 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.558     81.7           Lateral         58.1 mm
+  LL2      0.720     78.4           Lateral         74.9 mm
+  LL3      0.798     85.2           Lateral         83.0 mm
+  LL4      0.941     87.1           Lateral         97.9 mm
+  RL1      0.361    312.7      Anteroseptal         37.6 mm
+  RL2      0.398    295.0      Anteroseptal         41.5 mm
+
+──────────────────────────────────────────────────────────
+Patient 10010   (heart axis = 100.3 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.884    106.2           Lateral         88.6 mm
+  LL2      1.037    108.8           Lateral        104.0 mm
+  LL3      1.110    115.2    Posterolateral        111.3 mm
+  LL4      1.144    132.1    Posterolateral        114.7 mm
+  RL1      0.530    315.3      Anteroseptal         53.2 mm
+  RL2      0.533    307.3      Anteroseptal         53.5 mm
+
+──────────────────────────────────────────────────────────
+Patient 10011   (heart axis = 81.5 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.616    119.2    Posterolateral         50.2 mm
+  LL2      0.771    133.0    Posterolateral         62.8 mm
+  LL3      0.807    146.0    Posterolateral         65.8 mm
+  LL4      0.965    155.4    Posterolateral         78.6 mm
+  RL1      0.113    304.2      Anteroseptal          9.2 mm
+  RL2      0.194    289.3   Septal/Inferior         15.8 mm
+
+──────────────────────────────────────────────────────────
+Patient 10012   (heart axis = 87.3 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.740    101.6           Lateral         64.6 mm
+  LL2      0.918     94.5           Lateral         80.1 mm
+  LL3      1.031     98.6           Lateral         90.0 mm
+  LL4      1.186     98.3           Lateral        103.6 mm
+  RL1      0.399    321.2      Anteroseptal         34.8 mm
+  RL2      0.461    311.6      Anteroseptal         40.2 mm
+
+──────────────────────────────────────────────────────────
+Patient 10014   (heart axis = 82.7 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.750    148.4    Posterolateral         62.0 mm
+  LL2      0.858    130.9    Posterolateral         71.0 mm
+  LL3      0.964    131.7    Posterolateral         79.8 mm
+  LL4      1.154    126.0    Posterolateral         95.4 mm
+  RL1      0.340    303.4      Anteroseptal         28.1 mm
+  RL2      0.410    287.5   Septal/Inferior         34.0 mm
+
+──────────────────────────────────────────────────────────
+Patient 10015   (heart axis = 98.4 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.561    118.9    Posterolateral         55.2 mm
+  LL2      0.562    138.8    Posterolateral         55.3 mm
+  LL3      0.788    154.1    Posterolateral         77.5 mm
+  LL4      0.843    166.7         Posterior         82.9 mm
+  RL1      0.671    336.3      Anteroseptal         66.0 mm
+  RL2      0.643    327.0      Anteroseptal         63.2 mm
+
+──────────────────────────────────────────────────────────
+Patient 10017   (heart axis = 88.6 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.487    148.2    Posterolateral         43.1 mm
+  LL2      0.675    139.5    Posterolateral         59.8 mm
+  LL3      0.943    129.2    Posterolateral         83.5 mm
+  LL4      1.039    119.9    Posterolateral         92.1 mm
+  RL1      0.221    305.9      Anteroseptal         19.6 mm
+  RL2      0.280    294.9      Anteroseptal         24.8 mm
+
+──────────────────────────────────────────────────────────
+Patient 10018   (heart axis = 92.3 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.780    104.4           Lateral         72.0 mm
+  LL2      0.888    120.3    Posterolateral         82.0 mm
+  LL3      1.153    124.7    Posterolateral        106.4 mm
+  LL4      1.224    115.8    Posterolateral        112.9 mm
+  RL1      0.292    291.4   Septal/Inferior         26.9 mm
+  RL2      0.406    287.6   Septal/Inferior         37.4 mm
+
+──────────────────────────────────────────────────────────
+Patient 10019   (heart axis = 82.0 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.520     96.0           Lateral         42.7 mm
+  LL2      0.729    104.0           Lateral         59.8 mm
+  LL3      0.830    110.8           Lateral         68.1 mm
+  LL4      1.013    116.5    Posterolateral         83.1 mm
+  RL1      0.426    319.1      Anteroseptal         34.9 mm
+  RL2      0.496    305.7      Anteroseptal         40.7 mm
+
+──────────────────────────────────────────────────────────
+Patient 10020   (heart axis = 76.8 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.615     90.6           Lateral         47.2 mm
+  LL2      0.838     87.0           Lateral         64.3 mm
+  LL3      0.968     89.7           Lateral         74.3 mm
+  LL4      1.147     87.0           Lateral         88.0 mm
+  RL1      0.194    299.1      Anteroseptal         14.9 mm
+  RL2      0.295    287.5   Septal/Inferior         22.6 mm
+
+──────────────────────────────────────────────────────────
+Patient 10021   (heart axis = 81.5 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.604    100.5           Lateral         49.2 mm
+  LL2      0.602    120.2    Posterolateral         49.0 mm
+  LL3      0.710    127.0    Posterolateral         57.8 mm
+  LL4      0.874    138.5    Posterolateral         71.2 mm
+  RL1      0.504    305.8      Anteroseptal         41.1 mm
+  RL2      0.521    292.4   Septal/Inferior         42.5 mm
+
+──────────────────────────────────────────────────────────
+Patient 10023   (heart axis = 71.5 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.685     93.2           Lateral         49.0 mm
+  LL2      0.949     91.1           Lateral         67.9 mm
+  LL3      1.071     93.8           Lateral         76.6 mm
+  LL4      1.275     95.6           Lateral         91.2 mm
+  RL1     -0.080    271.1   Septal/Inferior         -5.7 mm
+  RL2      0.038    256.6   Septal/Inferior          2.8 mm
+
+──────────────────────────────────────────────────────────
+Patient 10024   (heart axis = 76.4 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.319    127.5    Posterolateral         24.4 mm
+  LL2      0.497    114.3    Posterolateral         38.0 mm
+  LL3      0.778    111.4           Lateral         59.4 mm
+  LL4      0.919    119.5    Posterolateral         70.3 mm
+  RL1      0.104    292.3   Septal/Inferior          8.0 mm
+  RL2      0.217    277.6   Septal/Inferior         16.6 mm
+
+──────────────────────────────────────────────────────────
+Patient 10025   (heart axis = 95.9 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.610    141.2    Posterolateral         58.5 mm
+  LL2      0.778    133.3    Posterolateral         74.7 mm
+  LL3      0.875    138.2    Posterolateral         84.0 mm
+  LL4      1.012    140.2    Posterolateral         97.1 mm
+  RL1      0.429    325.6      Anteroseptal         41.2 mm
+  RL2      0.442    315.2      Anteroseptal         42.4 mm
+
+──────────────────────────────────────────────────────────
+Patient 10026   (heart axis = 88.1 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.681    125.7    Posterolateral         60.0 mm
+  LL2      0.857    119.2    Posterolateral         75.5 mm
+  LL3      0.966    120.4    Posterolateral         85.1 mm
+  LL4      1.103    111.5           Lateral         97.2 mm
+  RL1      0.054    302.1      Anteroseptal          4.8 mm
+  RL2      0.132    287.4   Septal/Inferior         11.6 mm
+
+──────────────────────────────────────────────────────────
+Patient 10027   (heart axis = 99.8 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.420     99.7           Lateral         41.9 mm
+  LL2      0.512    118.3    Posterolateral         51.1 mm
+  LL3      0.610    120.8    Posterolateral         60.8 mm
+  LL4      0.742    130.5    Posterolateral         74.0 mm
+  RL1      0.392    268.7   Septal/Inferior         39.1 mm
+  RL2      0.475    259.4   Septal/Inferior         47.3 mm
+
+──────────────────────────────────────────────────────────
+Patient 10028   (heart axis = 65.9 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.508    122.1    Posterolateral         33.5 mm
+  LL2      0.494    144.2    Posterolateral         32.6 mm
+  LL3      0.632    147.7    Posterolateral         41.7 mm
+  LL4      0.877    152.5    Posterolateral         57.8 mm
+  RL1      0.445    305.7      Anteroseptal         29.3 mm
+  RL2      0.537    294.1      Anteroseptal         35.4 mm
+
+──────────────────────────────────────────────────────────
+Patient 10029   (heart axis = 69.3 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.935    101.3           Lateral         64.8 mm
+  LL2      1.152     91.8           Lateral         79.8 mm
+  LL3      1.269     93.0           Lateral         87.9 mm
+  LL4      1.402    104.3           Lateral         97.1 mm
+  RL1     -0.010    311.9      Anteroseptal         -0.7 mm
+  RL2      0.077    295.2      Anteroseptal          5.3 mm
+
+──────────────────────────────────────────────────────────
+Patient 10030   (heart axis = 89.6 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.439    106.2           Lateral         39.4 mm
+  LL2      0.494    124.3    Posterolateral         44.3 mm
+  LL3      0.591    131.0    Posterolateral         53.0 mm
+  LL4      0.743    141.8    Posterolateral         66.6 mm
+  RL1      0.117    311.8      Anteroseptal         10.5 mm
+  RL2      0.187    301.2      Anteroseptal         16.8 mm
+
+──────────────────────────────────────────────────────────
+Patient 10031   (heart axis = 76.2 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.760     67.7           Lateral         57.9 mm
+  LL2      0.956     75.0           Lateral         72.8 mm
+  LL3      1.071     78.2           Lateral         81.6 mm
+  LL4      1.247     76.9           Lateral         95.0 mm
+  RL1      0.409    303.8      Anteroseptal         31.2 mm
+  RL2      0.463    295.8      Anteroseptal         35.3 mm
+
+──────────────────────────────────────────────────────────
+Patient 10033   (heart axis = 77.5 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.615    110.6           Lateral         47.7 mm
+  LL2      0.576    126.9    Posterolateral         44.7 mm
+  LL3      0.678    133.9    Posterolateral         52.6 mm
+  LL4      0.822    144.9    Posterolateral         63.7 mm
+  RL1      0.341    310.2      Anteroseptal         26.5 mm
+  RL2      0.407    296.0      Anteroseptal         31.6 mm
+
+──────────────────────────────────────────────────────────
+Patient 10034   (heart axis = 90.2 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.675    126.7    Posterolateral         60.9 mm
+  LL2      0.828    117.1    Posterolateral         74.7 mm
+  LL3      1.046    105.2           Lateral         94.3 mm
+  LL4      1.164    108.5           Lateral        105.0 mm
+  RL1      0.339    313.3      Anteroseptal         30.5 mm
+  RL2      0.406    303.0      Anteroseptal         36.6 mm
+
+──────────────────────────────────────────────────────────
+Patient 10037   (heart axis = 77.7 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.535    109.6           Lateral         41.6 mm
+  LL2      0.762    113.3    Posterolateral         59.2 mm
+  LL3      0.871    107.6           Lateral         67.6 mm
+  LL4      1.060    102.7           Lateral         82.4 mm
+  RL1      0.369    333.9      Anteroseptal         28.6 mm
+  RL2      0.481    322.0      Anteroseptal         37.4 mm
+
+──────────────────────────────────────────────────────────
+Patient 10038   (heart axis = 93.4 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.869    104.3           Lateral         81.1 mm
+  LL2      1.040    104.8           Lateral         97.1 mm
+  LL3      1.120     97.1           Lateral        104.6 mm
+  LL4      1.219    104.3           Lateral        113.8 mm
+  RL1      0.533    303.5      Anteroseptal         49.8 mm
+  RL2      0.611    292.4   Septal/Inferior         57.0 mm
+
+──────────────────────────────────────────────────────────
+Patient 10040   (heart axis = 90.8 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.632     54.7     Anterolateral         57.4 mm
+  LL2      0.781     65.3     Anterolateral         70.9 mm
+  LL3      0.867     58.0     Anterolateral         78.7 mm
+  LL4      0.984     38.5     Anterolateral         89.3 mm
+  RL1      0.145    308.4      Anteroseptal         13.2 mm
+  RL2      0.212    291.1   Septal/Inferior         19.3 mm
+
+──────────────────────────────────────────────────────────
+Patient 10041   (heart axis = 103.6 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.377     77.0           Lateral         39.0 mm
+  LL2      0.518     86.8           Lateral         53.7 mm
+  LL3      0.659    109.3           Lateral         68.3 mm
+  LL4      0.778    112.9    Posterolateral         80.6 mm
+  RL1      0.412    329.7      Anteroseptal         42.7 mm
+  RL2      0.433    319.8      Anteroseptal         44.9 mm
+
+──────────────────────────────────────────────────────────
+Patient 10042   (heart axis = 84.7 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.915    106.3           Lateral         77.5 mm
+  LL2      1.073     88.8           Lateral         90.9 mm
+  LL3      1.148     75.1           Lateral         97.2 mm
+  LL4      1.247     89.2           Lateral        105.7 mm
+  RL1      0.428    329.7      Anteroseptal         36.3 mm
+  RL2      0.449    316.8      Anteroseptal         38.0 mm
+
+──────────────────────────────────────────────────────────
+Patient 10043   (heart axis = 88.8 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.849    102.8           Lateral         75.4 mm
+  LL2      1.044     94.3           Lateral         92.8 mm
+  LL3      1.140     93.0           Lateral        101.3 mm
+  LL4      1.249     80.9           Lateral        111.0 mm
+  RL1      0.311    316.6      Anteroseptal         27.6 mm
+  RL2      0.341    309.8      Anteroseptal         30.3 mm
+
+──────────────────────────────────────────────────────────
+Patient 10044   (heart axis = 74.4 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.506     80.2           Lateral         37.7 mm
+  LL2      0.719     86.8           Lateral         53.5 mm
+  LL3      0.818     95.0           Lateral         60.9 mm
+  LL4      0.940     98.2           Lateral         70.0 mm
+  RL1      0.069    253.1   Septal/Inferior          5.1 mm
+  RL2      0.177    249.1   Septal/Inferior         13.2 mm
+
+──────────────────────────────────────────────────────────
+Patient 10045   (heart axis = 95.2 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.618    132.8    Posterolateral         58.9 mm
+  LL2      0.773    119.2    Posterolateral         73.7 mm
+  LL3      0.869    117.0    Posterolateral         82.8 mm
+  LL4      0.952    109.6           Lateral         90.7 mm
+  RL1      0.361    322.9      Anteroseptal         34.4 mm
+  RL2      0.406    312.7      Anteroseptal         38.7 mm
+
+──────────────────────────────────────────────────────────
+Patient 10046   (heart axis = 98.9 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      1.117     92.5           Lateral        110.5 mm
+  LL2      1.253     89.8           Lateral        123.9 mm
+  LL3      1.270     78.9           Lateral        125.6 mm
+  LL4      1.315     85.8           Lateral        130.1 mm
+  RL1      0.599    337.8          Anterior         59.2 mm
+  RL2      0.591    327.0      Anteroseptal         58.5 mm
+
+──────────────────────────────────────────────────────────
+Patient 10047   (heart axis = 76.1 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.530    128.6    Posterolateral         40.4 mm
+  LL2      0.709    120.3    Posterolateral         54.0 mm
+  LL3      0.836    123.8    Posterolateral         63.6 mm
+  LL4      1.035    123.4    Posterolateral         78.8 mm
+  RL1      0.492    294.6      Anteroseptal         37.5 mm
+  RL2      0.456    282.6   Septal/Inferior         34.7 mm
+
+──────────────────────────────────────────────────────────
+Patient 10048   (heart axis = 90.3 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.688     99.9           Lateral         62.1 mm
+  LL2      0.861    108.0           Lateral         77.7 mm
+  LL3      0.934     99.4           Lateral         84.3 mm
+  LL4      1.023     99.0           Lateral         92.3 mm
+  RL1      0.572    338.1          Anterior         51.6 mm
+  RL2      0.599    328.4      Anteroseptal         54.1 mm
+
+──────────────────────────────────────────────────────────
+Patient 10050   (heart axis = 82.4 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.938    101.8           Lateral         77.3 mm
+  LL2      1.144    100.2           Lateral         94.2 mm
+  LL3      1.184     91.8           Lateral         97.5 mm
+  LL4      1.247     78.0           Lateral        102.7 mm
+  RL1      0.565    332.5      Anteroseptal         46.6 mm
+  RL2      0.515    321.4      Anteroseptal         42.4 mm
+
+──────────────────────────────────────────────────────────
+Patient 10051   (heart axis = 86.7 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.867     98.2           Lateral         75.2 mm
+  LL2      1.069     98.1           Lateral         92.7 mm
+  LL3      1.180     99.5           Lateral        102.4 mm
+  LL4      1.290     87.5           Lateral        111.9 mm
+  RL1      0.381    283.6   Septal/Inferior         33.0 mm
+  RL2      0.460    273.6   Septal/Inferior         39.9 mm
+
+──────────────────────────────────────────────────────────
+Patient 10052   (heart axis = 84.5 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.594    123.3    Posterolateral         50.2 mm
+  LL2      0.761    112.2           Lateral         64.3 mm
+  LL3      0.871    115.6    Posterolateral         73.6 mm
+  LL4      1.019    108.9           Lateral         86.2 mm
+  RL1      0.343    335.0      Anteroseptal         29.0 mm
+  RL2      0.411    317.9      Anteroseptal         34.8 mm
+
+──────────────────────────────────────────────────────────
+Patient 10053   (heart axis = 80.4 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.362    105.8           Lateral         29.1 mm
+  LL2      0.533     95.6           Lateral         42.9 mm
+  LL3      0.647     96.2           Lateral         52.0 mm
+  LL4      0.852     94.5           Lateral         68.5 mm
+  RL1      0.630    316.7      Anteroseptal         50.6 mm
+  RL2      0.662    304.7      Anteroseptal         53.3 mm
+
+──────────────────────────────────────────────────────────
+Patient 10054   (heart axis = 90.9 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.233    107.1           Lateral         21.2 mm
+  LL2      0.392    122.8    Posterolateral         35.6 mm
+  LL3      0.649    133.6    Posterolateral         58.9 mm
+  LL4      0.753    141.8    Posterolateral         68.4 mm
+  RL1      0.511    314.4      Anteroseptal         46.5 mm
+  RL2      0.609    303.5      Anteroseptal         55.4 mm
+
+──────────────────────────────────────────────────────────
+Patient 10055   (heart axis = 79.7 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.457    110.7           Lateral         36.4 mm
+  LL2      0.526    132.5    Posterolateral         41.9 mm
+  LL3      0.598    142.4    Posterolateral         47.6 mm
+  LL4      0.732    155.5    Posterolateral         58.3 mm
+  RL1      0.138    300.6      Anteroseptal         11.0 mm
+  RL2      0.218    285.0   Septal/Inferior         17.4 mm
+
+──────────────────────────────────────────────────────────
+Patient 10056   (heart axis = 75.0 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.785    101.2           Lateral         58.9 mm
+  LL2      0.971     85.3           Lateral         72.8 mm
+  LL3      1.079     88.6           Lateral         80.9 mm
+  LL4      1.200     86.5           Lateral         90.0 mm
+  RL1      0.152    325.1      Anteroseptal         11.4 mm
+  RL2      0.202    309.0      Anteroseptal         15.2 mm
+
+──────────────────────────────────────────────────────────
+Patient 10058   (heart axis = 79.9 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.133    119.5    Posterolateral         10.6 mm
+  LL2      0.057    156.3    Posterolateral          4.6 mm
+  LL3      0.050    178.9         Posterior          4.0 mm
+  LL4      0.125    205.6     Posteromedial         10.0 mm
+  RL1      0.040    273.3   Septal/Inferior          3.2 mm
+  RL2      0.141    261.7   Septal/Inferior         11.3 mm
+
+──────────────────────────────────────────────────────────
+Patient 10060   (heart axis = 93.3 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.856    109.3           Lateral         79.9 mm
+  LL2      1.041    105.5           Lateral         97.1 mm
+  LL3      1.106     97.1           Lateral        103.2 mm
+  LL4      1.220    101.2           Lateral        113.8 mm
+  RL1      0.668    235.6     Posteromedial         62.3 mm
+  RL2      0.737    240.3     Posteromedial         68.8 mm
+
+──────────────────────────────────────────────────────────
+Patient 10061   (heart axis = 87.2 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.519     61.9     Anterolateral         45.2 mm
+  LL2      0.719     67.6           Lateral         62.7 mm
+  LL3      0.819     74.1           Lateral         71.4 mm
+  LL4      0.985     73.1           Lateral         85.9 mm
+  RL1      0.092    214.0     Posteromedial          8.0 mm
+  RL2      0.191    226.6     Posteromedial         16.7 mm
+
+──────────────────────────────────────────────────────────
+Patient 10062   (heart axis = 87.1 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.515    108.2           Lateral         44.9 mm
+  LL2      0.682    120.0    Posterolateral         59.4 mm
+  LL3      0.788    121.0    Posterolateral         68.7 mm
+  LL4      0.954    126.7    Posterolateral         83.2 mm
+  RL1      0.542    287.8   Septal/Inferior         47.2 mm
+  RL2      0.594    270.6   Septal/Inferior         51.7 mm
+
+──────────────────────────────────────────────────────────
+Patient 10063   (heart axis = 98.4 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.691     80.0           Lateral         68.0 mm
+  LL2      0.869     86.2           Lateral         85.5 mm
+  LL3      0.961     89.9           Lateral         94.6 mm
+  LL4      1.104     85.2           Lateral        108.6 mm
+  RL1      0.572    330.9      Anteroseptal         56.3 mm
+  RL2      0.577    324.3      Anteroseptal         56.8 mm
+
+──────────────────────────────────────────────────────────
+Patient 10064   (heart axis = 108.7 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.627    101.2           Lateral         68.2 mm
+  LL2      0.743    112.5    Posterolateral         80.7 mm
+  LL3      0.831    110.3           Lateral         90.3 mm
+  LL4      0.977    108.7           Lateral        106.2 mm
+  RL1      0.449    323.8      Anteroseptal         48.8 mm
+  RL2      0.470    311.1      Anteroseptal         51.1 mm
+
+──────────────────────────────────────────────────────────
+Patient 10065   (heart axis = 98.2 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.858    110.8           Lateral         84.2 mm
+  LL2      1.006    110.5           Lateral         98.8 mm
+  LL3      1.073    100.9           Lateral        105.3 mm
+  LL4      1.173    103.8           Lateral        115.2 mm
+  RL1      0.268    296.8      Anteroseptal         26.3 mm
+  RL2      0.312    289.2   Septal/Inferior         30.7 mm
+
+──────────────────────────────────────────────────────────
+Patient 10066   (heart axis = 73.7 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.615    136.6    Posterolateral         45.3 mm
+  LL2      0.769    152.6    Posterolateral         56.7 mm
+  LL3      0.873    149.2    Posterolateral         64.3 mm
+  LL4      0.956    157.1    Posterolateral         70.4 mm
+  RL1      0.308    304.8      Anteroseptal         22.7 mm
+  RL2      0.406    295.5      Anteroseptal         29.9 mm
+
+──────────────────────────────────────────────────────────
+Patient 10067   (heart axis = 93.2 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.828    114.7    Posterolateral         77.2 mm
+  LL2      1.008    104.4           Lateral         94.0 mm
+  LL3      1.050     88.5           Lateral         97.9 mm
+  LL4      1.161     69.7           Lateral        108.2 mm
+  RL1      0.355    255.4   Septal/Inferior         33.1 mm
+  RL2      0.416    254.7   Septal/Inferior         38.8 mm
+
+──────────────────────────────────────────────────────────
+Patient 10302   (heart axis = 71.6 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.154     44.9     Anterolateral         11.0 mm
+  LL2      0.302     64.1     Anterolateral         21.6 mm
+  LL3      0.418     63.7     Anterolateral         29.9 mm
+  LL4      0.631     69.9           Lateral         45.1 mm
+  RL1      0.490    318.7      Anteroseptal         35.1 mm
+  RL2      0.468    313.3      Anteroseptal         33.5 mm
+
+──────────────────────────────────────────────────────────
+Patient 11002   (heart axis = 92.9 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.705     96.8           Lateral         65.5 mm
+  LL2      0.878    106.8           Lateral         81.6 mm
+  LL3      0.975    104.9           Lateral         90.6 mm
+  LL4      1.119    104.0           Lateral        103.9 mm
+  RL1      0.072    314.6      Anteroseptal          6.7 mm
+  RL2      0.162    310.8      Anteroseptal         15.0 mm
+
+──────────────────────────────────────────────────────────
+Patient 11008   (heart axis = 84.3 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.423    112.4           Lateral         35.6 mm
+  LL2      0.603    125.7    Posterolateral         50.9 mm
+  LL3      0.706    134.3    Posterolateral         59.5 mm
+  LL4      0.835    150.3    Posterolateral         70.4 mm
+  RL1      0.299    332.1      Anteroseptal         25.2 mm
+  RL2      0.330    316.1      Anteroseptal         27.8 mm
+
+──────────────────────────────────────────────────────────
+Patient 11037   (heart axis = 69.2 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.305     99.5           Lateral         21.1 mm
+  LL2      0.361    127.0    Posterolateral         25.0 mm
+  LL3      0.496    132.0    Posterolateral         34.4 mm
+  LL4      0.659    147.1    Posterolateral         45.6 mm
+  RL1      0.069    273.0   Septal/Inferior          4.8 mm
+  RL2      0.190    248.6   Septal/Inferior         13.1 mm
+
+──────────────────────────────────────────────────────────
+Patient 11039   (heart axis = 86.4 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.219     97.8           Lateral         18.9 mm
+  LL2      0.420     93.4           Lateral         36.3 mm
+  LL3      0.529     96.5           Lateral         45.7 mm
+  LL4      0.709     99.4           Lateral         61.3 mm
+  RL1      0.175    287.9   Septal/Inferior         15.1 mm
+  RL2      0.220    273.2   Septal/Inferior         19.0 mm
+
+──────────────────────────────────────────────────────────
+Patient 11040   (heart axis = 80.7 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.750     79.7           Lateral         60.5 mm
+  LL2      0.957     86.8           Lateral         77.2 mm
+  LL3      1.042     94.2           Lateral         84.1 mm
+  LL4      1.229    100.7           Lateral         99.2 mm
+  RL1      0.214    293.4      Anteroseptal         17.3 mm
+  RL2      0.328    282.8   Septal/Inferior         26.4 mm
+
+──────────────────────────────────────────────────────────
+Patient 11041   (heart axis = 94.1 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.417     93.3           Lateral         39.3 mm
+  LL2      0.588     97.2           Lateral         55.3 mm
+  LL3      0.678    106.0           Lateral         63.8 mm
+  LL4      0.834    110.1           Lateral         78.4 mm
+  RL1      0.388    309.4      Anteroseptal         36.5 mm
+  RL2      0.477    301.3      Anteroseptal         44.9 mm
+
+──────────────────────────────────────────────────────────
+Patient 11044   (heart axis = 109.0 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.534    139.9    Posterolateral         58.2 mm
+  LL2      0.546    120.2    Posterolateral         59.5 mm
+  LL3      0.624    115.7    Posterolateral         68.0 mm
+  LL4      0.729    101.2           Lateral         79.4 mm
+  RL1      0.469    339.7          Anterior         51.1 mm
+  RL2      0.510    330.0      Anteroseptal         55.5 mm
+
+──────────────────────────────────────────────────────────
+Patient 11046   (heart axis = 82.7 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.563    113.3    Posterolateral         46.6 mm
+  LL2      0.781    109.0           Lateral         64.6 mm
+  LL3      0.900    113.1    Posterolateral         74.4 mm
+  LL4      1.065    105.8           Lateral         88.1 mm
+  RL1      0.283    325.0      Anteroseptal         23.4 mm
+  RL2      0.324    315.7      Anteroseptal         26.8 mm
+
+──────────────────────────────────────────────────────────
+Patient 11047   (heart axis = 90.7 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.445    125.2    Posterolateral         40.4 mm
+  LL2      0.625    119.7    Posterolateral         56.6 mm
+  LL3      0.849    134.4    Posterolateral         77.0 mm
+  LL4      0.973    127.7    Posterolateral         88.2 mm
+  RL1      0.434    311.5      Anteroseptal         39.3 mm
+  RL2      0.409    298.0      Anteroseptal         37.1 mm
+
+──────────────────────────────────────────────────────────
+Patient 11048   (heart axis = 92.4 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.776     91.3           Lateral         71.7 mm
+  LL2      0.963     93.5           Lateral         89.0 mm
+  LL3      1.047     83.9           Lateral         96.8 mm
+  LL4      1.165     70.8           Lateral        107.6 mm
+  RL1      0.723    343.1          Anterior         66.8 mm
+  RL2      0.686    337.1      Anteroseptal         63.4 mm
+
+──────────────────────────────────────────────────────────
+Patient 11049   (heart axis = 87.6 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      1.105    109.8           Lateral         96.9 mm
+  LL2      1.219     87.3           Lateral        106.8 mm
+  LL3      1.339     96.3           Lateral        117.3 mm
+  LL4      1.358    104.9           Lateral        119.0 mm
+  RL1      0.139    263.6   Septal/Inferior         12.2 mm
+  RL2      0.256    262.9   Septal/Inferior         22.5 mm
+
+──────────────────────────────────────────────────────────
+Patient 11051   (heart axis = 81.0 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.597     90.1           Lateral         48.3 mm
+  LL2      0.757    101.7           Lateral         61.3 mm
+  LL3      0.873     96.7           Lateral         70.7 mm
+  LL4      1.051     93.5           Lateral         85.1 mm
+  RL1      0.088    216.4     Posteromedial          7.2 mm
+  RL2      0.533    234.1     Posteromedial         43.1 mm
+
+──────────────────────────────────────────────────────────
+Patient 11052   (heart axis = 95.4 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.415     74.3           Lateral         39.6 mm
+  LL2      0.590     84.8           Lateral         56.3 mm
+  LL3      0.674     91.9           Lateral         64.3 mm
+  LL4      0.826     91.0           Lateral         78.8 mm
+  RL1      0.274    273.1   Septal/Inferior         26.1 mm
+  RL2      0.372    268.1   Septal/Inferior         35.5 mm
+
+──────────────────────────────────────────────────────────
+Patient 11053   (heart axis = 80.7 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.435     91.0           Lateral         35.1 mm
+  LL2      0.405    115.5    Posterolateral         32.7 mm
+  LL3      0.661    134.8    Posterolateral         53.4 mm
+  LL4      0.730    149.3    Posterolateral         58.9 mm
+  RL1      0.290    314.1      Anteroseptal         23.4 mm
+  RL2      0.353    305.0      Anteroseptal         28.5 mm
+
+──────────────────────────────────────────────────────────
+Patient 11054   (heart axis = 88.2 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.265    130.4    Posterolateral         23.4 mm
+  LL2      0.428    118.6    Posterolateral         37.7 mm
+  LL3      0.699    126.2    Posterolateral         61.7 mm
+  LL4      0.812    121.0    Posterolateral         71.6 mm
+  RL1      0.081    313.6      Anteroseptal          7.1 mm
+  RL2      0.130    292.2   Septal/Inferior         11.4 mm
+
+──────────────────────────────────────────────────────────
+Patient 11056   (heart axis = 75.4 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.526     81.7           Lateral         39.7 mm
+  LL2      0.785     81.4           Lateral         59.2 mm
+  LL3      0.899     85.7           Lateral         67.8 mm
+  LL4      1.095     87.5           Lateral         82.6 mm
+  RL1      0.225    338.8          Anterior         17.0 mm
+  RL2      0.271    325.1      Anteroseptal         20.4 mm
+
+──────────────────────────────────────────────────────────
+Patient 11057   (heart axis = 89.7 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.825     70.0           Lateral         74.0 mm
+  LL2      0.995     79.6           Lateral         89.3 mm
+  LL3      1.094     80.5           Lateral         98.1 mm
+  LL4      1.229     69.2           Lateral        110.2 mm
+  RL1      0.374    288.0   Septal/Inferior         33.5 mm
+  RL2      0.438    282.9   Septal/Inferior         39.3 mm
+
+──────────────────────────────────────────────────────────
+Patient 11058   (heart axis = 89.3 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.508    105.5           Lateral         45.4 mm
+  LL2      0.585    121.6    Posterolateral         52.2 mm
+  LL3      0.875    116.0    Posterolateral         78.2 mm
+  LL4      0.996    120.4    Posterolateral         89.0 mm
+  RL1      0.528    336.7      Anteroseptal         47.2 mm
+  RL2      0.536    324.4      Anteroseptal         47.9 mm
+
+──────────────────────────────────────────────────────────
+Patient 11061   (heart axis = 85.8 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.628    114.3    Posterolateral         53.9 mm
+  LL2      0.839    110.8           Lateral         72.0 mm
+  LL3      0.951    113.3    Posterolateral         81.6 mm
+  LL4      1.109    112.3           Lateral         95.2 mm
+  RL1      0.598    339.8          Anterior         51.3 mm
+  RL2      0.550    331.7      Anteroseptal         47.2 mm
+
+──────────────────────────────────────────────────────────
+Patient 11062   (heart axis = 98.6 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.785     95.6           Lateral         77.5 mm
+  LL2      0.955    100.7           Lateral         94.2 mm
+  LL3      1.044     98.5           Lateral        103.0 mm
+  LL4      1.163     91.7           Lateral        114.7 mm
+  RL1      0.376    337.4      Anteroseptal         37.1 mm
+  RL2      0.412    325.1      Anteroseptal         40.7 mm
+
+──────────────────────────────────────────────────────────
+Patient 11063   (heart axis = 86.0 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.711    110.7           Lateral         61.1 mm
+  LL2      0.911    108.7           Lateral         78.4 mm
+  LL3      1.000    115.7    Posterolateral         86.0 mm
+  LL4      1.150    117.0    Posterolateral         98.9 mm
+  RL1      0.371    264.5   Septal/Inferior         31.9 mm
+  RL2      0.462    257.4   Septal/Inferior         39.8 mm
+
+──────────────────────────────────────────────────────────
+Patient 11064   (heart axis = 98.0 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.767     86.8           Lateral         75.1 mm
+  LL2      0.948     85.7           Lateral         92.8 mm
+  LL3      1.041     91.5           Lateral        101.9 mm
+  LL4      1.164     91.0           Lateral        114.0 mm
+  RL1      0.462    255.9   Septal/Inferior         45.3 mm
+  RL2      0.468    264.8   Septal/Inferior         45.8 mm
+
+──────────────────────────────────────────────────────────
+Patient 11065   (heart axis = 90.2 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.831    142.7    Posterolateral         74.9 mm
+  LL2      0.994    127.7    Posterolateral         89.6 mm
+  LL3      1.243    115.6    Posterolateral        112.0 mm
+  LL4      1.267     95.9           Lateral        114.2 mm
+  RL1      0.385    339.8          Anterior         34.7 mm
+  RL2      0.404    329.5      Anteroseptal         36.4 mm
+
+──────────────────────────────────────────────────────────
+Patient 11066   (heart axis = 75.0 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.498     77.5           Lateral         37.3 mm
+  LL2      0.728     74.0           Lateral         54.6 mm
+  LL3      0.847     79.7           Lateral         63.5 mm
+  LL4      1.036     78.5           Lateral         77.7 mm
+  RL1      0.210    282.0   Septal/Inferior         15.7 mm
+  RL2      0.322    275.7   Septal/Inferior         24.1 mm
+
+──────────────────────────────────────────────────────────
+Patient 11067   (heart axis = 74.8 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.377    110.0           Lateral         28.2 mm
+  LL2      0.611    122.5    Posterolateral         45.6 mm
+  LL3      0.739    125.2    Posterolateral         55.2 mm
+  LL4      0.942    127.2    Posterolateral         70.4 mm
+  RL1      0.109    320.7      Anteroseptal          8.1 mm
+  RL2      0.167    297.6      Anteroseptal         12.4 mm
+
+──────────────────────────────────────────────────────────
+Patient 11069   (heart axis = 65.0 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.691     56.9     Anterolateral         44.9 mm
+  LL2      0.970     54.7     Anterolateral         63.0 mm
+  LL3      1.081     61.4     Anterolateral         70.2 mm
+  LL4      1.205     64.7     Anterolateral         78.3 mm
+  RL1      0.211    252.6   Septal/Inferior         13.7 mm
+  RL2      0.373    251.2   Septal/Inferior         24.2 mm
+
+──────────────────────────────────────────────────────────
+Patient 11073   (heart axis = 72.6 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.002     99.5           Lateral          0.1 mm
+  LL2      0.195    102.3           Lateral         14.1 mm
+  LL3      0.284    113.8    Posterolateral         20.6 mm
+  LL4      0.401    115.1    Posterolateral         29.1 mm
+  RL1      0.536    324.8      Anteroseptal         38.9 mm
+  RL2      0.526    307.8      Anteroseptal         38.2 mm
+
+──────────────────────────────────────────────────────────
+Patient 11077   (heart axis = 80.3 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      1.095     96.6           Lateral         87.9 mm
+  LL2      1.231    102.3           Lateral         98.8 mm
+  LL3      1.179     88.2           Lateral         94.7 mm
+  LL4      1.255    116.8    Posterolateral        100.7 mm
+  RL1      0.391    320.9      Anteroseptal         31.4 mm
+  RL2      0.464    309.7      Anteroseptal         37.2 mm
+
+──────────────────────────────────────────────────────────
+Patient 11078   (heart axis = 89.0 mm)
+──────────────────────────────────────────────────────────
+  Lead    Long t   Angle°              Wall   mm from Apex
+  ─────  ───────  ───────  ────────────────  ─────────────
+  LL1      0.621    136.1    Posterolateral         55.3 mm
+  LL2      0.810    135.7    Posterolateral         72.1 mm
+  LL3      0.884    148.8    Posterolateral         78.7 mm
+  LL4      1.028    153.6    Posterolateral         91.5 mm
+  RL1      0.028    260.7   Septal/Inferior          2.5 mm
+  RL2      0.106    250.6   Septal/Inferior          9.4 mm
