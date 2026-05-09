@@ -10,7 +10,14 @@
         "rois_series": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10001.rois_series",
         "has_segmentation": true,
         "has_ground_truth": true,
-        "has_png_slices": true
+        "has_png_slices": true,
+        "best_detection_params": {
+            "HU_THRESHOLD": 2821,
+            "sigma": 0.9,
+            "min_blob_size": 21,
+            "max_blob_size": 418,
+            "avg_error_mm": 11.681975128336523
+        }
     },
     "10002": {
         "dataset_source": "dataset1",
