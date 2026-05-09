@@ -1,0 +1,1738 @@
+{
+  "summary": {
+    "mean_recall_pct": 89.0,
+    "fp_rate_pct": 31.6,
+    "n_patients": 59
+  },
+  "per_patient": {
+    "10001": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0398
+    },
+    "10002": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.6273
+    },
+    "10003": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0658
+    },
+    "10004": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.1468
+    },
+    "10005": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0529
+    },
+    "10006": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0555
+    },
+    "10007": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.1478
+    },
+    "10008": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0825
+    },
+    "10010": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 50.0,
+      "val_loss": 0.7275
+    },
+    "10011": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0288
+    },
+    "10012": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.1017
+    },
+    "10014": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.394
+    },
+    "10015": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 75.0,
+      "val_loss": 0.382
+    },
+    "10017": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0275
+    },
+    "10018": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 83.3,
+      "val_loss": 0.5732
+    },
+    "10019": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0222
+    },
+    "10020": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0171
+    },
+    "10021": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.2455
+    },
+    "10023": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0292
+    },
+    "10024": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 66.7,
+      "val_loss": 0.5223
+    },
+    "10025": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.1492
+    },
+    "10026": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0746
+    },
+    "10027": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.1038
+    },
+    "10028": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0127
+    },
+    "10029": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.3621
+    },
+    "10030": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.1044
+    },
+    "10031": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.4143
+    },
+    "10033": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 80.0,
+      "val_loss": 0.334
+    },
+    "10034": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.386
+    },
+    "10037": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        }
+      },
+      "mean_elec_recall_pct": 66.7,
+      "val_loss": 0.7024
+    },
+    "10038": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 83.3,
+      "val_loss": 0.3682
+    },
+    "10040": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        }
+      },
+      "mean_elec_recall_pct": 83.3,
+      "val_loss": 0.5004
+    },
+    "10041": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.105
+    },
+    "10042": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0676
+    },
+    "10043": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 50.0,
+      "val_loss": 0.5964
+    },
+    "10044": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0476
+    },
+    "10045": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.2212
+    },
+    "10046": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 75.0,
+      "val_loss": 1.2417
+    },
+    "10047": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0669
+    },
+    "10048": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.2498
+    },
+    "10050": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.3906
+    },
+    "10051": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.082
+    },
+    "10052": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.2085
+    },
+    "10053": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0484
+    },
+    "10054": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0861
+    },
+    "10055": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0486
+    },
+    "10056": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.016
+    },
+    "10058": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 66.7,
+      "val_loss": 0.9172
+    },
+    "10060": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.6868
+    },
+    "10061": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 50.0,
+      "val_loss": 0.8624
+    },
+    "10062": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.0869
+    },
+    "10063": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.3129
+    },
+    "10064": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.1983
+    },
+    "10065": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.5034
+    },
+    "10066": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 40.0,
+      "val_loss": 0.7306
+    },
+    "10067": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "RL1": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "RL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 66.7,
+      "val_loss": 0.571
+    },
+    "10302": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 0,
+          "recall_pct": 0.0
+        }
+      },
+      "mean_elec_recall_pct": 50.0,
+      "val_loss": 0.7562
+    },
+    "11002": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.3056
+    },
+    "11008": {
+      "electrode_recall": {
+        "LL1": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL2": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL3": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        },
+        "LL4": {
+          "n_true": 1,
+          "n_correct": 1,
+          "recall_pct": 100.0
+        }
+      },
+      "mean_elec_recall_pct": 100.0,
+      "val_loss": 0.026
+    }
+  }
+}

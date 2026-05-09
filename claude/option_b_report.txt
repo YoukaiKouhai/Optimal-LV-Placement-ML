@@ -1,0 +1,37 @@
+
+=================================================================
+OPTION B SUMMARY — Fixed Heart Centre Estimation
+=================================================================
+
+GT PATIENTS (validation):
+  Electrode detections : 265/354 (74.9%)
+  Mean position error  : 1.16 mm
+  Median error         : 0.74 mm
+  Errors < 5mm         : 95.8%
+
+RAW PATIENTS (pseudo-labels for Option B):
+  Total raw patients   : 222
+  With ≥1 detection    : 221 (99.5%)
+  No detections        : 1
+
+PIPELINE PROGRESSION:
+  Step 5  HU only          : 56.5% GT detection
+  Step 5b Tuned params     : 77.7% GT detection
+  Step 6  PointNet thresh  : 89.0% GT recall (31.6% FP)
+  Step 6b Conf threshold   : 74.9% GT detect  (8.6% FP) [broken HC]
+  Step 6c Fixed HC         : 74.9% GT detect  ← this script (RAW: 99.5%)
+
+NEXT STEPS FOR OPTION B:
+  1. pseudo_labels_v2.json has world_xyz for ~221 raw patients
+  2. Feed those coords into Step 3 normalize_coords.py
+     (you need apex/base — these come from the image-estimated HC,
+      so Step 3 normalization will be approximate for raw patients)
+  3. Add the normalized [t, angle] features to your Step 4b dataset
+  4. Retrain — more data usually helps even if labels are noisy
+
+NOTE ON APPROXIMATE NORMALIZATION:
+  Raw patients have estimated HC, not true apex/base from a human.
+  Their [t, angle] values will have ~5-10mm uncertainty.
+  Label this data as 'pseudo' in your ML training so you can
+  ablate its effect (train with vs without pseudo data).
+=================================================================

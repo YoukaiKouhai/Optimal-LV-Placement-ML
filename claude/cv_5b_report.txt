@@ -1,0 +1,808 @@
+
+=================================================================
+FINAL COMPARISON SUMMARY
+=================================================================
+  Method                            Detected      Rate
+  ──────────────────────────────  ──────────  ────────
+  Step 5 baseline (HU=2000)          200/354     56.5%
+  Best params, no RANSAC          275/     354    77.7%
+  Best params + RANSAC            122/     354    34.5%
+
+RANSAC EXPLANATION:
+  Each catheter lead is a sequence of electrodes strung along
+  a wire → they form a LINE in 3D space.  RANSAC finds the
+  line that passes through the most detected blobs and keeps
+  only those blobs (inliers). Bone/artifact blobs are random
+  and do NOT line up, so they get rejected as outliers.
+
+  RANSAC iterations : 200
+  Inlier threshold  : 8 mm from line
+=================================================================
+
+────────────────────────────────────────────────────────────
+Patient 10001
+  Blobs before RANSAC: 5
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 1.60 mm
+  4005: ✅ 0.68 mm
+  4006: ✅ 1.66 mm
+  4007: ✅ 1.48 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10002
+  Blobs before RANSAC: 33
+  Blobs after  RANSAC: 15
+  Detection without RANSAC: 5/6 (83%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=98.6 mm
+  4005: ❌ nearest=91.4 mm
+  4006: ❌ nearest=87.0 mm
+  4007: ❌ nearest=75.4 mm
+  4008: ❌ nearest=41.5 mm
+  4009: ❌ nearest=35.6 mm
+
+────────────────────────────────────────────────────────────
+Patient 10003
+  Blobs before RANSAC: 5
+  Blobs after  RANSAC: 3
+  Detection without RANSAC: 5/6 (83%)
+  Detection with    RANSAC: 3/6 (50%)
+  4004: ❌ nearest=17.8 mm
+  4005: ✅ 0.62 mm
+  4006: ✅ 2.35 mm
+  4007: ✅ 0.73 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10004
+  Blobs before RANSAC: 19
+  Blobs after  RANSAC: 13
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=81.9 mm
+  4005: ❌ nearest=69.6 mm
+  4006: ❌ nearest=63.7 mm
+  4007: ❌ nearest=55.1 mm
+  4008: ❌ nearest=47.5 mm
+  4009: ❌ nearest=48.9 mm
+
+────────────────────────────────────────────────────────────
+Patient 10005
+  Blobs before RANSAC: 8
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 2/6 (33%)
+  4004: ❌ nearest=39.1 mm
+  4005: ❌ nearest=22.4 mm
+  4006: ❌ nearest=14.7 mm
+  4007: ✅ 0.53 mm
+  4008: ❌ nearest=14.6 mm
+  4009: ✅ 5.00 mm
+
+────────────────────────────────────────────────────────────
+Patient 10006
+  Blobs before RANSAC: 18
+  Blobs after  RANSAC: 8
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=78.2 mm
+  4005: ❌ nearest=72.5 mm
+  4006: ❌ nearest=72.4 mm
+  4007: ❌ nearest=67.0 mm
+  4008: ❌ nearest=56.6 mm
+  4009: ❌ nearest=70.3 mm
+
+────────────────────────────────────────────────────────────
+Patient 10007
+  Blobs before RANSAC: 16
+  Blobs after  RANSAC: 8
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 2/6 (33%)
+  4004: ❌ nearest=91.9 mm
+  4005: ❌ nearest=99.5 mm
+  4006: ❌ nearest=98.9 mm
+  4007: ❌ nearest=94.2 mm
+  4008: ✅ 1.51 mm
+  4009: ✅ 9.45 mm
+
+────────────────────────────────────────────────────────────
+Patient 10008
+  Blobs before RANSAC: 7
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.91 mm
+  4005: ✅ 1.40 mm
+  4006: ✅ 0.95 mm
+  4007: ✅ 1.26 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10010
+  Blobs before RANSAC: 17
+  Blobs after  RANSAC: 14
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 2/6 (33%)
+  4004: ❌ nearest=26.9 mm
+  4005: ✅ 9.91 mm
+  4006: ❌ nearest=15.0 mm
+  4007: ✅ 1.56 mm
+  4008: ❌ nearest=68.7 mm
+  4009: ❌ nearest=61.5 mm
+
+────────────────────────────────────────────────────────────
+Patient 10011
+  Blobs before RANSAC: 24
+  Blobs after  RANSAC: 9
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=124.9 mm
+  4005: ❌ nearest=128.4 mm
+  4006: ❌ nearest=125.3 mm
+  4007: ❌ nearest=126.3 mm
+  4008: ❌ nearest=60.8 mm
+  4009: ❌ nearest=55.7 mm
+
+────────────────────────────────────────────────────────────
+Patient 10012
+  Blobs before RANSAC: 6
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.50 mm
+  4005: ✅ 0.66 mm
+  4006: ✅ 0.51 mm
+  4007: ✅ 0.52 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10014
+  Blobs before RANSAC: 11
+  Blobs after  RANSAC: 3
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 1/6 (17%)
+  4004: ❌ nearest=15.1 mm
+  4005: ✅ 0.59 mm
+  4006: ❌ nearest=145.8 mm
+  4007: ❌ nearest=147.4 mm
+  4008: ❌ nearest=112.2 mm
+  4009: ❌ nearest=122.9 mm
+
+────────────────────────────────────────────────────────────
+Patient 10015
+  Blobs before RANSAC: 5
+  Blobs after  RANSAC: 3
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 3/6 (50%)
+  4004: ✅ 1.12 mm
+  4005: ❌ nearest=25.5 mm
+  4006: ✅ 1.12 mm
+  4007: ✅ 1.14 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10017
+  Blobs before RANSAC: 30
+  Blobs after  RANSAC: 23
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=70.2 mm
+  4005: ❌ nearest=60.0 mm
+  4006: ❌ nearest=45.3 mm
+  4007: ❌ nearest=41.5 mm
+  4008: ❌ nearest=78.6 mm
+  4009: ❌ nearest=70.3 mm
+
+────────────────────────────────────────────────────────────
+Patient 10018
+  Blobs before RANSAC: 8
+  Blobs after  RANSAC: 3
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 3/6 (50%)
+  4004: ❌ nearest=43.6 mm
+  4005: ❌ nearest=34.3 mm
+  4006: ❌ nearest=11.8 mm
+  4007: ✅ 0.52 mm
+  4008: ✅ 5.68 mm
+  4009: ✅ 7.85 mm
+
+────────────────────────────────────────────────────────────
+Patient 10019
+  Blobs before RANSAC: 9
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 5/6 (83%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.26 mm
+  4005: ✅ 0.44 mm
+  4006: ✅ 0.63 mm
+  4007: ✅ 0.16 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10020
+  Blobs before RANSAC: 9
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.69 mm
+  4005: ✅ 0.51 mm
+  4006: ✅ 1.10 mm
+  4007: ✅ 0.88 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10021
+  Blobs before RANSAC: 13
+  Blobs after  RANSAC: 7
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=100.0 mm
+  4005: ❌ nearest=96.5 mm
+  4006: ❌ nearest=94.9 mm
+  4007: ❌ nearest=88.0 mm
+  4008: ❌ nearest=36.2 mm
+  4009: ❌ nearest=25.7 mm
+
+────────────────────────────────────────────────────────────
+Patient 10023
+  Blobs before RANSAC: 15
+  Blobs after  RANSAC: 8
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 2/6 (33%)
+  4004: ❌ nearest=78.3 mm
+  4005: ❌ nearest=87.4 mm
+  4006: ❌ nearest=88.1 mm
+  4007: ❌ nearest=86.1 mm
+  4008: ✅ 1.17 mm
+  4009: ✅ 1.32 mm
+
+────────────────────────────────────────────────────────────
+Patient 10024
+  Blobs before RANSAC: 10
+  Blobs after  RANSAC: 6
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 2/6 (33%)
+  4004: ❌ nearest=67.1 mm
+  4005: ❌ nearest=73.4 mm
+  4006: ❌ nearest=85.1 mm
+  4007: ❌ nearest=88.8 mm
+  4008: ✅ 0.73 mm
+  4009: ✅ 8.93 mm
+
+────────────────────────────────────────────────────────────
+Patient 10025
+  Blobs before RANSAC: 5
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.63 mm
+  4005: ✅ 0.69 mm
+  4006: ✅ 0.87 mm
+  4007: ✅ 0.62 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10026
+  Blobs before RANSAC: 8
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.77 mm
+  4005: ✅ 0.30 mm
+  4006: ✅ 0.29 mm
+  4007: ✅ 0.16 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10027
+  Blobs before RANSAC: 61
+  Blobs after  RANSAC: 22
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=92.4 mm
+  4005: ❌ nearest=89.2 mm
+  4006: ❌ nearest=85.9 mm
+  4007: ❌ nearest=83.5 mm
+  4008: ❌ nearest=53.5 mm
+  4009: ❌ nearest=48.3 mm
+
+────────────────────────────────────────────────────────────
+Patient 10028
+  Blobs before RANSAC: 5
+  Blobs after  RANSAC: 3
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 2/6 (33%)
+  4004: ❌ nearest=15.5 mm
+  4005: ✅ 0.56 mm
+  4006: ✅ 0.76 mm
+  4007: ❌ nearest=75.3 mm
+  4008: ❌ nearest=86.6 mm
+  4009: ❌ nearest=78.0 mm
+
+────────────────────────────────────────────────────────────
+Patient 10029
+  Blobs before RANSAC: 18
+  Blobs after  RANSAC: 9
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=49.6 mm
+  4005: ❌ nearest=44.7 mm
+  4006: ❌ nearest=37.5 mm
+  4007: ❌ nearest=25.5 mm
+  4008: ❌ nearest=49.2 mm
+  4009: ❌ nearest=53.6 mm
+
+────────────────────────────────────────────────────────────
+Patient 10030
+  Blobs before RANSAC: 9
+  Blobs after  RANSAC: 5
+  Detection without RANSAC: 5/6 (83%)
+  Detection with    RANSAC: 1/6 (17%)
+  4004: ❌ nearest=87.3 mm
+  4005: ❌ nearest=82.2 mm
+  4006: ❌ nearest=76.4 mm
+  4007: ❌ nearest=67.2 mm
+  4008: ✅ 4.72 mm
+  4009: ❌ nearest=31.6 mm
+
+────────────────────────────────────────────────────────────
+Patient 10031
+  Blobs before RANSAC: 7
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.55 mm
+  4005: ✅ 0.77 mm
+  4006: ✅ 0.42 mm
+  4007: ✅ 0.28 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10033
+  Blobs before RANSAC: 12
+  Blobs after  RANSAC: 7
+  Detection without RANSAC: 5/6 (83%)
+  Detection with    RANSAC: 2/6 (33%)
+  4004: ❌ nearest=15.3 mm
+  4005: ✅ 0.53 mm
+  4006: ✅ 0.67 mm
+  4007: ❌ nearest=135.9 mm
+  4008: ❌ nearest=78.0 mm
+  4009: ❌ nearest=90.1 mm
+
+────────────────────────────────────────────────────────────
+Patient 10034
+  Blobs before RANSAC: 5
+  Blobs after  RANSAC: 3
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 3/6 (50%)
+  4004: ✅ 0.35 mm
+  4005: ✅ 0.49 mm
+  4006: ✅ 1.17 mm
+  4007: ❌ nearest=inf mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10037
+  Blobs before RANSAC: 7
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.70 mm
+  4005: ✅ 0.17 mm
+  4006: ✅ 0.39 mm
+  4007: ✅ 0.42 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10038
+  Blobs before RANSAC: 41
+  Blobs after  RANSAC: 21
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=128.3 mm
+  4005: ❌ nearest=133.7 mm
+  4006: ❌ nearest=132.8 mm
+  4007: ❌ nearest=136.3 mm
+  4008: ❌ nearest=43.6 mm
+  4009: ❌ nearest=44.8 mm
+
+────────────────────────────────────────────────────────────
+Patient 10040
+  Blobs before RANSAC: 73
+  Blobs after  RANSAC: 25
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 2/6 (33%)
+  4004: ❌ nearest=53.7 mm
+  4005: ❌ nearest=53.1 mm
+  4006: ❌ nearest=45.9 mm
+  4007: ❌ nearest=38.4 mm
+  4008: ✅ 0.53 mm
+  4009: ✅ 0.70 mm
+
+────────────────────────────────────────────────────────────
+Patient 10041
+  Blobs before RANSAC: 6
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 1.22 mm
+  4005: ✅ 1.03 mm
+  4006: ✅ 0.90 mm
+  4007: ✅ 1.00 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10042
+  Blobs before RANSAC: 18
+  Blobs after  RANSAC: 10
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=33.4 mm
+  4005: ❌ nearest=25.0 mm
+  4006: ❌ nearest=25.1 mm
+  4007: ❌ nearest=15.7 mm
+  4008: ❌ nearest=75.6 mm
+  4009: ❌ nearest=66.9 mm
+
+────────────────────────────────────────────────────────────
+Patient 10043
+  Blobs before RANSAC: 5
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.52 mm
+  4005: ✅ 0.34 mm
+  4006: ✅ 0.62 mm
+  4007: ✅ 0.53 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10044
+  Blobs before RANSAC: 26
+  Blobs after  RANSAC: 8
+  Detection without RANSAC: 5/6 (83%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=111.3 mm
+  4005: ❌ nearest=121.0 mm
+  4006: ❌ nearest=123.2 mm
+  4007: ❌ nearest=125.4 mm
+  4008: ❌ nearest=65.4 mm
+  4009: ❌ nearest=59.3 mm
+
+────────────────────────────────────────────────────────────
+Patient 10045
+  Blobs before RANSAC: 6
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.66 mm
+  4005: ✅ 0.92 mm
+  4006: ✅ 1.16 mm
+  4007: ✅ 0.32 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10046
+  Blobs before RANSAC: 35
+  Blobs after  RANSAC: 12
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=70.8 mm
+  4005: ❌ nearest=62.4 mm
+  4006: ❌ nearest=60.5 mm
+  4007: ❌ nearest=54.4 mm
+  4008: ❌ nearest=94.0 mm
+  4009: ❌ nearest=86.5 mm
+
+────────────────────────────────────────────────────────────
+Patient 10047
+  Blobs before RANSAC: 11
+  Blobs after  RANSAC: 5
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=77.7 mm
+  4005: ❌ nearest=82.9 mm
+  4006: ❌ nearest=80.7 mm
+  4007: ❌ nearest=79.2 mm
+  4008: ❌ nearest=54.7 mm
+  4009: ❌ nearest=49.6 mm
+
+────────────────────────────────────────────────────────────
+Patient 10048
+  Blobs before RANSAC: 4
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 1.07 mm
+  4005: ✅ 0.83 mm
+  4006: ✅ 0.45 mm
+  4007: ✅ 1.13 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10050
+  Blobs before RANSAC: 22
+  Blobs after  RANSAC: 18
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=55.9 mm
+  4005: ❌ nearest=47.7 mm
+  4006: ❌ nearest=44.8 mm
+  4007: ❌ nearest=48.3 mm
+  4008: ❌ nearest=86.3 mm
+  4009: ❌ nearest=80.5 mm
+
+────────────────────────────────────────────────────────────
+Patient 10051
+  Blobs before RANSAC: 23
+  Blobs after  RANSAC: 12
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=72.8 mm
+  4005: ❌ nearest=63.7 mm
+  4006: ❌ nearest=58.4 mm
+  4007: ❌ nearest=55.8 mm
+  4008: ❌ nearest=66.6 mm
+  4009: ❌ nearest=57.9 mm
+
+────────────────────────────────────────────────────────────
+Patient 10052
+  Blobs before RANSAC: 8
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 5/6 (83%)
+  Detection with    RANSAC: 2/6 (33%)
+  4004: ❌ nearest=16.4 mm
+  4005: ✅ 0.55 mm
+  4006: ✅ 0.42 mm
+  4007: ❌ nearest=102.7 mm
+  4008: ❌ nearest=104.5 mm
+  4009: ❌ nearest=98.0 mm
+
+────────────────────────────────────────────────────────────
+Patient 10053
+  Blobs before RANSAC: 31
+  Blobs after  RANSAC: 16
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=107.9 mm
+  4005: ❌ nearest=108.8 mm
+  4006: ❌ nearest=106.5 mm
+  4007: ❌ nearest=103.3 mm
+  4008: ❌ nearest=47.7 mm
+  4009: ❌ nearest=45.1 mm
+
+────────────────────────────────────────────────────────────
+Patient 10054
+  Blobs before RANSAC: 15
+  Blobs after  RANSAC: 6
+  Detection without RANSAC: 5/6 (83%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=127.7 mm
+  4005: ❌ nearest=116.5 mm
+  4006: ❌ nearest=101.3 mm
+  4007: ❌ nearest=91.5 mm
+  4008: ❌ nearest=87.6 mm
+  4009: ❌ nearest=76.2 mm
+
+────────────────────────────────────────────────────────────
+Patient 10055
+  Blobs before RANSAC: 12
+  Blobs after  RANSAC: 8
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 2/6 (33%)
+  4004: ❌ nearest=71.2 mm
+  4005: ❌ nearest=74.7 mm
+  4006: ❌ nearest=71.1 mm
+  4007: ❌ nearest=67.0 mm
+  4008: ✅ 2.30 mm
+  4009: ✅ 1.63 mm
+
+────────────────────────────────────────────────────────────
+Patient 10056
+  Blobs before RANSAC: 6
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 3/6 (50%)
+  4004: ❌ nearest=18.2 mm
+  4005: ✅ 0.39 mm
+  4006: ✅ 0.50 mm
+  4007: ✅ 0.27 mm
+  4008: ❌ nearest=107.3 mm
+  4009: ❌ nearest=102.1 mm
+
+────────────────────────────────────────────────────────────
+Patient 10058
+  Blobs before RANSAC: 6
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.81 mm
+  4005: ✅ 0.59 mm
+  4006: ✅ 0.93 mm
+  4007: ✅ 0.72 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10060
+  Blobs before RANSAC: 6
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 5/6 (83%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.91 mm
+  4005: ✅ 0.83 mm
+  4006: ✅ 0.82 mm
+  4007: ✅ 0.85 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10061
+  Blobs before RANSAC: 13
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 2/6 (33%)
+  4004: ❌ nearest=78.4 mm
+  4005: ❌ nearest=87.6 mm
+  4006: ❌ nearest=89.9 mm
+  4007: ❌ nearest=96.8 mm
+  4008: ✅ 2.41 mm
+  4009: ✅ 8.68 mm
+
+────────────────────────────────────────────────────────────
+Patient 10062
+  Blobs before RANSAC: 10
+  Blobs after  RANSAC: 5
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.90 mm
+  4005: ✅ 0.49 mm
+  4006: ✅ 0.25 mm
+  4007: ✅ 0.42 mm
+  4008: ❌ nearest=98.5 mm
+  4009: ❌ nearest=106.6 mm
+
+────────────────────────────────────────────────────────────
+Patient 10063
+  Blobs before RANSAC: 67
+  Blobs after  RANSAC: 24
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=74.9 mm
+  4005: ❌ nearest=67.5 mm
+  4006: ❌ nearest=62.3 mm
+  4007: ❌ nearest=54.2 mm
+  4008: ❌ nearest=51.3 mm
+  4009: ❌ nearest=45.4 mm
+
+────────────────────────────────────────────────────────────
+Patient 10064
+  Blobs before RANSAC: 8
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 5/6 (83%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.11 mm
+  4005: ✅ 1.04 mm
+  4006: ✅ 1.57 mm
+  4007: ✅ 0.96 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10065
+  Blobs before RANSAC: 8
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 1.33 mm
+  4005: ✅ 1.36 mm
+  4006: ✅ 0.52 mm
+  4007: ✅ 0.33 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10066
+  Blobs before RANSAC: 10
+  Blobs after  RANSAC: 7
+  Detection without RANSAC: 5/6 (83%)
+  Detection with    RANSAC: 2/6 (33%)
+  4004: ❌ nearest=63.0 mm
+  4005: ❌ nearest=46.6 mm
+  4006: ❌ nearest=40.3 mm
+  4007: ❌ nearest=32.0 mm
+  4008: ✅ 4.00 mm
+  4009: ✅ 4.80 mm
+
+────────────────────────────────────────────────────────────
+Patient 10067
+  Blobs before RANSAC: 6
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 6/6 (100%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 0.86 mm
+  4005: ✅ 0.77 mm
+  4006: ✅ 0.47 mm
+  4007: ✅ 0.69 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 10302
+  Blobs before RANSAC: 6
+  Blobs after  RANSAC: 4
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 4/6 (67%)
+  4004: ✅ 1.03 mm
+  4005: ✅ 0.53 mm
+  4006: ✅ 0.46 mm
+  4007: ✅ 0.28 mm
+  4008: ❌ nearest=inf mm
+  4009: ❌ nearest=inf mm
+
+────────────────────────────────────────────────────────────
+Patient 11002
+  Blobs before RANSAC: 12
+  Blobs after  RANSAC: 6
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 1/6 (17%)
+  4004: ❌ nearest=26.3 mm
+  4005: ✅ 9.73 mm
+  4006: ❌ nearest=48.1 mm
+  4007: ❌ nearest=38.6 mm
+  4008: ❌ nearest=90.6 mm
+  4009: ❌ nearest=85.9 mm
+
+────────────────────────────────────────────────────────────
+Patient 11008
+  Blobs before RANSAC: 37
+  Blobs after  RANSAC: 13
+  Detection without RANSAC: 4/6 (67%)
+  Detection with    RANSAC: 0/6 (0%)
+  4004: ❌ nearest=83.8 mm
+  4005: ❌ nearest=80.8 mm
+  4006: ❌ nearest=76.2 mm
+  4007: ❌ nearest=67.7 mm
+  4008: ❌ nearest=61.2 mm
+  4009: ❌ nearest=53.5 mm
+
+WHAT TO DO NEXT:
+  If RANSAC detection rate < 70%:
+    → Increase RANSAC_ITERATIONS to 500
+    → Increase RANSAC_INLIER_DIST_MM to 12–15
+    → Check if RV_Y_OFFSET_MM correctly splits LV vs RV blobs
+    → Try adding a second RANSAC pass on the remaining outliers
+
+  If detection rate > 75%:
+    → The CV pipeline is now strong enough to label raw patients
+    → Use cv_ransac_results.json blobs as pseudo-labels for
+       Dataset 2 (308 raw patients)
+    → Feed those pseudo-labels into Step 3 normalization
+    → Retrain the ML model from Step 4b with 300+ patients
+
+  PyTorch path (your friend's suggestion):
+    → Replace the RANSAC blob filter with a small PointNet model
+       that learns which blobs belong to leads vs bone
+    → Input: blob position + n_voxels → output: lead/not-lead
+    → Train on the 86 GT patients, apply to 308 raw patients
+    → This is the natural bridge from classical CV to deep learning

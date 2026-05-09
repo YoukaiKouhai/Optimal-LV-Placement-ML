@@ -1,0 +1,197 @@
+{
+  "baseline": {
+    "HU_THRESHOLD": 2000,
+    "BLOB_MAX_VOXELS": 600,
+    "BLOB_MIN_VOXELS": 8,
+    "HEART_SEARCH_RADIUS_MM": 120.0,
+    "MATCH_RADIUS_MM": 10.0
+  },
+  "best_params": {
+    "HU_THRESHOLD": 2928,
+    "BLOB_MAX_VOXELS": 879,
+    "BLOB_MIN_VOXELS": 7,
+    "HEART_SEARCH_RADIUS_MM": 120.0,
+    "MATCH_RADIUS_MM": 10.0
+  },
+  "sweep": {
+    "HU_THRESHOLD": [
+      {
+        "value": 2000,
+        "det_pct": 56.5,
+        "mean_err_mm": 1.379,
+        "blobs_per_pt": 8.2,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "baseline"
+      },
+      {
+        "value": 2200,
+        "det_pct": 63.5,
+        "mean_err_mm": 1.284,
+        "blobs_per_pt": 8.5,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "up+10%"
+      },
+      {
+        "value": 2420,
+        "det_pct": 65.5,
+        "mean_err_mm": 1.199,
+        "blobs_per_pt": 8.8,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "up+10%"
+      },
+      {
+        "value": 2662,
+        "det_pct": 71.5,
+        "mean_err_mm": 1.251,
+        "blobs_per_pt": 10.6,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "up+10%"
+      },
+      {
+        "value": 2928,
+        "det_pct": 75.1,
+        "mean_err_mm": 1.089,
+        "blobs_per_pt": 14.6,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "up+10%"
+      },
+      {
+        "value": 3221,
+        "det_pct": 0,
+        "mean_err_mm": NaN,
+        "blobs_per_pt": 0.0,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "up+10%"
+      }
+    ],
+    "BLOB_MAX_VOXELS": [
+      {
+        "value": 600,
+        "det_pct": 56.5,
+        "mean_err_mm": 1.379,
+        "blobs_per_pt": 8.2,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "baseline"
+      },
+      {
+        "value": 660,
+        "det_pct": 57.3,
+        "mean_err_mm": 1.422,
+        "blobs_per_pt": 8.3,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "up+10%"
+      },
+      {
+        "value": 726,
+        "det_pct": 57.9,
+        "mean_err_mm": 1.452,
+        "blobs_per_pt": 8.3,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "up+10%"
+      },
+      {
+        "value": 799,
+        "det_pct": 58.8,
+        "mean_err_mm": 1.467,
+        "blobs_per_pt": 8.4,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "up+10%"
+      },
+      {
+        "value": 879,
+        "det_pct": 59.0,
+        "mean_err_mm": 1.464,
+        "blobs_per_pt": 8.5,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "up+10%"
+      },
+      {
+        "value": 967,
+        "det_pct": 59.0,
+        "mean_err_mm": 1.464,
+        "blobs_per_pt": 8.5,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "up+10%"
+      }
+    ],
+    "BLOB_MIN_VOXELS": [
+      {
+        "value": 8,
+        "det_pct": 56.5,
+        "mean_err_mm": 1.379,
+        "blobs_per_pt": 8.2,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "baseline"
+      },
+      {
+        "value": 9,
+        "det_pct": 56.5,
+        "mean_err_mm": 1.396,
+        "blobs_per_pt": 7.8,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "up+10%"
+      },
+      {
+        "value": 7,
+        "det_pct": 57.3,
+        "mean_err_mm": 1.447,
+        "blobs_per_pt": 8.6,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "down-2%"
+      },
+      {
+        "value": 6,
+        "det_pct": 57.3,
+        "mean_err_mm": 1.447,
+        "blobs_per_pt": 9.2,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "down-2%"
+      }
+    ],
+    "HEART_SEARCH_RADIUS_MM": [
+      {
+        "value": 120.0,
+        "det_pct": 56.5,
+        "mean_err_mm": 1.379,
+        "blobs_per_pt": 8.2,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "baseline"
+      },
+      {
+        "value": 132.0,
+        "det_pct": 56.5,
+        "mean_err_mm": 1.379,
+        "blobs_per_pt": 8.6,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "up+10%"
+      },
+      {
+        "value": 117.6,
+        "det_pct": 56.5,
+        "mean_err_mm": 1.379,
+        "blobs_per_pt": 8.1,
+        "n_detected": null,
+        "n_missed": null,
+        "status": "down-2%"
+      }
+    ]
+  }
+}

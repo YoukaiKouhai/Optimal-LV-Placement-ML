@@ -1,55 +1,32 @@
-import pandas as pd
-import json
 import numpy as np
+import nibabel as nib
+import matplotlib.pyplot as plt
+import json
 from pathlib import Path
 
-from chatgpt_p3_0_EXTRACT_CENTROIDS import patient_results
 
-def convert_lps_to_ras(coord):
-    """
-    Convert LPS -> RAS
-    """
+from chatgpt_p3_0_EXTRACT_CENTROIDS import  patient_results
+from chatgpt_p4_1 import load_horos_csv, convert_lps_to_ras, compute_error_mm
 
-    x, y, z = coord
-
-    return np.array([
-        -x,
-        -y,
-        z
-    ])
-
-def load_horos_csv(csv_path):
-
-    df = pd.read_csv(
-        csv_path,
-        header=None
-    )
-
-    df.columns = [
-        "label",
-        "x",
-        "y",
-        "z"
-    ]
-
-    return df
-
-def compute_error_mm(
-    automated_coord,
-    manual_coord
+def world_to_voxel(
+    world_coord,
+    affine
 ):
+    """
+    Convert world coordinates (mm)
+    back to voxel coordinates.
+    """
 
-    automated_coord = np.array(
-        automated_coord
+    inverse_affine = np.linalg.inv(
+        affine
     )
 
-    manual_coord = np.array(
-        manual_coord
+    voxel_coord = nib.affines.apply_affine(
+        inverse_affine,
+        world_coord
     )
 
-    return np.linalg.norm(
-        automated_coord - manual_coord
-    )
+    return voxel_coord
 
 # ============================================================
 # LOAD REGISTRY
@@ -77,6 +54,24 @@ patient = registry[patient_id]
 manual_df = load_horos_csv(
     patient["roi_csv"]
 )
+
+# ------------------------------------------------------------
+# LOAD IMAGES
+# ------------------------------------------------------------
+
+raw_nii = nib.load(
+    patient["raw_img"]
+)
+
+seg_nii = nib.load(
+    patient["segmentation"]
+)
+
+raw_data = raw_nii.get_fdata()
+
+seg_data = seg_nii.get_fdata()
+
+affine = seg_nii.affine
 
 # ============================================================
 # VALIDATION
@@ -155,3 +150,42 @@ for _, row in manual_df.iterrows():
         f"Error (mm): "
         f"{error_mm:.4f}"
     )
+
+
+manual_world_coord = np.array([
+    row["x"],
+    row["y"],
+    row["z"]
+])
+
+# RAS -> LPS
+manual_world_coord = np.array([
+    -manual_world_coord[0],
+    -manual_world_coord[1],
+     manual_world_coord[2]
+])
+
+manual_voxel = world_to_voxel(
+    manual_world_coord,
+    affine
+)
+
+mx, my, mz = manual_voxel
+
+plt.scatter(
+    my,
+    mx,
+    c="cyan",
+    s=40,
+    label="Automated"
+)
+
+plt.scatter(
+    my,
+    mx,
+    c="magenta",
+    s=40,
+    label="Manual"
+)
+
+plt.legend()

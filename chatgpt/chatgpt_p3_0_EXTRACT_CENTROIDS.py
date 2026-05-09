@@ -23,66 +23,66 @@ with open(REGISTRY_PATH, "r") as f:
 LABEL_METADATA = {
 
     4001: {
-        "name": "LL1",
-        "lead_type": "LV",
-        "electrode_order": 1,
-        "description": "LV distal tip"
+        "name": "ANT",
+        "lead_type": "LANDMARK",
+        "electrode_order": None,
+        "description": "Anterior wall reference"
     },
 
     4002: {
-        "name": "LL2",
-        "lead_type": "LV",
-        "electrode_order": 2,
-        "description": "LV electrode 2"
-    },
-
-    4003: {
-        "name": "LL3",
-        "lead_type": "LV",
-        "electrode_order": 3,
-        "description": "LV electrode 3"
-    },
-
-    4004: {
-        "name": "LL4",
-        "lead_type": "LV",
-        "electrode_order": 4,
-        "description": "LV proximal electrode"
-    },
-
-    4005: {
-        "name": "RL1",
-        "lead_type": "RV",
-        "electrode_order": 1,
-        "description": "RV distal tip"
-    },
-
-    4006: {
-        "name": "RL2",
-        "lead_type": "RV",
-        "electrode_order": 2,
-        "description": "RV proximal electrode"
-    },
-
-    4007: {
         "name": "APEX",
         "lead_type": "LANDMARK",
         "electrode_order": None,
         "description": "Cardiac apex"
     },
 
-    4008: {
+    4003: {
         "name": "BASE",
         "lead_type": "LANDMARK",
         "electrode_order": None,
         "description": "Mitral valve/base"
     },
 
+    4004: {
+        "name": "LL1",
+        "lead_type": "LV",
+        "electrode_order": 1,
+        "description": "LV distal tip"
+    },
+
+    4005: {
+        "name": "LL2",
+        "lead_type": "LV",
+        "electrode_order": 2,
+        "description": "LV electrode 2"
+    },
+
+    4006: {
+        "name": "LL3",
+        "lead_type": "LV",
+        "electrode_order": 3,
+        "description": "LV electrode 3"
+    },
+
+    4007: {
+        "name": "LL4",
+        "lead_type": "LV",
+        "electrode_order": 4,
+        "description": "LV proximal electrode"
+    },
+
+    4008: {
+        "name": "RL1",
+        "lead_type": "RV",
+        "electrode_order": 1,
+        "description": "RV distal tip"
+    },
+
     4009: {
-        "name": "ANT",
-        "lead_type": "LANDMARK",
-        "electrode_order": None,
-        "description": "Anterior wall reference"
+        "name": "RL2",
+        "lead_type": "RV",
+        "electrode_order": 2,
+        "description": "RV proximal electrode"
     }
 }
 

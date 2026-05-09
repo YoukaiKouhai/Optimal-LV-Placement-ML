@@ -1,0 +1,39 @@
+{
+  "pop_frame": {
+    "mean_axis_dir": [
+      -0.5672514464422008,
+      0.6956112634415151,
+      0.4408523184497617
+    ],
+    "mean_ant_dir": [
+      0.23901034039988728,
+      -0.35946460893481363,
+      0.9020306270328472
+    ],
+    "mean_axis_len": 87.29315509223308,
+    "n_gt_patients": 86
+  },
+  "split_results": {
+    "MeanBaseline": {
+      "LL1_t_mae": 0.1646,
+      "LL1_ang_mae": 15.49,
+      "n_patients": 86
+    },
+    "gt_only": {
+      "LL1_t_mae": 0.1668,
+      "LL1_ang_mae": 16.48,
+      "n_patients": 86
+    },
+    "pseudo_only": {
+      "LL1_t_mae": 0.1698,
+      "LL1_ang_mae": 19.8,
+      "n_patients": 38
+    },
+    "combined": {
+      "LL1_t_mae": 0.1864,
+      "LL1_ang_mae": 17.29,
+      "n_patients": 124
+    }
+  },
+  "mean_axis_mm": 87.29315509223308
+}
