@@ -302,7 +302,7 @@ output_data = {
     "validation_error_mm": float(validation_error) if seg_available else None
 }
 
-output_path = Path(f"patient_{patient_id}_phase6_detection.json")
+output_path = Path(f"patient_{patient_id}_phase6_a_detection.json")
 with open(output_path, "w") as f:
     json.dump(output_data, f, indent=4)
 
