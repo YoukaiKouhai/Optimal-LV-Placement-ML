@@ -1,0 +1,44 @@
+Step 8b — MIP CNN Fixed (Voxel-Space Triangulation)
+=================================================================
+Structure      N    Mean err    Median      <5mm     <10mm
+──────────────────────────────────────────────────────
+  ANT           59     37.35 mm   35.82 mm     0.0%     3.4%
+  APEX          59     37.76 mm   36.33 mm     0.0%     0.0%
+  BASE          59     34.75 mm   33.42 mm     0.0%     1.7%
+  LL1           59     38.49 mm   37.27 mm     1.7%     1.7%
+  LL2           59     41.80 mm   38.27 mm     0.0%     0.0%
+  LL3           59     41.88 mm   41.57 mm     0.0%     1.7%
+  LL4           59     41.97 mm   40.09 mm     0.0%     0.0%
+  RL1           59     40.74 mm   36.59 mm     0.0%     0.0%
+  RL2           59     42.23 mm   41.00 mm     0.0%     0.0%
+──────────────────────────────────────────────────────
+  OVERALL    531     39.66 mm   37.57 mm     0.2%     0.9%
+
+2D Pixel Accuracy:
+  Structure          Axial       Coronal      Sagittal
+  ANT               0.2351        0.3160        0.3109
+  APEX              0.2522        0.3518        0.3994
+  BASE              0.1168        0.1269        0.1385
+  LL1               0.1975        0.2143        0.3090
+  LL2               0.1561        0.2391        0.3251
+  LL3               0.1654        0.1912        0.2640
+  LL4               0.2020        0.2156        0.2705
+  RL1               0.2027        0.1794        0.2463
+  RL2               0.2078        0.1595        0.2266
+
+COMPARISON:
+  Step 2  Seg centroid (GT seg needed)  : ~0.1 mm
+  Step 5b Classical CV (no seg)         :  1.4 mm (when detected)
+  Step 6  PointNet     (no seg)         :  1.2 mm (when detected)
+  Step 8  MIP CNN      (broken)         : 55.6 mm (coord bug)
+  Step 8b MIP CNN      (fixed)          : 39.7 mm  ← this script
+
+INTERPRETING RESULTS:
+  Error < 5mm   → MIP CNN is competitive with classical CV
+  Error 5-15mm  → useful seed for PointNet; increase IMG_SIZE
+  Error > 15mm  → try these improvements:
+    • IMG_SIZE: 160 → 256 (sharper electrode spots)
+    • Tune HM_SIGMA_NORM / LOSS_HM_WEIGHT (Gaussian heatmap head)
+    • Pre-crop to heart ROI before MIP (reduces background noise)
+    • Add pseudo-labeled raw patients from Step 6c
+=================================================================

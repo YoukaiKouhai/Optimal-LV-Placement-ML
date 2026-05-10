@@ -1,0 +1,29 @@
+Step 8 — MIP CNN Results
+=================================================================
+  Electrode     N    Mean err    Median      <5mm     <10mm
+  LL1         59     60.86 mm   60.68 mm     0.0%     0.0%
+  LL2         59     60.74 mm   59.79 mm     0.0%     0.0%
+  LL3         59     56.18 mm   55.81 mm     0.0%     0.0%
+  LL4         59     51.70 mm   51.52 mm     0.0%     0.0%
+  RL1         59     55.16 mm   54.14 mm     0.0%     0.0%
+  RL2         59     49.05 mm   47.98 mm     0.0%     0.0%
+  OVERALL    354     55.61 mm   56.64 mm     0.0%     0.0%
+
+COMPARISON ACROSS ALL METHODS:
+  Step 2  Seg centroid  (GT seg needed)  : ~0.1 mm  [gold standard]
+  Step 5b Classical CV  (no seg needed)  : ~1.4 mm  when detected
+  Step 6  PointNet blob (no seg needed)  : ~1.2 mm  when detected
+  Step 8  MIP CNN       (no seg needed)  : 55.6 mm  ← this step
+
+INTERPRETATION OF MIP CNN:
+  Error < 5mm  → clinically acceptable for lead localization
+  Error < 10mm → useful for approximate normalization
+  Error > 10mm → model needs more data or larger image size
+
+TIPS TO IMPROVE:
+  • Increase IMG_SIZE from 128 to 256 (sharper electrode spots)
+  • Add more augmentation (small rotations ±10°)
+  • Use focal loss weighted to electrode pixel locations
+  • Train on pseudo-labeled raw patients from Step 6c
+  • Try heatmap regression instead of direct coordinate output
+=================================================================

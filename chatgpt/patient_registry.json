@@ -12,11 +12,11 @@
         "has_ground_truth": true,
         "has_png_slices": true,
         "best_detection_params": {
-            "HU_THRESHOLD": 2821,
-            "sigma": 0.9,
-            "min_blob_size": 21,
-            "max_blob_size": 418,
-            "avg_error_mm": 11.681975128336523
+            "HU_THRESHOLD": 3069,
+            "sigma": 0.1,
+            "min_blob_size": 23,
+            "max_blob_size": 441,
+            "avg_error_mm": 11.628169650801617
         }
     },
     "10002": {
