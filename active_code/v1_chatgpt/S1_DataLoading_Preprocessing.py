@@ -128,13 +128,14 @@ class Config:
     raw_unlabeled_images_dir: Optional[str] = None
 
     # Working directories
-    work_dir: str = "runs/cardiac_leads_ssl_landmark_debug"
+    work_dir: str = "runs/cardiac_leads_multichannel_landmarks"
 
     # Reproducibility
     seed: int = 42
 
     # Data
     num_classes: int = 10
+    num_landmark_classes: int = 9
     labels_already_contiguous: bool = False
     label_dilation_radius_voxels: int = 6
     target_spacing_dhw: Tuple[float, float, float] = (1.0, 1.0, 1.0)
@@ -186,6 +187,8 @@ class Config:
     # Loss
     lambda_dice: float = 1.0
     lambda_ce: float = 1.0
+    bce_pos_weight_max: float = 50.0
+    prediction_threshold: float = 0.50
 
     # Metrics
     hausdorff_percentile: Optional[float] = 95.0  # set None for full HD

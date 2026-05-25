@@ -27,32 +27,49 @@ def compute_class_weights(
     num_classes: int,
 ) -> torch.Tensor:
     counts = np.zeros(num_classes, dtype=np.float64)
+    total_voxels = 0
     for path in train_npz_paths:
         with np.load(path, allow_pickle=False) as data:
             y = data["label"].astype(np.int64)
+        total_voxels += y.size
         unique, freq = np.unique(y, return_counts=True)
         counts[unique] += freq
 
-    counts = np.maximum(counts, 1.0)
-    weights = counts.sum() / counts
-    weights = weights / weights.mean()
-
-    # So background does not dominate the CE term
-    weights[0] *= 0.25
-    return torch.tensor(weights, dtype=torch.float32)
+    positives = np.maximum(counts[1:], 1.0)
+    negatives = np.maximum(total_voxels - positives, 1.0)
+    pos_weight = np.minimum(negatives / positives, cfg.bce_pos_weight_max)
+    return torch.tensor(pos_weight, dtype=torch.float32)
 
 
-def build_loss_fn(class_weights: torch.Tensor, cfg: Config) -> DiceCELoss:
-    return DiceCELoss(
-        include_background=False,   # for Dice only
-        to_onehot_y=True,
-        softmax=True,
-        weight=class_weights,
+def labels_to_multichannel_targets(labels: torch.Tensor, cfg: Config) -> torch.Tensor:
+    squeezed = labels.squeeze(1).long()
+    channels = [(squeezed == class_id).float() for class_id in range(1, cfg.num_classes)]
+    return torch.stack(channels, dim=1)
+
+
+class LandmarkMaskLoss(torch.nn.Module):
+    def __init__(self, pos_weight: torch.Tensor, lambda_dice: float, lambda_bce: float) -> None:
+        super().__init__()
+        self.register_buffer("pos_weight", pos_weight)
+        self.lambda_dice = lambda_dice
+        self.lambda_bce = lambda_bce
+
+    def forward(self, logits: torch.Tensor, targets: torch.Tensor) -> torch.Tensor:
+        pos_weight = self.pos_weight.view(1, -1, *([1] * (targets.ndim - 2)))
+        bce_loss = F.binary_cross_entropy_with_logits(logits, targets, pos_weight=pos_weight)
+        probs = torch.sigmoid(logits)
+        reduce_dims = tuple(range(2, probs.ndim))
+        intersection = (probs * targets).sum(dim=reduce_dims)
+        denom = probs.sum(dim=reduce_dims) + targets.sum(dim=reduce_dims)
+        dice_loss = 1.0 - ((2.0 * intersection + 1e-5) / (denom + 1e-5)).mean()
+        return (self.lambda_bce * bce_loss) + (self.lambda_dice * dice_loss)
+
+
+def build_loss_fn(class_weights: torch.Tensor, cfg: Config) -> LandmarkMaskLoss:
+    return LandmarkMaskLoss(
+        pos_weight=class_weights,
         lambda_dice=cfg.lambda_dice,
-        lambda_ce=cfg.lambda_ce,
-        squared_pred=False,
-        smooth_nr=1e-5,
-        smooth_dr=1e-5,
+        lambda_bce=cfg.lambda_ce,
     )
 
 
@@ -71,10 +88,14 @@ def mean_dice_from_logits(
     labels: torch.Tensor,
     num_classes: int,
     include_background: bool = False,
+    threshold: float = 0.5,
 ) -> float:
-    preds = torch.argmax(logits, dim=1, keepdim=True)
-    pred_oh = labels_to_one_hot(preds, num_classes)
-    true_oh = labels_to_one_hot(labels, num_classes)
+    probs = torch.sigmoid(logits)
+    pred_oh = (probs >= threshold).float()
+    true_oh = torch.stack(
+        [(labels.squeeze(1).long() == class_id).float() for class_id in range(1, num_classes)],
+        dim=1,
+    )
 
     reduce_dims = tuple(range(2, pred_oh.ndim))
     inter = (pred_oh * true_oh).sum(dim=reduce_dims)
@@ -86,9 +107,6 @@ def mean_dice_from_logits(
         torch.full_like(denom, torch.nan),
     )
 
-    if not include_background:
-        dice = dice[:, 1:]
-
     return float(torch.nanmean(dice).item())
 
 
@@ -97,13 +115,26 @@ def mean_centroid_distance_from_logits(
     logits: torch.Tensor,
     labels: torch.Tensor,
     class_ids: Sequence[int],
+    threshold: float = 0.5,
 ) -> float:
-    preds = torch.argmax(logits, dim=1, keepdim=True)
+    probs = torch.sigmoid(logits)
     distances: List[float] = []
 
-    for batch_idx in range(preds.shape[0]):
+    for batch_idx in range(probs.shape[0]):
         for class_id in class_ids:
-            pred_coords = torch.nonzero(preds[batch_idx, 0] == class_id, as_tuple=False).float()
+            channel_idx = class_id - 1
+            if channel_idx < 0 or channel_idx >= probs.shape[1]:
+                continue
+            pred_mask = probs[batch_idx, channel_idx] >= threshold
+            if not bool(pred_mask.any()):
+                flat_idx = int(torch.argmax(probs[batch_idx, channel_idx]).item())
+                pred_coords = torch.tensor(
+                    np.unravel_index(flat_idx, tuple(probs.shape[2:])),
+                    device=probs.device,
+                    dtype=torch.float32,
+                )[None, :]
+            else:
+                pred_coords = torch.nonzero(pred_mask, as_tuple=False).float()
             true_coords = torch.nonzero(labels[batch_idx, 0] == class_id, as_tuple=False).float()
             if pred_coords.numel() == 0 or true_coords.numel() == 0:
                 continue
@@ -137,7 +168,7 @@ def train_one_epoch(
     model: torch.nn.Module,
     loader: DataLoader,
     optimizer: torch.optim.Optimizer,
-    loss_fn: DiceCELoss,
+    loss_fn: torch.nn.Module,
     scaler: torch.cuda.amp.GradScaler,
     device: torch.device,
     cfg: Config,
@@ -164,7 +195,8 @@ def train_one_epoch(
 
         with torch.autocast(device_type=device.type, enabled=(cfg.amp and device.type == "cuda")):
             logits = model(model_inputs)
-            loss = loss_fn(logits, model_labels)
+            targets = labels_to_multichannel_targets(model_labels, cfg)
+            loss = loss_fn(logits, targets)
 
             # If this batch came from pseudo-labeled data, downweight it.
             # With train_batch_size=1, all patches in the batch are from the same source case.
@@ -185,7 +217,7 @@ def train_one_epoch(
 def validate_one_epoch(
     model: torch.nn.Module,
     loader: DataLoader,
-    loss_fn: DiceCELoss,
+    loss_fn: torch.nn.Module,
     device: torch.device,
     cfg: Config,
 ) -> Dict[str, float]:
@@ -201,11 +233,12 @@ def validate_one_epoch(
 
         with torch.autocast(device_type=device.type, enabled=(cfg.amp and device.type == "cuda")):
             logits = infer_logits(model, images, cfg)
-            loss = loss_fn(logits, labels)
+            targets = labels_to_multichannel_targets(labels, cfg)
+            loss = loss_fn(logits, targets)
 
         losses.append(float(loss.item()))
-        dices.append(mean_dice_from_logits(logits, labels, cfg.num_classes, include_background=False))
-        centroid_distances.append(mean_centroid_distance_from_logits(logits, labels, range(1, cfg.num_classes)))
+        dices.append(mean_dice_from_logits(logits, labels, cfg.num_classes, include_background=False, threshold=cfg.prediction_threshold))
+        centroid_distances.append(mean_centroid_distance_from_logits(logits, labels, range(1, cfg.num_classes), threshold=cfg.prediction_threshold))
 
     return {
         "val_loss": float(np.mean(losses)) if losses else np.nan,
@@ -219,7 +252,7 @@ def fit_model(
     train_loader: DataLoader,
     val_loader: DataLoader,
     optimizer: torch.optim.Optimizer,
-    loss_fn: DiceCELoss,
+    loss_fn: torch.nn.Module,
     device: torch.device,
     cfg: Config,
     epochs: int,

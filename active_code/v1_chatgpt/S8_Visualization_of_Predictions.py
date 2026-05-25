@@ -38,7 +38,10 @@ def save_prediction_overlays(
         case_id = batch["case_id"][0]
 
         logits = infer_logits(model, images, cfg)
-        preds = torch.argmax(logits, dim=1, keepdim=True)
+        probs = torch.sigmoid(logits)
+        best_prob, best_channel = probs.max(dim=1, keepdim=True)
+        preds = best_channel.long() + 1
+        preds = torch.where(best_prob >= cfg.prediction_threshold, preds, torch.zeros_like(preds))
 
         image_np = images[0, 0].cpu().numpy()  # [D,H,W]
         label_np = labels[0, 0].cpu().numpy().astype(np.int32)

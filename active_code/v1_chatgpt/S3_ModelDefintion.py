@@ -22,7 +22,7 @@ def build_model(cfg: Config) -> torch.nn.Module:
     model = UNet(
         spatial_dims=cfg.spatial_dims,
         in_channels=1,
-        out_channels=cfg.num_classes,
+        out_channels=cfg.num_landmark_classes,
         channels=cfg.channels,
         strides=cfg.strides,
         num_res_units=cfg.num_res_units,

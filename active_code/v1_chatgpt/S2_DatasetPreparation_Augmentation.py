@@ -18,7 +18,7 @@ from monai.transforms import (
     EnsureTyped,
     Rand3DElasticd,
     RandAffined,
-    RandCropByLabelClassesd,
+    RandCropByPosNegLabeld,
     RandFlipd,
     RandRotate90d,
     RandScaleIntensityd,
@@ -89,12 +89,12 @@ def build_train_transform(cfg: Config) -> Compose:
         [
             EnsureChannelFirstd(keys=["image", "label"], channel_dim="no_channel"),
             SpatialPadd(keys=["image", "label"], spatial_size=cfg.patch_size_3d, mode=("constant", "constant")),
-            RandCropByLabelClassesd(
+            RandCropByPosNegLabeld(
                 keys=["image", "label"],
                 label_key="label",
                 spatial_size=cfg.patch_size_3d,
-                ratios=cfg.class_sampling_ratios,
-                num_classes=cfg.num_classes,
+                pos=1.0,
+                neg=0.0,
                 num_samples=cfg.samples_per_volume,
             ),
             EnsureTyped(keys=["image", "label"], dtype=(torch.float32, torch.int64), track_meta=False),
@@ -207,7 +207,7 @@ def create_train_loader(
         num_workers=cfg.num_workers,
         pin_memory=cfg.pin_memory,
         persistent_workers=cfg.num_workers > 0,
-        collate_fn=list_data_collate,   # needed because RandCropByLabelClassesd emits lists
+        collate_fn=list_data_collate,   # needed because random crop transforms emit lists
     )
 
 

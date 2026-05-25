@@ -34,6 +34,14 @@ def _load_training_module():
 _training_module = _load_training_module()
 labels_to_one_hot = _training_module.labels_to_one_hot
 
+
+def logits_to_label_map(logits: torch.Tensor, cfg: Config) -> Tuple[torch.Tensor, torch.Tensor]:
+    probs = torch.sigmoid(logits)
+    best_prob, best_channel = probs.max(dim=1, keepdim=True)
+    preds = best_channel.long() + 1
+    preds = torch.where(best_prob >= cfg.prediction_threshold, preds, torch.zeros_like(preds))
+    return preds, probs
+
 def per_sample_overlap_metrics(
     preds: torch.Tensor,
     labels: torch.Tensor,
@@ -120,8 +128,7 @@ def evaluate_model(
         case_id = batch["case_id"][0]
 
         logits = infer_logits(model, images, cfg)
-        probs = torch.softmax(logits, dim=1)
-        preds = torch.argmax(probs, dim=1, keepdim=True)
+        preds, probs = logits_to_label_map(logits, cfg)
 
         dice_np, iou_np = per_sample_overlap_metrics(preds, labels, cfg.num_classes)
 
@@ -139,7 +146,7 @@ def evaluate_model(
 
         # Precision-recall for "electrode vs not-electrode"
         # score = sum of probabilities for classes 1..6
-        y_score_elec = probs[:, ELECTRODE_CLASSES].sum(dim=1).cpu().numpy().ravel()
+        y_score_elec = probs[:, [class_id - 1 for class_id in ELECTRODE_CLASSES]].max(dim=1).values.cpu().numpy().ravel()
         y_true_elec = np.isin(y_true_flat, ELECTRODE_CLASSES)
         pr_acc.update(y_true_binary=y_true_elec, y_score=y_score_elec)
 
