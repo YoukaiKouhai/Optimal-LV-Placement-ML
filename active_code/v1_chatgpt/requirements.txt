@@ -1,0 +1,8 @@
+matplotlib
+monai
+nibabel
+numpy
+pandas
+scikit-learn
+torch
+tqdm

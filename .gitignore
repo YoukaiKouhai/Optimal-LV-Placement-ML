@@ -1,0 +1,27 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Training outputs and regenerated caches
+runs/
+*.pth
+*.pt
+*.ckpt
+
+# Large/local raw data should live outside Git
+data/
+*.nii
+*.nii.gz
+*.npy
+*.npy.gz
+*.npz
+
+# OS/editor noise
+.DS_Store
+._*
+.vscode/
