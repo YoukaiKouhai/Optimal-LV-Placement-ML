@@ -1,0 +1,428 @@
+PS C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML>  & 'C:\Users\austi\AppData\Local\Microsoft\WindowsApps\python3.13.exe' 'c:\Users\austi\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy\launcher' '57514' '--' 'C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\active_code\v1_chatgpt\S9_Output_Main_Execution_Block.py' 
+Using device: cuda
+Preprocessing labeled: 100%|| 59/59 [00:00<00:00, 11152.05it/s]
+Preprocessing unlabeled: 100%|| 222/222 [00:00<00:00, 16648.23it/s]
+Labeled train cases: 47
+Labeled val cases:   12
+Unlabeled cases:     222
+C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\active_code\v1_chatgpt\S4_S5_Training_Semi-Supervised_Pseudo-Lableing.py:206: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(cfg.amp and device.type == "cuda"))
+Train:   0%|                                                             | 0/47 [00:00<?, ?it/s]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 7 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 5 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  32%|▌                                   | 15/47 [01:32<00:39,  1.24s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 5 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 6 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  49%|▍                          | 23/47 [01:41<00:27,  1.14s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 4 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  53%|▋                        | 25/47 [01:43<00:24,  1.12s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 7 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  62%|                    | 29/47 [01:48<00:19,  1.08s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 1 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 2 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 3 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 4 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 8 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  68%|▍                | 32/47 [01:51<00:16,  1.11s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 3 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 5 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Validate:   0%|                                                          | 0/12 [00:00<?, ?it/s]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+[supervised] epoch=001 train_loss=3.68269 val_loss=3.26175 val_dice=0.00000                     
+Train:   0%|                                                             | 0/47 [00:00<?, ?it/s]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 7 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  30%|▍                                    | 14/47 [00:17<00:36,  1.10s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 4 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 6 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  45%|▏                            | 21/47 [00:25<00:27,  1.05s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 5 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 6 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  55%|▊                       | 26/47 [00:30<00:22,  1.08s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 3 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  64%|▏                  | 30/47 [00:35<00:19,  1.14s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 1 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 2 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 8 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+[supervised] epoch=002 train_loss=3.20904 val_loss=3.01867 val_dice=0.00000                     
+Train:   0%|                                                             | 0/47 [00:00<?, ?it/s]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 7 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  32%|▌                                   | 15/47 [00:18<00:34,  1.07s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 1 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 2 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 3 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 8 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  68%|▍                | 32/47 [00:37<00:17,  1.14s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 6 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+[supervised] epoch=003 train_loss=2.88211 val_loss=2.62921 val_dice=0.00001                     
+Train:  34%|▋                                  | 16/47 [00:19<00:33,  1.07s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 1 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 2 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 4 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 8 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+[supervised] epoch=004 train_loss=2.54822 val_loss=2.39118 val_dice=0.00002                     
+[supervised] epoch=005 train_loss=2.34460 val_loss=2.20823 val_dice=0.00004                     
+[supervised] epoch=006 train_loss=2.13378 val_loss=2.11721 val_dice=0.00004                     
+[supervised] epoch=007 train_loss=2.07972 val_loss=2.07936 val_dice=0.00002                     
+[supervised] epoch=008 train_loss=2.00202 val_loss=2.09521 val_dice=0.00005                     
+[supervised] epoch=009 train_loss=2.00046 val_loss=2.03231 val_dice=0.00003                     
+[supervised] epoch=010 train_loss=1.98696 val_loss=2.00246 val_dice=0.00002                     
+[supervised] epoch=011 train_loss=1.97955 val_loss=1.96699 val_dice=0.00005                     
+[supervised] epoch=012 train_loss=1.92066 val_loss=2.00407 val_dice=0.00003                     
+[supervised] epoch=013 train_loss=1.90036 val_loss=1.92310 val_dice=0.00005                     
+[supervised] epoch=014 train_loss=1.90769 val_loss=1.98146 val_dice=0.00004                     
+[supervised] epoch=015 train_loss=1.90121 val_loss=1.98998 val_dice=0.00004                     
+[supervised] epoch=016 train_loss=1.86437 val_loss=1.95960 val_dice=0.00006                     
+[supervised] epoch=017 train_loss=1.85900 val_loss=2.07526 val_dice=0.00005                     
+[supervised] epoch=018 train_loss=1.81787 val_loss=1.96368 val_dice=0.00004                     
+[supervised] epoch=019 train_loss=1.85341 val_loss=2.02616 val_dice=0.00009                     
+[supervised] epoch=020 train_loss=1.83880 val_loss=1.96898 val_dice=0.00006                     
+[supervised] epoch=021 train_loss=1.78999 val_loss=1.93924 val_dice=0.00008                     
+[supervised] epoch=022 train_loss=1.80390 val_loss=1.95388 val_dice=0.00008                     
+[supervised] epoch=023 train_loss=1.81294 val_loss=1.92126 val_dice=0.00006                     
+[supervised] epoch=024 train_loss=1.78917 val_loss=1.96207 val_dice=0.00010                     
+[supervised] epoch=025 train_loss=1.77724 val_loss=1.93574 val_dice=0.00007                     
+[supervised] epoch=026 train_loss=1.76766 val_loss=1.95581 val_dice=0.00005                     
+[supervised] epoch=027 train_loss=1.76560 val_loss=1.93110 val_dice=0.00008                     
+[supervised] epoch=028 train_loss=1.75864 val_loss=1.89734 val_dice=0.00013                     
+[supervised] epoch=029 train_loss=1.73535 val_loss=1.88954 val_dice=0.00011                     
+[supervised] epoch=030 train_loss=1.69990 val_loss=1.88751 val_dice=0.00014                     
+[supervised] epoch=031 train_loss=1.72908 val_loss=1.99919 val_dice=0.00011                     
+[supervised] epoch=032 train_loss=1.74249 val_loss=1.87035 val_dice=0.00011                     
+[supervised] epoch=033 train_loss=1.68003 val_loss=1.94667 val_dice=0.00009                     
+[supervised] epoch=034 train_loss=1.67760 val_loss=1.89346 val_dice=0.00010                     
+[supervised] epoch=035 train_loss=1.68857 val_loss=1.86467 val_dice=0.00013                     
+[supervised] epoch=036 train_loss=1.65478 val_loss=1.88729 val_dice=0.00016                     
+[supervised] epoch=037 train_loss=1.66519 val_loss=2.02679 val_dice=0.00012                     
+[supervised] epoch=038 train_loss=1.65782 val_loss=1.89673 val_dice=0.00011                     
+[supervised] epoch=039 train_loss=1.68025 val_loss=1.92042 val_dice=0.00012                     
+[supervised] epoch=040 train_loss=1.61155 val_loss=1.93501 val_dice=0.00018                     
+[supervised] epoch=041 train_loss=1.63036 val_loss=2.00665 val_dice=0.00019                     
+[supervised] epoch=042 train_loss=1.67137 val_loss=1.92293 val_dice=0.00013                     
+[supervised] epoch=043 train_loss=1.61806 val_loss=1.84519 val_dice=0.00015                     
+[supervised] epoch=044 train_loss=1.64399 val_loss=1.90132 val_dice=0.00019                     
+[supervised] epoch=045 train_loss=1.57652 val_loss=1.80989 val_dice=0.00023                     
+[supervised] epoch=046 train_loss=1.64579 val_loss=1.99396 val_dice=0.00031                     
+[supervised] epoch=047 train_loss=1.66536 val_loss=1.86659 val_dice=0.00031                     
+[supervised] epoch=048 train_loss=1.59407 val_loss=1.84943 val_dice=0.00019                     
+[supervised] epoch=049 train_loss=1.58054 val_loss=1.88293 val_dice=0.00013                     
+[supervised] epoch=050 train_loss=1.55094 val_loss=1.84591 val_dice=0.00019                     
+[supervised] epoch=051 train_loss=1.53307 val_loss=1.93661 val_dice=0.00017                     
+[supervised] epoch=052 train_loss=1.60777 val_loss=1.86725 val_dice=0.00022                     
+[supervised] epoch=053 train_loss=1.49942 val_loss=1.99346 val_dice=0.00025                     
+[supervised] epoch=054 train_loss=1.50488 val_loss=1.90165 val_dice=0.00022                     
+[supervised] epoch=055 train_loss=1.50774 val_loss=1.73922 val_dice=0.00024                     
+[supervised] epoch=056 train_loss=1.52518 val_loss=1.90929 val_dice=0.00022                     
+[supervised] epoch=057 train_loss=1.49610 val_loss=1.82560 val_dice=0.00023                     
+[supervised] epoch=058 train_loss=1.45722 val_loss=1.78978 val_dice=0.00017                     
+[supervised] epoch=059 train_loss=1.51923 val_loss=1.95332 val_dice=0.00024                     
+[supervised] epoch=060 train_loss=1.44793 val_loss=1.80985 val_dice=0.00019                     
+[supervised] epoch=061 train_loss=1.52130 val_loss=1.86498 val_dice=0.00019                     
+[supervised] epoch=062 train_loss=1.43005 val_loss=1.89327 val_dice=0.00018                     
+[supervised] epoch=063 train_loss=1.48580 val_loss=1.85815 val_dice=0.00028                     
+[supervised] epoch=064 train_loss=1.51311 val_loss=1.89302 val_dice=0.00016                     
+[supervised] epoch=065 train_loss=1.49209 val_loss=1.80942 val_dice=0.00031                     
+[supervised] epoch=066 train_loss=1.44685 val_loss=1.83127 val_dice=0.00034                     
+[supervised] epoch=067 train_loss=1.45866 val_loss=1.98179 val_dice=0.00023                     
+[supervised] epoch=068 train_loss=1.43539 val_loss=1.82466 val_dice=0.00027                     
+[supervised] epoch=069 train_loss=1.42285 val_loss=1.72125 val_dice=0.00033                     
+[supervised] epoch=070 train_loss=1.44121 val_loss=1.84426 val_dice=0.00017                     
+[supervised] epoch=071 train_loss=1.43931 val_loss=2.03518 val_dice=0.00021                     
+[supervised] epoch=072 train_loss=1.37300 val_loss=1.73830 val_dice=0.00042                     
+[supervised] epoch=073 train_loss=1.41250 val_loss=1.80707 val_dice=0.00041                     
+[supervised] epoch=074 train_loss=1.37061 val_loss=1.82737 val_dice=0.00029                     
+[supervised] epoch=075 train_loss=1.37555 val_loss=1.87157 val_dice=0.00046                     
+[supervised] epoch=076 train_loss=1.42622 val_loss=1.97706 val_dice=0.00037                     
+[supervised] epoch=077 train_loss=1.43295 val_loss=1.84778 val_dice=0.00033                     
+[supervised] epoch=078 train_loss=1.39127 val_loss=1.98265 val_dice=0.00028                     
+[supervised] epoch=079 train_loss=1.53301 val_loss=1.78067 val_dice=0.00037                     
+[supervised] epoch=080 train_loss=1.41097 val_loss=1.83377 val_dice=0.00030                     
+[supervised] epoch=081 train_loss=1.34748 val_loss=1.75530 val_dice=0.00050                     
+[supervised] epoch=082 train_loss=1.34628 val_loss=1.71374 val_dice=0.00038                     
+[supervised] epoch=083 train_loss=1.36653 val_loss=1.83717 val_dice=0.00028                     
+[supervised] epoch=084 train_loss=1.43480 val_loss=1.81830 val_dice=0.00044                     
+[supervised] epoch=085 train_loss=1.38603 val_loss=1.69008 val_dice=0.00044                     
+[supervised] epoch=086 train_loss=1.31480 val_loss=1.73521 val_dice=0.00049                     
+[supervised] epoch=087 train_loss=1.37141 val_loss=1.75892 val_dice=0.00038                     
+[supervised] epoch=088 train_loss=1.33291 val_loss=1.64683 val_dice=0.00066                     
+[supervised] epoch=089 train_loss=1.31178 val_loss=1.79498 val_dice=0.00041                     
+[supervised] epoch=090 train_loss=1.32436 val_loss=1.71260 val_dice=0.00048                     
+[supervised] epoch=091 train_loss=1.36062 val_loss=1.78663 val_dice=0.00025                     
+[supervised] epoch=092 train_loss=1.36127 val_loss=1.81318 val_dice=0.00046                     
+[supervised] epoch=093 train_loss=1.35043 val_loss=1.70755 val_dice=0.00042                     
+[supervised] epoch=094 train_loss=1.36338 val_loss=1.69646 val_dice=0.00040                     
+[supervised] epoch=095 train_loss=1.36227 val_loss=1.73601 val_dice=0.00046                     
+[supervised] epoch=096 train_loss=1.34959 val_loss=1.66853 val_dice=0.00090                     
+[supervised] epoch=097 train_loss=1.33308 val_loss=1.71623 val_dice=0.00058                     
+[supervised] epoch=098 train_loss=1.29893 val_loss=1.72136 val_dice=0.00054                     
+[supervised] epoch=099 train_loss=1.29989 val_loss=1.89726 val_dice=0.00040                     
+[supervised] epoch=100 train_loss=1.34579 val_loss=1.71397 val_dice=0.00051                     
+[supervised] epoch=101 train_loss=1.38318 val_loss=1.74921 val_dice=0.00031                     
+[supervised] epoch=102 train_loss=1.31609 val_loss=1.75794 val_dice=0.00050                     
+[supervised] epoch=103 train_loss=1.28595 val_loss=1.66960 val_dice=0.00073                     
+[supervised] epoch=104 train_loss=1.33858 val_loss=1.75038 val_dice=0.00059                     
+[supervised] epoch=105 train_loss=1.36077 val_loss=1.78601 val_dice=0.00065                     
+[supervised] epoch=106 train_loss=1.37291 val_loss=1.75957 val_dice=0.00062                     
+[supervised] epoch=107 train_loss=1.30762 val_loss=1.89017 val_dice=0.00056                     
+[supervised] epoch=108 train_loss=1.30304 val_loss=1.76469 val_dice=0.00059                     
+[supervised] epoch=109 train_loss=1.28674 val_loss=1.80754 val_dice=0.00056                     
+[supervised] epoch=110 train_loss=1.28499 val_loss=1.87370 val_dice=0.00052                     
+[supervised] epoch=111 train_loss=1.31087 val_loss=1.77030 val_dice=0.00045                     
+[supervised] epoch=112 train_loss=1.30202 val_loss=1.70600 val_dice=0.00061                     
+[supervised] epoch=113 train_loss=1.29420 val_loss=1.88248 val_dice=0.00061                     
+[supervised] epoch=114 train_loss=1.30336 val_loss=1.67738 val_dice=0.00064                     
+[supervised] epoch=115 train_loss=1.35394 val_loss=1.77781 val_dice=0.00060                     
+[supervised] epoch=116 train_loss=1.31090 val_loss=1.69251 val_dice=0.00092                     
+[supervised] epoch=117 train_loss=1.30114 val_loss=1.84681 val_dice=0.00068                     
+[supervised] epoch=118 train_loss=1.25093 val_loss=1.82212 val_dice=0.00072                     
+[supervised] epoch=119 train_loss=1.26678 val_loss=1.83565 val_dice=0.00068                     
+[supervised] epoch=120 train_loss=1.34639 val_loss=1.74400 val_dice=0.00097                     
+[supervised] epoch=121 train_loss=1.25283 val_loss=1.77450 val_dice=0.00083                     
+[supervised] epoch=122 train_loss=1.30189 val_loss=1.78655 val_dice=0.00043                     
+[supervised] epoch=123 train_loss=1.33625 val_loss=1.94065 val_dice=0.00070                     
+[supervised] epoch=124 train_loss=1.24707 val_loss=1.82591 val_dice=0.00065                     
+[supervised] epoch=125 train_loss=1.27305 val_loss=1.80431 val_dice=0.00075                     
+[supervised] epoch=126 train_loss=1.24317 val_loss=1.66990 val_dice=0.00082                     
+[supervised] epoch=127 train_loss=1.33944 val_loss=1.78931 val_dice=0.00072                     
+[supervised] epoch=128 train_loss=1.29426 val_loss=1.73290 val_dice=0.00097                     
+[supervised] epoch=129 train_loss=1.30442 val_loss=1.69501 val_dice=0.00071                     
+[supervised] epoch=130 train_loss=1.27242 val_loss=1.69130 val_dice=0.00083                     
+[supervised] epoch=131 train_loss=1.26390 val_loss=1.67981 val_dice=0.00075                     
+[supervised] epoch=132 train_loss=1.22667 val_loss=1.68117 val_dice=0.00114                     
+[supervised] epoch=133 train_loss=1.22819 val_loss=1.78203 val_dice=0.00106                     
+[supervised] epoch=134 train_loss=1.21825 val_loss=1.66390 val_dice=0.00084                     
+[supervised] epoch=135 train_loss=1.29108 val_loss=1.77745 val_dice=0.00091                     
+[supervised] epoch=136 train_loss=1.27073 val_loss=1.70104 val_dice=0.00108                     
+[supervised] epoch=137 train_loss=1.22968 val_loss=1.78723 val_dice=0.00076                     
+[supervised] epoch=138 train_loss=1.30062 val_loss=1.71090 val_dice=0.00065                     
+[supervised] epoch=139 train_loss=1.31324 val_loss=1.69114 val_dice=0.00087                     
+[supervised] epoch=140 train_loss=1.27940 val_loss=1.72797 val_dice=0.00070                     
+[supervised] epoch=141 train_loss=1.20362 val_loss=1.62452 val_dice=0.00098                     
+[supervised] epoch=142 train_loss=1.20415 val_loss=1.76175 val_dice=0.00078                     
+[supervised] epoch=143 train_loss=1.32309 val_loss=1.54814 val_dice=0.00143                     
+[supervised] epoch=144 train_loss=1.27555 val_loss=1.72914 val_dice=0.00104                     
+[supervised] epoch=145 train_loss=1.24083 val_loss=1.85428 val_dice=0.00110                     
+[supervised] epoch=146 train_loss=1.29061 val_loss=1.63341 val_dice=0.00104                     
+[supervised] epoch=147 train_loss=1.28631 val_loss=1.63323 val_dice=0.00084                     
+[supervised] epoch=148 train_loss=1.30424 val_loss=1.76278 val_dice=0.00064                     
+[supervised] epoch=149 train_loss=1.30704 val_loss=1.65231 val_dice=0.00121                     
+[supervised] epoch=150 train_loss=1.26424 val_loss=1.88853 val_dice=0.00075                     
+[supervised] epoch=151 train_loss=1.22290 val_loss=1.76050 val_dice=0.00106                     
+[supervised] epoch=152 train_loss=1.23185 val_loss=1.79896 val_dice=0.00139                     
+[supervised] epoch=153 train_loss=1.25197 val_loss=1.81657 val_dice=0.00093                     
+[supervised] epoch=154 train_loss=1.24695 val_loss=1.82448 val_dice=0.00074                     
+[supervised] epoch=155 train_loss=1.26924 val_loss=1.71248 val_dice=0.00076                     
+[supervised] epoch=156 train_loss=1.24429 val_loss=1.77487 val_dice=0.00068                     
+[supervised] epoch=157 train_loss=1.30702 val_loss=1.73312 val_dice=0.00077                     
+[supervised] epoch=158 train_loss=1.23686 val_loss=1.95587 val_dice=0.00074                     
+[supervised] epoch=159 train_loss=1.25778 val_loss=1.69574 val_dice=0.00094                     
+[supervised] epoch=160 train_loss=1.21792 val_loss=1.73331 val_dice=0.00079                     
+[supervised] epoch=161 train_loss=1.25488 val_loss=1.79183 val_dice=0.00100                     
+[supervised] epoch=162 train_loss=1.24245 val_loss=1.67916 val_dice=0.00086                     
+[supervised] epoch=163 train_loss=1.22691 val_loss=1.65272 val_dice=0.00100                     
+[supervised] epoch=164 train_loss=1.19845 val_loss=1.83162 val_dice=0.00114                     
+[supervised] epoch=165 train_loss=1.22588 val_loss=1.69117 val_dice=0.00091                     
+[supervised] epoch=166 train_loss=1.26924 val_loss=1.70114 val_dice=0.00101                     
+[supervised] epoch=167 train_loss=1.22573 val_loss=1.65196 val_dice=0.00058                     
+[supervised] epoch=168 train_loss=1.25818 val_loss=1.81111 val_dice=0.00042                     
+[supervised] epoch=169 train_loss=1.31660 val_loss=1.76504 val_dice=0.00089                     
+[supervised] epoch=170 train_loss=1.27648 val_loss=1.87183 val_dice=0.00083                     
+[supervised] epoch=171 train_loss=1.24068 val_loss=1.64807 val_dice=0.00115                     
+[supervised] epoch=172 train_loss=1.25880 val_loss=1.69129 val_dice=0.00071                     
+[supervised] epoch=173 train_loss=1.18805 val_loss=1.77683 val_dice=0.00093                     
+[supervised] epoch=174 train_loss=1.19811 val_loss=1.70451 val_dice=0.00105                     
+[supervised] epoch=175 train_loss=1.20822 val_loss=1.73065 val_dice=0.00152                     
+[supervised] epoch=176 train_loss=1.24672 val_loss=1.94929 val_dice=0.00095                     
+[supervised] epoch=177 train_loss=1.22725 val_loss=1.75238 val_dice=0.00090                     
+[supervised] epoch=178 train_loss=1.23968 val_loss=1.78463 val_dice=0.00094                     
+[supervised] epoch=179 train_loss=1.21154 val_loss=1.76497 val_dice=0.00110                     
+[supervised] epoch=180 train_loss=1.24035 val_loss=1.72821 val_dice=0.00072                     
+[supervised] epoch=181 train_loss=1.23918 val_loss=1.98801 val_dice=0.00094                     
+[supervised] epoch=182 train_loss=1.24025 val_loss=1.79050 val_dice=0.00094                     
+[supervised] epoch=183 train_loss=1.24174 val_loss=1.88076 val_dice=0.00095                     
+[supervised] epoch=184 train_loss=1.28490 val_loss=1.71009 val_dice=0.00127                     
+[supervised] epoch=185 train_loss=1.24869 val_loss=1.85202 val_dice=0.00071                     
+[supervised] epoch=186 train_loss=1.20720 val_loss=1.83051 val_dice=0.00103                     
+[supervised] epoch=187 train_loss=1.21617 val_loss=1.84020 val_dice=0.00107                     
+[supervised] epoch=188 train_loss=1.24669 val_loss=2.00450 val_dice=0.00076                     
+[supervised] epoch=189 train_loss=1.22491 val_loss=1.66130 val_dice=0.00118                     
+[supervised] epoch=190 train_loss=1.20548 val_loss=1.65811 val_dice=0.00119                     
+[supervised] epoch=191 train_loss=1.23952 val_loss=1.62535 val_dice=0.00116                     
+[supervised] epoch=192 train_loss=1.22762 val_loss=1.71940 val_dice=0.00111                     
+[supervised] epoch=193 train_loss=1.27430 val_loss=1.78304 val_dice=0.00161                     
+[supervised] epoch=194 train_loss=1.25907 val_loss=1.76840 val_dice=0.00113                     
+[supervised] epoch=195 train_loss=1.24082 val_loss=1.88801 val_dice=0.00137                     
+[supervised] epoch=196 train_loss=1.21155 val_loss=1.89741 val_dice=0.00088                     
+[supervised] epoch=197 train_loss=1.23667 val_loss=1.72488 val_dice=0.00132                     
+[supervised] epoch=198 train_loss=1.20253 val_loss=1.75541 val_dice=0.00093                     
+[supervised] epoch=199 train_loss=1.24981 val_loss=1.71437 val_dice=0.00136                     
+[supervised] epoch=200 train_loss=1.21753 val_loss=1.64271 val_dice=0.00113                     
+Pseudo-labeling: 100%|| 222/222 [20:41<00:00,  5.59s/it]
+Accepted pseudo-labeled cases: 217
+Train:   0%|                                                            | 0/264 [00:00<?, ?it/s]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 1 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 3 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 4 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 1 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 3 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 4 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 1 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 2 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 3 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 4 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 3 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 2 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 2 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 4 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:   1%|▍                                                 | 2/264 [01:39<2:59:35, 41.13s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 2 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:   4%|▉                                                 | 10/264 [01:48<10:03,  2.38s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 1 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:   6%|▎                                               | 17/264 [01:57<05:17,  1.29s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 5 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:   8%|▎                                              | 22/264 [02:02<04:45,  1.18s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 7 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  27%|▌                                     | 70/264 [02:55<03:40,  1.14s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 8 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  28%|▍                                    | 75/264 [03:01<03:20,  1.06s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 5 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  46%|▉                           | 121/264 [03:52<02:39,  1.12s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 7 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  70%|▊               | 184/264 [05:03<01:33,  1.16s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 5 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 7 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  80%|▉          | 211/264 [05:34<01:05,  1.23s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 6 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  90%|     | 238/264 [06:05<00:30,  1.16s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 5 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 6 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+[finetune] epoch=001 train_loss=0.61555 val_loss=1.74425 val_dice=0.00301                       
+Train:   0%|                                                            | 0/264 [00:00<?, ?it/s]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 8 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  53%|▎                       | 139/264 [03:04<02:19,  1.11s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 7 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+[finetune] epoch=002 train_loss=0.60731 val_loss=1.77830 val_dice=0.00334                       
+Train:  27%|▉                                     | 72/264 [01:24<03:36,  1.13s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 6 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+Train:  94%|▉   | 248/264 [04:43<00:18,  1.16s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 8 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+[finetune] epoch=003 train_loss=0.59915 val_loss=1.73058 val_dice=0.00257                       
+[finetune] epoch=004 train_loss=0.60132 val_loss=1.79441 val_dice=0.00385                       
+[finetune] epoch=005 train_loss=0.59050 val_loss=1.87681 val_dice=0.00385                       
+Train:  85%|▌       | 225/264 [04:19<00:43,  1.10s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 8 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+[finetune] epoch=006 train_loss=0.59070 val_loss=1.75099 val_dice=0.00307                       
+[finetune] epoch=007 train_loss=0.58204 val_loss=1.80830 val_dice=0.00425                       
+Train:   2%|▉                                                   | 5/264 [00:08<06:06,  1.41s/it]C:\Users\austi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 6 to crop, setting the crop ratio of this class to zero.
+  warnings.warn(
+[finetune] epoch=008 train_loss=0.58361 val_loss=1.92457 val_dice=0.00453                       
+[finetune] epoch=009 train_loss=0.57496 val_loss=1.96253 val_dice=0.00502                       
+[finetune] epoch=010 train_loss=0.58917 val_loss=1.80648 val_dice=0.00577                       
+[finetune] epoch=011 train_loss=0.58089 val_loss=1.87292 val_dice=0.00431                       
+[finetune] epoch=012 train_loss=0.57248 val_loss=1.73595 val_dice=0.00490                       
+[finetune] epoch=013 train_loss=0.56991 val_loss=2.00608 val_dice=0.00484                       
+[finetune] epoch=014 train_loss=0.61561 val_loss=1.75023 val_dice=0.00552                       
+[finetune] epoch=015 train_loss=0.58223 val_loss=1.78691 val_dice=0.00735                       
+[finetune] epoch=016 train_loss=0.57559 val_loss=1.91847 val_dice=0.00776                       
+[finetune] epoch=017 train_loss=0.56997 val_loss=1.84859 val_dice=0.00934                       
+[finetune] epoch=018 train_loss=0.56811 val_loss=1.87746 val_dice=0.00861                       
+[finetune] epoch=019 train_loss=0.57176 val_loss=1.83459 val_dice=0.00996                       
+[finetune] epoch=020 train_loss=0.56597 val_loss=1.78187 val_dice=0.00654                       
+[finetune] epoch=021 train_loss=0.57919 val_loss=1.78317 val_dice=0.00667                       
+[finetune] epoch=022 train_loss=0.57275 val_loss=1.85378 val_dice=0.00507                       
+[finetune] epoch=023 train_loss=0.56923 val_loss=1.84183 val_dice=0.00544                       
+[finetune] epoch=024 train_loss=0.56653 val_loss=2.01423 val_dice=0.00799                       
+[finetune] epoch=025 train_loss=0.57110 val_loss=1.92585 val_dice=0.01559                       
+[finetune] epoch=026 train_loss=0.56715 val_loss=1.98971 val_dice=0.00972                       
+[finetune] epoch=027 train_loss=0.56252 val_loss=1.82948 val_dice=0.00969                       
+[finetune] epoch=028 train_loss=0.55604 val_loss=1.82922 val_dice=0.01729                       
+[finetune] epoch=029 train_loss=0.56649 val_loss=1.89015 val_dice=0.01126                       
+[finetune] epoch=030 train_loss=0.56155 val_loss=1.85158 val_dice=0.00869                       
+[finetune] epoch=031 train_loss=0.56951 val_loss=1.90648 val_dice=0.01572                       
+[finetune] epoch=032 train_loss=0.56209 val_loss=1.82713 val_dice=0.00932                       
+[finetune] epoch=033 train_loss=0.56560 val_loss=1.94199 val_dice=0.01652                       
+[finetune] epoch=034 train_loss=0.56417 val_loss=2.38419 val_dice=0.00808                       
+[finetune] epoch=035 train_loss=0.55855 val_loss=1.81341 val_dice=0.01224                       
+[finetune] epoch=036 train_loss=0.56962 val_loss=1.96784 val_dice=0.01019                       
+[finetune] epoch=037 train_loss=0.56327 val_loss=1.82172 val_dice=0.01974                       
+[finetune] epoch=038 train_loss=0.56500 val_loss=1.77264 val_dice=0.00832                       
+[finetune] epoch=039 train_loss=0.55360 val_loss=1.89693 val_dice=0.01786                       
+[finetune] epoch=040 train_loss=0.55392 val_loss=1.90471 val_dice=0.01715                       
+[finetune] epoch=041 train_loss=0.55373 val_loss=1.99845 val_dice=0.01416                       
+[finetune] epoch=042 train_loss=0.55473 val_loss=1.90044 val_dice=0.01452                       
+[finetune] epoch=043 train_loss=0.56307 val_loss=1.93823 val_dice=0.01536                       
+[finetune] epoch=044 train_loss=0.56368 val_loss=1.96990 val_dice=0.01800                       
+[finetune] epoch=045 train_loss=0.55600 val_loss=1.98351 val_dice=0.02088                       
+[finetune] epoch=046 train_loss=0.56205 val_loss=2.04188 val_dice=0.01374                       
+[finetune] epoch=047 train_loss=0.56822 val_loss=1.88825 val_dice=0.02360                       
+[finetune] epoch=048 train_loss=0.55059 val_loss=1.89367 val_dice=0.01005                       
+[finetune] epoch=049 train_loss=0.55044 val_loss=2.03735 val_dice=0.01981                       
+[finetune] epoch=050 train_loss=0.54816 val_loss=1.81692 val_dice=0.01504                       
+[finetune] epoch=051 train_loss=0.55257 val_loss=2.19525 val_dice=0.01765                       
+[finetune] epoch=052 train_loss=0.56310 val_loss=1.78188 val_dice=0.01825                       
+[finetune] epoch=053 train_loss=0.55499 val_loss=1.89700 val_dice=0.01655                       
+[finetune] epoch=054 train_loss=0.55610 val_loss=2.04892 val_dice=0.01583                       
+[finetune] epoch=055 train_loss=0.56065 val_loss=1.86385 val_dice=0.01570                       
+[finetune] epoch=056 train_loss=0.55626 val_loss=1.89835 val_dice=0.02075                       
+[finetune] epoch=057 train_loss=0.55315 val_loss=1.76043 val_dice=0.01694                       
+[finetune] epoch=058 train_loss=0.54638 val_loss=1.94769 val_dice=0.01908                       
+[finetune] epoch=059 train_loss=0.53958 val_loss=1.90256 val_dice=0.02337                       
+[finetune] epoch=060 train_loss=0.55125 val_loss=1.93026 val_dice=0.02534                       
+[finetune] epoch=061 train_loss=0.55130 val_loss=1.92976 val_dice=0.02426                       
+[finetune] epoch=062 train_loss=0.55698 val_loss=1.90046 val_dice=0.01178                       
+[finetune] epoch=063 train_loss=0.55153 val_loss=2.08931 val_dice=0.02240                       
+[finetune] epoch=064 train_loss=0.54631 val_loss=1.92872 val_dice=0.01861                       
+[finetune] epoch=065 train_loss=0.54303 val_loss=2.03007 val_dice=0.02592                       
+[finetune] epoch=066 train_loss=0.54401 val_loss=1.89403 val_dice=0.01296                       
+[finetune] epoch=067 train_loss=0.54397 val_loss=2.06621 val_dice=0.02308                       
+[finetune] epoch=068 train_loss=0.55649 val_loss=1.91017 val_dice=0.01803                       
+[finetune] epoch=069 train_loss=0.54954 val_loss=1.91594 val_dice=0.01715                       
+[finetune] epoch=070 train_loss=0.53716 val_loss=2.09604 val_dice=0.02777                       
+[finetune] epoch=071 train_loss=0.53776 val_loss=2.00468 val_dice=0.03230                       
+[finetune] epoch=072 train_loss=0.54878 val_loss=1.81035 val_dice=0.02054                       
+[finetune] epoch=073 train_loss=0.55603 val_loss=2.01854 val_dice=0.03036                       
+[finetune] epoch=074 train_loss=0.56134 val_loss=1.72049 val_dice=0.01838                       
+[finetune] epoch=075 train_loss=0.54937 val_loss=1.91824 val_dice=0.02275                       
+[finetune] epoch=076 train_loss=0.54108 val_loss=1.97853 val_dice=0.02438                       
+[finetune] epoch=077 train_loss=0.55053 val_loss=1.83090 val_dice=0.03335                       
+[finetune] epoch=078 train_loss=0.55289 val_loss=1.93990 val_dice=0.01760                       
+[finetune] epoch=079 train_loss=0.54751 val_loss=1.88426 val_dice=0.02317                       
+[finetune] epoch=080 train_loss=0.55315 val_loss=1.75101 val_dice=0.01418                       
+[finetune] epoch=081 train_loss=0.54286 val_loss=2.03635 val_dice=0.02613                       
+[finetune] epoch=082 train_loss=0.53819 val_loss=2.53892 val_dice=0.01435                       
+[finetune] epoch=083 train_loss=0.55651 val_loss=2.07117 val_dice=0.02217                       
+Train:  40%|▉                              | 105/264 [02:05<03:51,  1.45s/it]
+PS C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML> 

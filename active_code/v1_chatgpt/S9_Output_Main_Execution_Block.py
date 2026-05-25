@@ -94,7 +94,7 @@ def main() -> None:
         cfg=cfg,
     )
     val_loader = create_val_loader(val_files, cfg)
-    unlabeled_loader = create_unlabeled_loader(unlabeled_files, cfg)
+    unlabeled_loader = create_unlabeled_loader(unlabeled_files, cfg) if unlabeled_files else None
 
     # -----------------------------------
     # Step 3: model
@@ -129,50 +129,67 @@ def main() -> None:
     )
 
     load_checkpoint_weights(model, supervised_ckpt, device)
+    supervised_best_dice = float(supervised_history["val_dice"].max())
 
     # -----------------------------------
     # Step 5: pseudo-label generation + fine-tuning
     # -----------------------------------
-    pseudo_files = generate_pseudo_labels(
-        model=model,
-        unlabeled_loader=unlabeled_loader,
-        device=device,
-        cfg=cfg,
-    )
-    print(f"Accepted pseudo-labeled cases: {len(pseudo_files)}")
-
-    combined_train_files = train_files + pseudo_files
-    combined_flags = ([False] * len(train_files)) + ([True] * len(pseudo_files))
-
-    finetune_loader = create_train_loader(
-        npz_paths=combined_train_files,
-        pseudo_flags=combined_flags,
-        cfg=cfg,
+    finetune_history = pd.DataFrame()
+    should_pseudo_label = (
+        cfg.enable_pseudo_labeling
+        and cfg.finetune_epochs > 0
+        and unlabeled_loader is not None
+        and supervised_best_dice >= cfg.min_supervised_dice_for_pseudo
     )
 
-    # Fine-tuning typically uses a slightly lower LR
-    finetune_optimizer = torch.optim.Adam(
-        model.parameters(),
-        lr=cfg.learning_rate * 0.5,
-        weight_decay=cfg.weight_decay,
-    )
+    if should_pseudo_label:
+        pseudo_files = generate_pseudo_labels(
+            model=model,
+            unlabeled_loader=unlabeled_loader,
+            device=device,
+            cfg=cfg,
+        )
+        print(f"Accepted pseudo-labeled cases: {len(pseudo_files)}")
 
-    finetune_ckpt = cfg.weights_dir / "best_finetuned_model.pth"
-    finetune_history = fit_model(
-        model=model,
-        train_loader=finetune_loader,
-        val_loader=val_loader,
-        optimizer=finetune_optimizer,
-        loss_fn=loss_fn,
-        device=device,
-        cfg=cfg,
-        epochs=cfg.finetune_epochs,
-        checkpoint_path=finetune_ckpt,
-        stage_name="finetune",
-        gpu_aug=gpu_aug,
-    )
+        combined_train_files = train_files + pseudo_files
+        combined_flags = ([False] * len(train_files)) + ([True] * len(pseudo_files))
 
-    load_checkpoint_weights(model, finetune_ckpt, device)
+        finetune_loader = create_train_loader(
+            npz_paths=combined_train_files,
+            pseudo_flags=combined_flags,
+            cfg=cfg,
+        )
+
+        finetune_optimizer = torch.optim.Adam(
+            model.parameters(),
+            lr=cfg.learning_rate * 0.5,
+            weight_decay=cfg.weight_decay,
+        )
+
+        finetune_ckpt = cfg.weights_dir / "best_finetuned_model.pth"
+        finetune_history = fit_model(
+            model=model,
+            train_loader=finetune_loader,
+            val_loader=val_loader,
+            optimizer=finetune_optimizer,
+            loss_fn=loss_fn,
+            device=device,
+            cfg=cfg,
+            epochs=cfg.finetune_epochs,
+            checkpoint_path=finetune_ckpt,
+            stage_name="finetune",
+            gpu_aug=gpu_aug,
+        )
+
+        load_checkpoint_weights(model, finetune_ckpt, device)
+    else:
+        print(
+            "Skipping pseudo-label fine-tuning. "
+            f"enable_pseudo_labeling={cfg.enable_pseudo_labeling}, "
+            f"finetune_epochs={cfg.finetune_epochs}, "
+            f"best_supervised_dice={supervised_best_dice:.5f}, "
+            f"required={cfg.min_supervised_dice_for_pseudo:.5f}"
+        )
 
     # -----------------------------------
     # Steps 6 + 7: final evaluation + plots
@@ -185,7 +202,10 @@ def main() -> None:
     )
     save_metrics_to_csv(metrics, cfg)
 
-    full_history = pd.concat([supervised_history, finetune_history], ignore_index=True)
+    history_parts = [supervised_history]
+    if not finetune_history.empty:
+        history_parts.append(finetune_history)
+    full_history = pd.concat(history_parts, ignore_index=True)
     full_history.to_csv(Path(cfg.work_dir) / "training_history_all_stages.csv", index=False)
 
     plot_training_history(full_history, cfg)

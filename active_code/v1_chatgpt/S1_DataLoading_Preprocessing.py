@@ -128,7 +128,7 @@ class Config:
     raw_unlabeled_images_dir: Optional[str] = None
 
     # Working directories
-    work_dir: str = "runs/cardiac_leads_ssl"
+    work_dir: str = "runs/cardiac_leads_ssl_landmark_debug"
 
     # Reproducibility
     seed: int = 42
@@ -136,6 +136,7 @@ class Config:
     # Data
     num_classes: int = 10
     labels_already_contiguous: bool = False
+    label_dilation_radius_voxels: int = 6
     target_spacing_dhw: Tuple[float, float, float] = (1.0, 1.0, 1.0)
     hu_clip_min: float = -1000.0
     hu_clip_max: float = 3000.0
@@ -154,7 +155,7 @@ class Config:
     class_sampling_ratios: Tuple[float, ...] = (1, 4, 4, 4, 4, 4, 4, 2, 2, 2)
 
     # Model
-    channels: Tuple[int, ...] = (32, 64, 128, 256, 512)
+    channels: Tuple[int, ...] = (16, 32, 64, 128, 256)
     strides: Tuple[int, ...] = (2, 2, 2, 2)
     num_res_units: int = 2
     dropout: float = 0.0
@@ -162,8 +163,10 @@ class Config:
     # Optimization
     learning_rate: float = 2e-4
     weight_decay: float = 1e-5
-    supervised_epochs: int = 200
-    finetune_epochs: int = 100
+    supervised_epochs: int = 50
+    finetune_epochs: int = 0
+    early_stopping_patience: int = 12
+    early_stopping_min_delta: float = 1e-4
     amp: bool = True
 
     # Inference
@@ -176,6 +179,8 @@ class Config:
     pseudo_max_entropy: float = 0.20   # normalized entropy threshold
     pseudo_min_foreground_voxels: int = 20
     pseudo_min_case_mean_conf: float = 0.98
+    enable_pseudo_labeling: bool = False
+    min_supervised_dice_for_pseudo: float = 0.10
     pseudo_weight: float = 0.5
 
     # Loss
@@ -432,6 +437,32 @@ def remap_labels_to_contiguous(label_dhw: np.ndarray, cfg: Config) -> np.ndarray
     return out
 
 
+def dilate_sparse_labels(label_dhw: np.ndarray, radius_voxels: int) -> np.ndarray:
+    """
+    Converts single-voxel landmark labels into small cubic training masks.
+
+    The source labels are sparse lead/anatomy points, not organ segmentations.
+    A pure voxel-wise segmentation loss receives too little foreground signal
+    unless each point is expanded into a small target region.
+    """
+    if radius_voxels <= 0:
+        return label_dhw.astype(np.uint8)
+
+    label_dhw = label_dhw.astype(np.uint8)
+    expanded = np.zeros_like(label_dhw, dtype=np.uint8)
+    depth, height, width = label_dhw.shape
+
+    for class_id in range(1, int(label_dhw.max()) + 1):
+        coords = np.argwhere(label_dhw == class_id)
+        for z, y, x in coords:
+            z0, z1 = max(0, z - radius_voxels), min(depth, z + radius_voxels + 1)
+            y0, y1 = max(0, y - radius_voxels), min(height, y + radius_voxels + 1)
+            x0, x1 = max(0, x - radius_voxels), min(width, x + radius_voxels + 1)
+            expanded[z0:z1, y0:y1, x0:x1] = class_id
+
+    return expanded
+
+
 def normalize_ct(image_dhw: np.ndarray, hu_min: float, hu_max: float) -> np.ndarray:
     image = np.clip(image_dhw.astype(np.float32), hu_min, hu_max)
     image = (image - hu_min) / max(hu_max - hu_min, 1e-8)
@@ -506,8 +537,10 @@ def preprocess_case_to_npz(
             out_spacing_dhw=cfg.target_spacing_dhw,
             is_label=True,
         )
+        label_rs = dilate_sparse_labels(label_rs, cfg.label_dilation_radius_voxels)
         payload["label"] = label_rs.astype(np.uint8)
         payload["source_label"] = str(label_path)
+        payload["label_dilation_radius_voxels"] = np.int16(cfg.label_dilation_radius_voxels)
 
     np.savez_compressed(output_npz, **payload)
 
@@ -522,7 +555,9 @@ def build_preprocessed_cache(cfg: Config) -> Dict[str, List[Path]]:
         discovered = discover_cases_from_dataset_roots(cfg.raw_dataset_roots)
         labeled_pairs = discovered["labeled_pairs"]
 
-    if cfg.raw_unlabeled_images_dir:
+    if not cfg.enable_pseudo_labeling:
+        unlabeled_images = []
+    elif cfg.raw_unlabeled_images_dir:
         unlabeled_images = list_unlabeled_cases(cfg.raw_unlabeled_images_dir)
     else:
         if discovered is None:

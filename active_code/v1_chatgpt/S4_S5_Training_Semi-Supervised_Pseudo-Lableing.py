@@ -92,6 +92,29 @@ def mean_dice_from_logits(
     return float(torch.nanmean(dice).item())
 
 
+@torch.no_grad()
+def mean_centroid_distance_from_logits(
+    logits: torch.Tensor,
+    labels: torch.Tensor,
+    class_ids: Sequence[int],
+) -> float:
+    preds = torch.argmax(logits, dim=1, keepdim=True)
+    distances: List[float] = []
+
+    for batch_idx in range(preds.shape[0]):
+        for class_id in class_ids:
+            pred_coords = torch.nonzero(preds[batch_idx, 0] == class_id, as_tuple=False).float()
+            true_coords = torch.nonzero(labels[batch_idx, 0] == class_id, as_tuple=False).float()
+            if pred_coords.numel() == 0 or true_coords.numel() == 0:
+                continue
+
+            pred_centroid = pred_coords.mean(dim=0)
+            true_centroid = true_coords.mean(dim=0)
+            distances.append(float(torch.linalg.vector_norm(pred_centroid - true_centroid).item()))
+
+    return float(np.mean(distances)) if distances else np.nan
+
+
 def save_checkpoint(
     path: Path,
     model: torch.nn.Module,
@@ -170,6 +193,7 @@ def validate_one_epoch(
 
     losses: List[float] = []
     dices: List[float] = []
+    centroid_distances: List[float] = []
 
     for batch in tqdm(loader, desc="Validate", leave=False):
         images = batch["image"].to(device, non_blocking=True)
@@ -181,10 +205,12 @@ def validate_one_epoch(
 
         losses.append(float(loss.item()))
         dices.append(mean_dice_from_logits(logits, labels, cfg.num_classes, include_background=False))
+        centroid_distances.append(mean_centroid_distance_from_logits(logits, labels, range(1, cfg.num_classes)))
 
     return {
         "val_loss": float(np.mean(losses)) if losses else np.nan,
         "val_dice": float(np.mean(dices)) if dices else np.nan,
+        "val_centroid_dist": float(np.nanmean(centroid_distances)) if centroid_distances else np.nan,
     }
 
 
@@ -202,8 +228,9 @@ def fit_model(
     gpu_aug: Optional[Compose] = None,
 ) -> pd.DataFrame:
     best_dice = -np.inf
+    epochs_without_improvement = 0
     history_rows: List[Dict] = []
-    scaler = torch.cuda.amp.GradScaler(enabled=(cfg.amp and device.type == "cuda"))
+    scaler = torch.amp.GradScaler(device.type, enabled=(cfg.amp and device.type == "cuda"))
 
     for epoch in range(1, epochs + 1):
         train_loss = train_one_epoch(
@@ -231,10 +258,12 @@ def fit_model(
             "train_loss": train_loss,
             "val_loss": val_stats["val_loss"],
             "val_dice": val_stats["val_dice"],
+            "val_centroid_dist": val_stats["val_centroid_dist"],
         }
         history_rows.append(row)
 
         if val_stats["val_dice"] > best_dice:
+            improved = val_stats["val_dice"] > (best_dice + cfg.early_stopping_min_delta)
             best_dice = val_stats["val_dice"]
             save_checkpoint(
                 path=checkpoint_path,
@@ -244,13 +273,24 @@ def fit_model(
                 best_metric=best_dice,
                 cfg=cfg,
             )
+            epochs_without_improvement = 0 if improved else epochs_without_improvement + 1
+        else:
+            epochs_without_improvement += 1
 
         print(
             f"[{stage_name}] epoch={epoch:03d} "
             f"train_loss={train_loss:.5f} "
             f"val_loss={val_stats['val_loss']:.5f} "
-            f"val_dice={val_stats['val_dice']:.5f}"
+            f"val_dice={val_stats['val_dice']:.5f} "
+            f"val_centroid_dist={val_stats['val_centroid_dist']:.2f}"
         )
+
+        if epochs_without_improvement >= cfg.early_stopping_patience:
+            print(
+                f"[{stage_name}] early stopping after {epoch:03d} epochs; "
+                f"best_val_dice={best_dice:.5f}"
+            )
+            break
 
     history_df = pd.DataFrame(history_rows)
     history_df.to_csv(Path(cfg.work_dir) / f"history_{stage_name}.csv", index=False)
