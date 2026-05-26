@@ -24,8 +24,9 @@ from S3_ModelDefintion import infer_logits, prepare_training_batch_for_model
 
 def compute_class_weights(
     train_npz_paths: Sequence[Path],
-    num_classes: int,
+    cfg: Config,
 ) -> torch.Tensor:
+    num_classes = cfg.num_classes
     counts = np.zeros(num_classes, dtype=np.float64)
     total_voxels = 0
     for path in train_npz_paths:

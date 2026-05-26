@@ -104,7 +104,7 @@ def main() -> None:
     # -----------------------------------
     # Step 4: supervised training
     # -----------------------------------
-    class_weights = compute_class_weights(train_files, cfg.num_classes).to(device)
+    class_weights = compute_class_weights(train_files, cfg).to(device)
     loss_fn = build_loss_fn(class_weights=class_weights, cfg=cfg)
     optimizer = torch.optim.Adam(
         model.parameters(),
