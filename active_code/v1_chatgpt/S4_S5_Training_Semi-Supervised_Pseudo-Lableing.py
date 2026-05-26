@@ -147,13 +147,13 @@ def logits_to_label_map(logits: torch.Tensor, threshold: float) -> Tuple[torch.T
 
 
 @torch.no_grad()
-def mean_centroid_distance_from_label_map_logits(
+def mean_centroid_distance_from_channel_peaks(
     logits: torch.Tensor,
     labels: torch.Tensor,
     class_ids: Sequence[int],
     threshold: float = 0.5,
 ) -> float:
-    preds, probs = logits_to_label_map(logits, threshold)
+    _, probs = logits_to_label_map(logits, threshold)
     distances: List[float] = []
 
     for batch_idx in range(probs.shape[0]):
@@ -161,21 +161,16 @@ def mean_centroid_distance_from_label_map_logits(
             channel_idx = class_id - 1
             if channel_idx < 0 or channel_idx >= probs.shape[1]:
                 continue
-            pred_mask = preds[batch_idx, 0] == class_id
-            if not bool(pred_mask.any()):
-                flat_idx = int(torch.argmax(probs[batch_idx, channel_idx]).item())
-                pred_coords = torch.tensor(
-                    np.unravel_index(flat_idx, tuple(probs.shape[2:])),
-                    device=probs.device,
-                    dtype=torch.float32,
-                )[None, :]
-            else:
-                pred_coords = torch.nonzero(pred_mask, as_tuple=False).float()
+            flat_idx = int(torch.argmax(probs[batch_idx, channel_idx]).item())
+            pred_centroid = torch.tensor(
+                np.unravel_index(flat_idx, tuple(probs.shape[2:])),
+                device=probs.device,
+                dtype=torch.float32,
+            )
             true_coords = torch.nonzero(labels[batch_idx, 0] == class_id, as_tuple=False).float()
-            if pred_coords.numel() == 0 or true_coords.numel() == 0:
+            if true_coords.numel() == 0:
                 continue
 
-            pred_centroid = pred_coords.mean(dim=0)
             true_centroid = true_coords.mean(dim=0)
             distances.append(float(torch.linalg.vector_norm(pred_centroid - true_centroid).item()))
 
@@ -189,7 +184,7 @@ def mean_centroid_distance_from_logits(
     class_ids: Sequence[int],
     threshold: float = 0.5,
 ) -> float:
-    return mean_centroid_distance_from_label_map_logits(
+    return mean_centroid_distance_from_channel_peaks(
         logits=logits,
         labels=labels,
         class_ids=class_ids,
@@ -307,9 +302,14 @@ def validate_one_epoch(
         "val_dice": float(np.mean(dices)) if dices else np.nan,
         "val_centroid_dist": float(np.nanmean(centroid_distances)) if centroid_distances else np.nan,
     }
+    focus_epoch_distances: List[float] = []
     for class_id, distances in focus_centroid_distances.items():
         class_name = CLASS_NAMES[class_id] if class_id < len(CLASS_NAMES) else f"class_{class_id}"
-        val_stats[f"val_centroid_dist_{class_name}"] = float(np.nanmean(distances)) if distances else np.nan
+        class_distance = float(np.nanmean(distances)) if distances else np.nan
+        val_stats[f"val_centroid_dist_{class_name}"] = class_distance
+        if np.isfinite(class_distance):
+            focus_epoch_distances.append(class_distance)
+    val_stats["val_focus_centroid_dist"] = float(np.mean(focus_epoch_distances)) if focus_epoch_distances else np.nan
     return val_stats
 
 
@@ -361,6 +361,7 @@ def fit_model(
             "val_loss": val_stats["val_loss"],
             "val_dice": val_stats["val_dice"],
             "val_centroid_dist": val_stats["val_centroid_dist"],
+            "val_focus_centroid_dist": val_stats["val_focus_centroid_dist"],
         }
         for class_id in cfg.focus_class_ids:
             class_name = CLASS_NAMES[class_id] if class_id < len(CLASS_NAMES) else f"class_{class_id}"
@@ -396,6 +397,7 @@ def fit_model(
             f"val_loss={val_stats['val_loss']:.5f} "
             f"val_dice={val_stats['val_dice']:.5f} "
             f"val_centroid_dist={val_stats['val_centroid_dist']:.2f} "
+            f"val_focus_centroid_dist={val_stats['val_focus_centroid_dist']:.2f} "
             f"best_{cfg.checkpoint_metric}={best_metric:.5f}"
         )
         for class_id in cfg.focus_class_ids:

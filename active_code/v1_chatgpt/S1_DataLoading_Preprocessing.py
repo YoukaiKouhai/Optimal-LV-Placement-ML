@@ -130,7 +130,7 @@ class Config:
     raw_unlabeled_images_dir: Optional[str] = None
 
     # Working directories
-    work_dir: str = "runs/cardiac_leads_centroid_rebalance_v2"
+    work_dir: str = "runs/cardiac_leads_apex_recovery_v3"
 
     # Reproducibility
     seed: int = 42
@@ -164,13 +164,13 @@ class Config:
     dropout: float = 0.0
 
     # Optimization
-    learning_rate: float = 1e-4
+    learning_rate: float = 5e-5
     weight_decay: float = 1e-5
     eval_only: bool = False
-    warm_start_checkpoint: Optional[str] = "runs/cardiac_leads_focused_LL1_ANT/weights/best_supervised_model.pth"
-    supervised_epochs: int = 35
+    warm_start_checkpoint: Optional[str] = "runs/cardiac_leads_centroid_rebalance_v2/weights/best_supervised_model.pth"
+    supervised_epochs: int = 25
     finetune_epochs: int = 0
-    checkpoint_metric: str = "val_centroid_dist"
+    checkpoint_metric: str = "val_focus_centroid_dist"
     checkpoint_mode: str = "min"
     early_stopping_patience: int = 10
     early_stopping_min_delta: float = 1e-4
@@ -194,9 +194,10 @@ class Config:
     lambda_dice: float = 1.0
     lambda_ce: float = 1.0
     bce_pos_weight_max: float = 50.0
-    focus_class_ids: Tuple[int, ...] = (1, 3, 7, 8)  # LL1, LL3, ANT, Apex are the weakest centroid classes.
-    focus_class_loss_multiplier: float = 1.8
+    focus_class_ids: Tuple[int, ...] = (2, 4, 7, 8)  # LL2, LL4, ANT, Apex are the current centroid bottlenecks.
+    focus_class_loss_multiplier: float = 2.2
     prediction_threshold: float = 0.50
+    peak_prediction_blob_radius_voxels: int = 6
 
     # Visualization
     save_overlays: bool = True

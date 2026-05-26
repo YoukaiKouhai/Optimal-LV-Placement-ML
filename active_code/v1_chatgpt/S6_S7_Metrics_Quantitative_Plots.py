@@ -43,10 +43,38 @@ def nanmean_or_nan(values: object) -> float:
 
 def logits_to_label_map(logits: torch.Tensor, cfg: Config) -> Tuple[torch.Tensor, torch.Tensor]:
     probs = torch.sigmoid(logits)
-    best_prob, best_channel = probs.max(dim=1, keepdim=True)
-    preds = best_channel.long() + 1
-    preds = torch.where(best_prob >= cfg.prediction_threshold, preds, torch.zeros_like(preds))
+    preds = channel_peak_label_map(probs, cfg)
     return preds, probs
+
+
+def channel_peak_label_map(probs: torch.Tensor, cfg: Config) -> torch.Tensor:
+    preds = torch.zeros(
+        (probs.shape[0], 1, *probs.shape[2:]),
+        dtype=torch.long,
+        device=probs.device,
+    )
+    radius = int(cfg.peak_prediction_blob_radius_voxels)
+    spatial_shape = tuple(probs.shape[2:])
+
+    for batch_idx in range(probs.shape[0]):
+        for channel_idx in range(probs.shape[1]):
+            class_id = channel_idx + 1
+            flat_idx = int(torch.argmax(probs[batch_idx, channel_idx]).item())
+            center = np.asarray(np.unravel_index(flat_idx, spatial_shape), dtype=np.int64)
+            slices = []
+            grids = []
+            for axis, coord in enumerate(center):
+                start = max(0, int(coord) - radius)
+                stop = min(spatial_shape[axis], int(coord) + radius + 1)
+                slices.append(slice(start, stop))
+                grids.append(np.arange(start, stop) - int(coord))
+
+            mesh = np.meshgrid(*grids, indexing="ij")
+            ball = sum(axis_grid ** 2 for axis_grid in mesh) <= radius ** 2
+            region = preds[(batch_idx, 0, *slices)]
+            region[torch.as_tensor(ball, device=probs.device)] = class_id
+
+    return preds
 
 def per_sample_overlap_metrics(
     probs: torch.Tensor,
@@ -92,7 +120,6 @@ def centroid_distances_for_landmarks(
     probs: torch.Tensor,
     cfg: Config,
 ) -> Dict[int, float]:
-    pred_np = preds[0, 0].detach().cpu().numpy().astype(np.int64)
     label_np = labels[0, 0].detach().cpu().numpy().astype(np.int64)
     prob_np = probs[0].detach().cpu().numpy()
 
@@ -103,16 +130,12 @@ def centroid_distances_for_landmarks(
             distances[class_id] = np.nan
             continue
 
-        pred_coords = np.argwhere(pred_np == class_id)
-        if pred_coords.size == 0:
-            channel_idx = class_id - 1
-            if channel_idx < 0 or channel_idx >= prob_np.shape[0]:
-                distances[class_id] = np.nan
-                continue
-            flat_idx = int(np.argmax(prob_np[channel_idx]))
-            pred_centroid = np.asarray(np.unravel_index(flat_idx, prob_np[channel_idx].shape), dtype=np.float32)
-        else:
-            pred_centroid = pred_coords.mean(axis=0)
+        channel_idx = class_id - 1
+        if channel_idx < 0 or channel_idx >= prob_np.shape[0]:
+            distances[class_id] = np.nan
+            continue
+        flat_idx = int(np.argmax(prob_np[channel_idx]))
+        pred_centroid = np.asarray(np.unravel_index(flat_idx, prob_np[channel_idx].shape), dtype=np.float32)
 
         true_centroid = true_coords.mean(axis=0)
         distances[class_id] = float(np.linalg.norm(pred_centroid - true_centroid))
