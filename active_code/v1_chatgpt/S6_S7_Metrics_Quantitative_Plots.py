@@ -20,6 +20,8 @@ from tqdm.auto import tqdm
 from S1_DataLoading_Preprocessing import ANATOMY_CLASSES, CLASS_NAMES, ELECTRODE_CLASSES, Config
 from S3_ModelDefintion import infer_logits
 
+ACCURACY_DISTANCE_THRESHOLDS_VOXELS = (5.0, 10.0, 15.0)
+
 
 def _load_training_module():
     module_path = Path(__file__).with_name("S4_S5_Training_Semi-Supervised_Pseudo-Lableing.py")
@@ -240,9 +242,16 @@ def evaluate_model(
             "iou_mean": nanmean_or_nan(per_sample_df[f"iou_{class_name}"]),
         }
         if class_id >= 1:
-            class_row["centroid_dist_mean"] = nanmean_or_nan(per_sample_df[f"centroid_dist_{class_name}"])
+            centroid_col = per_sample_df[f"centroid_dist_{class_name}"]
+            class_row["centroid_dist_mean"] = nanmean_or_nan(centroid_col)
+            for threshold in ACCURACY_DISTANCE_THRESHOLDS_VOXELS:
+                class_row[f"accuracy_within_{int(threshold)}vox"] = float(
+                    np.nanmean(np.asarray(centroid_col, dtype=np.float64) <= threshold)
+                )
         else:
             class_row["centroid_dist_mean"] = np.nan
+            for threshold in ACCURACY_DISTANCE_THRESHOLDS_VOXELS:
+                class_row[f"accuracy_within_{int(threshold)}vox"] = np.nan
 
         # Precision / recall / F1 from confusion matrix
         tp = cm[class_id, class_id]
@@ -261,19 +270,48 @@ def evaluate_model(
 
     # Electrode-only metrics
     electrode_df = per_class_df[per_class_df["class_id"].isin(ELECTRODE_CLASSES)]
+    non_bg_centroid_values = per_sample_df[
+        [f"centroid_dist_{class_name}" for class_name in CLASS_NAMES[1:]]
+    ].to_numpy(dtype=np.float64)
+    electrode_centroid_values = per_sample_df[
+        [f"centroid_dist_{CLASS_NAMES[class_id]}" for class_id in ELECTRODE_CLASSES]
+    ].to_numpy(dtype=np.float64)
+    anatomy_centroid_values = per_sample_df[
+        [f"centroid_dist_{CLASS_NAMES[class_id]}" for class_id in ANATOMY_CLASSES]
+    ].to_numpy(dtype=np.float64)
+
+    summary_rows = [
+        {"metric": "mean_dice_non_bg", "value": float(per_sample_df["mean_dice_non_bg"].mean())},
+        {"metric": "mean_iou_non_bg", "value": float(per_sample_df["mean_iou_non_bg"].mean())},
+        {"metric": "mean_dice_electrodes", "value": float(per_sample_df["mean_dice_electrodes"].mean())},
+        {"metric": "mean_dice_anatomy", "value": float(per_sample_df["mean_dice_anatomy"].mean())},
+        {"metric": "mean_centroid_dist_non_bg", "value": float(per_sample_df["mean_centroid_dist_non_bg"].mean())},
+        {"metric": "mean_centroid_dist_electrodes", "value": float(per_sample_df["mean_centroid_dist_electrodes"].mean())},
+        {"metric": "mean_centroid_dist_anatomy", "value": float(per_sample_df["mean_centroid_dist_anatomy"].mean())},
+        {"metric": "electrode_macro_precision", "value": float(electrode_df["precision"].mean())},
+        {"metric": "electrode_macro_recall", "value": float(electrode_df["recall"].mean())},
+        {"metric": "electrode_macro_f1", "value": float(electrode_df["f1"].mean())},
+    ]
+    for threshold in ACCURACY_DISTANCE_THRESHOLDS_VOXELS:
+        threshold_label = int(threshold)
+        summary_rows.extend(
+            [
+                {
+                    "metric": f"landmark_accuracy_within_{threshold_label}vox_non_bg",
+                    "value": float(np.nanmean(non_bg_centroid_values <= threshold)),
+                },
+                {
+                    "metric": f"landmark_accuracy_within_{threshold_label}vox_electrodes",
+                    "value": float(np.nanmean(electrode_centroid_values <= threshold)),
+                },
+                {
+                    "metric": f"landmark_accuracy_within_{threshold_label}vox_anatomy",
+                    "value": float(np.nanmean(anatomy_centroid_values <= threshold)),
+                },
+            ]
+        )
     summary_df = pd.DataFrame(
-        [
-            {"metric": "mean_dice_non_bg", "value": float(per_sample_df["mean_dice_non_bg"].mean())},
-            {"metric": "mean_iou_non_bg", "value": float(per_sample_df["mean_iou_non_bg"].mean())},
-            {"metric": "mean_dice_electrodes", "value": float(per_sample_df["mean_dice_electrodes"].mean())},
-            {"metric": "mean_dice_anatomy", "value": float(per_sample_df["mean_dice_anatomy"].mean())},
-            {"metric": "mean_centroid_dist_non_bg", "value": float(per_sample_df["mean_centroid_dist_non_bg"].mean())},
-            {"metric": "mean_centroid_dist_electrodes", "value": float(per_sample_df["mean_centroid_dist_electrodes"].mean())},
-            {"metric": "mean_centroid_dist_anatomy", "value": float(per_sample_df["mean_centroid_dist_anatomy"].mean())},
-            {"metric": "electrode_macro_precision", "value": float(electrode_df["precision"].mean())},
-            {"metric": "electrode_macro_recall", "value": float(electrode_df["recall"].mean())},
-            {"metric": "electrode_macro_f1", "value": float(electrode_df["f1"].mean())},
-        ]
+        summary_rows
     )
 
     confusion_df = pd.DataFrame(cm, index=CLASS_NAMES, columns=CLASS_NAMES)

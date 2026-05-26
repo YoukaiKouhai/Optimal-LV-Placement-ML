@@ -130,7 +130,7 @@ class Config:
     raw_unlabeled_images_dir: Optional[str] = None
 
     # Working directories
-    work_dir: str = "runs/cardiac_leads_apex_recovery_v3"
+    work_dir: str = "runs/cardiac_leads_base_ant_ll2_v4"
 
     # Reproducibility
     seed: int = 42
@@ -164,11 +164,11 @@ class Config:
     dropout: float = 0.0
 
     # Optimization
-    learning_rate: float = 5e-5
+    learning_rate: float = 2.5e-5
     weight_decay: float = 1e-5
     eval_only: bool = False
-    warm_start_checkpoint: Optional[str] = "runs/cardiac_leads_centroid_rebalance_v2/weights/best_supervised_model.pth"
-    supervised_epochs: int = 25
+    warm_start_checkpoint: Optional[str] = "runs/cardiac_leads_apex_recovery_v3/weights/best_supervised_model.pth"
+    supervised_epochs: int = 20
     finetune_epochs: int = 0
     checkpoint_metric: str = "val_focus_centroid_dist"
     checkpoint_mode: str = "min"
@@ -194,8 +194,8 @@ class Config:
     lambda_dice: float = 1.0
     lambda_ce: float = 1.0
     bce_pos_weight_max: float = 50.0
-    focus_class_ids: Tuple[int, ...] = (2, 4, 7, 8)  # LL2, LL4, ANT, Apex are the current centroid bottlenecks.
-    focus_class_loss_multiplier: float = 2.2
+    focus_class_ids: Tuple[int, ...] = (2, 7, 9)  # LL2, ANT, Base are the current centroid bottlenecks.
+    focus_class_loss_multiplier: float = 1.7
     prediction_threshold: float = 0.50
     peak_prediction_blob_radius_voxels: int = 6
 
