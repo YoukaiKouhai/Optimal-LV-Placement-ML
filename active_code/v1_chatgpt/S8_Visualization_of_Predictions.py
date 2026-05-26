@@ -5,6 +5,8 @@ from __future__ import annotations
 
 from typing import Optional
 
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
@@ -24,7 +26,12 @@ def save_prediction_overlays(
     max_cases: Optional[int] = None,
 ) -> None:
     model.eval()
-    max_cases = max_cases or cfg.max_overlay_cases
+    max_cases = cfg.max_overlay_cases if max_cases is None else max_cases
+    if max_cases <= 0:
+        print("Skipping overlays because max_overlay_cases <= 0.")
+        return
+
+    cfg.overlays_dir.mkdir(parents=True, exist_ok=True)
 
     saved = 0
     cmap = plt.get_cmap("tab10", cfg.num_classes)
@@ -54,7 +61,7 @@ def save_prediction_overlays(
         gt2d = label_np[slice_idx]
         pr2d = pred_np[slice_idx]
 
-        fig, axes = plt.subplots(1, 3, figsize=(15, 5))
+        fig, axes = plt.subplots(1, 3, figsize=(15, 5), constrained_layout=True)
 
         axes[0].imshow(img2d, cmap="gray")
         axes[0].set_title(f"{case_id} | Input slice {slice_idx}")
@@ -70,9 +77,11 @@ def save_prediction_overlays(
         axes[2].set_title("Prediction overlay")
         axes[2].axis("off")
 
-        plt.tight_layout()
         out_path = cfg.overlays_dir / f"{case_id}_overlay.png"
-        plt.savefig(out_path, dpi=200)
+        plt.savefig(out_path, dpi=200, bbox_inches="tight")
         plt.close(fig)
 
         saved += 1
+        print(f"Saved overlay {saved}/{max_cases}: {out_path}")
+
+    print(f"Finished saving {saved} overlay image(s).")

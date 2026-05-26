@@ -18,7 +18,7 @@ from tqdm.auto import tqdm
 from monai.losses import DiceCELoss
 from monai.transforms import Compose
 
-from S1_DataLoading_Preprocessing import ANATOMY_CLASSES, ELECTRODE_CLASSES, Config
+from S1_DataLoading_Preprocessing import ANATOMY_CLASSES, CLASS_NAMES, ELECTRODE_CLASSES, Config
 from S2_DatasetPreparation_Augmentation import apply_gpu_augment
 from S3_ModelDefintion import infer_logits, prepare_training_batch_for_model
 
@@ -42,6 +42,15 @@ def compute_class_weights(
     return torch.tensor(pos_weight, dtype=torch.float32)
 
 
+def build_channel_loss_weights(cfg: Config) -> torch.Tensor:
+    weights = torch.ones(cfg.num_landmark_classes, dtype=torch.float32)
+    for class_id in cfg.focus_class_ids:
+        channel_idx = class_id - 1
+        if 0 <= channel_idx < cfg.num_landmark_classes:
+            weights[channel_idx] = cfg.focus_class_loss_multiplier
+    return weights
+
+
 def labels_to_multichannel_targets(labels: torch.Tensor, cfg: Config) -> torch.Tensor:
     squeezed = labels.squeeze(1).long()
     channels = [(squeezed == class_id).float() for class_id in range(1, cfg.num_classes)]
@@ -49,26 +58,43 @@ def labels_to_multichannel_targets(labels: torch.Tensor, cfg: Config) -> torch.T
 
 
 class LandmarkMaskLoss(torch.nn.Module):
-    def __init__(self, pos_weight: torch.Tensor, lambda_dice: float, lambda_bce: float) -> None:
+    def __init__(
+        self,
+        pos_weight: torch.Tensor,
+        channel_weight: torch.Tensor,
+        lambda_dice: float,
+        lambda_bce: float,
+    ) -> None:
         super().__init__()
         self.register_buffer("pos_weight", pos_weight)
+        self.register_buffer("channel_weight", channel_weight)
         self.lambda_dice = lambda_dice
         self.lambda_bce = lambda_bce
 
     def forward(self, logits: torch.Tensor, targets: torch.Tensor) -> torch.Tensor:
         pos_weight = self.pos_weight.view(1, -1, *([1] * (targets.ndim - 2)))
-        bce_loss = F.binary_cross_entropy_with_logits(logits, targets, pos_weight=pos_weight)
+        channel_weight = self.channel_weight.view(1, -1, *([1] * (targets.ndim - 2)))
+        bce = F.binary_cross_entropy_with_logits(logits, targets, pos_weight=pos_weight, reduction="none")
+        bce_loss = (bce * channel_weight).sum() / (
+            targets.shape[0] * self.channel_weight.sum() * np.prod(targets.shape[2:])
+        )
+
         probs = torch.sigmoid(logits)
         reduce_dims = tuple(range(2, probs.ndim))
         intersection = (probs * targets).sum(dim=reduce_dims)
         denom = probs.sum(dim=reduce_dims) + targets.sum(dim=reduce_dims)
-        dice_loss = 1.0 - ((2.0 * intersection + 1e-5) / (denom + 1e-5)).mean()
+        dice_loss_by_channel = 1.0 - ((2.0 * intersection + 1e-5) / (denom + 1e-5))
+        flat_channel_weight = self.channel_weight.view(1, -1)
+        dice_loss = (dice_loss_by_channel * flat_channel_weight).sum() / (
+            targets.shape[0] * self.channel_weight.sum()
+        )
         return (self.lambda_bce * bce_loss) + (self.lambda_dice * dice_loss)
 
 
 def build_loss_fn(class_weights: torch.Tensor, cfg: Config) -> LandmarkMaskLoss:
     return LandmarkMaskLoss(
         pos_weight=class_weights,
+        channel_weight=build_channel_loss_weights(cfg).to(class_weights.device),
         lambda_dice=cfg.lambda_dice,
         lambda_bce=cfg.lambda_ce,
     )
@@ -227,6 +253,7 @@ def validate_one_epoch(
     losses: List[float] = []
     dices: List[float] = []
     centroid_distances: List[float] = []
+    focus_centroid_distances: Dict[int, List[float]] = {class_id: [] for class_id in cfg.focus_class_ids}
 
     for batch in tqdm(loader, desc="Validate", leave=False):
         images = batch["image"].to(device, non_blocking=True)
@@ -240,12 +267,25 @@ def validate_one_epoch(
         losses.append(float(loss.item()))
         dices.append(mean_dice_from_logits(logits, labels, cfg.num_classes, include_background=False, threshold=cfg.prediction_threshold))
         centroid_distances.append(mean_centroid_distance_from_logits(logits, labels, range(1, cfg.num_classes), threshold=cfg.prediction_threshold))
+        for class_id in cfg.focus_class_ids:
+            focus_centroid_distances[class_id].append(
+                mean_centroid_distance_from_logits(
+                    logits,
+                    labels,
+                    [class_id],
+                    threshold=cfg.prediction_threshold,
+                )
+            )
 
-    return {
+    val_stats = {
         "val_loss": float(np.mean(losses)) if losses else np.nan,
         "val_dice": float(np.mean(dices)) if dices else np.nan,
         "val_centroid_dist": float(np.nanmean(centroid_distances)) if centroid_distances else np.nan,
     }
+    for class_id, distances in focus_centroid_distances.items():
+        class_name = CLASS_NAMES[class_id] if class_id < len(CLASS_NAMES) else f"class_{class_id}"
+        val_stats[f"val_centroid_dist_{class_name}"] = float(np.nanmean(distances)) if distances else np.nan
+    return val_stats
 
 
 def fit_model(
@@ -294,6 +334,10 @@ def fit_model(
             "val_dice": val_stats["val_dice"],
             "val_centroid_dist": val_stats["val_centroid_dist"],
         }
+        for class_id in cfg.focus_class_ids:
+            class_name = CLASS_NAMES[class_id] if class_id < len(CLASS_NAMES) else f"class_{class_id}"
+            metric_key = f"val_centroid_dist_{class_name}"
+            row[metric_key] = val_stats.get(metric_key, np.nan)
         history_rows.append(row)
 
         if val_stats["val_dice"] > best_dice:
@@ -318,6 +362,10 @@ def fit_model(
             f"val_dice={val_stats['val_dice']:.5f} "
             f"val_centroid_dist={val_stats['val_centroid_dist']:.2f}"
         )
+        for class_id in cfg.focus_class_ids:
+            class_name = CLASS_NAMES[class_id] if class_id < len(CLASS_NAMES) else f"class_{class_id}"
+            metric_key = f"val_centroid_dist_{class_name}"
+            print(f"    focus {class_name} centroid_dist={val_stats.get(metric_key, np.nan):.2f}")
 
         if epochs_without_improvement >= cfg.early_stopping_patience:
             print(

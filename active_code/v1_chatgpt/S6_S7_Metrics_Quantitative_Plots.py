@@ -7,6 +7,8 @@ import importlib.util
 from pathlib import Path
 from typing import Dict, List, Tuple
 
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -14,8 +16,6 @@ import torch
 from sklearn.metrics import confusion_matrix
 from torch.utils.data import DataLoader
 from tqdm.auto import tqdm
-
-from monai.metrics import HausdorffDistanceMetric
 
 from S1_DataLoading_Preprocessing import ANATOMY_CLASSES, CLASS_NAMES, ELECTRODE_CLASSES, Config
 from S3_ModelDefintion import infer_logits
@@ -35,6 +35,12 @@ _training_module = _load_training_module()
 labels_to_one_hot = _training_module.labels_to_one_hot
 
 
+def nanmean_or_nan(values: object) -> float:
+    arr = np.asarray(values, dtype=np.float64)
+    finite = np.isfinite(arr)
+    return float(np.nanmean(arr)) if finite.any() else np.nan
+
+
 def logits_to_label_map(logits: torch.Tensor, cfg: Config) -> Tuple[torch.Tensor, torch.Tensor]:
     probs = torch.sigmoid(logits)
     best_prob, best_channel = probs.max(dim=1, keepdim=True)
@@ -43,12 +49,15 @@ def logits_to_label_map(logits: torch.Tensor, cfg: Config) -> Tuple[torch.Tensor
     return preds, probs
 
 def per_sample_overlap_metrics(
-    preds: torch.Tensor,
+    probs: torch.Tensor,
     labels: torch.Tensor,
-    num_classes: int,
+    cfg: Config,
 ) -> Tuple[np.ndarray, np.ndarray]:
-    pred_oh = labels_to_one_hot(preds, num_classes)
-    true_oh = labels_to_one_hot(labels, num_classes)
+    pred_oh = (probs >= cfg.prediction_threshold).float()
+    true_oh = torch.stack(
+        [(labels.squeeze(1).long() == class_id).float() for class_id in range(1, cfg.num_classes)],
+        dim=1,
+    )
 
     reduce_dims = tuple(range(2, pred_oh.ndim))
     inter = (pred_oh * true_oh).sum(dim=reduce_dims).cpu().numpy()
@@ -68,7 +77,47 @@ def per_sample_overlap_metrics(
         (inter + 1e-6) / (iou_denom + 1e-6),
         np.nan,
     )
-    return dice, iou
+
+    batch_size = probs.shape[0]
+    dice_with_bg = np.full((batch_size, cfg.num_classes), np.nan, dtype=np.float64)
+    iou_with_bg = np.full((batch_size, cfg.num_classes), np.nan, dtype=np.float64)
+    dice_with_bg[:, 1:] = dice
+    iou_with_bg[:, 1:] = iou
+    return dice_with_bg, iou_with_bg
+
+
+def centroid_distances_for_landmarks(
+    preds: torch.Tensor,
+    labels: torch.Tensor,
+    probs: torch.Tensor,
+    cfg: Config,
+) -> Dict[int, float]:
+    pred_np = preds[0, 0].detach().cpu().numpy().astype(np.int64)
+    label_np = labels[0, 0].detach().cpu().numpy().astype(np.int64)
+    prob_np = probs[0].detach().cpu().numpy()
+
+    distances: Dict[int, float] = {}
+    for class_id in range(1, cfg.num_classes):
+        true_coords = np.argwhere(label_np == class_id)
+        if true_coords.size == 0:
+            distances[class_id] = np.nan
+            continue
+
+        pred_coords = np.argwhere(pred_np == class_id)
+        if pred_coords.size == 0:
+            channel_idx = class_id - 1
+            if channel_idx < 0 or channel_idx >= prob_np.shape[0]:
+                distances[class_id] = np.nan
+                continue
+            flat_idx = int(np.argmax(prob_np[channel_idx]))
+            pred_centroid = np.asarray(np.unravel_index(flat_idx, prob_np[channel_idx].shape), dtype=np.float32)
+        else:
+            pred_centroid = pred_coords.mean(axis=0)
+
+        true_centroid = true_coords.mean(axis=0)
+        distances[class_id] = float(np.linalg.norm(pred_centroid - true_centroid))
+
+    return distances
 
 
 class PRCurveAccumulator:
@@ -114,11 +163,6 @@ def evaluate_model(
 
     cm = np.zeros((cfg.num_classes, cfg.num_classes), dtype=np.int64)
     pr_acc = PRCurveAccumulator(thresholds=np.linspace(0.0, 1.0, 101))
-    hd_metric = HausdorffDistanceMetric(
-        include_background=False,
-        percentile=cfg.hausdorff_percentile,
-        reduction="none",
-    )
 
     per_sample_rows: List[Dict] = []
 
@@ -130,14 +174,8 @@ def evaluate_model(
         logits = infer_logits(model, images, cfg)
         preds, probs = logits_to_label_map(logits, cfg)
 
-        dice_np, iou_np = per_sample_overlap_metrics(preds, labels, cfg.num_classes)
-
-        pred_oh = labels_to_one_hot(preds, cfg.num_classes)
-        true_oh = labels_to_one_hot(labels, cfg.num_classes)
-
-        hd_metric(pred_oh, true_oh)
-        hd_np = hd_metric.aggregate().cpu().numpy()  # [B, C-1]
-        hd_metric.reset()
+        dice_np, iou_np = per_sample_overlap_metrics(probs, labels, cfg)
+        centroid_by_class = centroid_distances_for_landmarks(preds, labels, probs, cfg)
 
         # Confusion matrix update
         y_true_flat = labels.squeeze(1).cpu().numpy().astype(np.int64).ravel()
@@ -156,14 +194,15 @@ def evaluate_model(
             row[f"dice_{class_name}"] = float(dice_np[0, class_id]) if not np.isnan(dice_np[0, class_id]) else np.nan
             row[f"iou_{class_name}"] = float(iou_np[0, class_id]) if not np.isnan(iou_np[0, class_id]) else np.nan
             if class_id >= 1:
-                # hd_np excludes background; class_id 1 maps to hd_np[:,0]
-                hd_val = hd_np[0, class_id - 1] if hd_np.ndim == 2 else hd_np[class_id - 1]
-                row[f"hd_{class_name}"] = float(hd_val) if np.isfinite(hd_val) else np.nan
+                row[f"centroid_dist_{class_name}"] = centroid_by_class.get(class_id, np.nan)
 
-        row["mean_dice_non_bg"] = float(np.nanmean(dice_np[0, 1:]))
-        row["mean_iou_non_bg"] = float(np.nanmean(iou_np[0, 1:]))
-        row["mean_dice_electrodes"] = float(np.nanmean(dice_np[0, ELECTRODE_CLASSES]))
-        row["mean_dice_anatomy"] = float(np.nanmean(dice_np[0, ANATOMY_CLASSES]))
+        row["mean_dice_non_bg"] = nanmean_or_nan(dice_np[0, 1:])
+        row["mean_iou_non_bg"] = nanmean_or_nan(iou_np[0, 1:])
+        row["mean_dice_electrodes"] = nanmean_or_nan(dice_np[0, ELECTRODE_CLASSES])
+        row["mean_dice_anatomy"] = nanmean_or_nan(dice_np[0, ANATOMY_CLASSES])
+        row["mean_centroid_dist_non_bg"] = nanmean_or_nan(list(centroid_by_class.values()))
+        row["mean_centroid_dist_electrodes"] = nanmean_or_nan([centroid_by_class.get(class_id, np.nan) for class_id in ELECTRODE_CLASSES])
+        row["mean_centroid_dist_anatomy"] = nanmean_or_nan([centroid_by_class.get(class_id, np.nan) for class_id in ANATOMY_CLASSES])
         per_sample_rows.append(row)
 
     per_sample_df = pd.DataFrame(per_sample_rows)
@@ -174,13 +213,13 @@ def evaluate_model(
         class_row = {
             "class_id": class_id,
             "class_name": class_name,
-            "dice_mean": float(np.nanmean(per_sample_df[f"dice_{class_name}"])),
-            "iou_mean": float(np.nanmean(per_sample_df[f"iou_{class_name}"])),
+            "dice_mean": nanmean_or_nan(per_sample_df[f"dice_{class_name}"]),
+            "iou_mean": nanmean_or_nan(per_sample_df[f"iou_{class_name}"]),
         }
         if class_id >= 1:
-            class_row["hausdorff_mean"] = float(np.nanmean(per_sample_df[f"hd_{class_name}"]))
+            class_row["centroid_dist_mean"] = nanmean_or_nan(per_sample_df[f"centroid_dist_{class_name}"])
         else:
-            class_row["hausdorff_mean"] = np.nan
+            class_row["centroid_dist_mean"] = np.nan
 
         # Precision / recall / F1 from confusion matrix
         tp = cm[class_id, class_id]
@@ -205,10 +244,12 @@ def evaluate_model(
             {"metric": "mean_iou_non_bg", "value": float(per_sample_df["mean_iou_non_bg"].mean())},
             {"metric": "mean_dice_electrodes", "value": float(per_sample_df["mean_dice_electrodes"].mean())},
             {"metric": "mean_dice_anatomy", "value": float(per_sample_df["mean_dice_anatomy"].mean())},
+            {"metric": "mean_centroid_dist_non_bg", "value": float(per_sample_df["mean_centroid_dist_non_bg"].mean())},
+            {"metric": "mean_centroid_dist_electrodes", "value": float(per_sample_df["mean_centroid_dist_electrodes"].mean())},
+            {"metric": "mean_centroid_dist_anatomy", "value": float(per_sample_df["mean_centroid_dist_anatomy"].mean())},
             {"metric": "electrode_macro_precision", "value": float(electrode_df["precision"].mean())},
             {"metric": "electrode_macro_recall", "value": float(electrode_df["recall"].mean())},
             {"metric": "electrode_macro_f1", "value": float(electrode_df["f1"].mean())},
-            {"metric": "hausdorff_mean_non_bg", "value": float(per_class_df[per_class_df["class_id"] > 0]["hausdorff_mean"].mean())},
         ]
     )
 
@@ -257,6 +298,18 @@ def plot_training_history(history_df: pd.DataFrame, cfg: Config) -> None:
     plt.tight_layout()
     plt.savefig(cfg.plots_dir / "val_dice_vs_epochs.png", dpi=200)
     plt.close()
+
+    if "val_centroid_dist" in history_df.columns:
+        plt.figure(figsize=(8, 5))
+        for stage_name, stage_df in history_df.groupby("stage"):
+            plt.plot(stage_df["epoch"], stage_df["val_centroid_dist"], label=f"{stage_name} centroid distance")
+        plt.xlabel("Epoch")
+        plt.ylabel("Mean validation centroid distance (voxels)")
+        plt.title("Validation centroid distance vs epochs")
+        plt.legend()
+        plt.tight_layout()
+        plt.savefig(cfg.plots_dir / "val_centroid_dist_vs_epochs.png", dpi=200)
+        plt.close()
 
 
 def plot_dice_boxplot(per_sample_df: pd.DataFrame, cfg: Config) -> None:

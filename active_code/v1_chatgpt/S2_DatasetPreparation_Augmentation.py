@@ -215,6 +215,7 @@ def create_val_loader(
     npz_paths: Sequence[Path],
     cfg: Config,
 ) -> DataLoader:
+    val_num_workers = max(0, cfg.num_workers // 2)
     dataset = NPZSegmentationDataset(
         npz_paths=npz_paths,
         pseudo_flags=[False] * len(npz_paths),
@@ -225,9 +226,9 @@ def create_val_loader(
         dataset,
         batch_size=cfg.val_batch_size,
         shuffle=False,
-        num_workers=max(1, cfg.num_workers // 2),
+        num_workers=val_num_workers,
         pin_memory=cfg.pin_memory,
-        persistent_workers=(max(1, cfg.num_workers // 2) > 0),
+        persistent_workers=val_num_workers > 0,
     )
 
 
@@ -235,6 +236,7 @@ def create_unlabeled_loader(
     npz_paths: Sequence[Path],
     cfg: Config,
 ) -> DataLoader:
+    unlabeled_num_workers = max(0, cfg.num_workers // 2)
     dataset = NPZSegmentationDataset(
         npz_paths=npz_paths,
         pseudo_flags=[False] * len(npz_paths),
@@ -245,7 +247,7 @@ def create_unlabeled_loader(
         dataset,
         batch_size=1,
         shuffle=False,
-        num_workers=max(1, cfg.num_workers // 2),
+        num_workers=unlabeled_num_workers,
         pin_memory=cfg.pin_memory,
-        persistent_workers=(max(1, cfg.num_workers // 2) > 0),
+        persistent_workers=unlabeled_num_workers > 0,
     )

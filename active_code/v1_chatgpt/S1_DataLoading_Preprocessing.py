@@ -23,6 +23,8 @@ from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader, Dataset
 from tqdm.auto import tqdm
 
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 from monai.data import list_data_collate
@@ -128,7 +130,7 @@ class Config:
     raw_unlabeled_images_dir: Optional[str] = None
 
     # Working directories
-    work_dir: str = "runs/cardiac_leads_multichannel_landmarks"
+    work_dir: str = "runs/cardiac_leads_focused_LL1_ANT"
 
     # Reproducibility
     seed: int = 42
@@ -164,6 +166,7 @@ class Config:
     # Optimization
     learning_rate: float = 2e-4
     weight_decay: float = 1e-5
+    eval_only: bool = False
     supervised_epochs: int = 50
     finetune_epochs: int = 0
     early_stopping_patience: int = 12
@@ -188,13 +191,13 @@ class Config:
     lambda_dice: float = 1.0
     lambda_ce: float = 1.0
     bce_pos_weight_max: float = 50.0
+    focus_class_ids: Tuple[int, ...] = (1, 7)  # LL1 and ANT underperformed in the third run.
+    focus_class_loss_multiplier: float = 2.5
     prediction_threshold: float = 0.50
 
-    # Metrics
-    hausdorff_percentile: Optional[float] = 95.0  # set None for full HD
-
     # Visualization
-    max_overlay_cases: int = 8
+    save_overlays: bool = True
+    max_overlay_cases: int = 3
 
     @property
     def cache_dir(self) -> Path:
