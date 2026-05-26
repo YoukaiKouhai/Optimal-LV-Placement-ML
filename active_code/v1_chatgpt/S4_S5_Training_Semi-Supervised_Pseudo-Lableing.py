@@ -138,13 +138,22 @@ def mean_dice_from_logits(
 
 
 @torch.no_grad()
-def mean_centroid_distance_from_logits(
+def logits_to_label_map(logits: torch.Tensor, threshold: float) -> Tuple[torch.Tensor, torch.Tensor]:
+    probs = torch.sigmoid(logits)
+    best_prob, best_channel = probs.max(dim=1, keepdim=True)
+    preds = best_channel.long() + 1
+    preds = torch.where(best_prob >= threshold, preds, torch.zeros_like(preds))
+    return preds, probs
+
+
+@torch.no_grad()
+def mean_centroid_distance_from_label_map_logits(
     logits: torch.Tensor,
     labels: torch.Tensor,
     class_ids: Sequence[int],
     threshold: float = 0.5,
 ) -> float:
-    probs = torch.sigmoid(logits)
+    preds, probs = logits_to_label_map(logits, threshold)
     distances: List[float] = []
 
     for batch_idx in range(probs.shape[0]):
@@ -152,7 +161,7 @@ def mean_centroid_distance_from_logits(
             channel_idx = class_id - 1
             if channel_idx < 0 or channel_idx >= probs.shape[1]:
                 continue
-            pred_mask = probs[batch_idx, channel_idx] >= threshold
+            pred_mask = preds[batch_idx, 0] == class_id
             if not bool(pred_mask.any()):
                 flat_idx = int(torch.argmax(probs[batch_idx, channel_idx]).item())
                 pred_coords = torch.tensor(
@@ -173,6 +182,21 @@ def mean_centroid_distance_from_logits(
     return float(np.mean(distances)) if distances else np.nan
 
 
+@torch.no_grad()
+def mean_centroid_distance_from_logits(
+    logits: torch.Tensor,
+    labels: torch.Tensor,
+    class_ids: Sequence[int],
+    threshold: float = 0.5,
+) -> float:
+    return mean_centroid_distance_from_label_map_logits(
+        logits=logits,
+        labels=labels,
+        class_ids=class_ids,
+        threshold=threshold,
+    )
+
+
 def save_checkpoint(
     path: Path,
     model: torch.nn.Module,
@@ -186,6 +210,7 @@ def save_checkpoint(
         "optimizer_state_dict": optimizer.state_dict(),
         "epoch": epoch,
         "best_metric": best_metric,
+        "checkpoint_metric": cfg.checkpoint_metric,
         "config": asdict(cfg),
     }
     torch.save(payload, path)
@@ -301,7 +326,10 @@ def fit_model(
     stage_name: str,
     gpu_aug: Optional[Compose] = None,
 ) -> pd.DataFrame:
-    best_dice = -np.inf
+    if cfg.checkpoint_mode not in {"min", "max"}:
+        raise ValueError(f"checkpoint_mode must be 'min' or 'max', got {cfg.checkpoint_mode!r}")
+
+    best_metric = np.inf if cfg.checkpoint_mode == "min" else -np.inf
     epochs_without_improvement = 0
     history_rows: List[Dict] = []
     scaler = torch.amp.GradScaler(device.type, enabled=(cfg.amp and device.type == "cuda"))
@@ -340,18 +368,25 @@ def fit_model(
             row[metric_key] = val_stats.get(metric_key, np.nan)
         history_rows.append(row)
 
-        if val_stats["val_dice"] > best_dice:
-            improved = val_stats["val_dice"] > (best_dice + cfg.early_stopping_min_delta)
-            best_dice = val_stats["val_dice"]
+        metric_value = val_stats.get(cfg.checkpoint_metric)
+        if metric_value is None or not np.isfinite(metric_value):
+            raise ValueError(f"Checkpoint metric {cfg.checkpoint_metric!r} is missing or non-finite.")
+        if cfg.checkpoint_mode == "min":
+            improved = metric_value < (best_metric - cfg.early_stopping_min_delta)
+        else:
+            improved = metric_value > (best_metric + cfg.early_stopping_min_delta)
+
+        if improved:
+            best_metric = metric_value
             save_checkpoint(
                 path=checkpoint_path,
                 model=model,
                 optimizer=optimizer,
                 epoch=epoch,
-                best_metric=best_dice,
+                best_metric=best_metric,
                 cfg=cfg,
             )
-            epochs_without_improvement = 0 if improved else epochs_without_improvement + 1
+            epochs_without_improvement = 0
         else:
             epochs_without_improvement += 1
 
@@ -360,7 +395,8 @@ def fit_model(
             f"train_loss={train_loss:.5f} "
             f"val_loss={val_stats['val_loss']:.5f} "
             f"val_dice={val_stats['val_dice']:.5f} "
-            f"val_centroid_dist={val_stats['val_centroid_dist']:.2f}"
+            f"val_centroid_dist={val_stats['val_centroid_dist']:.2f} "
+            f"best_{cfg.checkpoint_metric}={best_metric:.5f}"
         )
         for class_id in cfg.focus_class_ids:
             class_name = CLASS_NAMES[class_id] if class_id < len(CLASS_NAMES) else f"class_{class_id}"
@@ -370,7 +406,7 @@ def fit_model(
         if epochs_without_improvement >= cfg.early_stopping_patience:
             print(
                 f"[{stage_name}] early stopping after {epoch:03d} epochs; "
-                f"best_val_dice={best_dice:.5f}"
+                f"best_{cfg.checkpoint_metric}={best_metric:.5f}"
             )
             break
 

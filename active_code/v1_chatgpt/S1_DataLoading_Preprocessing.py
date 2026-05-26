@@ -130,7 +130,7 @@ class Config:
     raw_unlabeled_images_dir: Optional[str] = None
 
     # Working directories
-    work_dir: str = "runs/cardiac_leads_focused_LL1_ANT"
+    work_dir: str = "runs/cardiac_leads_centroid_rebalance_v2"
 
     # Reproducibility
     seed: int = 42
@@ -164,12 +164,15 @@ class Config:
     dropout: float = 0.0
 
     # Optimization
-    learning_rate: float = 2e-4
+    learning_rate: float = 1e-4
     weight_decay: float = 1e-5
     eval_only: bool = False
-    supervised_epochs: int = 50
+    warm_start_checkpoint: Optional[str] = "runs/cardiac_leads_focused_LL1_ANT/weights/best_supervised_model.pth"
+    supervised_epochs: int = 35
     finetune_epochs: int = 0
-    early_stopping_patience: int = 12
+    checkpoint_metric: str = "val_centroid_dist"
+    checkpoint_mode: str = "min"
+    early_stopping_patience: int = 10
     early_stopping_min_delta: float = 1e-4
     amp: bool = True
 
@@ -191,8 +194,8 @@ class Config:
     lambda_dice: float = 1.0
     lambda_ce: float = 1.0
     bce_pos_weight_max: float = 50.0
-    focus_class_ids: Tuple[int, ...] = (1, 7)  # LL1 and ANT underperformed in the third run.
-    focus_class_loss_multiplier: float = 2.5
+    focus_class_ids: Tuple[int, ...] = (1, 3, 7, 8)  # LL1, LL3, ANT, Apex are the weakest centroid classes.
+    focus_class_loss_multiplier: float = 1.8
     prediction_threshold: float = 0.50
 
     # Visualization

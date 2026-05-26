@@ -311,6 +311,22 @@ def plot_training_history(history_df: pd.DataFrame, cfg: Config) -> None:
         plt.savefig(cfg.plots_dir / "val_centroid_dist_vs_epochs.png", dpi=200)
         plt.close()
 
+    focus_cols = [
+        col for col in history_df.columns
+        if col.startswith("val_centroid_dist_") and col != "val_centroid_dist"
+    ]
+    if focus_cols:
+        plt.figure(figsize=(9, 5))
+        for col in focus_cols:
+            plt.plot(history_df["epoch"], history_df[col], label=col.replace("val_centroid_dist_", ""))
+        plt.xlabel("Epoch")
+        plt.ylabel("Validation centroid distance (voxels)")
+        plt.title("Focused class centroid distance vs epochs")
+        plt.legend()
+        plt.tight_layout()
+        plt.savefig(cfg.plots_dir / "focus_centroid_dist_vs_epochs.png", dpi=200)
+        plt.close()
+
 
 def plot_dice_boxplot(per_sample_df: pd.DataFrame, cfg: Config) -> None:
     plt.figure(figsize=(7, 5))

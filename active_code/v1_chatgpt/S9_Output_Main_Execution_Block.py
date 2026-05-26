@@ -110,6 +110,13 @@ def main() -> None:
     # Step 3: model
     # -----------------------------------
     model = build_model(cfg).to(device)
+    if (not cfg.eval_only) and cfg.warm_start_checkpoint:
+        warm_start_path = Path(cfg.warm_start_checkpoint)
+        if warm_start_path.exists():
+            load_checkpoint_weights(model, warm_start_path, device)
+            print(f"Warm-started model from: {warm_start_path}")
+        else:
+            print(f"Warm-start checkpoint not found; training from scratch: {warm_start_path}")
 
     # -----------------------------------
     # Step 4: supervised training
@@ -154,6 +161,15 @@ def main() -> None:
 
         load_checkpoint_weights(model, supervised_ckpt, device)
         supervised_best_dice = float(supervised_history["val_dice"].max())
+        supervised_best_checkpoint_metric = float(
+            supervised_history[cfg.checkpoint_metric].min()
+            if cfg.checkpoint_mode == "min"
+            else supervised_history[cfg.checkpoint_metric].max()
+        )
+        print(
+            f"Loaded best supervised checkpoint by {cfg.checkpoint_metric} "
+            f"({cfg.checkpoint_mode}) = {supervised_best_checkpoint_metric:.5f}"
+        )
 
         # -----------------------------------
         # Step 5: pseudo-label generation + fine-tuning
