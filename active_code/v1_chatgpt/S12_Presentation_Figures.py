@@ -217,6 +217,71 @@ def save_training_curves(run_dir: Path, output_dir: Path) -> Optional[Path]:
     return output_path
 
 
+def save_training_validation_scatter_summary(run_dir: Path, output_dir: Path) -> Optional[Path]:
+    history_path = run_dir / "training_history_all_stages.csv"
+    if not history_path.exists():
+        history_path = run_dir / "history_supervised.csv"
+    history_df = safe_read_csv(history_path)
+    if history_df is None or history_df.empty:
+        print(f"Skipping scatter training summary; missing history CSV in {run_dir}")
+        return None
+
+    output_path = output_dir / "training_validation_scatter_summary.png"
+    fig, axes = plt.subplots(2, 2, figsize=(13.5, 9.0))
+    axes = axes.ravel()
+
+    color_map = {
+        "train_loss": "#1f77b4",
+        "val_loss": "#d62728",
+        "val_dice": "#2ca02c",
+        "val_centroid_dist": "#9467bd",
+        "val_focus_centroid_dist": "#ff7f0e",
+    }
+
+    def scatter_metric(ax: plt.Axes, column: str, label: str, color: str, marker: str = "o") -> None:
+        if column not in history_df.columns:
+            ax.text(0.5, 0.5, f"{column} not found", ha="center", va="center")
+            return
+        ax.scatter(history_df["epoch"], history_df[column], s=58, color=color, marker=marker, label=label, edgecolors="black", linewidths=0.45)
+        ax.plot(history_df["epoch"], history_df[column], color=color, linewidth=1.2, alpha=0.65)
+
+    scatter_metric(axes[0], "train_loss", "Training loss", color_map["train_loss"], marker="o")
+    scatter_metric(axes[0], "val_loss", "Validation loss", color_map["val_loss"], marker="s")
+    axes[0].set_title("Training and Validation Loss vs Epoch")
+    axes[0].set_ylabel("Loss")
+
+    scatter_metric(axes[1], "val_dice", "Validation Dice", color_map["val_dice"], marker="D")
+    axes[1].set_title("Validation Dice Score vs Epoch")
+    axes[1].set_ylabel("Dice")
+    axes[1].set_ylim(0.0, max(1.0, float(pd.to_numeric(history_df.get("val_dice"), errors="coerce").max()) + 0.05))
+
+    scatter_metric(axes[2], "val_centroid_dist", "Validation centroid distance", color_map["val_centroid_dist"], marker="^")
+    axes[2].set_title("Validation Centroid Distance vs Epoch")
+    axes[2].set_ylabel("Distance (voxels)")
+
+    scatter_metric(axes[3], "val_focus_centroid_dist", "Focused-class centroid distance", color_map["val_focus_centroid_dist"], marker="P")
+    focus_columns = [col for col in history_df.columns if col.startswith("val_centroid_dist_") and col != "val_centroid_dist"]
+    focus_colors = ["#17becf", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#1f77b4"]
+    for idx, column in enumerate(focus_columns):
+        label = column.replace("val_centroid_dist_", "")
+        color = focus_colors[idx % len(focus_colors)]
+        axes[3].scatter(history_df["epoch"], history_df[column], s=36, color=color, marker="x", label=label)
+        axes[3].plot(history_df["epoch"], history_df[column], color=color, linewidth=0.9, alpha=0.45)
+    axes[3].set_title("Focused Class Centroid Distance vs Epoch")
+    axes[3].set_ylabel("Distance (voxels)")
+
+    for ax in axes:
+        ax.set_xlabel("Epoch")
+        ax.grid(alpha=0.25)
+        ax.legend(frameon=False, fontsize=9)
+
+    fig.suptitle("Training and Validation Metrics Across Epochs", fontsize=16)
+    fig.tight_layout()
+    fig.savefig(output_path, dpi=220, bbox_inches="tight")
+    plt.close(fig)
+    return output_path
+
+
 def save_clinical_interpretation_summary(errors_df: pd.DataFrame, output_dir: Path) -> Path:
     output_path = output_dir / "clinical_interpretation_summary.md"
     valid = errors_df.copy()
@@ -263,6 +328,7 @@ def generate_presentation_figures(
         save_example_patient_panel(run_dir, coordinates_df, output_dir),
         save_failure_case_panel(run_dir, errors_df, output_dir),
         save_training_curves(run_dir, output_dir),
+        save_training_validation_scatter_summary(run_dir, output_dir),
         save_clinical_interpretation_summary(errors_df, output_dir),
     ]
     saved_paths = [path for path in saved if path is not None]
