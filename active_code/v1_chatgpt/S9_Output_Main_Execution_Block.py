@@ -70,6 +70,27 @@ def load_history_if_available(cfg: Config) -> pd.DataFrame:
     return pd.DataFrame()
 
 
+def run_presentation_outputs(cfg: Config, checkpoint_path: Path) -> None:
+    """
+    Build final-project figures after evaluation completes.
+    This is intentionally best-effort so a plotting issue does not erase a
+    completed training/evaluation run.
+    """
+    try:
+        from S12_Presentation_Figures import generate_presentation_figures
+
+        print("Starting presentation figure generation...")
+        saved_paths = generate_presentation_figures(
+            run_dir=Path(cfg.work_dir),
+            checkpoint_path=checkpoint_path,
+            force_centroids=True,
+        )
+        print(f"Saved presentation outputs in: {Path(cfg.work_dir) / 'presentation_figures'}")
+        print(f"Generated/updated {len(saved_paths)} presentation files.")
+    except Exception as exc:
+        print(f"WARNING: presentation output generation failed: {exc}")
+
+
 def main() -> None:
     cfg = Config()
     seed_everything(cfg.seed)
@@ -276,7 +297,15 @@ def main() -> None:
         print("Skipping overlays because cfg.save_overlays=False.")
 
     # -----------------------------------
-    # Step 9: final model save
+    # Step 9: presentation figures
+    # -----------------------------------
+    presentation_checkpoint = cfg.weights_dir / "best_finetuned_model.pth"
+    if not presentation_checkpoint.exists():
+        presentation_checkpoint = supervised_ckpt
+    run_presentation_outputs(cfg, presentation_checkpoint)
+
+    # -----------------------------------
+    # Step 10: final model save
     # -----------------------------------
     final_model_path = cfg.weights_dir / "final_model_weights.pth"
     torch.save(

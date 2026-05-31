@@ -131,6 +131,53 @@ def centroid_rows_for_mask(
                 "centroid_y": centroid_y,
                 "centroid_x": centroid_x,
                 "voxel_count": voxel_count,
+                "peak_probability": np.nan,
+                "missing": bool(missing),
+                "spacing_d": float(spacing_dhw[0]) if len(spacing_dhw) > 0 else np.nan,
+                "spacing_h": float(spacing_dhw[1]) if len(spacing_dhw) > 1 else np.nan,
+                "spacing_w": float(spacing_dhw[2]) if len(spacing_dhw) > 2 else np.nan,
+                "source_npz": str(source_npz),
+            }
+        )
+    return rows
+
+
+def centroid_rows_for_prediction_probabilities(
+    probs: np.ndarray,
+    patient_id: str,
+    spacing_dhw: Sequence[float],
+    source_npz: Path,
+    cfg: Config,
+) -> List[Dict[str, object]]:
+    rows: List[Dict[str, object]] = []
+    for class_id in range(1, cfg.num_classes):
+        channel_idx = class_id - 1
+        class_name = CLASS_NAMES[class_id] if class_id < len(CLASS_NAMES) else f"class_{class_id}"
+        if channel_idx < 0 or channel_idx >= probs.shape[0]:
+            centroid_z = centroid_y = centroid_x = np.nan
+            voxel_count = 0
+            peak_probability = np.nan
+            missing = True
+        else:
+            channel = probs[channel_idx]
+            flat_idx = int(np.argmax(channel))
+            centroid_zyx = np.asarray(np.unravel_index(flat_idx, channel.shape), dtype=np.float64)
+            centroid_z, centroid_y, centroid_x = map(float, centroid_zyx)
+            voxel_count = int((channel >= cfg.prediction_threshold).sum())
+            peak_probability = float(channel.reshape(-1)[flat_idx])
+            missing = False
+
+        rows.append(
+            {
+                "patient_id": patient_id,
+                "class_id": class_id,
+                "class_name": class_name,
+                "source": "Prediction",
+                "centroid_z": centroid_z,
+                "centroid_y": centroid_y,
+                "centroid_x": centroid_x,
+                "voxel_count": voxel_count,
+                "peak_probability": peak_probability,
                 "missing": bool(missing),
                 "spacing_d": float(spacing_dhw[0]) if len(spacing_dhw) > 0 else np.nan,
                 "spacing_h": float(spacing_dhw[1]) if len(spacing_dhw) > 1 else np.nan,
@@ -196,6 +243,19 @@ def predict_label_map_for_case(
     return preds[0, 0].detach().cpu().numpy().astype(np.uint8)
 
 
+@torch.no_grad()
+def predict_probabilities_for_case(
+    model: torch.nn.Module,
+    image_np: np.ndarray,
+    cfg: Config,
+    device: torch.device,
+) -> np.ndarray:
+    image_tensor = torch.from_numpy(image_np.astype(np.float32)).unsqueeze(0).unsqueeze(0).to(device)
+    logits = infer_logits(model, image_tensor, cfg)
+    probs = torch.sigmoid(logits)
+    return probs[0].detach().cpu().numpy().astype(np.float32)
+
+
 def export_centroids(
     run_dir: Path,
     checkpoint_path: Optional[Path] = None,
@@ -236,7 +296,7 @@ def export_centroids(
             patient_id = str(data["case_id"]) if "case_id" in data.files else npz_path.stem
             spacing_dhw = data["spacing_dhw"].astype(np.float32) if "spacing_dhw" in data.files else np.array([np.nan, np.nan, np.nan])
 
-        pred_np = predict_label_map_for_case(model, image_np, cfg, device)
+        pred_probs = predict_probabilities_for_case(model, image_np, cfg, device)
         all_rows.extend(
             centroid_rows_for_mask(
                 mask=label_np,
@@ -248,13 +308,12 @@ def export_centroids(
             )
         )
         all_rows.extend(
-            centroid_rows_for_mask(
-                mask=pred_np,
+            centroid_rows_for_prediction_probabilities(
+                probs=pred_probs,
                 patient_id=patient_id,
-                source="Prediction",
                 spacing_dhw=spacing_dhw,
                 source_npz=npz_path,
-                num_classes=cfg.num_classes,
+                cfg=cfg,
             )
         )
 
