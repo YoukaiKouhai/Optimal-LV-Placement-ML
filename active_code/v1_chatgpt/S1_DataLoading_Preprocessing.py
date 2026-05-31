@@ -130,7 +130,7 @@ class Config:
     raw_unlabeled_images_dir: Optional[str] = None
 
     # Working directories
-    work_dir: str = "runs/cardiac_leads_stable_centroid_v5"
+    work_dir: str = "runs/cardiac_leads_no_spatial_aug_v6"
 
     # Reproducibility
     seed: int = 42
@@ -164,10 +164,10 @@ class Config:
     dropout: float = 0.0
 
     # Optimization
-    learning_rate: float = 1.0e-5
+    learning_rate: float = 7.5e-6
     weight_decay: float = 1e-5
     eval_only: bool = False
-    warm_start_checkpoint: Optional[str] = "runs/cardiac_leads_base_ant_ll2_v4/weights/best_supervised_model.pth"
+    warm_start_checkpoint: Optional[str] = "runs/cardiac_leads_stable_centroid_v5/weights/best_supervised_model.pth"
     supervised_epochs: int = 25
     finetune_epochs: int = 0
     checkpoint_metric: str = "val_selection_score"
@@ -175,6 +175,8 @@ class Config:
     early_stopping_patience: int = 8
     early_stopping_min_delta: float = 1e-4
     amp: bool = True
+    enable_spatial_augmentation: bool = False
+    enable_intensity_augmentation: bool = True
 
     # Inference
     infer_overlap: float = 0.5

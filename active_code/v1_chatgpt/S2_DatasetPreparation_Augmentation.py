@@ -120,13 +120,15 @@ def build_unlabeled_transform() -> Compose:
     )
 
 
-def build_gpu_train_augment(cfg: Config) -> Compose:
+def build_gpu_train_augment(cfg: Config) -> Optional[Compose]:
     """
     These MONAI transforms operate on torch tensors.
     They are applied after batches are moved to CUDA.
     """
-    return Compose(
-        [
+    transforms = []
+    if cfg.enable_spatial_augmentation:
+        transforms.extend(
+            [
             RandFlipd(keys=["image", "label"], prob=0.5, spatial_axis=0),
             RandFlipd(keys=["image", "label"], prob=0.5, spatial_axis=1),
             RandFlipd(keys=["image", "label"], prob=0.5, spatial_axis=2),
@@ -147,10 +149,16 @@ def build_gpu_train_augment(cfg: Config) -> Compose:
                 mode=("bilinear", "nearest"),
                 padding_mode="border",
             ),
-            RandScaleIntensityd(keys=["image"], factors=0.10, prob=0.20),
-            RandShiftIntensityd(keys=["image"], offsets=0.10, prob=0.20),
-        ]
-    )
+            ]
+        )
+    if cfg.enable_intensity_augmentation:
+        transforms.extend(
+            [
+                RandScaleIntensityd(keys=["image"], factors=0.10, prob=0.20),
+                RandShiftIntensityd(keys=["image"], offsets=0.10, prob=0.20),
+            ]
+        )
+    return Compose(transforms) if transforms else None
 
 
 def apply_gpu_augment(
