@@ -310,14 +310,20 @@ def validate_one_epoch(
         if np.isfinite(class_distance):
             focus_epoch_distances.append(class_distance)
     val_stats["val_focus_centroid_dist"] = float(np.mean(focus_epoch_distances)) if focus_epoch_distances else np.nan
+    val_stats["val_worst_focus_centroid_dist"] = float(np.max(focus_epoch_distances)) if focus_epoch_distances else np.nan
     if np.isfinite(val_stats["val_centroid_dist"]) and np.isfinite(val_stats["val_dice"]):
         focus_penalty = (
             cfg.selection_score_focus_weight * val_stats["val_focus_centroid_dist"]
             if np.isfinite(val_stats["val_focus_centroid_dist"])
             else 0.0
         )
+        worst_focus_penalty = (
+            cfg.selection_score_worst_focus_weight * val_stats["val_worst_focus_centroid_dist"]
+            if np.isfinite(val_stats["val_worst_focus_centroid_dist"])
+            else 0.0
+        )
         dice_reward = cfg.selection_score_dice_weight * val_stats["val_dice"]
-        val_stats["val_selection_score"] = val_stats["val_centroid_dist"] + focus_penalty - dice_reward
+        val_stats["val_selection_score"] = val_stats["val_centroid_dist"] + focus_penalty + worst_focus_penalty - dice_reward
     else:
         val_stats["val_selection_score"] = np.nan
     return val_stats
@@ -372,6 +378,7 @@ def fit_model(
             "val_dice": val_stats["val_dice"],
             "val_centroid_dist": val_stats["val_centroid_dist"],
             "val_focus_centroid_dist": val_stats["val_focus_centroid_dist"],
+            "val_worst_focus_centroid_dist": val_stats["val_worst_focus_centroid_dist"],
             "val_selection_score": val_stats["val_selection_score"],
         }
         for class_id in cfg.focus_class_ids:
@@ -409,6 +416,7 @@ def fit_model(
             f"val_dice={val_stats['val_dice']:.5f} "
             f"val_centroid_dist={val_stats['val_centroid_dist']:.2f} "
             f"val_focus_centroid_dist={val_stats['val_focus_centroid_dist']:.2f} "
+            f"val_worst_focus_centroid_dist={val_stats['val_worst_focus_centroid_dist']:.2f} "
             f"val_selection_score={val_stats['val_selection_score']:.5f} "
             f"best_{cfg.checkpoint_metric}={best_metric:.5f}"
         )
