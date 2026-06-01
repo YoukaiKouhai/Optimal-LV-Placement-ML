@@ -1,0 +1,329 @@
+{
+  "case_id": "10002_HCT2_img",
+  "image_shape": [
+    1,
+    1,
+    32,
+    32,
+    32
+  ],
+  "label_shape": [
+    1,
+    1,
+    32,
+    32,
+    32
+  ],
+  "logits_shape": [
+    1,
+    9,
+    32,
+    32,
+    32
+  ],
+  "target_heatmap_shape": [
+    1,
+    9,
+    32,
+    32,
+    32
+  ],
+  "loss": 0.6315732002258301,
+  "weighted_heatmap_loss": 0.4859578609466553,
+  "unweighted_mse": 0.23422157764434814,
+  "coord_loss": 1.456153154373169,
+  "sigma_voxels": 3.0,
+  "foreground_alpha": 150.0,
+  "lambda_coord": 0.1,
+  "softargmax_temperature": 0.05,
+  "output_activation": "sigmoid",
+  "active_channel_indices": [
+    0
+  ],
+  "crop_origin_zyx": [
+    [
+      28,
+      56,
+      26
+    ]
+  ],
+  "landmark_crop_zyx": [
+    [
+      18.5,
+      15.5,
+      16.0
+    ]
+  ],
+  "channels": [
+    {
+      "class_id": 1,
+      "class_name": "LL1",
+      "present": true,
+      "target_center_zyx": [
+        18.5,
+        15.5,
+        16.0
+      ],
+      "target_argmax_zyx": [
+        18.0,
+        15.0,
+        16.0
+      ],
+      "pred_argmax_zyx": [
+        14.0,
+        15.0,
+        17.0
+      ],
+      "softargmax_zyx": [
+        16.96101951599121,
+        16.30362892150879,
+        19.506568908691406
+      ],
+      "argmax_distance_vox": 4.123105525970459,
+      "pred_peak_in_neighborhood": false,
+      "target_heatmap_max": 0.9726044535636902,
+      "pred_output_max": 0.9994571805000305,
+      "per_channel_loss": 0.4859578609466553
+    },
+    {
+      "class_id": 2,
+      "class_name": "LL2",
+      "present": true,
+      "target_center_zyx": [
+        16.5,
+        2.0,
+        29.0
+      ],
+      "target_argmax_zyx": [
+        16.0,
+        2.0,
+        29.0
+      ],
+      "pred_argmax_zyx": [
+        21.0,
+        15.0,
+        17.0
+      ],
+      "softargmax_zyx": [
+        17.12732696533203,
+        15.384578704833984,
+        16.8682804107666
+      ],
+      "argmax_distance_vox": 18.384777069091797,
+      "pred_peak_in_neighborhood": false,
+      "target_heatmap_max": 0.986207127571106,
+      "pred_output_max": 0.998357355594635,
+      "per_channel_loss": 0.4542703330516815
+    },
+    {
+      "class_id": 3,
+      "class_name": "LL3",
+      "present": false,
+      "target_center_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "target_argmax_zyx": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pred_argmax_zyx": [
+        11.0,
+        19.0,
+        23.0
+      ],
+      "softargmax_zyx": [
+        16.586875915527344,
+        14.662818908691406,
+        17.32756233215332
+      ],
+      "argmax_distance_vox": NaN,
+      "pred_peak_in_neighborhood": false,
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 0.9961541295051575,
+      "per_channel_loss": 0.26859286427497864
+    },
+    {
+      "class_id": 4,
+      "class_name": "LL4",
+      "present": false,
+      "target_center_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "target_argmax_zyx": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pred_argmax_zyx": [
+        22.0,
+        14.0,
+        17.0
+      ],
+      "softargmax_zyx": [
+        16.297365188598633,
+        15.133323669433594,
+        15.292202949523926
+      ],
+      "argmax_distance_vox": NaN,
+      "pred_peak_in_neighborhood": false,
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 0.9988431930541992,
+      "per_channel_loss": 0.33992642164230347
+    },
+    {
+      "class_id": 5,
+      "class_name": "RL1",
+      "present": false,
+      "target_center_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "target_argmax_zyx": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pred_argmax_zyx": [
+        16.0,
+        14.0,
+        15.0
+      ],
+      "softargmax_zyx": [
+        16.067445755004883,
+        14.750732421875,
+        14.448773384094238
+      ],
+      "argmax_distance_vox": NaN,
+      "pred_peak_in_neighborhood": false,
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 0.9937363862991333,
+      "per_channel_loss": 0.3485308885574341
+    },
+    {
+      "class_id": 6,
+      "class_name": "RL2",
+      "present": false,
+      "target_center_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "target_argmax_zyx": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pred_argmax_zyx": [
+        17.0,
+        15.0,
+        15.0
+      ],
+      "softargmax_zyx": [
+        16.359464645385742,
+        15.855691909790039,
+        15.881728172302246
+      ],
+      "argmax_distance_vox": NaN,
+      "pred_peak_in_neighborhood": false,
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 0.9998506307601929,
+      "per_channel_loss": 0.34858399629592896
+    },
+    {
+      "class_id": 7,
+      "class_name": "ANT",
+      "present": false,
+      "target_center_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "target_argmax_zyx": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pred_argmax_zyx": [
+        17.0,
+        14.0,
+        21.0
+      ],
+      "softargmax_zyx": [
+        16.70180320739746,
+        15.486286163330078,
+        15.796869277954102
+      ],
+      "argmax_distance_vox": NaN,
+      "pred_peak_in_neighborhood": false,
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 0.9983701109886169,
+      "per_channel_loss": 0.29697567224502563
+    },
+    {
+      "class_id": 8,
+      "class_name": "Apex",
+      "present": false,
+      "target_center_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "target_argmax_zyx": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pred_argmax_zyx": [
+        17.0,
+        21.0,
+        14.0
+      ],
+      "softargmax_zyx": [
+        16.035282135009766,
+        14.998861312866211,
+        14.462092399597168
+      ],
+      "argmax_distance_vox": NaN,
+      "pred_peak_in_neighborhood": false,
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 0.9936450719833374,
+      "per_channel_loss": 0.3137301504611969
+    },
+    {
+      "class_id": 9,
+      "class_name": "Base",
+      "present": false,
+      "target_center_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "target_argmax_zyx": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pred_argmax_zyx": [
+        21.0,
+        12.0,
+        15.0
+      ],
+      "softargmax_zyx": [
+        15.75928783416748,
+        15.504998207092285,
+        15.543960571289062
+      ],
+      "argmax_distance_vox": NaN,
+      "pred_peak_in_neighborhood": false,
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 0.9998021721839905,
+      "per_channel_loss": 0.3357326090335846
+    }
+  ]
+}

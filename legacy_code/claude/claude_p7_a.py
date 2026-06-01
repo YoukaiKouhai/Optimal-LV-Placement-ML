@@ -63,7 +63,7 @@ warnings.filterwarnings("ignore")
 #  PATHS
 # ─────────────────────────────────────────────────────────────────────────────
 
-BASE_DIR          = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude")
+BASE_DIR          = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude")
 GT_NORMALIZED     = BASE_DIR / "normalized_results.json"
 PSEUDO_LABELS     = BASE_DIR / "pseudo_labels_v2.json"
 CENTROIDS_JSON    = BASE_DIR / "centroids_results.json"

@@ -1,0 +1,21 @@
+{
+  "work_dir": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\Optimal-LV-Placement-ML\\runs\\cardiac_leads_heatmap_tiny1",
+  "best_checkpoint": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\Optimal-LV-Placement-ML\\runs\\cardiac_leads_heatmap_tiny1\\weights\\best_heatmap_model.pth",
+  "history": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\Optimal-LV-Placement-ML\\runs\\cardiac_leads_heatmap_tiny1\\history_heatmap.csv",
+  "summary_metrics": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\Optimal-LV-Placement-ML\\runs\\cardiac_leads_heatmap_tiny1\\metrics\\heatmap_summary_metrics.csv",
+  "comparison": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\Optimal-LV-Placement-ML\\runs\\cardiac_leads_heatmap_tiny1\\metrics\\heatmap_method_comparison.csv",
+  "overlays": [
+    "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\Optimal-LV-Placement-ML\\runs\\cardiac_leads_heatmap_tiny1\\heatmap_overlays\\10002_HCT2_img_heatmap_peak_overlay.png"
+  ],
+  "final_stats": {
+    "val_loss": 0.1737270951271057,
+    "mean_centroid_dist_non_bg": 94.12298075358073,
+    "mean_centroid_dist_electrodes": 88.99947992960612,
+    "mean_centroid_dist_anatomy": 104.36998240152995,
+    "landmark_accuracy_within_5vox_non_bg": 0.0,
+    "landmark_accuracy_within_10vox_non_bg": 0.0,
+    "landmark_accuracy_within_15vox_non_bg": 0.0,
+    "landmark_accuracy_within_10vox_electrodes": 0.0,
+    "landmark_accuracy_within_15vox_electrodes": 0.0
+  }
+}

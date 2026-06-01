@@ -1,9 +1,9 @@
 {
-  "root": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project",
+  "root": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project",
   "datasets": {
     "data1": {
       "dataset_name": "BENG280C first 20",
-      "root": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20",
+      "root": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20",
       "patients": {
         "10001": {
           "patient_id": "10001",
@@ -2019,15 +2019,15 @@
         }
       },
       "scan_folders": {
-        "raw": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii",
-        "seg": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii",
-        "png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png",
-        "rois": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois"
+        "raw": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii",
+        "seg": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii",
+        "png": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_png",
+        "rois": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois"
       }
     },
     "data2": {
       "dataset_name": "HCT2 lead segmentation training",
-      "root": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training",
+      "root": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training",
       "patients": {
         "10001": {
           "patient_id": "10001",
@@ -8755,10 +8755,10 @@
         }
       },
       "scan_folders": {
-        "raw": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii",
-        "seg": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii",
-        "groundtruth_png": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png",
-        "rois": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois"
+        "raw": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii",
+        "seg": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii",
+        "groundtruth_png": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_groundtruth_png",
+        "rois": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois"
       }
     }
   }

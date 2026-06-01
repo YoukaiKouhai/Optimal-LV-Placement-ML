@@ -56,7 +56,7 @@ def compute_error_mm(
 # ============================================================
 
 REGISTRY_PATH = Path(
-    r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\chatgpt\patient_registry.json"
+    r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\chatgpt\patient_registry.json"
 )
 
 with open(REGISTRY_PATH, "r") as f:

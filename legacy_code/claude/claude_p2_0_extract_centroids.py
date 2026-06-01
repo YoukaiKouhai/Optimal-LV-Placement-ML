@@ -28,9 +28,9 @@ from scipy.ndimage import center_of_mass
 #  CONFIGURATION
 # ─────────────────────────────────────────────────────────────────────────────
 
-INVENTORY_JSON  = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\data_inventory.json")
-OUTPUT_JSON     = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\centroids_results.json")
-OUTPUT_REPORT   = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\centroids_report.txt")
+INVENTORY_JSON  = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\data_inventory.json")
+OUTPUT_JSON     = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\centroids_results.json")
+OUTPUT_REPORT   = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\centroids_report.txt")
 
 # Label definitions
 # NOTE: verified by comparing auto centroids to Horos CSV clicks.

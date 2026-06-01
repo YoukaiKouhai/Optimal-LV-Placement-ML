@@ -1,0 +1,10 @@
+metric,value
+val_loss,0.1737270951271057
+mean_centroid_dist_non_bg,94.12298075358073
+mean_centroid_dist_electrodes,88.99947992960612
+mean_centroid_dist_anatomy,104.36998240152995
+landmark_accuracy_within_5vox_non_bg,0.0
+landmark_accuracy_within_10vox_non_bg,0.0
+landmark_accuracy_within_15vox_non_bg,0.0
+landmark_accuracy_within_10vox_electrodes,0.0
+landmark_accuracy_within_15vox_electrodes,0.0

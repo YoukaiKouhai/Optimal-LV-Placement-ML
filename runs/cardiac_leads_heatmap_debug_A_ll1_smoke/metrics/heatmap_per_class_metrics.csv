@@ -1,0 +1,10 @@
+class_id,class_name,centroid_dist_mean,accuracy_within_5vox,accuracy_within_10vox,accuracy_within_15vox
+1,LL1,8.062257766723633,0.0,1.0,1.0
+2,LL2,,,,
+3,LL3,,,,
+4,LL4,,,,
+5,RL1,,,,
+6,RL2,,,,
+7,ANT,,,,
+8,Apex,,,,
+9,Base,,,,

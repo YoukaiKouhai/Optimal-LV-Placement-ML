@@ -58,8 +58,8 @@ DEFAULT_LABELS = [4001, 4002, 4003, 4004, 4005, 4006, 4007, 4008]
 
 # Configuration - Edit these to customize behavior
 CONFIG = {
-    "root_path": r"C:\Users\ayw005\Desktop\BENG 280C Project",  # Change this to your data root directory
-    "output_dir": r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\github_copilot_code/output",  # Directory to save JSON files
+    "root_path": r"C:\Users\<USER>\Desktop\BENG 280C Project",  # Change this to your data root directory
+    "output_dir": r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\github_copilot_code/output",  # Directory to save JSON files
     "scan_datasets": True,  # Scan datasets and create metadata
     "compute_centroids": True,  # Compute centroids for all segmentations
 }

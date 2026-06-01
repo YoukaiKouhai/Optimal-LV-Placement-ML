@@ -49,7 +49,7 @@ warnings.filterwarnings("ignore")
 #  PATHS
 # ─────────────────────────────────────────────────────────────────────────────
 
-BASE_DIR       = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude")
+BASE_DIR       = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude")
 INVENTORY_JSON = BASE_DIR / "data_inventory.json"
 CENTROIDS_JSON = BASE_DIR / "centroids_results.json"
 

@@ -71,7 +71,7 @@ WHAT TO DO NEXT:
     drop any group that made LOO MAE worse.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-✅  Results saved → C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\ml_4b_results.json
-✅  Report saved  → C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\ml_4b_report.txt
+✅  Results saved → C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\ml_4b_results.json
+✅  Report saved  → C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\ml_4b_report.txt
   Generating plot ...
-✅  Plot saved → C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\ml_4b_plot.png
+✅  Plot saved → C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\ml_4b_plot.png

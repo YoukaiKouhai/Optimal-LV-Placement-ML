@@ -1,0 +1,11 @@
+metric,value
+mean_dice_non_bg,0.5051108840860227
+mean_iou_non_bg,0.36905462176749504
+mean_dice_electrodes,0.5755597960497544
+mean_dice_anatomy,0.36421306015855953
+mean_centroid_dist_non_bg,7.914291855702589
+mean_centroid_dist_electrodes,6.929357219207404
+mean_centroid_dist_anatomy,9.809149830796303
+electrode_macro_precision,0.5262129708547743
+electrode_macro_recall,0.19992956768451306
+electrode_macro_f1,0.28853396570588224

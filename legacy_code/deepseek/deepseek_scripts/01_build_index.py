@@ -4,8 +4,8 @@ import json
 
 if __name__ == "__main__":
     root_folders = [
-        r"C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20",
-        r"C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training"
+        r"C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20",
+        r"C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training"
     ]
     patient_dict = build_patient_dictionary(root_folders)
 

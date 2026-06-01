@@ -27,7 +27,7 @@ COMPARISON TO STEP 2 (segmentation centroid):
 
 ─────────────────────────────────────────────────────────────────
 Patient 10001   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10001_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10001_HCT2_HCT2.nii.gz
   Shape : [512, 512, 189]
   Metal voxels (>2000 HU) : 21698
   Blobs after size filter   : 7
@@ -45,7 +45,7 @@ Patient 10001   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10002   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10002_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10002_HCT2_HCT2.nii.gz
   Shape : [512, 512, 228]
   Metal voxels (>2000 HU) : 43937
   Blobs after size filter   : 9
@@ -63,7 +63,7 @@ Patient 10002   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10003   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10003_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10003_HCT2_HCT2.nii.gz
   Shape : [512, 512, 265]
   Metal voxels (>2000 HU) : 17180
   Blobs after size filter   : 8
@@ -81,7 +81,7 @@ Patient 10003   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10004   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10004_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10004_HCT2_HCT2.nii.gz
   Shape : [512, 512, 233]
   Metal voxels (>2000 HU) : 41344
   Blobs after size filter   : 2
@@ -99,7 +99,7 @@ Patient 10004   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10005   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10005_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10005_HCT2_HCT2.nii.gz
   Shape : [512, 512, 211]
   Metal voxels (>2000 HU) : 32203
   Blobs after size filter   : 5
@@ -117,7 +117,7 @@ Patient 10005   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10006   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10006_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10006_HCT2_HCT2.nii.gz
   Shape : [512, 512, 200]
   Metal voxels (>2000 HU) : 239842
   Blobs after size filter   : 5
@@ -135,7 +135,7 @@ Patient 10006   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10007   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10007_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10007_HCT2_HCT2.nii.gz
   Shape : [512, 512, 180]
   Metal voxels (>2000 HU) : 28973
   Blobs after size filter   : 7
@@ -153,7 +153,7 @@ Patient 10007   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10008   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10008_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10008_HCT2_HCT2.nii.gz
   Shape : [512, 512, 215]
   Metal voxels (>2000 HU) : 27613
   Blobs after size filter   : 8
@@ -171,7 +171,7 @@ Patient 10008   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10009   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10009_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10009_HCT2_HCT2.nii.gz
   Shape : [512, 512, 205]
   Metal voxels (>2000 HU) : 31012
   Blobs after size filter   : 12
@@ -191,7 +191,7 @@ Patient 10009   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10010   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10010_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10010_HCT2_HCT2.nii.gz
   Shape : [512, 512, 211]
   Metal voxels (>2000 HU) : 33680
   Blobs after size filter   : 2
@@ -209,7 +209,7 @@ Patient 10010   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10011   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10011_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10011_HCT2_HCT2.nii.gz
   Shape : [512, 512, 181]
   Metal voxels (>2000 HU) : 27477
   Blobs after size filter   : 24
@@ -227,7 +227,7 @@ Patient 10011   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10012   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10012_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10012_HCT2_HCT2.nii.gz
   Shape : [512, 512, 190]
   Metal voxels (>2000 HU) : 24825
   Blobs after size filter   : 10
@@ -245,7 +245,7 @@ Patient 10012   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10014   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10014_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10014_HCT2_HCT2.nii.gz
   Shape : [512, 512, 198]
   Metal voxels (>2000 HU) : 41347
   Blobs after size filter   : 14
@@ -263,7 +263,7 @@ Patient 10014   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10015   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10015_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10015_HCT2_HCT2.nii.gz
   Shape : [512, 512, 223]
   Metal voxels (>2000 HU) : 15901
   Blobs after size filter   : 6
@@ -281,7 +281,7 @@ Patient 10015   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10017   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10017_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10017_HCT2_HCT2.nii.gz
   Shape : [512, 512, 233]
   Metal voxels (>2000 HU) : 30520
   Blobs after size filter   : 1
@@ -299,7 +299,7 @@ Patient 10017   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10018   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10018_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10018_HCT2_HCT2.nii.gz
   Shape : [512, 512, 214]
   Metal voxels (>2000 HU) : 33556
   Blobs after size filter   : 8
@@ -317,7 +317,7 @@ Patient 10018   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10019   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10019_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10019_HCT2_HCT2.nii.gz
   Shape : [512, 512, 197]
   Metal voxels (>2000 HU) : 45197
   Blobs after size filter   : 3
@@ -335,7 +335,7 @@ Patient 10019   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10020   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10020_HCT2_HCT2.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20\HCT2_img_nii\10020_HCT2_HCT2.nii.gz
   Shape : [512, 512, 222]
   Metal voxels (>2000 HU) : 29784
   Blobs after size filter   : 5
@@ -353,7 +353,7 @@ Patient 10020   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10021   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10021_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10021_HCT2_img.nii.gz
   Shape : [512, 512, 232]
   Metal voxels (>2000 HU) : 32147
   Blobs after size filter   : 6
@@ -371,7 +371,7 @@ Patient 10021   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10023   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10023_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10023_HCT2_img.nii.gz
   Shape : [512, 512, 182]
   Metal voxels (>2000 HU) : 20236
   Blobs after size filter   : 10
@@ -389,7 +389,7 @@ Patient 10023   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10024   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10024_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10024_HCT2_img.nii.gz
   Shape : [512, 512, 191]
   Metal voxels (>2000 HU) : 44034
   Blobs after size filter   : 9
@@ -407,7 +407,7 @@ Patient 10024   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10025   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10025_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10025_HCT2_img.nii.gz
   Shape : [512, 512, 208]
   Metal voxels (>2000 HU) : 25812
   Blobs after size filter   : 6
@@ -425,7 +425,7 @@ Patient 10025   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10026   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10026_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10026_HCT2_img.nii.gz
   Shape : [512, 512, 229]
   Metal voxels (>2000 HU) : 13848
   Blobs after size filter   : 5
@@ -443,7 +443,7 @@ Patient 10026   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10027   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10027_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10027_HCT2_img.nii.gz
   Shape : [512, 512, 201]
   Metal voxels (>2000 HU) : 17130
   Blobs after size filter   : 8
@@ -461,7 +461,7 @@ Patient 10027   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10028   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10028_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10028_HCT2_img.nii.gz
   Shape : [512, 512, 200]
   Metal voxels (>2000 HU) : 17072
   Blobs after size filter   : 10
@@ -479,7 +479,7 @@ Patient 10028   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10029   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10029_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10029_HCT2_img.nii.gz
   Shape : [512, 512, 228]
   Metal voxels (>2000 HU) : 76976
   Blobs after size filter   : 15
@@ -497,7 +497,7 @@ Patient 10029   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10030   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10030_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10030_HCT2_img.nii.gz
   Shape : [512, 512, 183]
   Metal voxels (>2000 HU) : 13376
   Blobs after size filter   : 8
@@ -515,7 +515,7 @@ Patient 10030   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10031   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10031_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10031_HCT2_img.nii.gz
   Shape : [512, 512, 233]
   Metal voxels (>2000 HU) : 10760
   Blobs after size filter   : 15
@@ -533,7 +533,7 @@ Patient 10031   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10033   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10033_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10033_HCT2_img.nii.gz
   Shape : [512, 512, 207]
   Metal voxels (>2000 HU) : 27936
   Blobs after size filter   : 10
@@ -551,7 +551,7 @@ Patient 10033   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10034   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10034_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10034_HCT2_img.nii.gz
   Shape : [512, 512, 193]
   Metal voxels (>2000 HU) : 25980
   Blobs after size filter   : 5
@@ -569,7 +569,7 @@ Patient 10034   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10037   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10037_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10037_HCT2_img.nii.gz
   Shape : [512, 512, 171]
   Metal voxels (>2000 HU) : 20572
   Blobs after size filter   : 8
@@ -587,7 +587,7 @@ Patient 10037   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10038   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10038_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10038_HCT2_img.nii.gz
   Shape : [512, 512, 229]
   Metal voxels (>2000 HU) : 41167
   Blobs after size filter   : 12
@@ -605,7 +605,7 @@ Patient 10038   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10040   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10040_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10040_HCT2_img.nii.gz
   Shape : [512, 512, 221]
   Metal voxels (>2000 HU) : 24637
   Blobs after size filter   : 8
@@ -623,7 +623,7 @@ Patient 10040   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10041   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10041_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10041_HCT2_img.nii.gz
   Shape : [512, 512, 206]
   Metal voxels (>2000 HU) : 7666
   Blobs after size filter   : 19
@@ -641,7 +641,7 @@ Patient 10041   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10042   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10042_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10042_HCT2_img.nii.gz
   Shape : [512, 512, 223]
   Metal voxels (>2000 HU) : 38329
   Blobs after size filter   : 3
@@ -659,7 +659,7 @@ Patient 10042   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10043   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10043_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10043_HCT2_img.nii.gz
   Shape : [512, 512, 219]
   Metal voxels (>2000 HU) : 30209
   Blobs after size filter   : 5
@@ -677,7 +677,7 @@ Patient 10043   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10044   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10044_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10044_HCT2_img.nii.gz
   Shape : [512, 512, 168]
   Metal voxels (>2000 HU) : 35501
   Blobs after size filter   : 25
@@ -695,7 +695,7 @@ Patient 10044   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10045   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10045_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10045_HCT2_img.nii.gz
   Shape : [512, 512, 221]
   Metal voxels (>2000 HU) : 16676
   Blobs after size filter   : 7
@@ -713,7 +713,7 @@ Patient 10045   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10046   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10046_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10046_HCT2_img.nii.gz
   Shape : [512, 512, 239]
   Metal voxels (>2000 HU) : 72392
   Blobs after size filter   : 11
@@ -731,7 +731,7 @@ Patient 10046   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10047   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10047_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10047_HCT2_img.nii.gz
   Shape : [512, 512, 214]
   Metal voxels (>2000 HU) : 24628
   Blobs after size filter   : 9
@@ -749,7 +749,7 @@ Patient 10047   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10048   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10048_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10048_HCT2_img.nii.gz
   Shape : [512, 512, 207]
   Metal voxels (>2000 HU) : 17644
   Blobs after size filter   : 8
@@ -767,7 +767,7 @@ Patient 10048   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10050   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10050_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10050_HCT2_img.nii.gz
   Shape : [512, 512, 223]
   Metal voxels (>2000 HU) : 35134
   Blobs after size filter   : 3
@@ -785,7 +785,7 @@ Patient 10050   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10051   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10051_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10051_HCT2_img.nii.gz
   Shape : [512, 512, 198]
   Metal voxels (>2000 HU) : 34194
   Blobs after size filter   : 3
@@ -803,7 +803,7 @@ Patient 10051   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10052   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10052_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10052_HCT2_img.nii.gz
   Shape : [512, 512, 178]
   Metal voxels (>2000 HU) : 19141
   Blobs after size filter   : 13
@@ -821,7 +821,7 @@ Patient 10052   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10053   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10053_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10053_HCT2_img.nii.gz
   Shape : [512, 512, 202]
   Metal voxels (>2000 HU) : 35711
   Blobs after size filter   : 12
@@ -839,7 +839,7 @@ Patient 10053   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10054   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10054_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10054_HCT2_img.nii.gz
   Shape : [512, 512, 194]
   Metal voxels (>2000 HU) : 38259
   Blobs after size filter   : 11
@@ -857,7 +857,7 @@ Patient 10054   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10055   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10055_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10055_HCT2_img.nii.gz
   Shape : [512, 512, 179]
   Metal voxels (>2000 HU) : 16810
   Blobs after size filter   : 8
@@ -875,7 +875,7 @@ Patient 10055   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10056   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10056_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10056_HCT2_img.nii.gz
   Shape : [512, 512, 165]
   Metal voxels (>2000 HU) : 30731
   Blobs after size filter   : 5
@@ -893,7 +893,7 @@ Patient 10056   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10058   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10058_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10058_HCT2_img.nii.gz
   Shape : [512, 512, 181]
   Metal voxels (>2000 HU) : 25650
   Blobs after size filter   : 6
@@ -911,7 +911,7 @@ Patient 10058   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10060   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10060_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10060_HCT2_img.nii.gz
   Shape : [512, 512, 188]
   Metal voxels (>2000 HU) : 17287
   Blobs after size filter   : 12
@@ -929,7 +929,7 @@ Patient 10060   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10061   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10061_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10061_HCT2_img.nii.gz
   Shape : [512, 512, 203]
   Metal voxels (>2000 HU) : 21616
   Blobs after size filter   : 4
@@ -947,7 +947,7 @@ Patient 10061   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10062   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10062_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10062_HCT2_img.nii.gz
   Shape : [512, 512, 212]
   Metal voxels (>2000 HU) : 23379
   Blobs after size filter   : 5
@@ -965,7 +965,7 @@ Patient 10062   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10063   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10063_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10063_HCT2_img.nii.gz
   Shape : [512, 512, 207]
   Metal voxels (>2000 HU) : 38850
   Blobs after size filter   : 14
@@ -983,7 +983,7 @@ Patient 10063   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10064   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10064_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10064_HCT2_img.nii.gz
   Shape : [512, 512, 187]
   Metal voxels (>2000 HU) : 74426
   Blobs after size filter   : 9
@@ -1001,7 +1001,7 @@ Patient 10064   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10065   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10065_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10065_HCT2_img.nii.gz
   Shape : [512, 512, 201]
   Metal voxels (>2000 HU) : 12153
   Blobs after size filter   : 11
@@ -1019,7 +1019,7 @@ Patient 10065   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10066   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10066_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10066_HCT2_img.nii.gz
   Shape : [512, 512, 212]
   Metal voxels (>2000 HU) : 31208
   Blobs after size filter   : 17
@@ -1037,7 +1037,7 @@ Patient 10066   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10067   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10067_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10067_HCT2_img.nii.gz
   Shape : [512, 512, 210]
   Metal voxels (>2000 HU) : 21257
   Blobs after size filter   : 15
@@ -1055,7 +1055,7 @@ Patient 10067   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10070   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10070_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10070_HCT2_img.nii.gz
   Shape : [512, 512, 232]
   Metal voxels (>2000 HU) : 26579
   Blobs after size filter   : 3
@@ -1067,7 +1067,7 @@ Patient 10070   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10071   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10071_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10071_HCT2_img.nii.gz
   Shape : [512, 512, 193]
   Metal voxels (>2000 HU) : 39984
   Blobs after size filter   : 6
@@ -1082,7 +1082,7 @@ Patient 10071   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10073   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10073_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10073_HCT2_img.nii.gz
   Shape : [512, 512, 176]
   Metal voxels (>2000 HU) : 22076
   Blobs after size filter   : 8
@@ -1099,7 +1099,7 @@ Patient 10073   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10074   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10074_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10074_HCT2_img.nii.gz
   Shape : [512, 512, 231]
   Metal voxels (>2000 HU) : 16687
   Blobs after size filter   : 5
@@ -1113,7 +1113,7 @@ Patient 10074   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10076   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10076_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10076_HCT2_img.nii.gz
   Shape : [512, 512, 189]
   Metal voxels (>2000 HU) : 23760
   Blobs after size filter   : 5
@@ -1127,7 +1127,7 @@ Patient 10076   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10077   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10077_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10077_HCT2_img.nii.gz
   Shape : [512, 512, 209]
   Metal voxels (>2000 HU) : 29942
   Blobs after size filter   : 1
@@ -1137,7 +1137,7 @@ Patient 10077   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10078   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10078_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10078_HCT2_img.nii.gz
   Shape : [512, 512, 183]
   Metal voxels (>2000 HU) : 61771
   Blobs after size filter   : 14
@@ -1157,7 +1157,7 @@ Patient 10078   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10088   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10088_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10088_HCT2_img.nii.gz
   Shape : [512, 512, 217]
   Metal voxels (>2000 HU) : 36161
   Blobs after size filter   : 8
@@ -1174,7 +1174,7 @@ Patient 10088   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10089   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10089_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10089_HCT2_img.nii.gz
   Shape : [512, 512, 209]
   Metal voxels (>2000 HU) : 222042
   Blobs after size filter   : 27
@@ -1194,7 +1194,7 @@ Patient 10089   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10090   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10090_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10090_HCT2_img.nii.gz
   Shape : [512, 512, 241]
   Metal voxels (>2000 HU) : 45306
   Blobs after size filter   : 10
@@ -1213,7 +1213,7 @@ Patient 10090   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10091   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10091_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10091_HCT2_img.nii.gz
   Shape : [512, 512, 229]
   Metal voxels (>2000 HU) : 13512
   Blobs after size filter   : 16
@@ -1233,7 +1233,7 @@ Patient 10091   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10092   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10092_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10092_HCT2_img.nii.gz
   Shape : [512, 512, 229]
   Metal voxels (>2000 HU) : 26241
   Blobs after size filter   : 9
@@ -1251,7 +1251,7 @@ Patient 10092   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10093   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10093_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10093_HCT2_img.nii.gz
   Shape : [512, 512, 208]
   Metal voxels (>2000 HU) : 34751
   Blobs after size filter   : 5
@@ -1265,7 +1265,7 @@ Patient 10093   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10095   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10095_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10095_HCT2_img.nii.gz
   Shape : [512, 512, 202]
   Metal voxels (>2000 HU) : 33538
   Blobs after size filter   : 5
@@ -1279,7 +1279,7 @@ Patient 10095   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10096   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10096_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10096_HCT2_img.nii.gz
   Shape : [512, 512, 188]
   Metal voxels (>2000 HU) : 24809
   Blobs after size filter   : 11
@@ -1299,7 +1299,7 @@ Patient 10096   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10097   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10097_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10097_HCT2_img.nii.gz
   Shape : [512, 512, 187]
   Metal voxels (>2000 HU) : 14778
   Blobs after size filter   : 7
@@ -1315,7 +1315,7 @@ Patient 10097   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10098   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10098_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10098_HCT2_img.nii.gz
   Shape : [512, 512, 174]
   Metal voxels (>2000 HU) : 17207
   Blobs after size filter   : 9
@@ -1333,7 +1333,7 @@ Patient 10098   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10099   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10099_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10099_HCT2_img.nii.gz
   Shape : [512, 512, 218]
   Metal voxels (>2000 HU) : 33053
   Blobs after size filter   : 4
@@ -1346,7 +1346,7 @@ Patient 10099   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10101   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10101_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10101_HCT2_img.nii.gz
   Shape : [512, 512, 212]
   Metal voxels (>2000 HU) : 27417
   Blobs after size filter   : 5
@@ -1360,7 +1360,7 @@ Patient 10101   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10102   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10102_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10102_HCT2_img.nii.gz
   Shape : [512, 512, 216]
   Metal voxels (>2000 HU) : 30786
   Blobs after size filter   : 14
@@ -1380,7 +1380,7 @@ Patient 10102   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10103   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10103_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10103_HCT2_img.nii.gz
   Shape : [512, 512, 196]
   Metal voxels (>2000 HU) : 28011
   Blobs after size filter   : 7
@@ -1396,7 +1396,7 @@ Patient 10103   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10104   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10104_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10104_HCT2_img.nii.gz
   Shape : [512, 512, 215]
   Metal voxels (>2000 HU) : 26881
   Blobs after size filter   : 2
@@ -1407,7 +1407,7 @@ Patient 10104   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10105   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10105_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10105_HCT2_img.nii.gz
   Shape : [512, 512, 225]
   Metal voxels (>2000 HU) : 99402
   Blobs after size filter   : 14
@@ -1427,7 +1427,7 @@ Patient 10105   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10106   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10106_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10106_HCT2_img.nii.gz
   Shape : [512, 512, 237]
   Metal voxels (>2000 HU) : 34084
   Blobs after size filter   : 17
@@ -1447,7 +1447,7 @@ Patient 10106   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10107   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10107_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10107_HCT2_img.nii.gz
   Shape : [512, 512, 201]
   Metal voxels (>2000 HU) : 24578
   Blobs after size filter   : 7
@@ -1463,7 +1463,7 @@ Patient 10107   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10108   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10108_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10108_HCT2_img.nii.gz
   Shape : [512, 512, 224]
   Metal voxels (>2000 HU) : 20105
   Blobs after size filter   : 8
@@ -1480,7 +1480,7 @@ Patient 10108   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10109   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10109_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10109_HCT2_img.nii.gz
   Shape : [512, 512, 203]
   Metal voxels (>2000 HU) : 25593
   Blobs after size filter   : 6
@@ -1495,7 +1495,7 @@ Patient 10109   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10110   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10110_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10110_HCT2_img.nii.gz
   Shape : [512, 512, 94]
   Metal voxels (>2000 HU) : 11580
   Blobs after size filter   : 8
@@ -1512,7 +1512,7 @@ Patient 10110   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10111   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10111_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10111_HCT2_img.nii.gz
   Shape : [512, 512, 181]
   Metal voxels (>2000 HU) : 31204
   Blobs after size filter   : 21
@@ -1532,7 +1532,7 @@ Patient 10111   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10112   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10112_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10112_HCT2_img.nii.gz
   Shape : [512, 512, 244]
   Metal voxels (>2000 HU) : 16052
   Blobs after size filter   : 6
@@ -1547,7 +1547,7 @@ Patient 10112   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10113   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10113_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10113_HCT2_img.nii.gz
   Shape : [512, 512, 195]
   Metal voxels (>2000 HU) : 26836
   Blobs after size filter   : 8
@@ -1564,7 +1564,7 @@ Patient 10113   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10114   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10114_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10114_HCT2_img.nii.gz
   Shape : [512, 512, 182]
   Metal voxels (>2000 HU) : 112389
   Blobs after size filter   : 16
@@ -1584,7 +1584,7 @@ Patient 10114   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10115   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10115_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10115_HCT2_img.nii.gz
   Shape : [512, 512, 182]
   Metal voxels (>2000 HU) : 43110
   Blobs after size filter   : 13
@@ -1604,7 +1604,7 @@ Patient 10115   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10116   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10116_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10116_HCT2_img.nii.gz
   Shape : [512, 512, 245]
   Metal voxels (>2000 HU) : 30997
   Blobs after size filter   : 4
@@ -1617,7 +1617,7 @@ Patient 10116   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10117   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10117_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10117_HCT2_img.nii.gz
   Shape : [512, 512, 192]
   Metal voxels (>2000 HU) : 26222
   Blobs after size filter   : 16
@@ -1637,7 +1637,7 @@ Patient 10117   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10118   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10118_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10118_HCT2_img.nii.gz
   Shape : [512, 512, 171]
   Metal voxels (>2000 HU) : 25044
   Blobs after size filter   : 19
@@ -1657,7 +1657,7 @@ Patient 10118   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10119   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10119_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10119_HCT2_img.nii.gz
   Shape : [512, 512, 241]
   Metal voxels (>2000 HU) : 47897
   Blobs after size filter   : 87
@@ -1677,7 +1677,7 @@ Patient 10119   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10120   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10120_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10120_HCT2_img.nii.gz
   Shape : [512, 512, 216]
   Metal voxels (>2000 HU) : 136113
   Blobs after size filter   : 10
@@ -1696,7 +1696,7 @@ Patient 10120   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10121   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10121_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10121_HCT2_img.nii.gz
   Shape : [512, 512, 207]
   Metal voxels (>2000 HU) : 119233
   Blobs after size filter   : 18
@@ -1716,7 +1716,7 @@ Patient 10121   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10122   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10122_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10122_HCT2_img.nii.gz
   Shape : [512, 512, 205]
   Metal voxels (>2000 HU) : 30984
   Blobs after size filter   : 16
@@ -1736,7 +1736,7 @@ Patient 10122   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10123   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10123_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10123_HCT2_img.nii.gz
   Shape : [512, 512, 212]
   Metal voxels (>2000 HU) : 117169
   Blobs after size filter   : 8
@@ -1753,7 +1753,7 @@ Patient 10123   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10124   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10124_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10124_HCT2_img.nii.gz
   Shape : [512, 512, 213]
   Metal voxels (>2000 HU) : 26419
   Blobs after size filter   : 23
@@ -1773,7 +1773,7 @@ Patient 10124   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10126   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10126_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10126_HCT2_img.nii.gz
   Shape : [512, 512, 231]
   Metal voxels (>2000 HU) : 70860
   Blobs after size filter   : 3
@@ -1785,7 +1785,7 @@ Patient 10126   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10127   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10127_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10127_HCT2_img.nii.gz
   Shape : [512, 512, 232]
   Metal voxels (>2000 HU) : 131008
   Blobs after size filter   : 29
@@ -1805,7 +1805,7 @@ Patient 10127   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10129   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10129_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10129_HCT2_img.nii.gz
   Shape : [512, 512, 191]
   Metal voxels (>2000 HU) : 32829
   Blobs after size filter   : 5
@@ -1819,7 +1819,7 @@ Patient 10129   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10130   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10130_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10130_HCT2_img.nii.gz
   Shape : [512, 512, 183]
   Metal voxels (>2000 HU) : 138001
   Blobs after size filter   : 11
@@ -1839,7 +1839,7 @@ Patient 10130   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10131   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10131_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10131_HCT2_img.nii.gz
   Shape : [512, 512, 240]
   Metal voxels (>2000 HU) : 139330
   Blobs after size filter   : 9
@@ -1857,7 +1857,7 @@ Patient 10131   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10132   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10132_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10132_HCT2_img.nii.gz
   Shape : [512, 512, 251]
   Metal voxels (>2000 HU) : 38501
   Blobs after size filter   : 5
@@ -1871,7 +1871,7 @@ Patient 10132   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10133   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10133_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10133_HCT2_img.nii.gz
   Shape : [512, 512, 208]
   Metal voxels (>2000 HU) : 98460
   Blobs after size filter   : 17
@@ -1891,7 +1891,7 @@ Patient 10133   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10136   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10136_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10136_HCT2_img.nii.gz
   Shape : [512, 512, 210]
   Metal voxels (>2000 HU) : 161170
   Blobs after size filter   : 5
@@ -1905,7 +1905,7 @@ Patient 10136   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10137   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10137_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10137_HCT2_img.nii.gz
   Shape : [512, 512, 214]
   Metal voxels (>2000 HU) : 28846
   Blobs after size filter   : 11
@@ -1925,7 +1925,7 @@ Patient 10137   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10140   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10140_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10140_HCT2_img.nii.gz
   Shape : [512, 512, 200]
   Metal voxels (>2000 HU) : 38667
   Blobs after size filter   : 1
@@ -1935,7 +1935,7 @@ Patient 10140   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10141   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10141_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10141_HCT2_img.nii.gz
   Shape : [512, 512, 218]
   Metal voxels (>2000 HU) : 31009
   Blobs after size filter   : 21
@@ -1955,7 +1955,7 @@ Patient 10141   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10142   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10142_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10142_HCT2_img.nii.gz
   Shape : [512, 512, 213]
   Metal voxels (>2000 HU) : 22923
   Blobs after size filter   : 9
@@ -1973,7 +1973,7 @@ Patient 10142   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10144   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10144_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10144_HCT2_img.nii.gz
   Shape : [512, 512, 198]
   Metal voxels (>2000 HU) : 16408
   Blobs after size filter   : 6
@@ -1988,7 +1988,7 @@ Patient 10144   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10145   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10145_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10145_HCT2_img.nii.gz
   Shape : [512, 512, 183]
   Metal voxels (>2000 HU) : 28422
   Blobs after size filter   : 3
@@ -2000,7 +2000,7 @@ Patient 10145   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10146   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10146_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10146_HCT2_img.nii.gz
   Shape : [512, 512, 225]
   Metal voxels (>2000 HU) : 29998
   Blobs after size filter   : 14
@@ -2020,7 +2020,7 @@ Patient 10146   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10149   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10149_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10149_HCT2_img.nii.gz
   Shape : [512, 512, 210]
   Metal voxels (>2000 HU) : 24792
   Blobs after size filter   : 8
@@ -2037,7 +2037,7 @@ Patient 10149   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10150   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10150_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10150_HCT2_img.nii.gz
   Shape : [512, 512, 206]
   Metal voxels (>2000 HU) : 28658
   Blobs after size filter   : 6
@@ -2052,7 +2052,7 @@ Patient 10150   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10151   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10151_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10151_HCT2_img.nii.gz
   Shape : [512, 512, 202]
   Metal voxels (>2000 HU) : 20257
   Blobs after size filter   : 4
@@ -2065,7 +2065,7 @@ Patient 10151   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10153   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10153_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10153_HCT2_img.nii.gz
   Shape : [512, 512, 197]
   Metal voxels (>2000 HU) : 19908
   Blobs after size filter   : 9
@@ -2083,7 +2083,7 @@ Patient 10153   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10154   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10154_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10154_HCT2_img.nii.gz
   Shape : [512, 512, 214]
   Metal voxels (>2000 HU) : 60388
   Blobs after size filter   : 3
@@ -2095,7 +2095,7 @@ Patient 10154   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10155   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10155_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10155_HCT2_img.nii.gz
   Shape : [512, 512, 191]
   Metal voxels (>2000 HU) : 17859
   Blobs after size filter   : 5
@@ -2109,7 +2109,7 @@ Patient 10155   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10157   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10157_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10157_HCT2_img.nii.gz
   Shape : [512, 512, 249]
   Metal voxels (>2000 HU) : 68441
   Blobs after size filter   : 8
@@ -2126,7 +2126,7 @@ Patient 10157   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10158   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10158_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10158_HCT2_img.nii.gz
   Shape : [512, 512, 193]
   Metal voxels (>2000 HU) : 171246
   Blobs after size filter   : 6
@@ -2141,7 +2141,7 @@ Patient 10158   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10159   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10159_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10159_HCT2_img.nii.gz
   Shape : [512, 512, 183]
   Metal voxels (>2000 HU) : 30475
   Blobs after size filter   : 4
@@ -2154,7 +2154,7 @@ Patient 10159   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10160   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10160_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10160_HCT2_img.nii.gz
   Shape : [512, 512, 201]
   Metal voxels (>2000 HU) : 26758
   Blobs after size filter   : 13
@@ -2174,7 +2174,7 @@ Patient 10160   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10161   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10161_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10161_HCT2_img.nii.gz
   Shape : [512, 512, 176]
   Metal voxels (>2000 HU) : 14137
   Blobs after size filter   : 7
@@ -2190,7 +2190,7 @@ Patient 10161   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10162   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10162_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10162_HCT2_img.nii.gz
   Shape : [512, 512, 194]
   Metal voxels (>2000 HU) : 23823
   Blobs after size filter   : 15
@@ -2210,7 +2210,7 @@ Patient 10162   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10163   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10163_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10163_HCT2_img.nii.gz
   Shape : [512, 512, 200]
   Metal voxels (>2000 HU) : 46474
   Blobs after size filter   : 13
@@ -2230,7 +2230,7 @@ Patient 10163   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10164   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10164_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10164_HCT2_img.nii.gz
   Shape : [512, 512, 194]
   Metal voxels (>2000 HU) : 14333
   Blobs after size filter   : 1
@@ -2240,7 +2240,7 @@ Patient 10164   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10166   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10166_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10166_HCT2_img.nii.gz
   Shape : [512, 512, 206]
   Metal voxels (>2000 HU) : 23737
   Blobs after size filter   : 2
@@ -2251,7 +2251,7 @@ Patient 10166   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10167   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10167_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10167_HCT2_img.nii.gz
   Shape : [512, 512, 171]
   Metal voxels (>2000 HU) : 21927
   Blobs after size filter   : 10
@@ -2270,7 +2270,7 @@ Patient 10167   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10168   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10168_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10168_HCT2_img.nii.gz
   Shape : [512, 512, 209]
   Metal voxels (>2000 HU) : 14813
   Blobs after size filter   : 16
@@ -2290,7 +2290,7 @@ Patient 10168   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10169   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10169_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10169_HCT2_img.nii.gz
   Shape : [512, 512, 209]
   Metal voxels (>2000 HU) : 25339
   Blobs after size filter   : 11
@@ -2310,7 +2310,7 @@ Patient 10169   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10170   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10170_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10170_HCT2_img.nii.gz
   Shape : [512, 512, 194]
   Metal voxels (>2000 HU) : 24933
   Blobs after size filter   : 2
@@ -2321,7 +2321,7 @@ Patient 10170   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10172   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10172_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10172_HCT2_img.nii.gz
   Shape : [512, 512, 232]
   Metal voxels (>2000 HU) : 128137
   Blobs after size filter   : 19
@@ -2341,7 +2341,7 @@ Patient 10172   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10173   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10173_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10173_HCT2_img.nii.gz
   Shape : [512, 512, 189]
   Metal voxels (>2000 HU) : 16914
   Blobs after size filter   : 2
@@ -2352,7 +2352,7 @@ Patient 10173   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10174   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10174_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10174_HCT2_img.nii.gz
   Shape : [512, 512, 149]
   Metal voxels (>2000 HU) : 19722
   Blobs after size filter   : 7
@@ -2368,7 +2368,7 @@ Patient 10174   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10175   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10175_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10175_HCT2_img.nii.gz
   Shape : [512, 512, 201]
   Metal voxels (>2000 HU) : 38603
   Blobs after size filter   : 3
@@ -2380,7 +2380,7 @@ Patient 10175   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10178   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10178_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10178_HCT2_img.nii.gz
   Shape : [512, 512, 225]
   Metal voxels (>2000 HU) : 22944
   Blobs after size filter   : 8
@@ -2397,7 +2397,7 @@ Patient 10178   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10179   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10179_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10179_HCT2_img.nii.gz
   Shape : [512, 512, 204]
   Metal voxels (>2000 HU) : 155197
   Blobs after size filter   : 6
@@ -2412,7 +2412,7 @@ Patient 10179   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10180   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10180_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10180_HCT2_img.nii.gz
   Shape : [512, 512, 226]
   Metal voxels (>2000 HU) : 58810
   Blobs after size filter   : 143
@@ -2432,7 +2432,7 @@ Patient 10180   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10181   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10181_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10181_HCT2_img.nii.gz
   Shape : [512, 512, 206]
   Metal voxels (>2000 HU) : 24595
   Blobs after size filter   : 11
@@ -2452,7 +2452,7 @@ Patient 10181   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10182   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10182_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10182_HCT2_img.nii.gz
   Shape : [512, 512, 219]
   Metal voxels (>2000 HU) : 32351
   Blobs after size filter   : 7
@@ -2468,7 +2468,7 @@ Patient 10182   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10183   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10183_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10183_HCT2_img.nii.gz
   Shape : [512, 512, 219]
   Metal voxels (>2000 HU) : 21758
   Blobs after size filter   : 13
@@ -2488,7 +2488,7 @@ Patient 10183   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10184   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10184_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10184_HCT2_img.nii.gz
   Shape : [512, 512, 184]
   Metal voxels (>2000 HU) : 18971
   Blobs after size filter   : 5
@@ -2502,7 +2502,7 @@ Patient 10184   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10185   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10185_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10185_HCT2_img.nii.gz
   Shape : [512, 512, 192]
   Metal voxels (>2000 HU) : 69118
   Blobs after size filter   : 6
@@ -2517,7 +2517,7 @@ Patient 10185   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10186   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10186_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10186_HCT2_img.nii.gz
   Shape : [512, 512, 200]
   Metal voxels (>2000 HU) : 295704
   Blobs after size filter   : 13
@@ -2537,7 +2537,7 @@ Patient 10186   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10187   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10187_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10187_HCT2_img.nii.gz
   Shape : [512, 512, 243]
   Metal voxels (>2000 HU) : 29914
   Blobs after size filter   : 11
@@ -2557,7 +2557,7 @@ Patient 10187   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10188   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10188_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10188_HCT2_img.nii.gz
   Shape : [512, 512, 160]
   Metal voxels (>2000 HU) : 24088
   Blobs after size filter   : 7
@@ -2573,7 +2573,7 @@ Patient 10188   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10189   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10189_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10189_HCT2_img.nii.gz
   Shape : [512, 512, 217]
   Metal voxels (>2000 HU) : 20578
   Blobs after size filter   : 6
@@ -2588,7 +2588,7 @@ Patient 10189   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10190   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10190_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10190_HCT2_img.nii.gz
   Shape : [512, 512, 183]
   Metal voxels (>2000 HU) : 13841
   Blobs after size filter   : 14
@@ -2608,7 +2608,7 @@ Patient 10190   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10191   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10191_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10191_HCT2_img.nii.gz
   Shape : [512, 512, 220]
   Metal voxels (>2000 HU) : 20444
   Blobs after size filter   : 55
@@ -2628,7 +2628,7 @@ Patient 10191   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10192   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10192_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10192_HCT2_img.nii.gz
   Shape : [512, 512, 218]
   Metal voxels (>2000 HU) : 96281
   Blobs after size filter   : 12
@@ -2648,7 +2648,7 @@ Patient 10192   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10193   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10193_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10193_HCT2_img.nii.gz
   Shape : [512, 512, 241]
   Metal voxels (>2000 HU) : 22656
   Blobs after size filter   : 0
@@ -2657,7 +2657,7 @@ Patient 10193   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10194   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10194_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10194_HCT2_img.nii.gz
   Shape : [512, 512, 201]
   Metal voxels (>2000 HU) : 27587
   Blobs after size filter   : 3
@@ -2669,7 +2669,7 @@ Patient 10194   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10196   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10196_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10196_HCT2_img.nii.gz
   Shape : [512, 512, 212]
   Metal voxels (>2000 HU) : 58317
   Blobs after size filter   : 4
@@ -2682,7 +2682,7 @@ Patient 10196   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10197   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10197_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10197_HCT2_img.nii.gz
   Shape : [512, 512, 207]
   Metal voxels (>2000 HU) : 29422
   Blobs after size filter   : 11
@@ -2702,7 +2702,7 @@ Patient 10197   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10199   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10199_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10199_HCT2_img.nii.gz
   Shape : [512, 512, 218]
   Metal voxels (>2000 HU) : 25413
   Blobs after size filter   : 3
@@ -2714,7 +2714,7 @@ Patient 10199   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10200   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10200_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10200_HCT2_img.nii.gz
   Shape : [512, 512, 228]
   Metal voxels (>2000 HU) : 19757
   Blobs after size filter   : 9
@@ -2732,7 +2732,7 @@ Patient 10200   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10201   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10201_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10201_HCT2_img.nii.gz
   Shape : [512, 512, 199]
   Metal voxels (>2000 HU) : 15665
   Blobs after size filter   : 10
@@ -2751,7 +2751,7 @@ Patient 10201   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10202   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10202_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10202_HCT2_img.nii.gz
   Shape : [512, 512, 189]
   Metal voxels (>2000 HU) : 17609
   Blobs after size filter   : 4
@@ -2764,7 +2764,7 @@ Patient 10202   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10203   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10203_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10203_HCT2_img.nii.gz
   Shape : [512, 512, 202]
   Metal voxels (>2000 HU) : 51068
   Blobs after size filter   : 10
@@ -2783,7 +2783,7 @@ Patient 10203   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10204   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10204_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10204_HCT2_img.nii.gz
   Shape : [512, 512, 253]
   Metal voxels (>2000 HU) : 130155
   Blobs after size filter   : 14
@@ -2803,7 +2803,7 @@ Patient 10204   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10205   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10205_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10205_HCT2_img.nii.gz
   Shape : [512, 512, 177]
   Metal voxels (>2000 HU) : 21314
   Blobs after size filter   : 7
@@ -2819,7 +2819,7 @@ Patient 10205   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10207   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10207_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10207_HCT2_img.nii.gz
   Shape : [512, 512, 225]
   Metal voxels (>2000 HU) : 71048
   Blobs after size filter   : 5
@@ -2833,7 +2833,7 @@ Patient 10207   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10208   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10208_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10208_HCT2_img.nii.gz
   Shape : [512, 512, 227]
   Metal voxels (>2000 HU) : 63779
   Blobs after size filter   : 13
@@ -2853,7 +2853,7 @@ Patient 10208   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10209   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10209_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10209_HCT2_img.nii.gz
   Shape : [512, 512, 248]
   Metal voxels (>2000 HU) : 28728
   Blobs after size filter   : 9
@@ -2871,7 +2871,7 @@ Patient 10209   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10210   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10210_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10210_HCT2_img.nii.gz
   Shape : [512, 512, 228]
   Metal voxels (>2000 HU) : 24245
   Blobs after size filter   : 8
@@ -2888,7 +2888,7 @@ Patient 10210   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10211   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10211_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10211_HCT2_img.nii.gz
   Shape : [512, 512, 186]
   Metal voxels (>2000 HU) : 19370
   Blobs after size filter   : 17
@@ -2908,7 +2908,7 @@ Patient 10211   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10212   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10212_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10212_HCT2_img.nii.gz
   Shape : [512, 512, 219]
   Metal voxels (>2000 HU) : 51610
   Blobs after size filter   : 12
@@ -2928,7 +2928,7 @@ Patient 10212   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10214   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10214_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10214_HCT2_img.nii.gz
   Shape : [512, 512, 179]
   Metal voxels (>2000 HU) : 26672
   Blobs after size filter   : 2
@@ -2939,7 +2939,7 @@ Patient 10214   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10215   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10215_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10215_HCT2_img.nii.gz
   Shape : [512, 512, 219]
   Metal voxels (>2000 HU) : 17993
   Blobs after size filter   : 9
@@ -2957,7 +2957,7 @@ Patient 10215   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10216   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10216_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10216_HCT2_img.nii.gz
   Shape : [512, 512, 238]
   Metal voxels (>2000 HU) : 208368
   Blobs after size filter   : 3
@@ -2969,7 +2969,7 @@ Patient 10216   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10217   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10217_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10217_HCT2_img.nii.gz
   Shape : [512, 512, 222]
   Metal voxels (>2000 HU) : 14523
   Blobs after size filter   : 10
@@ -2988,7 +2988,7 @@ Patient 10217   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10219   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10219_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10219_HCT2_img.nii.gz
   Shape : [512, 512, 202]
   Metal voxels (>2000 HU) : 32408
   Blobs after size filter   : 13
@@ -3008,7 +3008,7 @@ Patient 10219   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10220   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10220_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10220_HCT2_img.nii.gz
   Shape : [512, 512, 193]
   Metal voxels (>2000 HU) : 66872
   Blobs after size filter   : 6
@@ -3023,7 +3023,7 @@ Patient 10220   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10221   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10221_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10221_HCT2_img.nii.gz
   Shape : [512, 512, 184]
   Metal voxels (>2000 HU) : 92813
   Blobs after size filter   : 8
@@ -3040,7 +3040,7 @@ Patient 10221   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10222   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10222_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10222_HCT2_img.nii.gz
   Shape : [512, 512, 218]
   Metal voxels (>2000 HU) : 24629
   Blobs after size filter   : 6
@@ -3055,7 +3055,7 @@ Patient 10222   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10223   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10223_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10223_HCT2_img.nii.gz
   Shape : [512, 512, 185]
   Metal voxels (>2000 HU) : 88334
   Blobs after size filter   : 8
@@ -3072,7 +3072,7 @@ Patient 10223   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10224   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10224_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10224_HCT2_img.nii.gz
   Shape : [512, 512, 236]
   Metal voxels (>2000 HU) : 25223
   Blobs after size filter   : 5
@@ -3086,7 +3086,7 @@ Patient 10224   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10225   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10225_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10225_HCT2_img.nii.gz
   Shape : [512, 512, 193]
   Metal voxels (>2000 HU) : 23495
   Blobs after size filter   : 10
@@ -3105,7 +3105,7 @@ Patient 10225   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10226   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10226_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10226_HCT2_img.nii.gz
   Shape : [512, 512, 252]
   Metal voxels (>2000 HU) : 29279
   Blobs after size filter   : 5
@@ -3119,7 +3119,7 @@ Patient 10226   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10228   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10228_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10228_HCT2_img.nii.gz
   Shape : [512, 512, 208]
   Metal voxels (>2000 HU) : 24412
   Blobs after size filter   : 2
@@ -3130,7 +3130,7 @@ Patient 10228   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10229   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10229_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10229_HCT2_img.nii.gz
   Shape : [512, 512, 218]
   Metal voxels (>2000 HU) : 134295
   Blobs after size filter   : 24
@@ -3150,7 +3150,7 @@ Patient 10229   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10230   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10230_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10230_HCT2_img.nii.gz
   Shape : [512, 512, 237]
   Metal voxels (>2000 HU) : 30275
   Blobs after size filter   : 17
@@ -3170,7 +3170,7 @@ Patient 10230   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10231   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10231_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10231_HCT2_img.nii.gz
   Shape : [512, 512, 261]
   Metal voxels (>2000 HU) : 16554
   Blobs after size filter   : 12
@@ -3190,7 +3190,7 @@ Patient 10231   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10232   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10232_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10232_HCT2_img.nii.gz
   Shape : [512, 512, 205]
   Metal voxels (>2000 HU) : 168847
   Blobs after size filter   : 10
@@ -3209,7 +3209,7 @@ Patient 10232   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10233   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10233_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10233_HCT2_img.nii.gz
   Shape : [512, 512, 168]
   Metal voxels (>2000 HU) : 25267
   Blobs after size filter   : 23
@@ -3229,7 +3229,7 @@ Patient 10233   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10234   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10234_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10234_HCT2_img.nii.gz
   Shape : [512, 512, 187]
   Metal voxels (>2000 HU) : 41416
   Blobs after size filter   : 7
@@ -3245,7 +3245,7 @@ Patient 10234   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10235   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10235_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10235_HCT2_img.nii.gz
   Shape : [512, 512, 213]
   Metal voxels (>2000 HU) : 21018
   Blobs after size filter   : 8
@@ -3262,7 +3262,7 @@ Patient 10235   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10236   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10236_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10236_HCT2_img.nii.gz
   Shape : [512, 512, 169]
   Metal voxels (>2000 HU) : 25199
   Blobs after size filter   : 9
@@ -3280,7 +3280,7 @@ Patient 10236   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10237   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10237_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10237_HCT2_img.nii.gz
   Shape : [512, 512, 181]
   Metal voxels (>2000 HU) : 15276
   Blobs after size filter   : 6
@@ -3295,7 +3295,7 @@ Patient 10237   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10238   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10238_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10238_HCT2_img.nii.gz
   Shape : [512, 512, 215]
   Metal voxels (>2000 HU) : 19540
   Blobs after size filter   : 2
@@ -3306,7 +3306,7 @@ Patient 10238   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10240   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10240_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10240_HCT2_img.nii.gz
   Shape : [512, 512, 196]
   Metal voxels (>2000 HU) : 24515
   Blobs after size filter   : 4
@@ -3319,7 +3319,7 @@ Patient 10240   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10241   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10241_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10241_HCT2_img.nii.gz
   Shape : [512, 512, 230]
   Metal voxels (>2000 HU) : 297747
   Blobs after size filter   : 29
@@ -3339,7 +3339,7 @@ Patient 10241   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10242   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10242_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10242_HCT2_img.nii.gz
   Shape : [512, 512, 167]
   Metal voxels (>2000 HU) : 57707
   Blobs after size filter   : 8
@@ -3356,7 +3356,7 @@ Patient 10242   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10243   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10243_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10243_HCT2_img.nii.gz
   Shape : [512, 512, 64]
   Metal voxels (>2000 HU) : 10714
   Blobs after size filter   : 0
@@ -3365,7 +3365,7 @@ Patient 10243   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10244   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10244_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10244_HCT2_img.nii.gz
   Shape : [512, 512, 225]
   Metal voxels (>2000 HU) : 16961
   Blobs after size filter   : 10
@@ -3384,7 +3384,7 @@ Patient 10244   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10245   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10245_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10245_HCT2_img.nii.gz
   Shape : [512, 512, 222]
   Metal voxels (>2000 HU) : 79558
   Blobs after size filter   : 10
@@ -3403,7 +3403,7 @@ Patient 10245   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10246   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10246_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10246_HCT2_img.nii.gz
   Shape : [512, 512, 202]
   Metal voxels (>2000 HU) : 37141
   Blobs after size filter   : 1
@@ -3413,7 +3413,7 @@ Patient 10246   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10247   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10247_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10247_HCT2_img.nii.gz
   Shape : [512, 512, 198]
   Metal voxels (>2000 HU) : 18101
   Blobs after size filter   : 9
@@ -3431,7 +3431,7 @@ Patient 10247   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10248   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10248_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10248_HCT2_img.nii.gz
   Shape : [512, 512, 190]
   Metal voxels (>2000 HU) : 173509
   Blobs after size filter   : 13
@@ -3451,7 +3451,7 @@ Patient 10248   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10249   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10249_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10249_HCT2_img.nii.gz
   Shape : [512, 512, 215]
   Metal voxels (>2000 HU) : 24686
   Blobs after size filter   : 12
@@ -3471,7 +3471,7 @@ Patient 10249   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10250   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10250_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10250_HCT2_img.nii.gz
   Shape : [512, 512, 233]
   Metal voxels (>2000 HU) : 10220
   Blobs after size filter   : 10
@@ -3490,7 +3490,7 @@ Patient 10250   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10251   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10251_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10251_HCT2_img.nii.gz
   Shape : [512, 512, 250]
   Metal voxels (>2000 HU) : 27827
   Blobs after size filter   : 1
@@ -3500,7 +3500,7 @@ Patient 10251   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10253   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10253_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10253_HCT2_img.nii.gz
   Shape : [512, 512, 228]
   Metal voxels (>2000 HU) : 45385
   Blobs after size filter   : 7
@@ -3516,7 +3516,7 @@ Patient 10253   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10254   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10254_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10254_HCT2_img.nii.gz
   Shape : [512, 512, 222]
   Metal voxels (>2000 HU) : 25921
   Blobs after size filter   : 12
@@ -3536,7 +3536,7 @@ Patient 10254   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10256   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10256_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10256_HCT2_img.nii.gz
   Shape : [512, 512, 222]
   Metal voxels (>2000 HU) : 25300
   Blobs after size filter   : 10
@@ -3555,7 +3555,7 @@ Patient 10256   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10257   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10257_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10257_HCT2_img.nii.gz
   Shape : [512, 512, 210]
   Metal voxels (>2000 HU) : 12848
   Blobs after size filter   : 34
@@ -3575,7 +3575,7 @@ Patient 10257   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10258   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10258_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10258_HCT2_img.nii.gz
   Shape : [512, 512, 204]
   Metal voxels (>2000 HU) : 25929
   Blobs after size filter   : 8
@@ -3592,7 +3592,7 @@ Patient 10258   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10259   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10259_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10259_HCT2_img.nii.gz
   Shape : [512, 512, 169]
   Metal voxels (>2000 HU) : 126544
   Blobs after size filter   : 13
@@ -3612,7 +3612,7 @@ Patient 10259   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10260   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10260_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10260_HCT2_img.nii.gz
   Shape : [512, 512, 223]
   Metal voxels (>2000 HU) : 33671
   Blobs after size filter   : 7
@@ -3628,7 +3628,7 @@ Patient 10260   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10264   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10264_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10264_HCT2_img.nii.gz
   Shape : [512, 512, 212]
   Metal voxels (>2000 HU) : 26117
   Blobs after size filter   : 13
@@ -3648,7 +3648,7 @@ Patient 10264   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10266   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10266_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10266_HCT2_img.nii.gz
   Shape : [512, 512, 190]
   Metal voxels (>2000 HU) : 20372
   Blobs after size filter   : 5
@@ -3662,7 +3662,7 @@ Patient 10266   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10268   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10268_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10268_HCT2_img.nii.gz
   Shape : [512, 512, 184]
   Metal voxels (>2000 HU) : 21237
   Blobs after size filter   : 10
@@ -3681,7 +3681,7 @@ Patient 10268   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10269   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10269_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10269_HCT2_img.nii.gz
   Shape : [512, 512, 223]
   Metal voxels (>2000 HU) : 143819
   Blobs after size filter   : 7
@@ -3697,7 +3697,7 @@ Patient 10269   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10270   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10270_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10270_HCT2_img.nii.gz
   Shape : [512, 512, 226]
   Metal voxels (>2000 HU) : 25894
   Blobs after size filter   : 7
@@ -3713,7 +3713,7 @@ Patient 10270   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10271   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10271_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10271_HCT2_img.nii.gz
   Shape : [512, 512, 200]
   Metal voxels (>2000 HU) : 30758
   Blobs after size filter   : 19
@@ -3733,7 +3733,7 @@ Patient 10271   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10272   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10272_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10272_HCT2_img.nii.gz
   Shape : [512, 512, 219]
   Metal voxels (>2000 HU) : 70989
   Blobs after size filter   : 7
@@ -3749,7 +3749,7 @@ Patient 10272   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10273   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10273_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10273_HCT2_img.nii.gz
   Shape : [512, 512, 245]
   Metal voxels (>2000 HU) : 29566
   Blobs after size filter   : 7
@@ -3765,7 +3765,7 @@ Patient 10273   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10274   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10274_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10274_HCT2_img.nii.gz
   Shape : [512, 512, 220]
   Metal voxels (>2000 HU) : 91340
   Blobs after size filter   : 16
@@ -3785,7 +3785,7 @@ Patient 10274   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10275   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10275_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10275_HCT2_img.nii.gz
   Shape : [512, 512, 221]
   Metal voxels (>2000 HU) : 46868
   Blobs after size filter   : 4
@@ -3798,7 +3798,7 @@ Patient 10275   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10276   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10276_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10276_HCT2_img.nii.gz
   Shape : [512, 512, 204]
   Metal voxels (>2000 HU) : 35783
   Blobs after size filter   : 2
@@ -3809,7 +3809,7 @@ Patient 10276   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10277   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10277_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10277_HCT2_img.nii.gz
   Shape : [512, 512, 224]
   Metal voxels (>2000 HU) : 23526
   Blobs after size filter   : 5
@@ -3823,7 +3823,7 @@ Patient 10277   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10279   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10279_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10279_HCT2_img.nii.gz
   Shape : [512, 512, 196]
   Metal voxels (>2000 HU) : 42860
   Blobs after size filter   : 4
@@ -3836,7 +3836,7 @@ Patient 10279   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10280   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10280_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10280_HCT2_img.nii.gz
   Shape : [512, 512, 205]
   Metal voxels (>2000 HU) : 49508
   Blobs after size filter   : 29
@@ -3856,7 +3856,7 @@ Patient 10280   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10283   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10283_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10283_HCT2_img.nii.gz
   Shape : [512, 512, 209]
   Metal voxels (>2000 HU) : 151410
   Blobs after size filter   : 11
@@ -3876,7 +3876,7 @@ Patient 10283   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10284   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10284_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10284_HCT2_img.nii.gz
   Shape : [512, 512, 231]
   Metal voxels (>2000 HU) : 22495
   Blobs after size filter   : 7
@@ -3892,7 +3892,7 @@ Patient 10284   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10285   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10285_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10285_HCT2_img.nii.gz
   Shape : [512, 512, 192]
   Metal voxels (>2000 HU) : 34965
   Blobs after size filter   : 7
@@ -3908,7 +3908,7 @@ Patient 10285   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10286   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10286_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10286_HCT2_img.nii.gz
   Shape : [512, 512, 189]
   Metal voxels (>2000 HU) : 19916
   Blobs after size filter   : 9
@@ -3926,7 +3926,7 @@ Patient 10286   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10287   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10287_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10287_HCT2_img.nii.gz
   Shape : [512, 512, 228]
   Metal voxels (>2000 HU) : 43295
   Blobs after size filter   : 27
@@ -3946,7 +3946,7 @@ Patient 10287   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10290   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10290_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10290_HCT2_img.nii.gz
   Shape : [512, 512, 216]
   Metal voxels (>2000 HU) : 57145
   Blobs after size filter   : 9
@@ -3964,7 +3964,7 @@ Patient 10290   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10291   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10291_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10291_HCT2_img.nii.gz
   Shape : [512, 512, 226]
   Metal voxels (>2000 HU) : 52049
   Blobs after size filter   : 6
@@ -3979,7 +3979,7 @@ Patient 10291   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10292   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10292_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10292_HCT2_img.nii.gz
   Shape : [512, 512, 207]
   Metal voxels (>2000 HU) : 116895
   Blobs after size filter   : 20
@@ -3999,7 +3999,7 @@ Patient 10292   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10295   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10295_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10295_HCT2_img.nii.gz
   Shape : [512, 512, 216]
   Metal voxels (>2000 HU) : 24422
   Blobs after size filter   : 11
@@ -4019,7 +4019,7 @@ Patient 10295   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10297   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10297_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10297_HCT2_img.nii.gz
   Shape : [512, 512, 189]
   Metal voxels (>2000 HU) : 46376
   Blobs after size filter   : 13
@@ -4039,7 +4039,7 @@ Patient 10297   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10299   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10299_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10299_HCT2_img.nii.gz
   Shape : [512, 512, 199]
   Metal voxels (>2000 HU) : 16535
   Blobs after size filter   : 8
@@ -4056,7 +4056,7 @@ Patient 10299   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10300   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10300_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10300_HCT2_img.nii.gz
   Shape : [512, 512, 180]
   Metal voxels (>2000 HU) : 17638
   Blobs after size filter   : 13
@@ -4076,7 +4076,7 @@ Patient 10300   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10301   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10301_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10301_HCT2_img.nii.gz
   Shape : [512, 512, 215]
   Metal voxels (>2000 HU) : 27613
   Blobs after size filter   : 5
@@ -4090,7 +4090,7 @@ Patient 10301   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10302   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10302_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10302_HCT2_img.nii.gz
   Shape : [512, 512, 175]
   Metal voxels (>2000 HU) : 16524
   Blobs after size filter   : 19
@@ -4108,7 +4108,7 @@ Patient 10302   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10304   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10304_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10304_HCT2_img.nii.gz
   Shape : [512, 512, 169]
   Metal voxels (>2000 HU) : 10132
   Blobs after size filter   : 3
@@ -4120,7 +4120,7 @@ Patient 10304   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10306   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10306_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10306_HCT2_img.nii.gz
   Shape : [512, 512, 175]
   Metal voxels (>2000 HU) : 22235
   Blobs after size filter   : 5
@@ -4134,7 +4134,7 @@ Patient 10306   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10307   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10307_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10307_HCT2_img.nii.gz
   Shape : [512, 512, 185]
   Metal voxels (>2000 HU) : 60634
   Blobs after size filter   : 11
@@ -4154,7 +4154,7 @@ Patient 10307   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10501   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10501_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10501_HCT2_img.nii.gz
   Shape : [512, 512, 213]
   Metal voxels (>2000 HU) : 86629
   Blobs after size filter   : 7
@@ -4170,7 +4170,7 @@ Patient 10501   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10502   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10502_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10502_HCT2_img.nii.gz
   Shape : [512, 512, 211]
   Metal voxels (>2000 HU) : 18944
   Blobs after size filter   : 13
@@ -4190,7 +4190,7 @@ Patient 10502   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10503   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10503_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10503_HCT2_img.nii.gz
   Shape : [512, 512, 218]
   Metal voxels (>2000 HU) : 21545
   Blobs after size filter   : 5
@@ -4204,7 +4204,7 @@ Patient 10503   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10505   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10505_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10505_HCT2_img.nii.gz
   Shape : [512, 512, 224]
   Metal voxels (>2000 HU) : 22916
   Blobs after size filter   : 6
@@ -4219,7 +4219,7 @@ Patient 10505   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10506   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10506_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10506_HCT2_img.nii.gz
   Shape : [512, 512, 207]
   Metal voxels (>2000 HU) : 13927
   Blobs after size filter   : 7
@@ -4235,7 +4235,7 @@ Patient 10506   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10508   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10508_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10508_HCT2_img.nii.gz
   Shape : [512, 512, 229]
   Metal voxels (>2000 HU) : 27586
   Blobs after size filter   : 8
@@ -4252,7 +4252,7 @@ Patient 10508   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10509   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10509_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10509_HCT2_img.nii.gz
   Shape : [512, 512, 193]
   Metal voxels (>2000 HU) : 85719
   Blobs after size filter   : 15
@@ -4272,7 +4272,7 @@ Patient 10509   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10510   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10510_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10510_HCT2_img.nii.gz
   Shape : [512, 512, 246]
   Metal voxels (>2000 HU) : 20063
   Blobs after size filter   : 5
@@ -4286,7 +4286,7 @@ Patient 10510   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10515   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10515_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10515_HCT2_img.nii.gz
   Shape : [512, 512, 225]
   Metal voxels (>2000 HU) : 10453
   Blobs after size filter   : 11
@@ -4306,7 +4306,7 @@ Patient 10515   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10516   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10516_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10516_HCT2_img.nii.gz
   Shape : [512, 512, 199]
   Metal voxels (>2000 HU) : 15715
   Blobs after size filter   : 9
@@ -4324,7 +4324,7 @@ Patient 10516   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10518   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10518_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10518_HCT2_img.nii.gz
   Shape : [512, 512, 265]
   Metal voxels (>2000 HU) : 53710
   Blobs after size filter   : 8
@@ -4341,7 +4341,7 @@ Patient 10518   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10519   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10519_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10519_HCT2_img.nii.gz
   Shape : [512, 512, 216]
   Metal voxels (>2000 HU) : 38353
   Blobs after size filter   : 8
@@ -4358,7 +4358,7 @@ Patient 10519   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10523   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10523_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10523_HCT2_img.nii.gz
   Shape : [512, 512, 234]
   Metal voxels (>2000 HU) : 154127
   Blobs after size filter   : 7
@@ -4374,7 +4374,7 @@ Patient 10523   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10524   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10524_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10524_HCT2_img.nii.gz
   Shape : [512, 512, 182]
   Metal voxels (>2000 HU) : 24919
   Blobs after size filter   : 15
@@ -4394,7 +4394,7 @@ Patient 10524   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10528   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10528_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10528_HCT2_img.nii.gz
   Shape : [512, 512, 190]
   Metal voxels (>2000 HU) : 27203
   Blobs after size filter   : 22
@@ -4414,7 +4414,7 @@ Patient 10528   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10529   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10529_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10529_HCT2_img.nii.gz
   Shape : [512, 512, 158]
   Metal voxels (>2000 HU) : 20349
   Blobs after size filter   : 10
@@ -4433,7 +4433,7 @@ Patient 10529   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10530   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10530_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10530_HCT2_img.nii.gz
   Shape : [512, 512, 200]
   Metal voxels (>2000 HU) : 28402
   Blobs after size filter   : 13
@@ -4453,7 +4453,7 @@ Patient 10530   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10531   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10531_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10531_HCT2_img.nii.gz
   Shape : [512, 512, 210]
   Metal voxels (>2000 HU) : 21718
   Blobs after size filter   : 7
@@ -4469,7 +4469,7 @@ Patient 10531   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10532   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10532_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10532_HCT2_img.nii.gz
   Shape : [512, 512, 186]
   Metal voxels (>2000 HU) : 24238
   Blobs after size filter   : 16
@@ -4489,7 +4489,7 @@ Patient 10532   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10533   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10533_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10533_HCT2_img.nii.gz
   Shape : [512, 512, 223]
   Metal voxels (>2000 HU) : 52797
   Blobs after size filter   : 11
@@ -4509,7 +4509,7 @@ Patient 10533   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10534   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10534_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10534_HCT2_img.nii.gz
   Shape : [512, 512, 225]
   Metal voxels (>2000 HU) : 43400
   Blobs after size filter   : 12
@@ -4529,7 +4529,7 @@ Patient 10534   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10535   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10535_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10535_HCT2_img.nii.gz
   Shape : [512, 512, 185]
   Metal voxels (>2000 HU) : 40773
   Blobs after size filter   : 4
@@ -4542,7 +4542,7 @@ Patient 10535   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10537   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10537_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10537_HCT2_img.nii.gz
   Shape : [512, 512, 214]
   Metal voxels (>2000 HU) : 34775
   Blobs after size filter   : 9
@@ -4560,7 +4560,7 @@ Patient 10537   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 10538   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10538_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\10538_HCT2_img.nii.gz
   Shape : [512, 512, 202]
   Metal voxels (>2000 HU) : 144271
   Blobs after size filter   : 23
@@ -4580,7 +4580,7 @@ Patient 10538   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11001   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11001_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11001_HCT2_img.nii.gz
   Shape : [512, 512, 242]
   Metal voxels (>2000 HU) : 37730
   Blobs after size filter   : 6
@@ -4595,7 +4595,7 @@ Patient 11001   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11002   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11002_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11002_HCT2_img.nii.gz
   Shape : [512, 512, 208]
   Metal voxels (>2000 HU) : 23242
   Blobs after size filter   : 4
@@ -4613,7 +4613,7 @@ Patient 11002   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11003   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11003_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11003_HCT2_img.nii.gz
   Shape : [512, 512, 209]
   Metal voxels (>2000 HU) : 42025
   Blobs after size filter   : 6
@@ -4628,7 +4628,7 @@ Patient 11003   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11004   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11004_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11004_HCT2_img.nii.gz
   Shape : [512, 512, 175]
   Metal voxels (>2000 HU) : 11295
   Blobs after size filter   : 11
@@ -4648,7 +4648,7 @@ Patient 11004   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11005   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11005_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11005_HCT2_img.nii.gz
   Shape : [512, 512, 172]
   Metal voxels (>2000 HU) : 22262
   Blobs after size filter   : 8
@@ -4665,7 +4665,7 @@ Patient 11005   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11006   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11006_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11006_HCT2_img.nii.gz
   Shape : [512, 512, 184]
   Metal voxels (>2000 HU) : 53032
   Blobs after size filter   : 16
@@ -4685,7 +4685,7 @@ Patient 11006   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11007   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11007_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11007_HCT2_img.nii.gz
   Shape : [512, 512, 200]
   Metal voxels (>2000 HU) : 46962
   Blobs after size filter   : 16
@@ -4705,7 +4705,7 @@ Patient 11007   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11008   (has GT)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11008_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11008_HCT2_img.nii.gz
   Shape : [512, 512, 228]
   Metal voxels (>2000 HU) : 47557
   Blobs after size filter   : 5
@@ -4723,7 +4723,7 @@ Patient 11008   (has GT)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11009   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11009_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11009_HCT2_img.nii.gz
   Shape : [512, 512, 198]
   Metal voxels (>2000 HU) : 19554
   Blobs after size filter   : 3
@@ -4735,7 +4735,7 @@ Patient 11009   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11010   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11010_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11010_HCT2_img.nii.gz
   Shape : [512, 512, 226]
   Metal voxels (>2000 HU) : 19677
   Blobs after size filter   : 7
@@ -4751,7 +4751,7 @@ Patient 11010   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11011   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11011_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11011_HCT2_img.nii.gz
   Shape : [512, 512, 238]
   Metal voxels (>2000 HU) : 17129
   Blobs after size filter   : 9
@@ -4769,7 +4769,7 @@ Patient 11011   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11012   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11012_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11012_HCT2_img.nii.gz
   Shape : [512, 512, 171]
   Metal voxels (>2000 HU) : 48964
   Blobs after size filter   : 12
@@ -4789,7 +4789,7 @@ Patient 11012   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11013   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11013_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11013_HCT2_img.nii.gz
   Shape : [512, 512, 242]
   Metal voxels (>2000 HU) : 23927
   Blobs after size filter   : 9
@@ -4807,7 +4807,7 @@ Patient 11013   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11014   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11014_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11014_HCT2_img.nii.gz
   Shape : [512, 512, 215]
   Metal voxels (>2000 HU) : 127946
   Blobs after size filter   : 10
@@ -4826,7 +4826,7 @@ Patient 11014   (RAW ONLY)
 
 ─────────────────────────────────────────────────────────────────
 Patient 11019   (RAW ONLY)
-  Image : C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11019_HCT2_img.nii.gz
+  Image : C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training\HCT2_img_nii\11019_HCT2_img.nii.gz
   Shape : [512, 512, 199]
   Metal voxels (>2000 HU) : 32187
   Blobs after size filter   : 9

@@ -26,11 +26,11 @@ from typing import Optional
 #  CONFIGURE YOUR PATHS HERE
 # ─────────────────────────────────────────────────────────────────────────────
 
-DATASET_1_ROOT = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20")
-DATASET_2_ROOT = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training")
+DATASET_1_ROOT = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20")
+DATASET_2_ROOT = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training")
 
-OUTPUT_JSON    = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\data_inventory.json")
-OUTPUT_REPORT  = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\inventory_report.txt")
+OUTPUT_JSON    = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\data_inventory.json")
+OUTPUT_REPORT  = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\inventory_report.txt")
 
 
 # ─────────────────────────────────────────────────────────────────────────────

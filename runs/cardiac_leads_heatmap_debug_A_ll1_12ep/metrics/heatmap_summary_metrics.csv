@@ -1,0 +1,13 @@
+metric,value
+val_loss,0.20059584081172943
+val_weighted_heatmap_loss,0.15813890099525452
+val_unweighted_mse,0.07438001036643982
+val_coord_loss,0.42456936836242676
+mean_centroid_dist_non_bg,1.4142135381698608
+mean_centroid_dist_electrodes,1.4142135381698608
+mean_centroid_dist_anatomy,
+landmark_accuracy_within_5vox_non_bg,1.0
+landmark_accuracy_within_10vox_non_bg,1.0
+landmark_accuracy_within_15vox_non_bg,1.0
+landmark_accuracy_within_10vox_electrodes,1.0
+landmark_accuracy_within_15vox_electrodes,1.0

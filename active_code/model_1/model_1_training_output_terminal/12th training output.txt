@@ -1,0 +1,54 @@
+PS C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML>  & 'C:\Users\...\AppData\Local\Microsoft\WindowsApps\python3.13.exe' 'c:\Users\...\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy\launcher' '57524' '--' 'C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\active_code\v1_chatgpt\S9_Output_Main_Execution_Block.py' 
+Using device: cuda
+Preprocessing labeled: 100%|| 59/59 [00:00<00:00, 6020.00it/s]
+Preprocessing unlabeled: 0it [00:00, ?it/s]
+Labeled train cases: 47
+Labeled val cases:   12
+Unlabeled cases:     0
+Warm-started model from: runs\cardiac_leads_no_spatial_aug_v6\weights\best_supervised_model.pth
+[supervised] epoch=000 train_loss=nan val_loss=0.59725 val_dice=0.49165 val_centroid_dist=7.82 val_focus_centroid_dist=11.50 val_worst_focus_centroid_dist=14.09 val_selection_score=10.80463 best_val_selection_score=10.80463
+    focus LL2 centroid_dist=9.62
+    focus ANT centroid_dist=10.79
+    focus Base centroid_dist=14.09
+[supervised] epoch=001 train_loss=0.41603 val_loss=0.59527 val_dice=0.49358 val_centroid_dist=9.58 val_focus_centroid_dist=16.92 val_worst_focus_centroid_dist=22.99 val_selection_score=14.88407 best_val_selection_score=10.80463
+    focus LL2 centroid_dist=9.75
+    focus ANT centroid_dist=18.03
+    focus Base centroid_dist=22.99
+[supervised] epoch=002 train_loss=0.40915 val_loss=0.59604 val_dice=0.49334 val_centroid_dist=9.80 val_focus_centroid_dist=16.98 val_worst_focus_centroid_dist=22.99 val_selection_score=15.10341 best_val_selection_score=10.80463
+    focus LL2 centroid_dist=9.92
+    focus ANT centroid_dist=18.03
+    focus Base centroid_dist=22.99
+[supervised] epoch=003 train_loss=0.41151 val_loss=0.59658 val_dice=0.49279 val_centroid_dist=9.61 val_focus_centroid_dist=16.94 val_worst_focus_centroid_dist=22.82 val_selection_score=14.88385 best_val_selection_score=10.80463
+    focus LL2 centroid_dist=9.97
+    focus ANT centroid_dist=18.03
+    focus Base centroid_dist=22.82
+[supervised] early stopping after 003 epochs; best_val_selection_score=10.80463
+Loaded best supervised checkpoint by val_selection_score (min) = 10.80463
+Skipping pseudo-label fine-tuning. enable_pseudo_labeling=False, finetune_epochs=0, best_supervised_dice=0.49358, required=0.10000
+Starting final evaluation...
+Final evaluation: 100%|| 12/12 [00:24<00:00,  2.08s/it]
+Saved metrics CSVs in: runs\cardiac_leads_warmstart_guard_v8\metrics
+Saved plots in: runs\cardiac_leads_warmstart_guard_v8\plots
+Starting prediction overlays...
+Saving overlays:   0%|                                                                                                                                                             | 0/12 [00:00<?, ?it/s]Saved overlay 1/3: runs\cardiac_leads_warmstart_guard_v8\overlays\10001_HCT2_img_overlay.png
+Saving overlays:   8%|▍                                                                                                                                        | 1/12 [00:01<00:16,  1.49s/it]Saved overlay 2/3: runs\cardiac_leads_warmstart_guard_v8\overlays\10004_HCT2_img_overlay.png
+Saving overlays:  17%|▊                                                                                                                            | 2/12 [00:03<00:16,  1.68s/it]Saved overlay 3/3: runs\cardiac_leads_warmstart_guard_v8\overlays\10006_HCT2_img_overlay.png
+Saving overlays:  25%|▎                                                                                                               | 3/12 [00:03<00:11,  1.28s/it]
+Finished saving 3 overlay image(s).
+Starting presentation figure generation...
+Exporting centroids with device: cuda
+Run directory: C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\runs\cardiac_leads_warmstart_guard_v8
+Checkpoint: runs\cardiac_leads_warmstart_guard_v8\weights\best_supervised_model.pth
+Centroid export: 100%|| 12/12 [00:11<00:00,  1.07it/s]
+Saved centroid coordinates: C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\runs\cardiac_leads_warmstart_guard_v8\metrics\centroid_coordinates.csv
+Saved centroid errors: C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\runs\cardiac_leads_warmstart_guard_v8\metrics\centroid_errors.csv
+Reusing centroid CSVs: C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\runs\cardiac_leads_warmstart_guard_v8\metrics\centroid_coordinates.csv and C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\runs\cardiac_leads_warmstart_guard_v8\metrics\centroid_errors.csv
+Saved bullseye plots to: C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\runs\cardiac_leads_warmstart_guard_v8\bullseye_plots
+Saved presentation figures to: C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\runs\cardiac_leads_warmstart_guard_v8\presentation_figures
+Saved presentation outputs in: runs\cardiac_leads_warmstart_guard_v8\presentation_figures
+Generated/updated 8 presentation files.
+Saved final weights to: runs\cardiac_leads_warmstart_guard_v8\weights\final_model_weights.pth
+Metrics CSVs saved in:   runs\cardiac_leads_warmstart_guard_v8\metrics
+Plots saved in:          runs\cardiac_leads_warmstart_guard_v8\plots
+Overlays saved in:       runs\cardiac_leads_warmstart_guard_v8\overlays
+PS C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML> 

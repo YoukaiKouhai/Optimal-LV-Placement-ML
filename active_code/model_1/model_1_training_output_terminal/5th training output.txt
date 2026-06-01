@@ -1,0 +1,212 @@
+PS C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML>  & 'C:\Users\...\AppData\Local\Microsoft\WindowsApps\python3.13.exe' 'c:\Users\...\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy\launcher' '49779' '--' 'C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\active_code\v1_chatgpt\S9_Output_Main_Execution_Block.py' 
+Using device: cuda
+Preprocessing labeled: 100%|| 59/59 [00:00<00:00, 4282.35it/s]
+Preprocessing unlabeled: 0it [00:00, ?it/s]
+Labeled train cases: 47
+Labeled val cases:   12
+Unlabeled cases:     0
+Warm-started model from: runs\cardiac_leads_focused_LL1_ANT\weights\best_supervised_model.pth
+Validate:   0%|                                                          | 0/12 [00:00<?, ?it/s]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+[supervised] epoch=001 train_loss=0.67950 val_loss=0.69792 val_dice=0.37416 val_centroid_dist=18.86 best_val_centroid_dist=18.85929
+    focus LL1 centroid_dist=14.65
+    focus LL3 centroid_dist=16.40
+    focus ANT centroid_dist=11.57
+    focus Apex centroid_dist=75.94
+[supervised] epoch=002 train_loss=0.65602 val_loss=0.69262 val_dice=0.38372 val_centroid_dist=19.73 best_val_centroid_dist=18.85929
+    focus LL1 centroid_dist=14.99
+    focus LL3 centroid_dist=22.12
+    focus ANT centroid_dist=11.64
+    focus Apex centroid_dist=69.24
+[supervised] epoch=003 train_loss=0.64381 val_loss=0.68490 val_dice=0.39183 val_centroid_dist=16.30 best_val_centroid_dist=16.30139
+    focus LL1 centroid_dist=14.82
+    focus LL3 centroid_dist=10.73
+    focus ANT centroid_dist=12.24
+    focus Apex centroid_dist=59.04
+[supervised] epoch=004 train_loss=0.62868 val_loss=0.66360 val_dice=0.40875 val_centroid_dist=15.22 best_val_centroid_dist=15.21880                              
+    focus LL1 centroid_dist=5.26
+    focus LL3 centroid_dist=18.71
+    focus ANT centroid_dist=10.91
+    focus Apex centroid_dist=58.53
+[supervised] epoch=005 train_loss=0.63562 val_loss=0.68792 val_dice=0.39497 val_centroid_dist=14.48 best_val_centroid_dist=14.48161                              
+    focus LL1 centroid_dist=16.16
+    focus LL3 centroid_dist=10.50
+    focus ANT centroid_dist=13.40
+    focus Apex centroid_dist=46.11
+[supervised] epoch=006 train_loss=0.62852 val_loss=0.67266 val_dice=0.39921 val_centroid_dist=12.09 best_val_centroid_dist=12.09073                              
+    focus LL1 centroid_dist=6.06
+    focus LL3 centroid_dist=8.49
+    focus ANT centroid_dist=11.17
+    focus Apex centroid_dist=44.52
+[supervised] epoch=007 train_loss=0.61791 val_loss=0.67868 val_dice=0.39388 val_centroid_dist=12.15 best_val_centroid_dist=12.09073                              
+    focus LL1 centroid_dist=13.78
+    focus LL3 centroid_dist=6.84
+    focus ANT centroid_dist=10.94
+    focus Apex centroid_dist=35.39
+[supervised] epoch=008 train_loss=0.62070 val_loss=0.66106 val_dice=0.41923 val_centroid_dist=12.64 best_val_centroid_dist=12.09073                              
+    focus LL1 centroid_dist=15.28
+    focus LL3 centroid_dist=7.85
+    focus ANT centroid_dist=10.17
+    focus Apex centroid_dist=30.85
+[supervised] epoch=009 train_loss=0.60174 val_loss=0.66935 val_dice=0.41931 val_centroid_dist=12.63 best_val_centroid_dist=12.09073                              
+    focus LL1 centroid_dist=12.24
+    focus LL3 centroid_dist=11.16
+    focus ANT centroid_dist=11.07
+    focus Apex centroid_dist=32.95
+[supervised] epoch=010 train_loss=0.60959 val_loss=0.65173 val_dice=0.43028 val_centroid_dist=11.65 best_val_centroid_dist=11.65390                              
+    focus LL1 centroid_dist=10.76
+    focus LL3 centroid_dist=10.08
+    focus ANT centroid_dist=10.85
+    focus Apex centroid_dist=29.78
+[supervised] epoch=011 train_loss=0.60663 val_loss=0.66047 val_dice=0.42592 val_centroid_dist=12.30 best_val_centroid_dist=11.65390                              
+    focus LL1 centroid_dist=11.55
+    focus LL3 centroid_dist=10.49
+    focus ANT centroid_dist=11.54
+    focus Apex centroid_dist=34.89
+[supervised] epoch=012 train_loss=0.59757 val_loss=0.64802 val_dice=0.43329 val_centroid_dist=11.32 best_val_centroid_dist=11.31973                              
+    focus LL1 centroid_dist=7.17
+    focus LL3 centroid_dist=9.36
+    focus ANT centroid_dist=11.35
+    focus Apex centroid_dist=30.60
+[supervised] epoch=013 train_loss=0.59956 val_loss=0.66351 val_dice=0.41558 val_centroid_dist=13.17 best_val_centroid_dist=11.31973                              
+    focus LL1 centroid_dist=16.39
+    focus LL3 centroid_dist=10.63
+    focus ANT centroid_dist=10.35
+    focus Apex centroid_dist=26.44
+[supervised] epoch=014 train_loss=0.58176 val_loss=0.66870 val_dice=0.42059 val_centroid_dist=13.61 best_val_centroid_dist=11.31973                              
+    focus LL1 centroid_dist=10.67
+    focus LL3 centroid_dist=8.10
+    focus ANT centroid_dist=11.78
+    focus Apex centroid_dist=45.14
+[supervised] epoch=015 train_loss=0.57285 val_loss=0.63796 val_dice=0.44509 val_centroid_dist=10.91 best_val_centroid_dist=10.91030                              
+    focus LL1 centroid_dist=5.73
+    focus LL3 centroid_dist=7.91
+    focus ANT centroid_dist=11.54
+    focus Apex centroid_dist=34.76
+[supervised] epoch=016 train_loss=0.57308 val_loss=0.62703 val_dice=0.44946 val_centroid_dist=9.54 best_val_centroid_dist=9.53703                                
+    focus LL1 centroid_dist=3.08
+    focus LL3 centroid_dist=8.27
+    focus ANT centroid_dist=10.72
+    focus Apex centroid_dist=26.40
+[supervised] epoch=017 train_loss=0.57758 val_loss=0.63038 val_dice=0.44841 val_centroid_dist=9.07 best_val_centroid_dist=9.06786                                
+    focus LL1 centroid_dist=3.04
+    focus LL3 centroid_dist=7.74
+    focus ANT centroid_dist=10.69
+    focus Apex centroid_dist=25.44
+[supervised] epoch=018 train_loss=0.56450 val_loss=0.61022 val_dice=0.46419 val_centroid_dist=10.02 best_val_centroid_dist=9.06786                               
+    focus LL1 centroid_dist=6.60
+    focus LL3 centroid_dist=9.03
+    focus ANT centroid_dist=10.26
+    focus Apex centroid_dist=25.96
+[supervised] epoch=019 train_loss=0.54588 val_loss=0.61460 val_dice=0.45925 val_centroid_dist=10.08 best_val_centroid_dist=9.06786                               
+    focus LL1 centroid_dist=8.15
+    focus LL3 centroid_dist=9.17
+    focus ANT centroid_dist=11.07
+    focus Apex centroid_dist=22.50
+[supervised] epoch=020 train_loss=0.54541 val_loss=0.62494 val_dice=0.44980 val_centroid_dist=10.76 best_val_centroid_dist=9.06786                               
+    focus LL1 centroid_dist=14.65
+    focus LL3 centroid_dist=8.58
+    focus ANT centroid_dist=11.19
+    focus Apex centroid_dist=28.62
+[supervised] epoch=021 train_loss=0.54895 val_loss=0.61810 val_dice=0.44802 val_centroid_dist=10.58 best_val_centroid_dist=9.06786                               
+    focus LL1 centroid_dist=17.04
+    focus LL3 centroid_dist=8.81
+    focus ANT centroid_dist=10.36
+    focus Apex centroid_dist=18.61
+[supervised] epoch=022 train_loss=0.54591 val_loss=0.62694 val_dice=0.45040 val_centroid_dist=13.07 best_val_centroid_dist=9.06786                               
+    focus LL1 centroid_dist=15.81
+    focus LL3 centroid_dist=13.53
+    focus ANT centroid_dist=10.76
+    focus Apex centroid_dist=23.48
+[supervised] epoch=023 train_loss=0.55115 val_loss=0.60249 val_dice=0.46819 val_centroid_dist=10.36 best_val_centroid_dist=9.06786                               
+    focus LL1 centroid_dist=8.56
+    focus LL3 centroid_dist=7.46
+    focus ANT centroid_dist=9.69
+    focus Apex centroid_dist=22.88
+[supervised] epoch=024 train_loss=0.53437 val_loss=0.59952 val_dice=0.46752 val_centroid_dist=9.69 best_val_centroid_dist=9.06786                                
+    focus LL1 centroid_dist=5.69
+    focus LL3 centroid_dist=11.79
+    focus ANT centroid_dist=10.48
+    focus Apex centroid_dist=14.42
+[supervised] epoch=025 train_loss=0.53182 val_loss=0.60602 val_dice=0.46135 val_centroid_dist=11.08 best_val_centroid_dist=9.06786                               
+    focus LL1 centroid_dist=2.86
+    focus LL3 centroid_dist=13.28
+    focus ANT centroid_dist=10.22
+    focus Apex centroid_dist=28.44
+[supervised] epoch=026 train_loss=0.52352 val_loss=0.58950 val_dice=0.46938 val_centroid_dist=10.71 best_val_centroid_dist=9.06786                               
+    focus LL1 centroid_dist=5.88
+    focus LL3 centroid_dist=8.31
+    focus ANT centroid_dist=9.79
+    focus Apex centroid_dist=23.61
+[supervised] epoch=027 train_loss=0.52786 val_loss=0.59322 val_dice=0.47104 val_centroid_dist=9.59 best_val_centroid_dist=9.06786                                
+    focus LL1 centroid_dist=4.30
+    focus LL3 centroid_dist=5.33
+    focus ANT centroid_dist=9.58
+    focus Apex centroid_dist=20.00
+[supervised] early stopping after 027 epochs; best_val_centroid_dist=9.06786
+Loaded best supervised checkpoint by val_centroid_dist (min) = 9.06786
+Skipping pseudo-label fine-tuning. enable_pseudo_labeling=False, finetune_epochs=0, best_supervised_dice=0.47104, required=0.10000
+Starting final evaluation...
+Final evaluation:   8%|▉                                                                                                  | 1/12 [00:02<00:26,  2.41s/it]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+Final evaluation:  17%|▊                                                                                         | 2/12 [00:05<00:27,  2.74s/it]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+Final evaluation:  25%|▊                                                                                | 3/12 [00:06<00:18,  2.03s/it]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+Final evaluation:  33%|▋                                                                       | 4/12 [00:09<00:18,  2.26s/it]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+Final evaluation:  42%|▌                                                              | 5/12 [00:10<00:13,  1.99s/it]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+Final evaluation:  50%|▌                                                     | 6/12 [00:12<00:11,  1.98s/it]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+Final evaluation:  58%|▍                                            | 7/12 [00:15<00:10,  2.14s/it]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+Final evaluation:  67%|▎                                   | 8/12 [00:16<00:07,  1.95s/it]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+Final evaluation:  75%|▎                          | 9/12 [00:18<00:05,  1.83s/it]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+Final evaluation:  83%|▎                 | 10/12 [00:20<00:03,  1.90s/it]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+Final evaluation:  92%|▏        | 11/12 [00:23<00:02,  2.16s/it]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+Final evaluation: 100%|| 12/12 [00:24<00:00,  2.07s/it]
+Saved metrics CSVs in: runs\cardiac_leads_centroid_rebalance_v2\metrics
+Saved plots in: runs\cardiac_leads_centroid_rebalance_v2\plots
+Starting prediction overlays...
+Saving overlays:   0%|                                                                                                                    | 0/12 [00:00<?, ?it/s]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:226: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  win_data = torch.cat([inputs[win_slice] for win_slice in unravel_slice]).to(sw_device)
+C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\inferers\utils.py:370: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:353.)
+  out[idx_zm] += p
+Saved overlay 1/3: runs\cardiac_leads_centroid_rebalance_v2\overlays\10001_HCT2_img_overlay.png
+Saving overlays:   8%|                                                                                                   | 1/12 [00:01<00:15,  1.45s/it]Saved overlay 2/3: runs\cardiac_leads_centroid_rebalance_v2\overlays\10004_HCT2_img_overlay.png
+Saving overlays:  17%|                                                                                          | 2/12 [00:03<00:15,  1.60s/it]Saved overlay 3/3: runs\cardiac_leads_centroid_rebalance_v2\overlays\10006_HCT2_img_overlay.png
+Saving overlays:  25%|                                                                                 | 3/12 [00:03<00:11,  1.23s/it]
+Finished saving 3 overlay image(s).
+Saved final weights to: runs\cardiac_leads_centroid_rebalance_v2\weights\final_model_weights.pth
+Metrics CSVs saved in:   runs\cardiac_leads_centroid_rebalance_v2\metrics
+Plots saved in:          runs\cardiac_leads_centroid_rebalance_v2\plots
+Overlays saved in:       runs\cardiac_leads_centroid_rebalance_v2\overlays

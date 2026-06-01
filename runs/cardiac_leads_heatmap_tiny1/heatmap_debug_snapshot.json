@@ -1,0 +1,197 @@
+{
+  "case_id": "10002_HCT2_img",
+  "image_shape": [
+    1,
+    1,
+    96,
+    96,
+    96
+  ],
+  "label_shape": [
+    1,
+    1,
+    96,
+    96,
+    96
+  ],
+  "logits_shape": [
+    1,
+    9,
+    96,
+    96,
+    96
+  ],
+  "target_heatmap_shape": [
+    1,
+    9,
+    96,
+    96,
+    96
+  ],
+  "loss": 0.19498634338378906,
+  "sigma_voxels": 3.0,
+  "channels": [
+    {
+      "class_id": 1,
+      "class_name": "LL1",
+      "present": false,
+      "target_argmax_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "pred_argmax_zyx": [
+        14.0,
+        63.0,
+        33.0
+      ],
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 2.4974007606506348,
+      "per_channel_loss": 0.11883261799812317
+    },
+    {
+      "class_id": 2,
+      "class_name": "LL2",
+      "present": false,
+      "target_argmax_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "pred_argmax_zyx": [
+        15.0,
+        53.0,
+        23.0
+      ],
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 5.33156156539917,
+      "per_channel_loss": 0.27172356843948364
+    },
+    {
+      "class_id": 3,
+      "class_name": "LL3",
+      "present": false,
+      "target_argmax_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "pred_argmax_zyx": [
+        11.0,
+        69.0,
+        70.0
+      ],
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 3.3117175102233887,
+      "per_channel_loss": 0.20191368460655212
+    },
+    {
+      "class_id": 4,
+      "class_name": "LL4",
+      "present": false,
+      "target_argmax_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "pred_argmax_zyx": [
+        7.0,
+        21.0,
+        22.0
+      ],
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 3.0567357540130615,
+      "per_channel_loss": 0.24396896362304688
+    },
+    {
+      "class_id": 5,
+      "class_name": "RL1",
+      "present": false,
+      "target_argmax_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "pred_argmax_zyx": [
+        14.0,
+        50.0,
+        67.0
+      ],
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 1.5152146816253662,
+      "per_channel_loss": 0.09223151206970215
+    },
+    {
+      "class_id": 6,
+      "class_name": "RL2",
+      "present": false,
+      "target_argmax_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "pred_argmax_zyx": [
+        11.0,
+        61.0,
+        39.0
+      ],
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 4.1253509521484375,
+      "per_channel_loss": 0.1628246307373047
+    },
+    {
+      "class_id": 7,
+      "class_name": "ANT",
+      "present": false,
+      "target_argmax_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "pred_argmax_zyx": [
+        11.0,
+        62.0,
+        23.0
+      ],
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 3.810856819152832,
+      "per_channel_loss": 0.1877543032169342
+    },
+    {
+      "class_id": 8,
+      "class_name": "Apex",
+      "present": true,
+      "target_argmax_zyx": [
+        47.5,
+        51.0,
+        47.0
+      ],
+      "pred_argmax_zyx": [
+        9.0,
+        52.0,
+        70.0
+      ],
+      "target_heatmap_max": 0.986207127571106,
+      "pred_output_max": 3.507680892944336,
+      "per_channel_loss": 0.22337603569030762
+    },
+    {
+      "class_id": 9,
+      "class_name": "Base",
+      "present": false,
+      "target_argmax_zyx": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "pred_argmax_zyx": [
+        11.0,
+        60.0,
+        31.0
+      ],
+      "target_heatmap_max": 0.0,
+      "pred_output_max": 3.709550380706787,
+      "per_channel_loss": 0.25225183367729187
+    }
+  ]
+}

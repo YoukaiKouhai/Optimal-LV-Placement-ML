@@ -25,7 +25,7 @@ def load_leads_csv(csv_path: str | Path) -> list[dict[str, float | str]]:
     return points
 
 
-with open(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\data_inventory.json") as f:
+with open(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\data_inventory.json") as f:
     inv = json.load(f)
 
 # Loop over only patients with ground truth (for training / validation)

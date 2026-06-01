@@ -1,10 +1,10 @@
 {
-  "root": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project",
+  "root": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project",
   "files": [
     {
       "dataset": "data1",
       "patient_id": "10001",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10001_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10001_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -123,7 +123,7 @@
     {
       "dataset": "data1",
       "patient_id": "10002",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10002_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10002_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -242,7 +242,7 @@
     {
       "dataset": "data1",
       "patient_id": "10003",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10003_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10003_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -361,7 +361,7 @@
     {
       "dataset": "data1",
       "patient_id": "10004",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10004_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10004_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -480,7 +480,7 @@
     {
       "dataset": "data1",
       "patient_id": "10005",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10005_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10005_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -599,7 +599,7 @@
     {
       "dataset": "data1",
       "patient_id": "10006",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10006_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10006_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -718,7 +718,7 @@
     {
       "dataset": "data1",
       "patient_id": "10007",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10007_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10007_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -837,7 +837,7 @@
     {
       "dataset": "data1",
       "patient_id": "10008",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10008_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10008_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -956,7 +956,7 @@
     {
       "dataset": "data1",
       "patient_id": "10010",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10010_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10010_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -1075,7 +1075,7 @@
     {
       "dataset": "data1",
       "patient_id": "10011",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10011_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10011_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -1194,7 +1194,7 @@
     {
       "dataset": "data1",
       "patient_id": "10012",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10012_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10012_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -1313,7 +1313,7 @@
     {
       "dataset": "data1",
       "patient_id": "10014",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10014_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10014_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -1432,7 +1432,7 @@
     {
       "dataset": "data1",
       "patient_id": "10015",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10015_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10015_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -1551,7 +1551,7 @@
     {
       "dataset": "data1",
       "patient_id": "10017",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10017_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10017_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -1670,7 +1670,7 @@
     {
       "dataset": "data1",
       "patient_id": "10018",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10018_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10018_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -1789,7 +1789,7 @@
     {
       "dataset": "data1",
       "patient_id": "10019",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10019_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10019_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -1908,7 +1908,7 @@
     {
       "dataset": "data1",
       "patient_id": "10020",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10020_HCT2_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10020_HCT2_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -2027,7 +2027,7 @@
     {
       "dataset": "data2",
       "patient_id": "10001",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10001_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10001_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -2146,7 +2146,7 @@
     {
       "dataset": "data2",
       "patient_id": "10002",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10002_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10002_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -2265,7 +2265,7 @@
     {
       "dataset": "data2",
       "patient_id": "10003",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10003_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10003_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -2384,7 +2384,7 @@
     {
       "dataset": "data2",
       "patient_id": "10004",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10004_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10004_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -2503,7 +2503,7 @@
     {
       "dataset": "data2",
       "patient_id": "10005",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10005_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10005_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -2622,7 +2622,7 @@
     {
       "dataset": "data2",
       "patient_id": "10006",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10006_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10006_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -2741,7 +2741,7 @@
     {
       "dataset": "data2",
       "patient_id": "10007",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10007_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10007_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -2860,7 +2860,7 @@
     {
       "dataset": "data2",
       "patient_id": "10008",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10008_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10008_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -2979,7 +2979,7 @@
     {
       "dataset": "data2",
       "patient_id": "10010",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10010_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10010_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -3098,7 +3098,7 @@
     {
       "dataset": "data2",
       "patient_id": "10011",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10011_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10011_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -3217,7 +3217,7 @@
     {
       "dataset": "data2",
       "patient_id": "10012",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10012_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10012_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -3336,7 +3336,7 @@
     {
       "dataset": "data2",
       "patient_id": "10014",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10014_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10014_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -3455,7 +3455,7 @@
     {
       "dataset": "data2",
       "patient_id": "10015",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10015_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10015_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -3574,7 +3574,7 @@
     {
       "dataset": "data2",
       "patient_id": "10017",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10017_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10017_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -3693,7 +3693,7 @@
     {
       "dataset": "data2",
       "patient_id": "10018",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10018_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10018_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -3812,7 +3812,7 @@
     {
       "dataset": "data2",
       "patient_id": "10019",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10019_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10019_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -3931,7 +3931,7 @@
     {
       "dataset": "data2",
       "patient_id": "10020",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10020_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10020_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -4050,7 +4050,7 @@
     {
       "dataset": "data2",
       "patient_id": "10021",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10021_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10021_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -4169,7 +4169,7 @@
     {
       "dataset": "data2",
       "patient_id": "10023",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10023_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10023_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -4288,7 +4288,7 @@
     {
       "dataset": "data2",
       "patient_id": "10024",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10024_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10024_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -4407,7 +4407,7 @@
     {
       "dataset": "data2",
       "patient_id": "10025",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10025_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10025_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -4526,7 +4526,7 @@
     {
       "dataset": "data2",
       "patient_id": "10026",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10026_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10026_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -4645,7 +4645,7 @@
     {
       "dataset": "data2",
       "patient_id": "10027",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10027_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10027_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -4764,7 +4764,7 @@
     {
       "dataset": "data2",
       "patient_id": "10028",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10028_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10028_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -4883,7 +4883,7 @@
     {
       "dataset": "data2",
       "patient_id": "10029",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10029_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10029_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -5002,7 +5002,7 @@
     {
       "dataset": "data2",
       "patient_id": "10030",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10030_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10030_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -5121,7 +5121,7 @@
     {
       "dataset": "data2",
       "patient_id": "10031",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10031_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10031_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -5240,7 +5240,7 @@
     {
       "dataset": "data2",
       "patient_id": "10033",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10033_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10033_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -5359,7 +5359,7 @@
     {
       "dataset": "data2",
       "patient_id": "10034",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10034_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10034_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -5478,7 +5478,7 @@
     {
       "dataset": "data2",
       "patient_id": "10037",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10037_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10037_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -5597,7 +5597,7 @@
     {
       "dataset": "data2",
       "patient_id": "10038",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10038_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10038_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -5716,7 +5716,7 @@
     {
       "dataset": "data2",
       "patient_id": "10040",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10040_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10040_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -5835,7 +5835,7 @@
     {
       "dataset": "data2",
       "patient_id": "10041",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10041_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10041_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -5954,7 +5954,7 @@
     {
       "dataset": "data2",
       "patient_id": "10042",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10042_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10042_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -6073,7 +6073,7 @@
     {
       "dataset": "data2",
       "patient_id": "10043",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10043_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10043_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -6192,7 +6192,7 @@
     {
       "dataset": "data2",
       "patient_id": "10044",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10044_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10044_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -6311,7 +6311,7 @@
     {
       "dataset": "data2",
       "patient_id": "10045",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10045_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10045_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -6430,7 +6430,7 @@
     {
       "dataset": "data2",
       "patient_id": "10046",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10046_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10046_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -6549,7 +6549,7 @@
     {
       "dataset": "data2",
       "patient_id": "10047",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10047_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10047_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -6668,7 +6668,7 @@
     {
       "dataset": "data2",
       "patient_id": "10048",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10048_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10048_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -6787,7 +6787,7 @@
     {
       "dataset": "data2",
       "patient_id": "10050",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10050_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10050_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -6906,7 +6906,7 @@
     {
       "dataset": "data2",
       "patient_id": "10051",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10051_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10051_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -7025,7 +7025,7 @@
     {
       "dataset": "data2",
       "patient_id": "10052",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10052_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10052_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -7144,7 +7144,7 @@
     {
       "dataset": "data2",
       "patient_id": "10053",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10053_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10053_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -7263,7 +7263,7 @@
     {
       "dataset": "data2",
       "patient_id": "10054",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10054_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10054_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -7382,7 +7382,7 @@
     {
       "dataset": "data2",
       "patient_id": "10055",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10055_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10055_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -7501,7 +7501,7 @@
     {
       "dataset": "data2",
       "patient_id": "10056",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10056_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10056_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -7620,7 +7620,7 @@
     {
       "dataset": "data2",
       "patient_id": "10058",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10058_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10058_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -7739,7 +7739,7 @@
     {
       "dataset": "data2",
       "patient_id": "10060",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10060_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10060_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -7858,7 +7858,7 @@
     {
       "dataset": "data2",
       "patient_id": "10061",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10061_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10061_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -7977,7 +7977,7 @@
     {
       "dataset": "data2",
       "patient_id": "10062",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10062_HCT1_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10062_HCT1_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -8096,7 +8096,7 @@
     {
       "dataset": "data2",
       "patient_id": "10063",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10063_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10063_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -8215,7 +8215,7 @@
     {
       "dataset": "data2",
       "patient_id": "10064",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10064_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10064_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -8334,7 +8334,7 @@
     {
       "dataset": "data2",
       "patient_id": "10065",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10065_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10065_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -8453,7 +8453,7 @@
     {
       "dataset": "data2",
       "patient_id": "10066",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10066_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10066_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -8572,7 +8572,7 @@
     {
       "dataset": "data2",
       "patient_id": "10067",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10067_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10067_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -8691,7 +8691,7 @@
     {
       "dataset": "data2",
       "patient_id": "10302",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10302_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10302_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -8810,7 +8810,7 @@
     {
       "dataset": "data2",
       "patient_id": "11002",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11002_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11002_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -8929,7 +8929,7 @@
     {
       "dataset": "data2",
       "patient_id": "11008",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11008_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11008_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -9048,7 +9048,7 @@
     {
       "dataset": "data2",
       "patient_id": "11037",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11037_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11037_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -9167,7 +9167,7 @@
     {
       "dataset": "data2",
       "patient_id": "11039",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11039_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11039_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -9286,7 +9286,7 @@
     {
       "dataset": "data2",
       "patient_id": "11040",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11040_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11040_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -9405,7 +9405,7 @@
     {
       "dataset": "data2",
       "patient_id": "11041",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11041_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11041_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -9524,7 +9524,7 @@
     {
       "dataset": "data2",
       "patient_id": "11044",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11044_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11044_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -9643,7 +9643,7 @@
     {
       "dataset": "data2",
       "patient_id": "11046",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11046_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11046_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -9762,7 +9762,7 @@
     {
       "dataset": "data2",
       "patient_id": "11047",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11047_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11047_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -9881,7 +9881,7 @@
     {
       "dataset": "data2",
       "patient_id": "11048",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11048_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11048_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -10000,7 +10000,7 @@
     {
       "dataset": "data2",
       "patient_id": "11049",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11049_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11049_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -10119,7 +10119,7 @@
     {
       "dataset": "data2",
       "patient_id": "11051",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11051_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11051_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -10238,7 +10238,7 @@
     {
       "dataset": "data2",
       "patient_id": "11052",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11052_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11052_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -10357,7 +10357,7 @@
     {
       "dataset": "data2",
       "patient_id": "11053",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11053_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11053_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -10476,7 +10476,7 @@
     {
       "dataset": "data2",
       "patient_id": "11054",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11054_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11054_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -10595,7 +10595,7 @@
     {
       "dataset": "data2",
       "patient_id": "11056",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11056_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11056_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -10714,7 +10714,7 @@
     {
       "dataset": "data2",
       "patient_id": "11057",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11057_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11057_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -10833,7 +10833,7 @@
     {
       "dataset": "data2",
       "patient_id": "11058",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11058_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11058_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -10952,7 +10952,7 @@
     {
       "dataset": "data2",
       "patient_id": "11061",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11061_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11061_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -11071,7 +11071,7 @@
     {
       "dataset": "data2",
       "patient_id": "11062",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11062_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11062_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -11190,7 +11190,7 @@
     {
       "dataset": "data2",
       "patient_id": "11063",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11063_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11063_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -11309,7 +11309,7 @@
     {
       "dataset": "data2",
       "patient_id": "11064",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11064_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11064_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -11428,7 +11428,7 @@
     {
       "dataset": "data2",
       "patient_id": "11065",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11065_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11065_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -11547,7 +11547,7 @@
     {
       "dataset": "data2",
       "patient_id": "11066",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11066_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11066_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -11666,7 +11666,7 @@
     {
       "dataset": "data2",
       "patient_id": "11067",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11067_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11067_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -11785,7 +11785,7 @@
     {
       "dataset": "data2",
       "patient_id": "11069",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11069_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11069_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -11904,7 +11904,7 @@
     {
       "dataset": "data2",
       "patient_id": "11073",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11073_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11073_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -12023,7 +12023,7 @@
     {
       "dataset": "data2",
       "patient_id": "11077",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11077_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11077_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,
@@ -12142,7 +12142,7 @@
     {
       "dataset": "data2",
       "patient_id": "11078",
-      "seg_file": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11078_HCT2_leads_seg.nii.gz",
+      "seg_file": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11078_HCT2_leads_seg.nii.gz",
       "centroids": {
         "4001": {
           "label": 4001,

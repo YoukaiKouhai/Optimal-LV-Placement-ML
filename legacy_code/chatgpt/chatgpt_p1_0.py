@@ -8,11 +8,11 @@ from pathlib import Path
 # ============================================================
 
 DATASET1_ROOT = Path(
-    r"C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20"
+    r"C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20"
 )
 
 DATASET2_ROOT = Path(
-    r"C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training"
+    r"C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training"
 )
 
 # ============================================================
@@ -357,7 +357,7 @@ process_dataset2()
 # SAVE JSON
 # ============================================================
 
-output_json = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\chatgpt\patient_registry.json")
+output_json = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\chatgpt\patient_registry.json")
 
 with open(output_json, "w") as f:
 

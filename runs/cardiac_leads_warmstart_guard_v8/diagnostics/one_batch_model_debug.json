@@ -1,0 +1,60 @@
+{
+  "case_id": "10002_HCT2_img",
+  "image_tensor_shape": [
+    2,
+    1,
+    160,
+    160,
+    160
+  ],
+  "label_tensor_shape": [
+    2,
+    1,
+    160,
+    160,
+    160
+  ],
+  "logits_shape": [
+    2,
+    9,
+    160,
+    160,
+    160
+  ],
+  "target_shape": [
+    2,
+    9,
+    160,
+    160,
+    160
+  ],
+  "loss_value": 0.5507634878158569,
+  "checkpoint_loaded_for_forward_debug": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\Optimal-LV-Placement-ML\\runs\\cardiac_leads_no_spatial_aug_v6\\weights\\best_supervised_model.pth",
+  "unique_label_values": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "class_weights": [
+    50.0,
+    50.0,
+    50.0,
+    50.0,
+    50.0,
+    50.0,
+    50.0,
+    50.0,
+    50.0
+  ],
+  "image_min": 0.0,
+  "image_max": 1.0,
+  "image_mean": 0.19732628762722015,
+  "image_std": 0.10624923557043076
+}

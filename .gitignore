@@ -1,27 +1,43 @@
 # Python runtime artifacts
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Notebook/editor noise
+.ipynb_checkpoints/
+.vscode/
+.idea/
 
 # Local environments
 .venv/
 venv/
 env/
 
-# Training outputs and regenerated caches
-runs/
-*.pth
-*.pt
-*.ckpt
+# Regenerated caches and temporary preprocessing outputs
+cache/
+cached/
+*_cache/
+data_cache/
+preprocessing_cache/
+runs/*/cache/
+runs/*/cache/**
+runs/*/pseudo_labels/
+runs/*/pseudo_labels/**
 
-# Large/local raw data should live outside Git
+# Historical checkpoints above GitHub's 100 MB per-file limit
+runs/cardiac_leads_ssl/weights/*.pth
+
+# Local raw data should live outside Git unless sharing is explicitly approved
 data/
+raw_data/
 *.nii
 *.nii.gz
 *.npy
 *.npy.gz
 *.npz
 
-# OS/editor noise
+# OS noise
 .DS_Store
 ._*
-.vscode/
+Thumbs.db

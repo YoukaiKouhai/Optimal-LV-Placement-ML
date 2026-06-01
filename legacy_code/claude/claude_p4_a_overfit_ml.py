@@ -62,8 +62,8 @@ warnings.filterwarnings("ignore")   # suppress sklearn convergence noise
 #  CONFIGURE YOUR PATHS
 # ─────────────────────────────────────────────────────────────────────────────
 
-NORMALIZED_JSON = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\normalized_results.json")
-OUTPUT_DIR      = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude")
+NORMALIZED_JSON = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\normalized_results.json")
+OUTPUT_DIR      = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude")
 
 OUTPUT_JSON     = OUTPUT_DIR / "ml_results.json"
 OUTPUT_REPORT   = OUTPUT_DIR / "ml_report.txt"

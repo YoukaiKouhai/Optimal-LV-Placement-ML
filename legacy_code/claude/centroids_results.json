@@ -1,7 +1,7 @@
 {
   "10001": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10001_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10001_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10001_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10001_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -307,8 +307,8 @@
     }
   },
   "10002": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10002_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10002_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10002_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10002_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -614,8 +614,8 @@
     }
   },
   "10003": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10003_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10003_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10003_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10003_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -921,8 +921,8 @@
     }
   },
   "10004": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10004_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10004_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10004_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10004_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -1228,8 +1228,8 @@
     }
   },
   "10005": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10005_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10005_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10005_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10005_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -1535,8 +1535,8 @@
     }
   },
   "10006": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10006_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10006_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10006_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10006_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -1842,8 +1842,8 @@
     }
   },
   "10007": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10007_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10007_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10007_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10007_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -2149,8 +2149,8 @@
     }
   },
   "10008": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10008_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10008_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10008_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10008_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -2456,8 +2456,8 @@
     }
   },
   "10010": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10010_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10010_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10010_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10010_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -2763,8 +2763,8 @@
     }
   },
   "10011": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10011_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10011_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10011_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10011_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -3070,8 +3070,8 @@
     }
   },
   "10012": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10012_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10012_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10012_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10012_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -3377,8 +3377,8 @@
     }
   },
   "10014": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10014_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10014_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10014_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10014_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -3684,8 +3684,8 @@
     }
   },
   "10015": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10015_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10015_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10015_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10015_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -3991,8 +3991,8 @@
     }
   },
   "10017": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10017_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10017_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10017_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10017_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -4298,8 +4298,8 @@
     }
   },
   "10018": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10018_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10018_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10018_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10018_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -4605,8 +4605,8 @@
     }
   },
   "10019": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10019_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10019_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10019_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10019_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -4912,8 +4912,8 @@
     }
   },
   "10020": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10020_HCT2_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10020_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_leads_seg_nii\\10020_HCT2_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\AUH-2024-HCT2-rois\\10020_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -5219,8 +5219,8 @@
     }
   },
   "10021": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10021_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10021_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10021_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10021_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -5526,8 +5526,8 @@
     }
   },
   "10023": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10023_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10023_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10023_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10023_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -5833,8 +5833,8 @@
     }
   },
   "10024": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10024_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10024_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10024_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10024_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -6140,8 +6140,8 @@
     }
   },
   "10025": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10025_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10025_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10025_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10025_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -6447,8 +6447,8 @@
     }
   },
   "10026": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10026_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10026_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10026_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10026_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -6754,8 +6754,8 @@
     }
   },
   "10027": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10027_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10027_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10027_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10027_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -7061,8 +7061,8 @@
     }
   },
   "10028": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10028_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10028_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10028_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10028_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -7368,8 +7368,8 @@
     }
   },
   "10029": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10029_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10029_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10029_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10029_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -7675,8 +7675,8 @@
     }
   },
   "10030": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10030_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10030_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10030_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10030_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -7982,8 +7982,8 @@
     }
   },
   "10031": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10031_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10031_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10031_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10031_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -8289,8 +8289,8 @@
     }
   },
   "10033": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10033_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10033_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10033_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10033_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -8596,8 +8596,8 @@
     }
   },
   "10034": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10034_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10034_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10034_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10034_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -8903,8 +8903,8 @@
     }
   },
   "10037": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10037_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10037_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10037_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10037_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -9210,8 +9210,8 @@
     }
   },
   "10038": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10038_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10038_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10038_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10038_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -9517,8 +9517,8 @@
     }
   },
   "10040": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10040_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10040_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10040_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10040_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -9824,8 +9824,8 @@
     }
   },
   "10041": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10041_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10041_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10041_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10041_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -10131,8 +10131,8 @@
     }
   },
   "10042": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10042_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10042_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10042_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10042_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -10438,8 +10438,8 @@
     }
   },
   "10043": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10043_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10043_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10043_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10043_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -10745,8 +10745,8 @@
     }
   },
   "10044": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10044_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10044_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10044_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10044_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -11052,8 +11052,8 @@
     }
   },
   "10045": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10045_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10045_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10045_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10045_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -11359,8 +11359,8 @@
     }
   },
   "10046": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10046_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10046_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10046_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10046_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -11666,8 +11666,8 @@
     }
   },
   "10047": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10047_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10047_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10047_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10047_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -11973,8 +11973,8 @@
     }
   },
   "10048": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10048_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10048_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10048_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10048_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -12280,8 +12280,8 @@
     }
   },
   "10050": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10050_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10050_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10050_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10050_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -12587,8 +12587,8 @@
     }
   },
   "10051": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10051_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10051_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10051_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10051_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -12894,8 +12894,8 @@
     }
   },
   "10052": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10052_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10052_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10052_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10052_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -13201,8 +13201,8 @@
     }
   },
   "10053": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10053_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10053_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10053_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10053_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -13508,8 +13508,8 @@
     }
   },
   "10054": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10054_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10054_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10054_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10054_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -13815,8 +13815,8 @@
     }
   },
   "10055": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10055_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10055_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10055_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10055_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -14122,8 +14122,8 @@
     }
   },
   "10056": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10056_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10056_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10056_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10056_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -14429,8 +14429,8 @@
     }
   },
   "10058": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10058_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10058_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10058_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10058_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -14736,8 +14736,8 @@
     }
   },
   "10060": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10060_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10060_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10060_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10060_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -15043,8 +15043,8 @@
     }
   },
   "10061": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10061_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10061_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10061_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10061_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -15350,8 +15350,8 @@
     }
   },
   "10062": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10062_HCT1_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10062_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10062_HCT1_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10062_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -15657,8 +15657,8 @@
     }
   },
   "10063": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10063_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10063_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10063_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10063_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -15964,8 +15964,8 @@
     }
   },
   "10064": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10064_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10064_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10064_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10064_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -16271,8 +16271,8 @@
     }
   },
   "10065": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10065_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10065_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10065_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10065_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -16578,8 +16578,8 @@
     }
   },
   "10066": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10066_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10066_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10066_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10066_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -16885,8 +16885,8 @@
     }
   },
   "10067": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10067_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10067_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10067_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10067_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -17192,8 +17192,8 @@
     }
   },
   "10302": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10302_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10302_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10302_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\10302_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -17499,8 +17499,8 @@
     }
   },
   "11002": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11002_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11002_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11002_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11002_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -17806,8 +17806,8 @@
     }
   },
   "11008": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11008_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11008_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11008_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11008_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -18113,8 +18113,8 @@
     }
   },
   "11037": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11037_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11037_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11037_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11037_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -18420,8 +18420,8 @@
     }
   },
   "11039": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11039_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11039_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11039_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11039_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -18727,8 +18727,8 @@
     }
   },
   "11040": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11040_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11040_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11040_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11040_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -19034,8 +19034,8 @@
     }
   },
   "11041": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11041_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11041_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11041_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11041_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -19341,8 +19341,8 @@
     }
   },
   "11044": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11044_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11044_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11044_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11044_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -19648,8 +19648,8 @@
     }
   },
   "11046": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11046_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11046_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11046_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11046_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -19955,8 +19955,8 @@
     }
   },
   "11047": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11047_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11047_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11047_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11047_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -20262,8 +20262,8 @@
     }
   },
   "11048": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11048_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11048_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11048_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11048_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -20569,8 +20569,8 @@
     }
   },
   "11049": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11049_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11049_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11049_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11049_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -20876,8 +20876,8 @@
     }
   },
   "11051": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11051_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11051_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11051_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11051_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -21183,8 +21183,8 @@
     }
   },
   "11052": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11052_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11052_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11052_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11052_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -21490,8 +21490,8 @@
     }
   },
   "11053": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11053_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11053_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11053_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11053_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -21797,8 +21797,8 @@
     }
   },
   "11054": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11054_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11054_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11054_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11054_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -22104,8 +22104,8 @@
     }
   },
   "11056": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11056_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11056_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11056_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11056_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -22411,8 +22411,8 @@
     }
   },
   "11057": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11057_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11057_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11057_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11057_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -22718,8 +22718,8 @@
     }
   },
   "11058": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11058_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11058_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11058_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11058_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -23025,8 +23025,8 @@
     }
   },
   "11061": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11061_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11061_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11061_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11061_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -23332,8 +23332,8 @@
     }
   },
   "11062": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11062_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11062_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11062_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11062_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -23639,8 +23639,8 @@
     }
   },
   "11063": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11063_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11063_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11063_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11063_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -23946,8 +23946,8 @@
     }
   },
   "11064": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11064_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11064_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11064_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11064_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -24253,8 +24253,8 @@
     }
   },
   "11065": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11065_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11065_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11065_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11065_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -24560,8 +24560,8 @@
     }
   },
   "11066": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11066_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11066_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11066_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11066_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -24867,8 +24867,8 @@
     }
   },
   "11067": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11067_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11067_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11067_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11067_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -25174,8 +25174,8 @@
     }
   },
   "11069": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11069_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11069_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11069_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11069_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -25481,8 +25481,8 @@
     }
   },
   "11073": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11073_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11073_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11073_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11073_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -25788,8 +25788,8 @@
     }
   },
   "11077": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11077_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11077_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11077_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11077_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",
@@ -26095,8 +26095,8 @@
     }
   },
   "11078": {
-    "seg_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11078_HCT2_leads_seg.nii.gz",
-    "csv_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11078_leads.csv",
+    "seg_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\11078_HCT2_leads_seg.nii.gz",
+    "csv_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\AUH-2024-HCT2-rois\\11078_leads.csv",
     "centroids": {
       "4001": {
         "name": "ANT",

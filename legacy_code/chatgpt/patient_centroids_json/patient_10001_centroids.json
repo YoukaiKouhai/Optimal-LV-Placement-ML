@@ -1,7 +1,7 @@
 {
     "patient_id": "10001",
-    "raw_image_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10001_HCT2_img.nii.gz",
-    "segmentation_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10001_HCT2_leads_seg.nii.gz",
+    "raw_image_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10001_HCT2_img.nii.gz",
+    "segmentation_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_leads_seg_nii\\10001_HCT2_leads_seg.nii.gz",
     "image_shape": [
         512,
         512,

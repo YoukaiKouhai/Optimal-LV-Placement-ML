@@ -6,8 +6,8 @@ from pathlib import Path
 def build_patient_dictionary(root_paths):
 
     #root_paths: list of two folder paths, e.g. 
-    #    [r"C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20",
-    #     r"C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training"]
+    #    [r"C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20",
+    #     r"C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training"]
     #Returns a dictionary keyed by patient ID, with file paths and ground_truth flag.
 
     patient_dict = {}
@@ -110,7 +110,7 @@ def build_patient_dictionary(root_paths):
     return patient_dict
 
 # Usage
-root_folders = [r"C:\Users\ayw005\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20",  r"C:\Users\ayw005\Desktop\BENG 280C Project\HCT2_lead_segmentation_training"]   # <--- CHANGE TO YOUR ACTUAL PATHS
+root_folders = [r"C:\Users\<USER>\Desktop\BENG 280C Project\BENG280C_pacing_lead_data_1st20",  r"C:\Users\<USER>\Desktop\BENG 280C Project\HCT2_lead_segmentation_training"]   # <--- CHANGE TO YOUR ACTUAL PATHS
 
 patient_dict = build_patient_dictionary(root_folders)
 

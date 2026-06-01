@@ -34,9 +34,9 @@ from pathlib import Path
 #  CONFIGURE YOUR PATHS HERE
 # ─────────────────────────────────────────────────────────────────────────────
 
-CENTROIDS_JSON   = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\centroids_results.json")
-OUTPUT_JSON      = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\normalized_results.json")
-OUTPUT_REPORT    = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\normalized_report.txt")
+CENTROIDS_JSON   = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\centroids_results.json")
+OUTPUT_JSON      = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\normalized_results.json")
+OUTPUT_REPORT    = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude\normalized_report.txt")
 
 # Labels we want to normalize (everything except the anchors themselves)
 ELECTRODE_CSV_NAMES = ["LL1", "LL2", "LL3", "LL4", "RL1", "RL2"]

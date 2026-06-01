@@ -8,7 +8,7 @@ import random
 # LOAD REGISTRY
 # ============================================================
 
-with open(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\chatgpt\patient_registry.json", "r") as f:
+with open(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\chatgpt\patient_registry.json", "r") as f:
     registry = json.load(f)
 
 # ============================================================

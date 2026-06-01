@@ -1,6 +1,6 @@
 {
   "10001": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10001_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10001_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -264,7 +264,7 @@
     }
   },
   "10002": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10002_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10002_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -562,7 +562,7 @@
     }
   },
   "10003": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10003_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10003_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -826,7 +826,7 @@
     }
   },
   "10004": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10004_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10004_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -963,7 +963,7 @@
     }
   },
   "10005": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10005_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10005_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -1177,7 +1177,7 @@
     }
   },
   "10006": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10006_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10006_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -1379,7 +1379,7 @@
     }
   },
   "10007": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10007_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10007_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -1643,7 +1643,7 @@
     }
   },
   "10008": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10008_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10008_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -1907,7 +1907,7 @@
     }
   },
   "10009": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10009_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10009_HCT2_HCT2.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -2187,7 +2187,7 @@
     "gt_match": {}
   },
   "10010": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10010_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10010_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -2328,7 +2328,7 @@
     }
   },
   "10011": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10011_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10011_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -2987,7 +2987,7 @@
     }
   },
   "10012": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10012_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10012_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -3274,7 +3274,7 @@
     }
   },
   "10014": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10014_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10014_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -3699,7 +3699,7 @@
     }
   },
   "10015": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10015_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10015_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -3917,7 +3917,7 @@
     }
   },
   "10017": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10017_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10017_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -4031,7 +4031,7 @@
     }
   },
   "10018": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10018_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10018_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -4310,7 +4310,7 @@
     }
   },
   "10019": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10019_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10019_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -4478,7 +4478,7 @@
     }
   },
   "10020": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10020_HCT2_HCT2.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20\\HCT2_img_nii\\10020_HCT2_HCT2.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -4700,7 +4700,7 @@
     }
   },
   "10021": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10021_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10021_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -4941,7 +4941,7 @@
     }
   },
   "10023": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10023_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10023_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -5274,7 +5274,7 @@
     }
   },
   "10024": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10024_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10024_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -5584,7 +5584,7 @@
     }
   },
   "10025": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10025_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10025_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -5825,7 +5825,7 @@
     }
   },
   "10026": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10026_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10026_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -6020,7 +6020,7 @@
     }
   },
   "10027": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10027_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10027_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -6284,7 +6284,7 @@
     }
   },
   "10028": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10028_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10028_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -6571,7 +6571,7 @@
     }
   },
   "10029": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10029_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10029_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -6984,7 +6984,7 @@
     }
   },
   "10030": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10030_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10030_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -7271,7 +7271,7 @@
     }
   },
   "10031": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10031_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10031_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -7535,7 +7535,7 @@
     }
   },
   "10033": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10033_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10033_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -7868,7 +7868,7 @@
     }
   },
   "10034": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10034_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10034_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -8082,7 +8082,7 @@
     }
   },
   "10037": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10037_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10037_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -8369,7 +8369,7 @@
     }
   },
   "10038": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10038_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10038_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -8744,7 +8744,7 @@
     }
   },
   "10040": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10040_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10040_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -8989,7 +8989,7 @@
     }
   },
   "10041": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10041_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10041_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -9506,7 +9506,7 @@
     }
   },
   "10042": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10042_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10042_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -9662,7 +9662,7 @@
     }
   },
   "10043": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10043_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10043_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -9849,7 +9849,7 @@
     }
   },
   "10044": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10044_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10044_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -10531,7 +10531,7 @@
     }
   },
   "10045": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10045_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10045_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -10772,7 +10772,7 @@
     }
   },
   "10046": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10046_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10046_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -11097,7 +11097,7 @@
     }
   },
   "10047": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10047_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10047_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -11407,7 +11407,7 @@
     }
   },
   "10048": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10048_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10048_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -11694,7 +11694,7 @@
     }
   },
   "10050": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10050_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10050_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -11854,7 +11854,7 @@
     }
   },
   "10051": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10051_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10051_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -12022,7 +12022,7 @@
     }
   },
   "10052": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10052_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10052_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -12424,7 +12424,7 @@
     }
   },
   "10053": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10053_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10053_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -12734,7 +12734,7 @@
     }
   },
   "10054": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10054_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10054_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -13059,7 +13059,7 @@
     }
   },
   "10055": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10055_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10055_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -13346,7 +13346,7 @@
     }
   },
   "10056": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10056_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10056_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -13560,7 +13560,7 @@
     }
   },
   "10058": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10058_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10058_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -13797,7 +13797,7 @@
     }
   },
   "10060": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10060_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10060_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -14134,7 +14134,7 @@
     }
   },
   "10061": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10061_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10061_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -14329,7 +14329,7 @@
     }
   },
   "10062": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10062_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10062_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -14543,7 +14543,7 @@
     }
   },
   "10063": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10063_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10063_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -14949,7 +14949,7 @@
     }
   },
   "10064": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10064_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10064_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -15263,7 +15263,7 @@
     }
   },
   "10065": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10065_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10065_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -15573,7 +15573,7 @@
     }
   },
   "10066": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10066_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10066_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -15944,7 +15944,7 @@
     }
   },
   "10067": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10067_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10067_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -16400,7 +16400,7 @@
     }
   },
   "10070": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10070_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10070_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -16482,7 +16482,7 @@
     "gt_match": {}
   },
   "10071": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10071_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10071_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -16630,7 +16630,7 @@
     "gt_match": {}
   },
   "10073": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10073_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10073_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -16822,7 +16822,7 @@
     "gt_match": {}
   },
   "10074": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10074_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10074_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -16948,7 +16948,7 @@
     "gt_match": {}
   },
   "10076": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10076_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10076_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -17074,7 +17074,7 @@
     "gt_match": {}
   },
   "10077": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10077_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10077_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -17112,7 +17112,7 @@
     "gt_match": {}
   },
   "10078": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10078_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10078_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -17436,7 +17436,7 @@
     "gt_match": {}
   },
   "10088": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10088_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10088_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -17628,7 +17628,7 @@
     "gt_match": {}
   },
   "10089": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10089_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10089_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -18238,7 +18238,7 @@
     "gt_match": {}
   },
   "10090": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10090_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10090_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -18474,7 +18474,7 @@
     "gt_match": {}
   },
   "10091": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10091_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10091_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -18842,7 +18842,7 @@
     "gt_match": {}
   },
   "10092": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10092_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10092_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -19056,7 +19056,7 @@
     "gt_match": {}
   },
   "10093": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10093_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10093_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -19182,7 +19182,7 @@
     "gt_match": {}
   },
   "10095": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10095_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10095_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -19308,7 +19308,7 @@
     "gt_match": {}
   },
   "10096": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10096_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10096_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -19566,7 +19566,7 @@
     "gt_match": {}
   },
   "10097": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10097_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10097_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -19736,7 +19736,7 @@
     "gt_match": {}
   },
   "10098": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10098_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10098_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -19950,7 +19950,7 @@
     "gt_match": {}
   },
   "10099": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10099_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10099_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -20054,7 +20054,7 @@
     "gt_match": {}
   },
   "10101": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10101_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10101_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -20180,7 +20180,7 @@
     "gt_match": {}
   },
   "10102": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10102_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10102_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -20504,7 +20504,7 @@
     "gt_match": {}
   },
   "10103": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10103_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10103_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -20674,7 +20674,7 @@
     "gt_match": {}
   },
   "10104": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10104_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10104_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -20734,7 +20734,7 @@
     "gt_match": {}
   },
   "10105": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10105_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10105_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -21058,7 +21058,7 @@
     "gt_match": {}
   },
   "10106": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10106_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10106_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -21448,7 +21448,7 @@
     "gt_match": {}
   },
   "10107": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10107_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10107_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -21618,7 +21618,7 @@
     "gt_match": {}
   },
   "10108": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10108_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10108_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -21810,7 +21810,7 @@
     "gt_match": {}
   },
   "10109": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10109_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10109_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -21958,7 +21958,7 @@
     "gt_match": {}
   },
   "10110": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10110_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10110_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -22150,7 +22150,7 @@
     "gt_match": {}
   },
   "10111": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10111_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10111_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -22628,7 +22628,7 @@
     "gt_match": {}
   },
   "10112": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10112_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10112_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -22776,7 +22776,7 @@
     "gt_match": {}
   },
   "10113": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10113_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10113_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -22968,7 +22968,7 @@
     "gt_match": {}
   },
   "10114": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10114_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10114_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -23336,7 +23336,7 @@
     "gt_match": {}
   },
   "10115": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10115_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10115_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -23638,7 +23638,7 @@
     "gt_match": {}
   },
   "10116": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10116_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10116_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -23742,7 +23742,7 @@
     "gt_match": {}
   },
   "10117": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10117_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10117_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -24110,7 +24110,7 @@
     "gt_match": {}
   },
   "10118": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10118_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10118_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -24544,7 +24544,7 @@
     "gt_match": {}
   },
   "10119": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10119_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10119_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -26474,7 +26474,7 @@
     "gt_match": {}
   },
   "10120": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10120_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10120_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -26710,7 +26710,7 @@
     "gt_match": {}
   },
   "10121": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10121_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10121_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -27122,7 +27122,7 @@
     "gt_match": {}
   },
   "10122": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10122_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10122_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -27490,7 +27490,7 @@
     "gt_match": {}
   },
   "10123": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10123_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10123_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -27682,7 +27682,7 @@
     "gt_match": {}
   },
   "10124": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10124_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10124_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -28204,7 +28204,7 @@
     "gt_match": {}
   },
   "10126": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10126_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10126_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -28286,7 +28286,7 @@
     "gt_match": {}
   },
   "10127": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10127_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10127_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -28940,7 +28940,7 @@
     "gt_match": {}
   },
   "10129": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10129_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10129_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -29066,7 +29066,7 @@
     "gt_match": {}
   },
   "10130": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10130_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10130_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -29324,7 +29324,7 @@
     "gt_match": {}
   },
   "10131": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10131_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10131_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -29538,7 +29538,7 @@
     "gt_match": {}
   },
   "10132": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10132_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10132_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -29664,7 +29664,7 @@
     "gt_match": {}
   },
   "10133": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10133_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10133_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -30054,7 +30054,7 @@
     "gt_match": {}
   },
   "10136": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10136_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10136_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -30180,7 +30180,7 @@
     "gt_match": {}
   },
   "10137": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10137_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10137_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -30438,7 +30438,7 @@
     "gt_match": {}
   },
   "10140": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10140_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10140_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -30476,7 +30476,7 @@
     "gt_match": {}
   },
   "10141": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10141_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10141_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -30954,7 +30954,7 @@
     "gt_match": {}
   },
   "10142": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10142_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10142_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -31168,7 +31168,7 @@
     "gt_match": {}
   },
   "10144": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10144_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10144_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -31316,7 +31316,7 @@
     "gt_match": {}
   },
   "10145": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10145_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10145_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -31398,7 +31398,7 @@
     "gt_match": {}
   },
   "10146": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10146_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10146_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -31722,7 +31722,7 @@
     "gt_match": {}
   },
   "10149": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10149_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10149_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -31914,7 +31914,7 @@
     "gt_match": {}
   },
   "10150": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10150_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10150_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -32062,7 +32062,7 @@
     "gt_match": {}
   },
   "10151": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10151_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10151_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -32166,7 +32166,7 @@
     "gt_match": {}
   },
   "10153": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10153_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10153_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -32380,7 +32380,7 @@
     "gt_match": {}
   },
   "10154": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10154_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10154_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -32462,7 +32462,7 @@
     "gt_match": {}
   },
   "10155": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10155_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10155_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -32588,7 +32588,7 @@
     "gt_match": {}
   },
   "10157": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10157_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10157_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -32780,7 +32780,7 @@
     "gt_match": {}
   },
   "10158": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10158_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10158_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -32928,7 +32928,7 @@
     "gt_match": {}
   },
   "10159": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10159_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10159_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -33032,7 +33032,7 @@
     "gt_match": {}
   },
   "10160": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10160_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10160_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -33334,7 +33334,7 @@
     "gt_match": {}
   },
   "10161": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10161_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10161_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -33504,7 +33504,7 @@
     "gt_match": {}
   },
   "10162": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10162_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10162_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -33850,7 +33850,7 @@
     "gt_match": {}
   },
   "10163": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10163_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10163_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -34152,7 +34152,7 @@
     "gt_match": {}
   },
   "10164": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10164_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10164_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -34190,7 +34190,7 @@
     "gt_match": {}
   },
   "10166": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10166_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10166_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -34250,7 +34250,7 @@
     "gt_match": {}
   },
   "10167": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10167_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10167_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -34486,7 +34486,7 @@
     "gt_match": {}
   },
   "10168": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10168_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10168_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -34854,7 +34854,7 @@
     "gt_match": {}
   },
   "10169": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10169_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10169_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -35112,7 +35112,7 @@
     "gt_match": {}
   },
   "10170": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10170_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10170_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -35172,7 +35172,7 @@
     "gt_match": {}
   },
   "10172": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10172_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10172_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -35606,7 +35606,7 @@
     "gt_match": {}
   },
   "10173": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10173_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10173_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -35666,7 +35666,7 @@
     "gt_match": {}
   },
   "10174": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10174_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10174_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -35836,7 +35836,7 @@
     "gt_match": {}
   },
   "10175": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10175_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10175_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -35918,7 +35918,7 @@
     "gt_match": {}
   },
   "10178": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10178_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10178_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -36110,7 +36110,7 @@
     "gt_match": {}
   },
   "10179": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10179_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10179_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -36258,7 +36258,7 @@
     "gt_match": {}
   },
   "10180": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10180_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10180_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -39420,7 +39420,7 @@
     "gt_match": {}
   },
   "10181": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10181_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10181_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -39678,7 +39678,7 @@
     "gt_match": {}
   },
   "10182": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10182_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10182_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -39848,7 +39848,7 @@
     "gt_match": {}
   },
   "10183": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10183_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10183_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -40150,7 +40150,7 @@
     "gt_match": {}
   },
   "10184": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10184_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10184_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -40276,7 +40276,7 @@
     "gt_match": {}
   },
   "10185": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10185_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10185_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -40424,7 +40424,7 @@
     "gt_match": {}
   },
   "10186": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10186_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10186_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -40726,7 +40726,7 @@
     "gt_match": {}
   },
   "10187": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10187_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10187_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -40984,7 +40984,7 @@
     "gt_match": {}
   },
   "10188": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10188_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10188_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -41154,7 +41154,7 @@
     "gt_match": {}
   },
   "10189": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10189_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10189_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -41302,7 +41302,7 @@
     "gt_match": {}
   },
   "10190": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10190_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10190_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -41626,7 +41626,7 @@
     "gt_match": {}
   },
   "10191": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10191_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10191_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -42852,7 +42852,7 @@
     "gt_match": {}
   },
   "10192": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10192_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10192_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -43132,7 +43132,7 @@
     "gt_match": {}
   },
   "10193": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10193_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10193_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -43147,7 +43147,7 @@
     "gt_match": {}
   },
   "10194": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10194_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10194_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -43229,7 +43229,7 @@
     "gt_match": {}
   },
   "10196": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10196_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10196_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -43333,7 +43333,7 @@
     "gt_match": {}
   },
   "10197": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10197_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10197_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -43591,7 +43591,7 @@
     "gt_match": {}
   },
   "10199": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10199_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10199_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -43673,7 +43673,7 @@
     "gt_match": {}
   },
   "10200": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10200_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10200_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -43887,7 +43887,7 @@
     "gt_match": {}
   },
   "10201": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10201_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10201_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -44123,7 +44123,7 @@
     "gt_match": {}
   },
   "10202": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10202_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10202_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -44227,7 +44227,7 @@
     "gt_match": {}
   },
   "10203": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10203_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10203_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -44463,7 +44463,7 @@
     "gt_match": {}
   },
   "10204": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10204_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10204_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -44787,7 +44787,7 @@
     "gt_match": {}
   },
   "10205": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10205_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10205_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -44957,7 +44957,7 @@
     "gt_match": {}
   },
   "10207": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10207_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10207_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -45083,7 +45083,7 @@
     "gt_match": {}
   },
   "10208": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10208_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10208_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -45385,7 +45385,7 @@
     "gt_match": {}
   },
   "10209": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10209_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10209_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -45599,7 +45599,7 @@
     "gt_match": {}
   },
   "10210": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10210_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10210_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -45791,7 +45791,7 @@
     "gt_match": {}
   },
   "10211": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10211_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10211_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -46181,7 +46181,7 @@
     "gt_match": {}
   },
   "10212": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10212_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10212_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -46461,7 +46461,7 @@
     "gt_match": {}
   },
   "10214": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10214_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10214_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -46521,7 +46521,7 @@
     "gt_match": {}
   },
   "10215": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10215_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10215_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -46735,7 +46735,7 @@
     "gt_match": {}
   },
   "10216": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10216_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10216_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -46817,7 +46817,7 @@
     "gt_match": {}
   },
   "10217": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10217_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10217_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -47053,7 +47053,7 @@
     "gt_match": {}
   },
   "10219": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10219_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10219_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -47355,7 +47355,7 @@
     "gt_match": {}
   },
   "10220": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10220_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10220_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -47503,7 +47503,7 @@
     "gt_match": {}
   },
   "10221": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10221_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10221_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -47695,7 +47695,7 @@
     "gt_match": {}
   },
   "10222": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10222_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10222_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -47843,7 +47843,7 @@
     "gt_match": {}
   },
   "10223": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10223_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10223_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -48035,7 +48035,7 @@
     "gt_match": {}
   },
   "10224": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10224_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10224_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -48161,7 +48161,7 @@
     "gt_match": {}
   },
   "10225": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10225_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10225_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -48397,7 +48397,7 @@
     "gt_match": {}
   },
   "10226": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10226_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10226_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -48523,7 +48523,7 @@
     "gt_match": {}
   },
   "10228": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10228_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10228_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -48583,7 +48583,7 @@
     "gt_match": {}
   },
   "10229": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10229_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10229_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -49127,7 +49127,7 @@
     "gt_match": {}
   },
   "10230": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10230_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10230_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -49517,7 +49517,7 @@
     "gt_match": {}
   },
   "10231": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10231_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10231_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -49797,7 +49797,7 @@
     "gt_match": {}
   },
   "10232": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10232_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10232_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -50033,7 +50033,7 @@
     "gt_match": {}
   },
   "10233": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10233_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10233_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -50555,7 +50555,7 @@
     "gt_match": {}
   },
   "10234": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10234_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10234_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -50725,7 +50725,7 @@
     "gt_match": {}
   },
   "10235": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10235_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10235_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -50917,7 +50917,7 @@
     "gt_match": {}
   },
   "10236": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10236_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10236_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -51131,7 +51131,7 @@
     "gt_match": {}
   },
   "10237": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10237_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10237_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -51279,7 +51279,7 @@
     "gt_match": {}
   },
   "10238": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10238_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10238_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -51339,7 +51339,7 @@
     "gt_match": {}
   },
   "10240": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10240_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10240_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -51443,7 +51443,7 @@
     "gt_match": {}
   },
   "10241": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10241_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10241_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -52097,7 +52097,7 @@
     "gt_match": {}
   },
   "10242": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10242_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10242_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -52289,7 +52289,7 @@
     "gt_match": {}
   },
   "10243": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10243_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10243_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -52304,7 +52304,7 @@
     "gt_match": {}
   },
   "10244": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10244_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10244_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -52540,7 +52540,7 @@
     "gt_match": {}
   },
   "10245": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10245_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10245_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -52776,7 +52776,7 @@
     "gt_match": {}
   },
   "10246": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10246_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10246_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -52814,7 +52814,7 @@
     "gt_match": {}
   },
   "10247": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10247_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10247_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -53028,7 +53028,7 @@
     "gt_match": {}
   },
   "10248": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10248_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10248_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -53330,7 +53330,7 @@
     "gt_match": {}
   },
   "10249": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10249_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10249_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -53610,7 +53610,7 @@
     "gt_match": {}
   },
   "10250": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10250_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10250_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -53846,7 +53846,7 @@
     "gt_match": {}
   },
   "10251": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10251_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10251_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -53884,7 +53884,7 @@
     "gt_match": {}
   },
   "10253": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10253_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10253_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -54054,7 +54054,7 @@
     "gt_match": {}
   },
   "10254": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10254_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10254_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -54334,7 +54334,7 @@
     "gt_match": {}
   },
   "10256": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10256_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10256_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -54570,7 +54570,7 @@
     "gt_match": {}
   },
   "10257": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10257_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10257_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -55334,7 +55334,7 @@
     "gt_match": {}
   },
   "10258": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10258_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10258_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -55526,7 +55526,7 @@
     "gt_match": {}
   },
   "10259": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10259_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10259_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -55828,7 +55828,7 @@
     "gt_match": {}
   },
   "10260": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10260_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10260_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -55998,7 +55998,7 @@
     "gt_match": {}
   },
   "10264": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10264_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10264_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -56300,7 +56300,7 @@
     "gt_match": {}
   },
   "10266": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10266_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10266_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -56426,7 +56426,7 @@
     "gt_match": {}
   },
   "10268": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10268_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10268_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -56662,7 +56662,7 @@
     "gt_match": {}
   },
   "10269": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10269_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10269_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -56832,7 +56832,7 @@
     "gt_match": {}
   },
   "10270": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10270_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10270_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -57002,7 +57002,7 @@
     "gt_match": {}
   },
   "10271": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10271_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10271_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -57436,7 +57436,7 @@
     "gt_match": {}
   },
   "10272": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10272_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10272_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -57606,7 +57606,7 @@
     "gt_match": {}
   },
   "10273": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10273_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10273_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -57776,7 +57776,7 @@
     "gt_match": {}
   },
   "10274": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10274_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10274_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -58144,7 +58144,7 @@
     "gt_match": {}
   },
   "10275": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10275_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10275_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -58248,7 +58248,7 @@
     "gt_match": {}
   },
   "10276": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10276_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10276_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -58308,7 +58308,7 @@
     "gt_match": {}
   },
   "10277": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10277_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10277_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -58434,7 +58434,7 @@
     "gt_match": {}
   },
   "10279": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10279_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10279_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -58538,7 +58538,7 @@
     "gt_match": {}
   },
   "10280": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10280_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10280_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -59192,7 +59192,7 @@
     "gt_match": {}
   },
   "10283": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10283_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10283_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -59450,7 +59450,7 @@
     "gt_match": {}
   },
   "10284": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10284_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10284_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -59620,7 +59620,7 @@
     "gt_match": {}
   },
   "10285": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10285_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10285_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -59790,7 +59790,7 @@
     "gt_match": {}
   },
   "10286": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10286_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10286_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -60004,7 +60004,7 @@
     "gt_match": {}
   },
   "10287": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10287_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10287_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -60614,7 +60614,7 @@
     "gt_match": {}
   },
   "10290": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10290_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10290_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -60828,7 +60828,7 @@
     "gt_match": {}
   },
   "10291": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10291_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10291_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -60976,7 +60976,7 @@
     "gt_match": {}
   },
   "10292": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10292_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10292_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -61432,7 +61432,7 @@
     "gt_match": {}
   },
   "10295": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10295_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10295_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -61690,7 +61690,7 @@
     "gt_match": {}
   },
   "10297": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10297_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10297_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -61992,7 +61992,7 @@
     "gt_match": {}
   },
   "10299": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10299_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10299_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -62184,7 +62184,7 @@
     "gt_match": {}
   },
   "10300": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10300_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10300_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -62486,7 +62486,7 @@
     "gt_match": {}
   },
   "10301": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10301_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10301_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -62612,7 +62612,7 @@
     "gt_match": {}
   },
   "10302": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10302_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10302_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -63152,7 +63152,7 @@
     }
   },
   "10304": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10304_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10304_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -63234,7 +63234,7 @@
     "gt_match": {}
   },
   "10306": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10306_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10306_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -63360,7 +63360,7 @@
     "gt_match": {}
   },
   "10307": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10307_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10307_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -63618,7 +63618,7 @@
     "gt_match": {}
   },
   "10501": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10501_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10501_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -63788,7 +63788,7 @@
     "gt_match": {}
   },
   "10502": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10502_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10502_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -64090,7 +64090,7 @@
     "gt_match": {}
   },
   "10503": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10503_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10503_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -64216,7 +64216,7 @@
     "gt_match": {}
   },
   "10505": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10505_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10505_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -64364,7 +64364,7 @@
     "gt_match": {}
   },
   "10506": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10506_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10506_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -64534,7 +64534,7 @@
     "gt_match": {}
   },
   "10508": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10508_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10508_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -64726,7 +64726,7 @@
     "gt_match": {}
   },
   "10509": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10509_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10509_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -65072,7 +65072,7 @@
     "gt_match": {}
   },
   "10510": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10510_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10510_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -65198,7 +65198,7 @@
     "gt_match": {}
   },
   "10515": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10515_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10515_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -65456,7 +65456,7 @@
     "gt_match": {}
   },
   "10516": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10516_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10516_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -65670,7 +65670,7 @@
     "gt_match": {}
   },
   "10518": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10518_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10518_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -65862,7 +65862,7 @@
     "gt_match": {}
   },
   "10519": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10519_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10519_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -66054,7 +66054,7 @@
     "gt_match": {}
   },
   "10523": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10523_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10523_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -66224,7 +66224,7 @@
     "gt_match": {}
   },
   "10524": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10524_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10524_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -66570,7 +66570,7 @@
     "gt_match": {}
   },
   "10528": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10528_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10528_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -67070,7 +67070,7 @@
     "gt_match": {}
   },
   "10529": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10529_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10529_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -67306,7 +67306,7 @@
     "gt_match": {}
   },
   "10530": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10530_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10530_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -67608,7 +67608,7 @@
     "gt_match": {}
   },
   "10531": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10531_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10531_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -67778,7 +67778,7 @@
     "gt_match": {}
   },
   "10532": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10532_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10532_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -68146,7 +68146,7 @@
     "gt_match": {}
   },
   "10533": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10533_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10533_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -68404,7 +68404,7 @@
     "gt_match": {}
   },
   "10534": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10534_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10534_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -68684,7 +68684,7 @@
     "gt_match": {}
   },
   "10535": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10535_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10535_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -68788,7 +68788,7 @@
     "gt_match": {}
   },
   "10537": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10537_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10537_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -69002,7 +69002,7 @@
     "gt_match": {}
   },
   "10538": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10538_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\10538_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -69524,7 +69524,7 @@
     "gt_match": {}
   },
   "11001": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11001_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11001_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -69672,7 +69672,7 @@
     "gt_match": {}
   },
   "11002": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11002_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11002_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -69859,7 +69859,7 @@
     }
   },
   "11003": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11003_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11003_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -70007,7 +70007,7 @@
     "gt_match": {}
   },
   "11004": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11004_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11004_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -70265,7 +70265,7 @@
     "gt_match": {}
   },
   "11005": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11005_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11005_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -70457,7 +70457,7 @@
     "gt_match": {}
   },
   "11006": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11006_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11006_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -70825,7 +70825,7 @@
     "gt_match": {}
   },
   "11007": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11007_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11007_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -71193,7 +71193,7 @@
     "gt_match": {}
   },
   "11008": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11008_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11008_HCT2_img.nii.gz",
     "has_gt": true,
     "volume_shape": [
       512,
@@ -71411,7 +71411,7 @@
     }
   },
   "11009": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11009_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11009_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -71493,7 +71493,7 @@
     "gt_match": {}
   },
   "11010": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11010_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11010_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -71663,7 +71663,7 @@
     "gt_match": {}
   },
   "11011": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11011_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11011_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -71877,7 +71877,7 @@
     "gt_match": {}
   },
   "11012": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11012_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11012_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -72157,7 +72157,7 @@
     "gt_match": {}
   },
   "11013": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11013_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11013_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -72371,7 +72371,7 @@
     "gt_match": {}
   },
   "11014": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11014_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11014_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,
@@ -72607,7 +72607,7 @@
     "gt_match": {}
   },
   "11019": {
-    "img_path": "C:\\Users\\ayw005\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11019_HCT2_img.nii.gz",
+    "img_path": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training\\HCT2_img_nii\\11019_HCT2_img.nii.gz",
     "has_gt": false,
     "volume_shape": [
       512,

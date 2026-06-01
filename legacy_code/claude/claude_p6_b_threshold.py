@@ -56,7 +56,7 @@ warnings.filterwarnings("ignore")
 #  PATHS  — must match Step 6
 # ─────────────────────────────────────────────────────────────────────────────
 
-BASE_DIR       = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude")
+BASE_DIR       = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude")
 MODEL_PATH     = BASE_DIR / "pointnet_model.pt"
 INVENTORY_JSON = BASE_DIR / "data_inventory.json"
 CENTROIDS_JSON = BASE_DIR / "centroids_results.json"

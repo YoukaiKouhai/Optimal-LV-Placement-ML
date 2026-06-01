@@ -1,0 +1,11 @@
+method,metric,value
+Gaussian heatmap ML,mean_centroid_dist_electrodes_vox,141.82756551106772
+Gaussian heatmap ML,electrode_accuracy_within_10vox,0.0
+Gaussian heatmap ML,electrode_accuracy_within_15vox,0.0
+Previous BCE/Dice ensemble v3+v6,mean_centroid_dist_electrodes_vox,6.513434320112789
+Previous BCE/Dice ensemble v3+v6,electrode_accuracy_within_10vox,0.8611111111111112
+Previous BCE/Dice ensemble v3+v6,electrode_accuracy_within_15vox,0.9444444444444444
+Classical CV / PointNet Step 6b,electrode_detection_percent,74.9
+Classical CV / PointNet Step 6b,mean_position_error_mm,1.16
+Classical CV Step 5,electrode_detection_percent,56.5
+Classical CV Step 5,mean_position_error_mm,1.38

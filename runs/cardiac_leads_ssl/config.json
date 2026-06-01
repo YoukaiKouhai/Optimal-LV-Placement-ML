@@ -1,0 +1,75 @@
+{
+  "raw_dataset_roots": [
+    "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\BENG280C_pacing_lead_data_1st20",
+    "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\HCT2_lead_segmentation_training"
+  ],
+  "raw_labeled_images_dir": null,
+  "raw_labeled_labels_dir": null,
+  "raw_unlabeled_images_dir": null,
+  "work_dir": "runs/cardiac_leads_ssl",
+  "seed": 42,
+  "num_classes": 10,
+  "labels_already_contiguous": false,
+  "target_spacing_dhw": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "hu_clip_min": -1000.0,
+  "hu_clip_max": 3000.0,
+  "spatial_dims": 3,
+  "patch_size_3d": [
+    160,
+    160,
+    160
+  ],
+  "train_batch_size": 1,
+  "val_batch_size": 1,
+  "samples_per_volume": 2,
+  "num_workers": 4,
+  "pin_memory": true,
+  "class_sampling_ratios": [
+    1,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    2,
+    2
+  ],
+  "channels": [
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "strides": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "num_res_units": 2,
+  "dropout": 0.0,
+  "learning_rate": 0.0002,
+  "weight_decay": 1e-05,
+  "supervised_epochs": 200,
+  "finetune_epochs": 100,
+  "amp": true,
+  "infer_overlap": 0.5,
+  "sw_batch_size": 2,
+  "pseudo_min_prob_electrode": 0.985,
+  "pseudo_min_prob_anatomy": 0.95,
+  "pseudo_max_entropy": 0.2,
+  "pseudo_min_foreground_voxels": 20,
+  "pseudo_min_case_mean_conf": 0.98,
+  "pseudo_weight": 0.5,
+  "lambda_dice": 1.0,
+  "lambda_ce": 1.0,
+  "hausdorff_percentile": 95.0,
+  "max_overlay_cases": 8
+}

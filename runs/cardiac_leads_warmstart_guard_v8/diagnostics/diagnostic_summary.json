@@ -1,0 +1,83 @@
+{
+  "train_cases": 47,
+  "val_cases": 12,
+  "train_val_patient_overlap": [],
+  "raw_pair_rows": 326,
+  "unmatched_raw_rows": 250,
+  "shape_mismatch_cases": 0,
+  "missing_labels_by_class": {
+    "LL1": 2,
+    "LL2": 1,
+    "LL3": 2,
+    "LL4": 2,
+    "RL1": 4,
+    "RL2": 2,
+    "ANT": 3,
+    "Apex": 1,
+    "Base": 0
+  },
+  "one_batch_debug": {
+    "case_id": "10002_HCT2_img",
+    "image_tensor_shape": [
+      2,
+      1,
+      160,
+      160,
+      160
+    ],
+    "label_tensor_shape": [
+      2,
+      1,
+      160,
+      160,
+      160
+    ],
+    "logits_shape": [
+      2,
+      9,
+      160,
+      160,
+      160
+    ],
+    "target_shape": [
+      2,
+      9,
+      160,
+      160,
+      160
+    ],
+    "loss_value": 0.5507634878158569,
+    "checkpoint_loaded_for_forward_debug": "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\Optimal-LV-Placement-ML\\runs\\cardiac_leads_no_spatial_aug_v6\\weights\\best_supervised_model.pth",
+    "unique_label_values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "class_weights": [
+      50.0,
+      50.0,
+      50.0,
+      50.0,
+      50.0,
+      50.0,
+      50.0,
+      50.0,
+      50.0
+    ],
+    "image_min": 0.0,
+    "image_max": 1.0,
+    "image_mean": 0.19732628762722015,
+    "image_std": 0.10624923557043076
+  },
+  "label_overlay_files": [
+    "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\Optimal-LV-Placement-ML\\runs\\cardiac_leads_warmstart_guard_v8\\diagnostics\\label_overlays\\train_10002_HCT2_img_label_overlay.png",
+    "C:\\Users\\<USER>\\Desktop\\BENG 280C Project\\Optimal-LV-Placement-ML\\runs\\cardiac_leads_warmstart_guard_v8\\diagnostics\\label_overlays\\val_10001_HCT2_img_label_overlay.png"
+  ]
+}

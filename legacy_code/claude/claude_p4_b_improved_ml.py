@@ -48,7 +48,7 @@ warnings.filterwarnings("ignore")
 #  PATHS
 # ─────────────────────────────────────────────────────────────────────────────
 
-BASE_DIR        = Path(r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude")
+BASE_DIR        = Path(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\claude")
 NORMALIZED_JSON = BASE_DIR / "normalized_results.json"
 OUTPUT_JSON     = BASE_DIR / "ml_4b_results.json"
 OUTPUT_REPORT   = BASE_DIR / "ml_4b_report.txt"

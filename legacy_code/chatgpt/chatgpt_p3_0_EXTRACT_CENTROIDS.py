@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # ============================================================
 
 REGISTRY_PATH = Path(
-    r"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\chatgpt\patient_registry.json"
+    r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\chatgpt\patient_registry.json"
 )
 
 with open(REGISTRY_PATH, "r") as f:
@@ -315,7 +315,7 @@ for label_name, data in (
 # ============================================================
 
 output_path = Path(
-    rf"C:\Users\ayw005\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\chatgpt\patient_centroids_json\patient_{patient_id}_centroids.json"
+    rf"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\chatgpt\patient_centroids_json\patient_{patient_id}_centroids.json"
 )
 
 with open(output_path, "w") as f:
