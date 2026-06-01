@@ -9,6 +9,7 @@ import math
 import os
 import random
 import re
+import warnings
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
@@ -45,6 +46,14 @@ from monai.transforms import (
     RandShiftIntensityd,
 )
 from monai.utils import set_determinism
+
+
+warnings.filterwarnings(
+    "ignore",
+    message=r"Using a non-tuple sequence for multidimensional indexing is deprecated.*",
+    category=UserWarning,
+    module=r"monai\.inferers\.utils",
+)
 
 
 # ------------------------------
