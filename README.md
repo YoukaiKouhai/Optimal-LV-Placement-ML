@@ -82,6 +82,7 @@ Optimal-LV-Placement-ML/
       S13_Ensemble_Evaluation.py
       S14_Training_Diagnostics.py
       S15_Heatmap_Landmark_Regression.py
+      S16_TargetSet_Analysis_Orientation.py
       continue_training_from_best.py
       generate_presentation_outputs.py
       make_bullseye_video.py
@@ -117,6 +118,7 @@ Raw data should live outside the repository or in an ignored local data folder. 
 - `S13_Ensemble_Evaluation.py`: evaluates a weighted ensemble of saved checkpoints. This produced the current best run.
 - `S14_Training_Diagnostics.py`: data and training diagnostics, including split checks, label distribution, loader checks, and tiny-overfit mode.
 - `S15_Heatmap_Landmark_Regression.py`: experimental Gaussian heatmap landmark regression with foreground-weighted loss and soft-argmax coordinate loss.
+- `S16_TargetSet_Analysis_Orientation.py`: electrode-vs-anatomy metric summary, target-set experiment recommendation, and NIfTI orientation checks.
 - `continue_training_from_best.py`: safe continuation training script for a new long run starting from the best available checkpoint sources.
 - `generate_presentation_outputs.py`: runs centroid export, bullseye plot generation, and presentation figure generation without retraining.
 - `make_bullseye_video.py`: standalone utility to make a 1080p MP4 from bullseye plot PNGs.
@@ -278,6 +280,34 @@ python active_code\model_1\continue_training_from_best.py --output-dir runs\card
 
 This does not overwrite `runs/cardiac_leads_ensemble_v3_v6`. It refuses to reuse an existing output directory unless `--allow-existing-output` is supplied.
 
+## Electrode-Focused Next Experiment
+
+The best current model performs better on metallic electrodes than on anatomical landmarks. Use the target-set analysis script before choosing the next model:
+
+```powershell
+python active_code\model_1\S16_TargetSet_Analysis_Orientation.py --run-dir runs\cardiac_leads_ensemble_v3_v6
+```
+
+Recommended electrode-only dry check:
+
+```powershell
+python active_code\model_1\continue_training_from_best.py --check --target-set electrodes --anatomy-loss-weight 0.0 --checkpoint-metric val_centroid_dist_electrodes --output-dir runs\cardiac_leads_electrode_only_from_v3_v6_check
+```
+
+Recommended electrode-only training run:
+
+```powershell
+python active_code\model_1\continue_training_from_best.py --target-set electrodes --anatomy-loss-weight 0.0 --checkpoint-metric val_centroid_dist_electrodes --epochs 150 --learning-rate 1e-6 --early-stopping-patience 12 --output-dir runs\cardiac_leads_electrode_only_from_v3_v6
+```
+
+Alternative all-class run with anatomy downweighted:
+
+```powershell
+python active_code\model_1\continue_training_from_best.py --target-set all --electrode-loss-weight 1.0 --anatomy-loss-weight 0.2 --checkpoint-metric val_centroid_dist_electrodes --epochs 150 --learning-rate 1e-6 --early-stopping-patience 12 --output-dir runs\cardiac_leads_anatomy_downweighted_from_v3_v6
+```
+
+For these experiments, choose the next best model by electrode-only centroid localization, especially `landmark_accuracy_within_10vox_electrodes` and `mean_centroid_dist_electrodes`, not voxel accuracy.
+
 ## Evaluate Saved Runs
 
 Evaluate the weighted ensemble:
@@ -349,6 +379,13 @@ Key validation metrics:
 
 Important interpretation: voxel accuracy, specificity, and NPV are inflated because most voxels are background. This task is sparse landmark/electrode localization, so centroid distance and within-threshold centroid accuracy are more clinically meaningful than voxel accuracy alone.
 
+Electrode/anatomy split for the best run:
+
+| Group | Mean centroid error | Within 10 voxels |
+|---|---:|---:|
+| Electrodes: LL1-LL4, RL1-RL2 | about 6.51 voxels | 86.11% |
+| Anatomy: ANT, Apex, Base | about 9.80 voxels | 77.78% |
+
 ## Experimental Gaussian Heatmap Regression
 
 `S15_Heatmap_Landmark_Regression.py` implements a next-step landmark regression experiment:
@@ -376,6 +413,8 @@ python active_code\model_1\S15_Heatmap_Landmark_Regression.py --work-dir runs\ca
 - Centroid localization is more meaningful than Dice for this project.
 - Current hard-mask segmentation training can reduce loss without improving difficult centroid classes.
 - Ensemble performance is better than the individual single checkpoints but is not itself a single trainable model.
+- The NIfTI affine gives patient/world orientation, but it does not identify cardiac apex/base or the heart long axis by itself.
+- APEX, BASE, and ANT are currently needed to define the patient-specific cardiac coordinate frame used for bullseye plots.
 - External users must provide their own de-identified data paths.
 
 ## Future Work
@@ -389,6 +428,7 @@ Recommended next research steps:
 - Larger labeled dataset and/or carefully vetted pseudo-labels.
 - Stronger comparison against the classical CV baseline.
 - Coarse-to-fine model: first localize heart/lead ROI, then localize electrodes inside the crop.
+- Separate anatomy landmark model or heart segmentation/atlas to estimate APEX, BASE, and ANT independently from metallic electrode detection.
 
 ## Privacy and Handoff Notes
 

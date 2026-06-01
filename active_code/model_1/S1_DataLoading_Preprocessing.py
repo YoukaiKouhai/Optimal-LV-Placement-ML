@@ -209,6 +209,9 @@ class Config:
     # Loss
     lambda_dice: float = 1.0
     lambda_ce: float = 1.0
+    target_set: str = "all"  # one of: all, electrodes, anatomy
+    electrode_loss_weight: float = 1.0
+    anatomy_loss_weight: float = 1.0
     bce_pos_weight_max: float = 50.0
     focus_class_ids: Tuple[int, ...] = (2, 7, 9)  # LL2, ANT, Base are the current centroid bottlenecks.
     focus_class_loss_multiplier: float = 1.25
@@ -440,6 +443,29 @@ def load_volume_any(path: Path, array_key: Optional[str] = None) -> Tuple[np.nda
         "source_path": str(path),
     }
     return arr, meta
+
+
+def nifti_orientation_codes(path: Path) -> Tuple[str, str, str]:
+    """Return patient/world orientation codes such as RAS or LAS for a raw NIfTI."""
+    nii = nib.load(str(path))
+    return tuple(str(code) for code in nib.aff2axcodes(nii.affine))
+
+
+def voxel_xyz_to_world_mm(voxel_xyz: Sequence[float], affine: np.ndarray) -> np.ndarray:
+    """Convert NIfTI voxel coordinates in [x, y, z] order to world millimeters."""
+    voxel_h = np.asarray([voxel_xyz[0], voxel_xyz[1], voxel_xyz[2], 1.0], dtype=np.float64)
+    return (np.asarray(affine, dtype=np.float64) @ voxel_h)[:3]
+
+
+def voxel_dhw_to_world_mm(voxel_dhw: Sequence[float], affine: np.ndarray) -> np.ndarray:
+    """
+    Convert pipeline voxel coordinates in [D, H, W] == [z, y, x] order to world millimeters.
+
+    Do not interpret array axes as left/right, anterior/posterior, or superior/inferior.
+    Use this affine conversion first, then read the world-space orientation.
+    """
+    z, y, x = voxel_dhw
+    return voxel_xyz_to_world_mm((x, y, z), affine)
 
 
 def remap_labels_to_contiguous(label_dhw: np.ndarray, cfg: Config) -> np.ndarray:

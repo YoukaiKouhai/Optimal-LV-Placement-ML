@@ -73,6 +73,20 @@ def load_config_from_run(run_dir: Path) -> Config:
     return cfg
 
 
+def repair_dataset_roots_for_local_machine(cfg: Config) -> None:
+    """
+    Handoff configs may contain privacy-sanitized paths such as C:\\Users\\<USER>.
+    Replace those with the local defaults from a fresh Config so continuation can run.
+    """
+    roots = tuple(str(path) for path in cfg.raw_dataset_roots)
+    roots_missing = any(not Path(path).exists() for path in roots)
+    roots_sanitized = any("<USER>" in path for path in roots)
+    if roots_missing and roots_sanitized:
+        local_defaults = Config().raw_dataset_roots
+        print("Saved run config contains sanitized dataset paths; using local default dataset roots.")
+        cfg.raw_dataset_roots = local_defaults
+
+
 def ensure_output_is_safe(output_dir: Path, allow_existing: bool) -> None:
     if output_dir.exists() and not allow_existing:
         raise FileExistsError(
@@ -121,6 +135,23 @@ def normalize_weights(weights: Sequence[float], count: int) -> List[float]:
     return [float(weight) / total for weight in weights]
 
 
+def repair_checkpoint_path_for_local_repo(path: Path) -> Path:
+    if path.exists():
+        return path
+    text = str(path)
+    parts = path.parts
+    if "runs" in parts:
+        runs_idx = parts.index("runs")
+        candidate = repo_root().joinpath(*parts[runs_idx:])
+        if candidate.exists():
+            return candidate
+    if "<USER>" in text:
+        candidate = Path(text.replace(r"C:\Users\<USER>\Desktop\BENG 280C Project\Optimal-LV-Placement-ML", str(repo_root())))
+        if candidate.exists():
+            return candidate
+    return path
+
+
 def average_checkpoint_state_dicts(checkpoint_paths: Sequence[Path], weights: Sequence[float], device: torch.device) -> Dict[str, torch.Tensor]:
     averaged: Dict[str, torch.Tensor] = {}
     reference_keys: Optional[set[str]] = None
@@ -163,7 +194,7 @@ def resolve_warm_start_checkpoint(
     if not config_path.exists():
         raise FileNotFoundError(f"No direct checkpoint and no config.json found in {best_run_dir}")
     payload = json.loads(config_path.read_text(encoding="utf-8"))
-    checkpoint_paths = [Path(path) for path in payload.get("ensemble_checkpoints", [])]
+    checkpoint_paths = [repair_checkpoint_path_for_local_repo(Path(path)) for path in payload.get("ensemble_checkpoints", [])]
     weights = payload.get("ensemble_weights", [])
     if not checkpoint_paths:
         raise FileNotFoundError(f"No ensemble_checkpoints listed in {config_path}")
@@ -199,6 +230,7 @@ def configure_continuation(args: argparse.Namespace) -> Tuple[Config, Path, Path
 
     ensure_output_is_safe(output_dir, allow_existing=args.allow_existing_output)
     cfg = load_config_from_run(best_run_dir)
+    repair_dataset_roots_for_local_machine(cfg)
     cfg.work_dir = str(output_dir)
     cfg.eval_only = False
     cfg.warm_start_checkpoint = None
@@ -215,6 +247,12 @@ def configure_continuation(args: argparse.Namespace) -> Tuple[Config, Path, Path
     cfg.min_learning_rate = float(args.min_learning_rate)
     cfg.save_overlays = not args.no_overlays
     cfg.max_overlay_cases = int(args.max_overlay_cases)
+    cfg.target_set = args.target_set
+    cfg.electrode_loss_weight = float(args.electrode_loss_weight)
+    cfg.anatomy_loss_weight = float(args.anatomy_loss_weight)
+    if args.checkpoint_metric:
+        cfg.checkpoint_metric = args.checkpoint_metric
+        cfg.checkpoint_mode = args.checkpoint_mode
     if args.num_workers is not None:
         cfg.num_workers = int(args.num_workers)
     if args.check:
@@ -261,6 +299,13 @@ def run_training(cfg: Config, best_run_dir: Path, explicit_checkpoint: Optional[
     print(f"Using device: {device}")
     print(f"Continuation output dir: {Path(cfg.work_dir)}")
     print(f"Epoch cap: {cfg.supervised_epochs}; early stopping patience: {cfg.early_stopping_patience}")
+    print(
+        "Target set/loss weights: "
+        f"target_set={cfg.target_set}, "
+        f"electrode_loss_weight={cfg.electrode_loss_weight}, "
+        f"anatomy_loss_weight={cfg.anatomy_loss_weight}"
+    )
+    print(f"Primary checkpoint metric: {cfg.checkpoint_metric} ({cfg.checkpoint_mode})")
     check_dataset_roots(cfg)
     ensure_dirs(cfg)
     warm_start = resolve_warm_start_checkpoint(best_run_dir, Path(cfg.work_dir), explicit_checkpoint, device)
@@ -312,6 +357,7 @@ def run_training(cfg: Config, best_run_dir: Path, explicit_checkpoint: Optional[
         final_model_path,
     )
     print(f"Saved continuation checkpoint: {checkpoint_path}")
+    print(f"Saved best electrode-centroid checkpoint: {checkpoint_path.with_name('best_electrode_centroid_model.pth')}")
     print(f"Saved final continuation weights: {final_model_path}")
     print(f"Saved metrics in: {cfg.metrics_dir}")
     print(f"Saved plots in: {cfg.plots_dir}")
@@ -324,6 +370,15 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--checkpoint", default=None, help="Optional explicit warm-start checkpoint. Overrides ensemble resolution.")
     parser.add_argument("--epochs", type=int, default=150)
     parser.add_argument("--learning-rate", type=float, default=1.0e-6)
+    parser.add_argument("--target-set", choices=("all", "electrodes", "anatomy"), default="all")
+    parser.add_argument("--electrode-loss-weight", type=float, default=1.0)
+    parser.add_argument("--anatomy-loss-weight", type=float, default=1.0)
+    parser.add_argument(
+        "--checkpoint-metric",
+        default=None,
+        help="Optional metric to drive early stopping/checkpointing, e.g. val_centroid_dist_electrodes.",
+    )
+    parser.add_argument("--checkpoint-mode", choices=("min", "max"), default="min")
     parser.add_argument("--early-stopping-patience", type=int, default=12)
     parser.add_argument("--early-stopping-min-delta", type=float, default=1.0e-4)
     parser.add_argument("--gradient-clip-norm", type=float, default=1.0)

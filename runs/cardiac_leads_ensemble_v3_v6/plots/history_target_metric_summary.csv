@@ -1,0 +1,7 @@
+run,history_file,metric,best_epoch,best_value,last_value
+cardiac_leads_no_spatial_aug_v6,history_supervised.csv,val_centroid_dist,1,7.819034195608562,9.509854945871568
+cardiac_leads_no_spatial_aug_v6,history_supervised.csv,val_dice,6,0.5001361817121506,0.4935455570618312
+cardiac_leads_stabilized_selection_v7,history_supervised.csv,val_centroid_dist,8,9.465084978827724,9.523508959346348
+cardiac_leads_stabilized_selection_v7,history_supervised.csv,val_dice,11,0.4955306574702263,0.493890763570865
+cardiac_leads_warmstart_guard_v8,history_supervised.csv,val_centroid_dist,0,7.819034195608562,9.610974801911247
+cardiac_leads_warmstart_guard_v8,history_supervised.csv,val_dice,1,0.4935801476240158,0.4927853060265382

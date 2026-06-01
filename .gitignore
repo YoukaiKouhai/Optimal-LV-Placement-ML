@@ -28,6 +28,9 @@ runs/*/pseudo_labels/**
 # Historical checkpoints above GitHub's 100 MB per-file limit
 runs/cardiac_leads_ssl/weights/*.pth
 
+# Generated continuation checkpoints may embed local absolute paths in metadata.
+runs/cardiac_leads_electrode_only_from_v3_v6/weights/*.pth
+
 # Local raw data should live outside Git unless sharing is explicitly approved
 data/
 raw_data/

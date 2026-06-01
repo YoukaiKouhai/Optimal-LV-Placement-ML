@@ -44,10 +44,27 @@ def compute_class_weights(
 
 def build_channel_loss_weights(cfg: Config) -> torch.Tensor:
     weights = torch.ones(cfg.num_landmark_classes, dtype=torch.float32)
+    if cfg.target_set not in {"all", "electrodes", "anatomy"}:
+        raise ValueError(f"cfg.target_set must be one of 'all', 'electrodes', or 'anatomy', got {cfg.target_set!r}")
+
+    for class_id in ELECTRODE_CLASSES:
+        weights[class_id - 1] *= float(cfg.electrode_loss_weight)
+    for class_id in ANATOMY_CLASSES:
+        weights[class_id - 1] *= float(cfg.anatomy_loss_weight)
+
+    if cfg.target_set == "electrodes":
+        for class_id in ANATOMY_CLASSES:
+            weights[class_id - 1] = 0.0
+    elif cfg.target_set == "anatomy":
+        for class_id in ELECTRODE_CLASSES:
+            weights[class_id - 1] = 0.0
+
     for class_id in cfg.focus_class_ids:
         channel_idx = class_id - 1
         if 0 <= channel_idx < cfg.num_landmark_classes:
-            weights[channel_idx] = cfg.focus_class_loss_multiplier
+            weights[channel_idx] *= cfg.focus_class_loss_multiplier
+    if float(weights.sum().item()) <= 0:
+        raise ValueError("At least one landmark channel must have non-zero loss weight.")
     return weights
 
 
@@ -114,15 +131,19 @@ def mean_dice_from_logits(
     logits: torch.Tensor,
     labels: torch.Tensor,
     num_classes: int,
+    class_ids: Optional[Sequence[int]] = None,
     include_background: bool = False,
     threshold: float = 0.5,
 ) -> float:
     probs = torch.sigmoid(logits)
+    if class_ids is None:
+        class_ids = range(1, num_classes)
     pred_oh = (probs >= threshold).float()
     true_oh = torch.stack(
-        [(labels.squeeze(1).long() == class_id).float() for class_id in range(1, num_classes)],
+        [(labels.squeeze(1).long() == class_id).float() for class_id in class_ids],
         dim=1,
     )
+    pred_oh = pred_oh[:, [class_id - 1 for class_id in class_ids]]
 
     reduce_dims = tuple(range(2, pred_oh.ndim))
     inter = (pred_oh * true_oh).sum(dim=reduce_dims)
@@ -278,7 +299,11 @@ def validate_one_epoch(
 
     losses: List[float] = []
     dices: List[float] = []
+    electrode_dices: List[float] = []
+    anatomy_dices: List[float] = []
     centroid_distances: List[float] = []
+    electrode_centroid_distances: List[float] = []
+    anatomy_centroid_distances: List[float] = []
     focus_centroid_distances: Dict[int, List[float]] = {class_id: [] for class_id in cfg.focus_class_ids}
 
     for batch in tqdm(loader, desc="Validate", leave=False):
@@ -292,7 +317,31 @@ def validate_one_epoch(
 
         losses.append(float(loss.item()))
         dices.append(mean_dice_from_logits(logits, labels, cfg.num_classes, include_background=False, threshold=cfg.prediction_threshold))
+        electrode_dices.append(
+            mean_dice_from_logits(
+                logits,
+                labels,
+                cfg.num_classes,
+                class_ids=ELECTRODE_CLASSES,
+                threshold=cfg.prediction_threshold,
+            )
+        )
+        anatomy_dices.append(
+            mean_dice_from_logits(
+                logits,
+                labels,
+                cfg.num_classes,
+                class_ids=ANATOMY_CLASSES,
+                threshold=cfg.prediction_threshold,
+            )
+        )
         centroid_distances.append(mean_centroid_distance_from_logits(logits, labels, range(1, cfg.num_classes), threshold=cfg.prediction_threshold))
+        electrode_centroid_distances.append(
+            mean_centroid_distance_from_logits(logits, labels, ELECTRODE_CLASSES, threshold=cfg.prediction_threshold)
+        )
+        anatomy_centroid_distances.append(
+            mean_centroid_distance_from_logits(logits, labels, ANATOMY_CLASSES, threshold=cfg.prediction_threshold)
+        )
         for class_id in cfg.focus_class_ids:
             focus_centroid_distances[class_id].append(
                 mean_centroid_distance_from_logits(
@@ -306,7 +355,11 @@ def validate_one_epoch(
     val_stats = {
         "val_loss": float(np.mean(losses)) if losses else np.nan,
         "val_dice": float(np.mean(dices)) if dices else np.nan,
+        "val_dice_electrodes": float(np.nanmean(electrode_dices)) if electrode_dices else np.nan,
+        "val_dice_anatomy": float(np.nanmean(anatomy_dices)) if anatomy_dices else np.nan,
         "val_centroid_dist": float(np.nanmean(centroid_distances)) if centroid_distances else np.nan,
+        "val_centroid_dist_electrodes": float(np.nanmean(electrode_centroid_distances)) if electrode_centroid_distances else np.nan,
+        "val_centroid_dist_anatomy": float(np.nanmean(anatomy_centroid_distances)) if anatomy_centroid_distances else np.nan,
     }
     focus_epoch_distances: List[float] = []
     for class_id, distances in focus_centroid_distances.items():
@@ -352,6 +405,7 @@ def fit_model(
         raise ValueError(f"checkpoint_mode must be 'min' or 'max', got {cfg.checkpoint_mode!r}")
 
     best_metric = np.inf if cfg.checkpoint_mode == "min" else -np.inf
+    best_electrode_centroid = np.inf
     epochs_without_improvement = 0
     history_rows: List[Dict] = []
     scaler = torch.amp.GradScaler(device.type, enabled=(cfg.amp and device.type == "cuda"))
@@ -377,6 +431,8 @@ def fit_model(
         raise ValueError(f"Initial checkpoint metric {cfg.checkpoint_metric!r} is missing or non-finite.")
 
     best_metric = float(initial_metric)
+    if np.isfinite(initial_val_stats.get("val_centroid_dist_electrodes", np.nan)):
+        best_electrode_centroid = float(initial_val_stats["val_centroid_dist_electrodes"])
     save_checkpoint(
         path=checkpoint_path,
         model=model,
@@ -385,13 +441,25 @@ def fit_model(
         best_metric=best_metric,
         cfg=cfg,
     )
+    save_checkpoint(
+        path=checkpoint_path.with_name("best_electrode_centroid_model.pth"),
+        model=model,
+        optimizer=optimizer,
+        epoch=0,
+        best_metric=best_electrode_centroid,
+        cfg=cfg,
+    )
     initial_row = {
         "stage": stage_name,
         "epoch": 0,
         "train_loss": np.nan,
         "val_loss": initial_val_stats["val_loss"],
         "val_dice": initial_val_stats["val_dice"],
+        "val_dice_electrodes": initial_val_stats["val_dice_electrodes"],
+        "val_dice_anatomy": initial_val_stats["val_dice_anatomy"],
         "val_centroid_dist": initial_val_stats["val_centroid_dist"],
+        "val_centroid_dist_electrodes": initial_val_stats["val_centroid_dist_electrodes"],
+        "val_centroid_dist_anatomy": initial_val_stats["val_centroid_dist_anatomy"],
         "val_focus_centroid_dist": initial_val_stats["val_focus_centroid_dist"],
         "val_worst_focus_centroid_dist": initial_val_stats["val_worst_focus_centroid_dist"],
         "val_selection_score": initial_val_stats["val_selection_score"],
@@ -409,7 +477,9 @@ def fit_model(
         f"train_loss=nan "
         f"val_loss={initial_val_stats['val_loss']:.5f} "
         f"val_dice={initial_val_stats['val_dice']:.5f} "
+        f"val_dice_electrodes={initial_val_stats['val_dice_electrodes']:.5f} "
         f"val_centroid_dist={initial_val_stats['val_centroid_dist']:.2f} "
+        f"val_centroid_dist_electrodes={initial_val_stats['val_centroid_dist_electrodes']:.2f} "
         f"val_focus_centroid_dist={initial_val_stats['val_focus_centroid_dist']:.2f} "
         f"val_worst_focus_centroid_dist={initial_val_stats['val_worst_focus_centroid_dist']:.2f} "
         f"val_selection_score={initial_val_stats['val_selection_score']:.5f} "
@@ -448,7 +518,11 @@ def fit_model(
             "train_loss": train_loss,
             "val_loss": val_stats["val_loss"],
             "val_dice": val_stats["val_dice"],
+            "val_dice_electrodes": val_stats["val_dice_electrodes"],
+            "val_dice_anatomy": val_stats["val_dice_anatomy"],
             "val_centroid_dist": val_stats["val_centroid_dist"],
+            "val_centroid_dist_electrodes": val_stats["val_centroid_dist_electrodes"],
+            "val_centroid_dist_anatomy": val_stats["val_centroid_dist_anatomy"],
             "val_focus_centroid_dist": val_stats["val_focus_centroid_dist"],
             "val_worst_focus_centroid_dist": val_stats["val_worst_focus_centroid_dist"],
             "val_selection_score": val_stats["val_selection_score"],
@@ -486,12 +560,27 @@ def fit_model(
         else:
             epochs_without_improvement += 1
 
+        electrode_metric = val_stats.get("val_centroid_dist_electrodes")
+        if electrode_metric is not None and np.isfinite(electrode_metric):
+            if float(electrode_metric) < (best_electrode_centroid - cfg.early_stopping_min_delta):
+                best_electrode_centroid = float(electrode_metric)
+                save_checkpoint(
+                    path=checkpoint_path.with_name("best_electrode_centroid_model.pth"),
+                    model=model,
+                    optimizer=optimizer,
+                    epoch=epoch,
+                    best_metric=best_electrode_centroid,
+                    cfg=cfg,
+                )
+
         print(
             f"[{stage_name}] epoch={epoch:03d} "
             f"train_loss={train_loss:.5f} "
             f"val_loss={val_stats['val_loss']:.5f} "
             f"val_dice={val_stats['val_dice']:.5f} "
+            f"val_dice_electrodes={val_stats['val_dice_electrodes']:.5f} "
             f"val_centroid_dist={val_stats['val_centroid_dist']:.2f} "
+            f"val_centroid_dist_electrodes={val_stats['val_centroid_dist_electrodes']:.2f} "
             f"val_focus_centroid_dist={val_stats['val_focus_centroid_dist']:.2f} "
             f"val_worst_focus_centroid_dist={val_stats['val_worst_focus_centroid_dist']:.2f} "
             f"val_selection_score={val_stats['val_selection_score']:.5f} "
