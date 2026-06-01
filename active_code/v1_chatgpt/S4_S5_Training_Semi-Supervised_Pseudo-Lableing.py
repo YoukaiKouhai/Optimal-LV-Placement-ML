@@ -350,6 +350,59 @@ def fit_model(
     history_rows: List[Dict] = []
     scaler = torch.amp.GradScaler(device.type, enabled=(cfg.amp and device.type == "cuda"))
 
+    initial_val_stats = validate_one_epoch(
+        model=model,
+        loader=val_loader,
+        loss_fn=loss_fn,
+        device=device,
+        cfg=cfg,
+    )
+    initial_metric = initial_val_stats.get(cfg.checkpoint_metric)
+    if initial_metric is None or not np.isfinite(initial_metric):
+        raise ValueError(f"Initial checkpoint metric {cfg.checkpoint_metric!r} is missing or non-finite.")
+
+    best_metric = float(initial_metric)
+    save_checkpoint(
+        path=checkpoint_path,
+        model=model,
+        optimizer=optimizer,
+        epoch=0,
+        best_metric=best_metric,
+        cfg=cfg,
+    )
+    initial_row = {
+        "stage": stage_name,
+        "epoch": 0,
+        "train_loss": np.nan,
+        "val_loss": initial_val_stats["val_loss"],
+        "val_dice": initial_val_stats["val_dice"],
+        "val_centroid_dist": initial_val_stats["val_centroid_dist"],
+        "val_focus_centroid_dist": initial_val_stats["val_focus_centroid_dist"],
+        "val_worst_focus_centroid_dist": initial_val_stats["val_worst_focus_centroid_dist"],
+        "val_selection_score": initial_val_stats["val_selection_score"],
+    }
+    for class_id in cfg.focus_class_ids:
+        class_name = CLASS_NAMES[class_id] if class_id < len(CLASS_NAMES) else f"class_{class_id}"
+        metric_key = f"val_centroid_dist_{class_name}"
+        initial_row[metric_key] = initial_val_stats.get(metric_key, np.nan)
+    history_rows.append(initial_row)
+
+    print(
+        f"[{stage_name}] epoch=000 "
+        f"train_loss=nan "
+        f"val_loss={initial_val_stats['val_loss']:.5f} "
+        f"val_dice={initial_val_stats['val_dice']:.5f} "
+        f"val_centroid_dist={initial_val_stats['val_centroid_dist']:.2f} "
+        f"val_focus_centroid_dist={initial_val_stats['val_focus_centroid_dist']:.2f} "
+        f"val_worst_focus_centroid_dist={initial_val_stats['val_worst_focus_centroid_dist']:.2f} "
+        f"val_selection_score={initial_val_stats['val_selection_score']:.5f} "
+        f"best_{cfg.checkpoint_metric}={best_metric:.5f}"
+    )
+    for class_id in cfg.focus_class_ids:
+        class_name = CLASS_NAMES[class_id] if class_id < len(CLASS_NAMES) else f"class_{class_id}"
+        metric_key = f"val_centroid_dist_{class_name}"
+        print(f"    focus {class_name} centroid_dist={initial_val_stats.get(metric_key, np.nan):.2f}")
+
     for epoch in range(1, epochs + 1):
         train_loss = train_one_epoch(
             model=model,
