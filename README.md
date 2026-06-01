@@ -87,9 +87,9 @@ Optimal-LV-Placement-ML/
       make_bullseye_video.py
       requirements.txt
   legacy_code/
-    chatgpt/
-    claude/
-    deepseek/
+    prototype_pipeline/
+    research_baselines/
+    indexing_workbench/
   runs/
     cardiac_leads_ensemble_v3_v6/
       metrics/
@@ -125,11 +125,11 @@ Raw data should live outside the repository or in an ignored local data folder. 
 
 The `legacy_code/` folder contains earlier pipeline stages and experiments:
 
-- `legacy_code/claude/claude_p1_0_build_data_inventory.py`: patient/file inventory.
-- `legacy_code/claude/claude_p2_0_extract_centroids.py`: centroid extraction from segmentation masks.
-- `legacy_code/claude/claude_p3_0_normalize_coords.py`: anatomical coordinate normalization using APEX/BASE/ANT.
-- `legacy_code/claude/claude_p5_a_CV_baseline.py`, `claude_p5_b_ransac.py`, `claude_p6_b_threshold.py`: classical CV lead detection experiments.
-- `legacy_code/chatgpt/chatgpt_p1_0.py`: earlier file loading and data organization script.
+- `legacy_code/research_baselines/stage1_build_data_inventory.py`: patient/file inventory.
+- `legacy_code/research_baselines/stage2_extract_centroids.py`: centroid extraction from segmentation masks.
+- `legacy_code/research_baselines/stage3_normalize_coords.py`: anatomical coordinate normalization using APEX/BASE/ANT.
+- `legacy_code/research_baselines/stage5a_cv_baseline.py`, `stage5b_ransac_sweep.py`, `stage6b_threshold.py`: classical CV lead detection experiments.
+- `legacy_code/prototype_pipeline/phase1_data_registry.py`: earlier file loading and data organization script.
 
 These scripts are useful for provenance and baseline comparison. The active ML workflow is in `active_code/model_1/`.
 
@@ -158,7 +158,7 @@ python active_code\model_1\S14_Training_Diagnostics.py
 Legacy inventory command:
 
 ```powershell
-python legacy_code\claude\claude_p1_0_build_data_inventory.py
+python legacy_code\research_baselines\stage1_build_data_inventory.py
 ```
 
 ## Centroid Extraction
@@ -187,10 +187,10 @@ runs/cardiac_leads_ensemble_v3_v6/metrics/
 Use the legacy centroid/validation scripts for manual Horos-coordinate comparison:
 
 ```powershell
-python legacy_code\claude\claude_p2_0_extract_centroids.py
+python legacy_code\research_baselines\stage2_extract_centroids.py
 ```
 
-Relevant outputs include `legacy_code/claude/centroids_report.txt` and `legacy_code/claude/centroids_results.json`.
+Relevant outputs include `legacy_code/research_baselines/centroids_report.txt` and `legacy_code/research_baselines/centroids_results.json`.
 
 Earlier validation found segmentation centroids matched manual/Horos coordinates after coordinate-convention correction; use centroid distance in millimeters as the main validation quantity.
 
@@ -199,7 +199,7 @@ Earlier validation found segmentation centroids matched manual/Horos coordinates
 Normalize lead coordinates into a patient-specific coordinate frame using APEX, BASE, and ANT:
 
 ```powershell
-python legacy_code\claude\claude_p3_0_normalize_coords.py
+python legacy_code\research_baselines\stage3_normalize_coords.py
 ```
 
 The same coordinate-frame idea is used by `S10_Bullseye_Lead_Visualization.py` for bullseye plots:
@@ -210,19 +210,19 @@ The same coordinate-frame idea is used by `S10_Bullseye_Lead_Visualization.py` f
 
 ## Classical CV Detection
 
-Classical CV baselines are in `legacy_code/claude/`.
+Classical CV baselines are in `legacy_code/research_baselines/`.
 
 ```powershell
-python legacy_code\claude\claude_p5_a_CV_baseline.py
-python legacy_code\claude\claude_p5_b_ransac.py
-python legacy_code\claude\claude_p6_b_threshold.py
+python legacy_code\research_baselines\stage5a_cv_baseline.py
+python legacy_code\research_baselines\stage5b_ransac_sweep.py
+python legacy_code\research_baselines\stage6b_threshold.py
 ```
 
 Saved reports include:
 
-- `legacy_code/claude/cv_report.txt`
-- `legacy_code/claude/threshold_report.txt`
-- `legacy_code/claude/pointnet_report.txt`
+- `legacy_code/research_baselines/cv_report.txt`
+- `legacy_code/research_baselines/threshold_report.txt`
+- `legacy_code/research_baselines/pointnet_report.txt`
 
 These are useful baselines when deciding whether the ML model is improving over threshold/connected-component methods.
 

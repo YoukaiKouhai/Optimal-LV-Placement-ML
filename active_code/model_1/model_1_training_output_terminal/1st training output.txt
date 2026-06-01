@@ -1,11 +1,11 @@
-PS C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML>  & 'C:\Users\...\AppData\Local\Microsoft\WindowsApps\python3.13.exe' 'c:\Users\...\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy\launcher' '57514' '--' 'C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\active_code\v1_chatgpt\S9_Output_Main_Execution_Block.py' 
+PS C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML>  & 'C:\Users\...\AppData\Local\Microsoft\WindowsApps\python3.13.exe' 'c:\Users\...\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy\launcher' '57514' '--' 'C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\active_code\v1_prototype_pipeline\S9_Output_Main_Execution_Block.py' 
 Using device: cuda
 Preprocessing labeled: 100%|| 59/59 [00:00<00:00, 11152.05it/s]
 Preprocessing unlabeled: 100%|| 222/222 [00:00<00:00, 16648.23it/s]
 Labeled train cases: 47
 Labeled val cases:   12
 Unlabeled cases:     222
-C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\active_code\v1_chatgpt\S4_S5_Training_Semi-Supervised_Pseudo-Lableing.py:206: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+C:\Users\...\Desktop\BENG 280C Project\Optimal-LV-Placement-ML\active_code\v1_prototype_pipeline\S4_S5_Training_Semi-Supervised_Pseudo-Lableing.py:206: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
   scaler = torch.cuda.amp.GradScaler(enabled=(cfg.amp and device.type == "cuda"))
 Train:   0%|                                                             | 0/47 [00:00<?, ?it/s]C:\Users\...\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\monai\transforms\utils.py:741: UserWarning: no available indices of class 7 to crop, setting the crop ratio of this class to zero.
   warnings.warn(

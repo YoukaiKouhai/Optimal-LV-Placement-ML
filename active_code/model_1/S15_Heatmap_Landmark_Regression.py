@@ -807,7 +807,7 @@ def compare_to_previous_methods(cfg: Config, final_stats: Dict[str, float]) -> P
             ]
         )
 
-    threshold_report = repo_root() / "legacy_code" / "claude" / "threshold_report.txt"
+    threshold_report = repo_root() / "legacy_code" / "research_baselines" / "threshold_report.txt"
     if threshold_report.exists():
         text = threshold_report.read_text(encoding="utf-8", errors="ignore")
         detection = re.search(r"GT electrode detection\s*:\s*\d+/\d+\s*\(([\d.]+)%\)", text)
@@ -817,7 +817,7 @@ def compare_to_previous_methods(cfg: Config, final_stats: Dict[str, float]) -> P
         if mean_error:
             rows.append({"method": "Classical CV / PointNet Step 6b", "metric": "mean_position_error_mm", "value": float(mean_error.group(1))})
 
-    cv_report = repo_root() / "legacy_code" / "claude" / "cv_report.txt"
+    cv_report = repo_root() / "legacy_code" / "research_baselines" / "cv_report.txt"
     if cv_report.exists():
         text = cv_report.read_text(encoding="utf-8", errors="ignore")
         detection = re.search(r"Detected.*?\(([\d.]+)%\)", text)

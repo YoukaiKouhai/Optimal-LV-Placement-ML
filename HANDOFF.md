@@ -98,8 +98,8 @@ runs/cardiac_leads_ensemble_v3_v6/presentation_figures/
 runs/cardiac_leads_apex_recovery_v3/weights/best_supervised_model.pth
 runs/cardiac_leads_no_spatial_aug_v6/weights/best_supervised_model.pth
 active_code/model_1/
-legacy_code/claude/*.txt
-legacy_code/claude/*.json
+legacy_code/research_baselines/*.txt
+legacy_code/research_baselines/*.json
 ```
 
 Cache folders can be regenerated and do not need to be uploaded:
