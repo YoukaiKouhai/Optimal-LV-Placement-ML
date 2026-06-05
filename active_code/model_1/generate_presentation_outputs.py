@@ -13,6 +13,31 @@ from S12_Presentation_Figures import generate_presentation_figures
 
 
 def build_arg_parser() -> argparse.ArgumentParser:
+    """
+    Description
+    -----------
+    Build or parse command-line arguments for generate_presentation_outputs.py.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    argparse.ArgumentParser
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     parser = argparse.ArgumentParser(
         description="Generate centroid CSVs, bullseye plots, and presentation figures without retraining."
     )
@@ -24,6 +49,31 @@ def build_arg_parser() -> argparse.ArgumentParser:
 
 
 def main() -> None:
+    """
+    Description
+    -----------
+    Run the command-line workflow implemented by generate_presentation_outputs.py.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     args = build_arg_parser().parse_args()
     repo_root = repo_root_from_here()
     run_dir = resolve_path(args.run_dir, repo_root) if args.run_dir else find_default_run_dir(repo_root)

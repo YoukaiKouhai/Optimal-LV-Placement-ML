@@ -24,6 +24,31 @@ ACCURACY_DISTANCE_THRESHOLDS_VOXELS = (5.0, 10.0, 15.0)
 
 
 def _load_training_module():
+    """
+    Description
+    -----------
+    Load data, configuration, weights, or metadata from disk. This function implements the load training module step.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    Any
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     module_path = Path(__file__).with_name("S4_S5_Training_Semi-Supervised_Pseudo-Lableing.py")
     spec = importlib.util.spec_from_file_location("S4_S5_Training_Semi_Supervised_Pseudo_Lableing", module_path)
     if spec is None or spec.loader is None:
@@ -38,18 +63,97 @@ labels_to_one_hot = _training_module.labels_to_one_hot
 
 
 def nanmean_or_nan(values: object) -> float:
+    """
+    Description
+    -----------
+    Implement the nanmean or nan helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    values : object (input)
+        The values value supplied to this function.
+    
+    Returns
+    -------
+    float
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     arr = np.asarray(values, dtype=np.float64)
     finite = np.isfinite(arr)
     return float(np.nanmean(arr)) if finite.any() else np.nan
 
 
 def logits_to_label_map(logits: torch.Tensor, cfg: Config) -> Tuple[torch.Tensor, torch.Tensor]:
+    """
+    Description
+    -----------
+    Convert logits to label map using this project's coordinate and data conventions.
+    
+    Parameters
+    ----------
+    logits : torch.Tensor (input)
+        Raw model output tensor before activation.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    Tuple[torch.Tensor, torch.Tensor]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     probs = torch.sigmoid(logits)
     preds = channel_peak_label_map(probs, cfg)
     return preds, probs
 
 
 def channel_peak_label_map(probs: torch.Tensor, cfg: Config) -> torch.Tensor:
+    """
+    Description
+    -----------
+    Implement the channel peak label map helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    probs : torch.Tensor (input)
+        Probability tensor derived from model outputs. Units: dimensionless.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    torch.Tensor
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     preds = torch.zeros(
         (probs.shape[0], 1, *probs.shape[2:]),
         dtype=torch.long,
@@ -83,6 +187,35 @@ def per_sample_overlap_metrics(
     labels: torch.Tensor,
     cfg: Config,
 ) -> Tuple[np.ndarray, np.ndarray]:
+    """
+    Description
+    -----------
+    Implement the per sample overlap metrics helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    probs : torch.Tensor (input)
+        Probability tensor derived from model outputs. Units: dimensionless.
+    labels : torch.Tensor (input)
+        Ground-truth label maps or target tensors.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    Tuple[np.ndarray, np.ndarray]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     pred_oh = (probs >= cfg.prediction_threshold).float()
     true_oh = torch.stack(
         [(labels.squeeze(1).long() == class_id).float() for class_id in range(1, cfg.num_classes)],
@@ -122,6 +255,37 @@ def centroid_distances_for_landmarks(
     probs: torch.Tensor,
     cfg: Config,
 ) -> Dict[int, float]:
+    """
+    Description
+    -----------
+    Implement the centroid distances for landmarks helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    preds : torch.Tensor (input)
+        The preds value supplied to this function.
+    labels : torch.Tensor (input)
+        Ground-truth label maps or target tensors.
+    probs : torch.Tensor (input)
+        Probability tensor derived from model outputs. Units: dimensionless.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    Dict[int, float]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     label_np = labels[0, 0].detach().cpu().numpy().astype(np.int64)
     prob_np = probs[0].detach().cpu().numpy()
 
@@ -147,12 +311,68 @@ def centroid_distances_for_landmarks(
 
 class PRCurveAccumulator:
     def __init__(self, thresholds: np.ndarray):
+        """
+        Description
+        -----------
+        Initialize the object and store the inputs needed by later method calls.
+        
+        Parameters
+        ----------
+        self : Any (both)
+            Instance receiving this method call.
+        thresholds : np.ndarray (input)
+            Numeric hyperparameter controlling weighting, filtering, or loss behavior. Units: dimensionless.
+        
+        Returns
+        -------
+        None
+            No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+            Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+            Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+        
+        Comments
+        --------
+        - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+        - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+        - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+        - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+        - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+        """
         self.thresholds = thresholds
         self.tp = np.zeros_like(thresholds, dtype=np.int64)
         self.fp = np.zeros_like(thresholds, dtype=np.int64)
         self.fn = np.zeros_like(thresholds, dtype=np.int64)
 
     def update(self, y_true_binary: np.ndarray, y_score: np.ndarray) -> None:
+        """
+        Description
+        -----------
+        Implement the update helper for the CRT lead localization pipeline.
+        
+        Parameters
+        ----------
+        self : Any (input)
+            Instance receiving this method call.
+        y_true_binary : np.ndarray (input)
+            The y true binary value supplied to this function.
+        y_score : np.ndarray (input)
+            The y score value supplied to this function.
+        
+        Returns
+        -------
+        None
+            No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+            Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+            Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+        
+        Comments
+        --------
+        - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+        - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+        - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+        - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+        - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+        """
         y_true_binary = y_true_binary.astype(bool)
         y_score = y_score.astype(np.float32)
 
@@ -163,6 +383,31 @@ class PRCurveAccumulator:
             self.fn[i] += int(np.logical_and(~y_pred_binary, y_true_binary).sum())
 
     def as_dataframe(self) -> pd.DataFrame:
+        """
+        Description
+        -----------
+        Implement the as dataframe helper for the CRT lead localization pipeline.
+        
+        Parameters
+        ----------
+        self : Any (input)
+            Instance receiving this method call.
+        
+        Returns
+        -------
+        pd.DataFrame
+            Result produced by the function.
+            Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+            Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+        
+        Comments
+        --------
+        - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+        - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+        - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+        - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+        - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+        """
         precision = self.tp / np.maximum(self.tp + self.fp, 1)
         recall = self.tp / np.maximum(self.tp + self.fn, 1)
         return pd.DataFrame(
@@ -184,6 +429,37 @@ def evaluate_model(
     device: torch.device,
     cfg: Config,
 ) -> Dict[str, object]:
+    """
+    Description
+    -----------
+    Evaluate predictions and summarize model performance. This function implements the evaluate model step.
+    
+    Parameters
+    ----------
+    model : torch.nn.Module (input)
+        PyTorch model used by this step.
+    val_loader : DataLoader (input)
+        The val loader value supplied to this function.
+    device : torch.device (input)
+        Torch device used for tensor and model computation.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    Dict[str, object]
+        Metric value, summary table, dictionary, or collection of result records.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May update model parameters, scheduler state, metric accumulators, or progress output through supplied objects.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     model.eval()
 
     cm = np.zeros((cfg.num_classes, cfg.num_classes), dtype=np.int64)
@@ -327,6 +603,33 @@ def evaluate_model(
 
 
 def save_metrics_to_csv(metrics: Dict[str, object], cfg: Config) -> None:
+    """
+    Description
+    -----------
+    Convert save metrics to csv using this project's coordinate and data conventions.
+    
+    Parameters
+    ----------
+    metrics : Dict[str, object] (input)
+        The metrics value supplied to this function.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     metrics["summary_df"].to_csv(cfg.metrics_dir / "summary_metrics.csv", index=False)
     metrics["per_class_df"].to_csv(cfg.metrics_dir / "per_class_metrics.csv", index=False)
     metrics["per_sample_df"].to_csv(cfg.metrics_dir / "per_sample_metrics.csv", index=False)
@@ -336,6 +639,33 @@ def save_metrics_to_csv(metrics: Dict[str, object], cfg: Config) -> None:
 
 def plot_training_history(history_df: pd.DataFrame, cfg: Config) -> None:
     # Loss plot
+    """
+    Description
+    -----------
+    Create a visualization and save or populate the requested figure. This function implements the plot training history step.
+    
+    Parameters
+    ----------
+    history_df : pd.DataFrame (input)
+        The history df value supplied to this function.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     plt.figure(figsize=(8, 5))
     for stage_name, stage_df in history_df.groupby("stage"):
         plt.plot(stage_df["epoch"], stage_df["train_loss"], label=f"{stage_name} train loss")
@@ -415,6 +745,33 @@ def plot_training_history(history_df: pd.DataFrame, cfg: Config) -> None:
 
 
 def plot_dice_boxplot(per_sample_df: pd.DataFrame, cfg: Config) -> None:
+    """
+    Description
+    -----------
+    Create a visualization and save or populate the requested figure. This function implements the plot dice boxplot step.
+    
+    Parameters
+    ----------
+    per_sample_df : pd.DataFrame (input)
+        The per sample df value supplied to this function.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     plt.figure(figsize=(7, 5))
     plt.boxplot(per_sample_df["mean_dice_non_bg"].dropna().values, vert=True)
     plt.ylabel("Mean non-background Dice per validation sample")
@@ -426,6 +783,33 @@ def plot_dice_boxplot(per_sample_df: pd.DataFrame, cfg: Config) -> None:
 
 
 def plot_per_class_dice(per_class_df: pd.DataFrame, cfg: Config) -> None:
+    """
+    Description
+    -----------
+    Create a visualization and save or populate the requested figure. This function implements the plot per class dice step.
+    
+    Parameters
+    ----------
+    per_class_df : pd.DataFrame (input)
+        Class identifier, class name, or number of modeled classes.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     plot_df = per_class_df[per_class_df["class_id"] > 0].copy()
     plt.figure(figsize=(10, 5))
     plt.bar(plot_df["class_name"], plot_df["dice_mean"])
@@ -439,6 +823,33 @@ def plot_per_class_dice(per_class_df: pd.DataFrame, cfg: Config) -> None:
 
 
 def plot_precision_recall_curve(pr_curve_df: pd.DataFrame, cfg: Config) -> None:
+    """
+    Description
+    -----------
+    Create a visualization and save or populate the requested figure. This function implements the plot precision recall curve step.
+    
+    Parameters
+    ----------
+    pr_curve_df : pd.DataFrame (input)
+        The pr curve df value supplied to this function.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     plt.figure(figsize=(6, 6))
     plt.plot(pr_curve_df["recall"], pr_curve_df["precision"])
     plt.xlabel("Recall")
@@ -450,6 +861,33 @@ def plot_precision_recall_curve(pr_curve_df: pd.DataFrame, cfg: Config) -> None:
 
 
 def plot_confusion_matrix_heatmap(confusion_df: pd.DataFrame, cfg: Config) -> None:
+    """
+    Description
+    -----------
+    Create a visualization and save or populate the requested figure. This function implements the plot confusion matrix heatmap step.
+    
+    Parameters
+    ----------
+    confusion_df : pd.DataFrame (input)
+        The confusion df value supplied to this function.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     cm = confusion_df.values.astype(np.float64)
 
     # Row-normalized view is more readable than raw counts because background dominates.

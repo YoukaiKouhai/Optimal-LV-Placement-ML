@@ -26,6 +26,33 @@ def compute_class_weights(
     train_npz_paths: Sequence[Path],
     cfg: Config,
 ) -> torch.Tensor:
+    """
+    Description
+    -----------
+    Compute metrics, weights, coordinates, or summary values. This function implements the compute class weights step.
+    
+    Parameters
+    ----------
+    train_npz_paths : Sequence[Path] (input)
+        Filesystem location used for reading inputs or writing outputs.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    torch.Tensor
+        Metric value, summary table, dictionary, or collection of result records.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     num_classes = cfg.num_classes
     counts = np.zeros(num_classes, dtype=np.float64)
     total_voxels = 0
@@ -43,6 +70,31 @@ def compute_class_weights(
 
 
 def build_channel_loss_weights(cfg: Config) -> torch.Tensor:
+    """
+    Description
+    -----------
+    Construct a configured object used by the pipeline. This function implements the build channel loss weights step.
+    
+    Parameters
+    ----------
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    torch.Tensor
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     weights = torch.ones(cfg.num_landmark_classes, dtype=torch.float32)
     if cfg.target_set not in {"all", "electrodes", "anatomy"}:
         raise ValueError(f"cfg.target_set must be one of 'all', 'electrodes', or 'anatomy', got {cfg.target_set!r}")
@@ -69,6 +121,33 @@ def build_channel_loss_weights(cfg: Config) -> torch.Tensor:
 
 
 def labels_to_multichannel_targets(labels: torch.Tensor, cfg: Config) -> torch.Tensor:
+    """
+    Description
+    -----------
+    Convert labels to multichannel targets using this project's coordinate and data conventions.
+    
+    Parameters
+    ----------
+    labels : torch.Tensor (input)
+        Ground-truth label maps or target tensors.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    torch.Tensor
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     squeezed = labels.squeeze(1).long()
     channels = [(squeezed == class_id).float() for class_id in range(1, cfg.num_classes)]
     return torch.stack(channels, dim=1)
@@ -82,6 +161,39 @@ class LandmarkMaskLoss(torch.nn.Module):
         lambda_dice: float,
         lambda_bce: float,
     ) -> None:
+        """
+        Description
+        -----------
+        Initialize the object and store the inputs needed by later method calls.
+        
+        Parameters
+        ----------
+        self : Any (both)
+            Instance receiving this method call.
+        pos_weight : torch.Tensor (input)
+            Numeric hyperparameter controlling weighting, filtering, or loss behavior. Units: dimensionless.
+        channel_weight : torch.Tensor (input)
+            Numeric hyperparameter controlling weighting, filtering, or loss behavior. Units: dimensionless.
+        lambda_dice : float (input)
+            Numeric hyperparameter controlling weighting, filtering, or loss behavior. Units: dimensionless.
+        lambda_bce : float (input)
+            Numeric hyperparameter controlling weighting, filtering, or loss behavior. Units: dimensionless.
+        
+        Returns
+        -------
+        None
+            No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+            Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+            Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+        
+        Comments
+        --------
+        - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+        - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+        - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+        - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+        - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+        """
         super().__init__()
         self.register_buffer("pos_weight", pos_weight)
         self.register_buffer("channel_weight", channel_weight)
@@ -89,6 +201,35 @@ class LandmarkMaskLoss(torch.nn.Module):
         self.lambda_bce = lambda_bce
 
     def forward(self, logits: torch.Tensor, targets: torch.Tensor) -> torch.Tensor:
+        """
+        Description
+        -----------
+        Run the model forward pass for the supplied tensors.
+        
+        Parameters
+        ----------
+        self : Any (input)
+            Instance receiving this method call.
+        logits : torch.Tensor (input)
+            Raw model output tensor before activation.
+        targets : torch.Tensor (input)
+            The targets value supplied to this function.
+        
+        Returns
+        -------
+        torch.Tensor
+            Result produced by the function.
+            Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+            Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+        
+        Comments
+        --------
+        - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+        - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+        - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+        - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+        - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+        """
         pos_weight = self.pos_weight.view(1, -1, *([1] * (targets.ndim - 2)))
         channel_weight = self.channel_weight.view(1, -1, *([1] * (targets.ndim - 2)))
         bce = F.binary_cross_entropy_with_logits(logits, targets, pos_weight=pos_weight, reduction="none")
@@ -109,6 +250,33 @@ class LandmarkMaskLoss(torch.nn.Module):
 
 
 def build_loss_fn(class_weights: torch.Tensor, cfg: Config) -> LandmarkMaskLoss:
+    """
+    Description
+    -----------
+    Construct a configured object used by the pipeline. This function implements the build loss fn step.
+    
+    Parameters
+    ----------
+    class_weights : torch.Tensor (input)
+        Class identifier, class name, or number of modeled classes. Units: dimensionless.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    LandmarkMaskLoss
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     return LandmarkMaskLoss(
         pos_weight=class_weights,
         channel_weight=build_channel_loss_weights(cfg).to(class_weights.device),
@@ -119,6 +287,33 @@ def build_loss_fn(class_weights: torch.Tensor, cfg: Config) -> LandmarkMaskLoss:
 
 def labels_to_one_hot(labels: torch.Tensor, num_classes: int) -> torch.Tensor:
     # labels: [B, 1, D, H, W] or [B, 1, H, W]
+    """
+    Description
+    -----------
+    Convert labels to one hot using this project's coordinate and data conventions.
+    
+    Parameters
+    ----------
+    labels : torch.Tensor (input)
+        Ground-truth label maps or target tensors.
+    num_classes : int (input)
+        Class identifier, class name, or number of modeled classes. Units: count.
+    
+    Returns
+    -------
+    torch.Tensor
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     squeezed = labels.squeeze(1).long()
     onehot = F.one_hot(squeezed, num_classes=num_classes)
     dims = list(range(onehot.ndim))
@@ -135,6 +330,41 @@ def mean_dice_from_logits(
     include_background: bool = False,
     threshold: float = 0.5,
 ) -> float:
+    """
+    Description
+    -----------
+    Derive mean dice from logits for downstream CRT lead localization steps.
+    
+    Parameters
+    ----------
+    logits : torch.Tensor (input)
+        Raw model output tensor before activation.
+    labels : torch.Tensor (input)
+        Ground-truth label maps or target tensors.
+    num_classes : int (input)
+        Class identifier, class name, or number of modeled classes. Units: count.
+    class_ids : Optional[Sequence[int]] (input)
+        Class identifier, class name, or number of modeled classes.
+    include_background : bool (input)
+        The include background value supplied to this function.
+    threshold : float (input)
+        Numeric hyperparameter controlling weighting, filtering, or loss behavior. Units: dimensionless.
+    
+    Returns
+    -------
+    float
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     probs = torch.sigmoid(logits)
     if class_ids is None:
         class_ids = range(1, num_classes)
@@ -160,6 +390,33 @@ def mean_dice_from_logits(
 
 @torch.no_grad()
 def logits_to_label_map(logits: torch.Tensor, threshold: float) -> Tuple[torch.Tensor, torch.Tensor]:
+    """
+    Description
+    -----------
+    Convert logits to label map using this project's coordinate and data conventions.
+    
+    Parameters
+    ----------
+    logits : torch.Tensor (input)
+        Raw model output tensor before activation.
+    threshold : float (input)
+        Numeric hyperparameter controlling weighting, filtering, or loss behavior. Units: dimensionless.
+    
+    Returns
+    -------
+    Tuple[torch.Tensor, torch.Tensor]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     probs = torch.sigmoid(logits)
     best_prob, best_channel = probs.max(dim=1, keepdim=True)
     preds = best_channel.long() + 1
@@ -174,6 +431,37 @@ def mean_centroid_distance_from_channel_peaks(
     class_ids: Sequence[int],
     threshold: float = 0.5,
 ) -> float:
+    """
+    Description
+    -----------
+    Derive mean centroid distance from channel peaks for downstream CRT lead localization steps.
+    
+    Parameters
+    ----------
+    logits : torch.Tensor (input)
+        Raw model output tensor before activation.
+    labels : torch.Tensor (input)
+        Ground-truth label maps or target tensors.
+    class_ids : Sequence[int] (input)
+        Class identifier, class name, or number of modeled classes.
+    threshold : float (input)
+        Numeric hyperparameter controlling weighting, filtering, or loss behavior. Units: dimensionless.
+    
+    Returns
+    -------
+    float
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     _, probs = logits_to_label_map(logits, threshold)
     distances: List[float] = []
 
@@ -205,6 +493,37 @@ def mean_centroid_distance_from_logits(
     class_ids: Sequence[int],
     threshold: float = 0.5,
 ) -> float:
+    """
+    Description
+    -----------
+    Derive mean centroid distance from logits for downstream CRT lead localization steps.
+    
+    Parameters
+    ----------
+    logits : torch.Tensor (input)
+        Raw model output tensor before activation.
+    labels : torch.Tensor (input)
+        Ground-truth label maps or target tensors.
+    class_ids : Sequence[int] (input)
+        Class identifier, class name, or number of modeled classes.
+    threshold : float (input)
+        Numeric hyperparameter controlling weighting, filtering, or loss behavior. Units: dimensionless.
+    
+    Returns
+    -------
+    float
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     return mean_centroid_distance_from_channel_peaks(
         logits=logits,
         labels=labels,
@@ -221,6 +540,41 @@ def save_checkpoint(
     best_metric: float,
     cfg: Config,
 ) -> None:
+    """
+    Description
+    -----------
+    Save a project artifact such as a plot, table, checkpoint, or report. This function implements the save checkpoint step.
+    
+    Parameters
+    ----------
+    path : Path (input)
+        Filesystem path used by this step.
+    model : torch.nn.Module (input)
+        PyTorch model used by this step.
+    optimizer : torch.optim.Optimizer (input)
+        Optimizer used to update model parameters.
+    epoch : int (input)
+        The epoch value supplied to this function. Units: epochs.
+    best_metric : float (input)
+        The best metric value supplied to this function.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     payload = {
         "model_state_dict": model.state_dict(),
         "optimizer_state_dict": optimizer.state_dict(),
@@ -242,6 +596,45 @@ def train_one_epoch(
     cfg: Config,
     gpu_aug: Optional[Compose] = None,
 ) -> Tuple[float, float]:
+    """
+    Description
+    -----------
+    Run training logic and return training statistics. This function implements the train one epoch step.
+    
+    Parameters
+    ----------
+    model : torch.nn.Module (input)
+        PyTorch model used by this step.
+    loader : DataLoader (input)
+        DataLoader that yields batches for this step.
+    optimizer : torch.optim.Optimizer (input)
+        Optimizer used to update model parameters.
+    loss_fn : torch.nn.Module (input)
+        The loss fn value supplied to this function.
+    scaler : torch.cuda.amp.GradScaler (input)
+        The scaler value supplied to this function.
+    device : torch.device (input)
+        Torch device used for tensor and model computation.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    gpu_aug : Optional[Compose] (input)
+        The gpu aug value supplied to this function.
+    
+    Returns
+    -------
+    Tuple[float, float]
+        Metric value, summary table, dictionary, or collection of result records.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May update model parameters, scheduler state, metric accumulators, or progress output through supplied objects.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     model.train()
     epoch_losses: List[float] = []
     grad_norms: List[float] = []
@@ -295,6 +688,39 @@ def validate_one_epoch(
     device: torch.device,
     cfg: Config,
 ) -> Dict[str, float]:
+    """
+    Description
+    -----------
+    Run validation logic and return validation statistics. This function implements the validate one epoch step.
+    
+    Parameters
+    ----------
+    model : torch.nn.Module (input)
+        PyTorch model used by this step.
+    loader : DataLoader (input)
+        DataLoader that yields batches for this step.
+    loss_fn : torch.nn.Module (input)
+        The loss fn value supplied to this function.
+    device : torch.device (input)
+        Torch device used for tensor and model computation.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    Dict[str, float]
+        Metric value, summary table, dictionary, or collection of result records.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May update model parameters, scheduler state, metric accumulators, or progress output through supplied objects.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     model.eval()
 
     losses: List[float] = []
@@ -401,6 +827,51 @@ def fit_model(
     stage_name: str,
     gpu_aug: Optional[Compose] = None,
 ) -> pd.DataFrame:
+    """
+    Description
+    -----------
+    Train and evaluate a model according to experiment settings. This function implements the fit model step.
+    
+    Parameters
+    ----------
+    model : torch.nn.Module (input)
+        PyTorch model used by this step.
+    train_loader : DataLoader (input)
+        The train loader value supplied to this function.
+    val_loader : DataLoader (input)
+        The val loader value supplied to this function.
+    optimizer : torch.optim.Optimizer (input)
+        Optimizer used to update model parameters.
+    loss_fn : torch.nn.Module (input)
+        The loss fn value supplied to this function.
+    device : torch.device (input)
+        Torch device used for tensor and model computation.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    epochs : int (input)
+        The epochs value supplied to this function. Units: epochs.
+    checkpoint_path : Path (input)
+        Filesystem location used for reading inputs or writing outputs.
+    stage_name : str (input)
+        The stage name value supplied to this function.
+    gpu_aug : Optional[Compose] (input)
+        The gpu aug value supplied to this function.
+    
+    Returns
+    -------
+    pd.DataFrame
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May update model parameters, scheduler state, metric accumulators, or progress output through supplied objects.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     if cfg.checkpoint_mode not in {"min", "max"}:
         raise ValueError(f"checkpoint_mode must be 'min' or 'max', got {cfg.checkpoint_mode!r}")
 
@@ -612,9 +1083,33 @@ def tta_mean_probabilities(
     cfg: Config,
 ) -> Tuple[torch.Tensor, torch.Tensor]:
     """
-    Returns:
-        mean_probs: [B, C, D, H, W]
-        normalized_entropy: [B, D, H, W]
+    Description
+    -----------
+    Implement the tta mean probabilities helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    model : torch.nn.Module (input)
+        PyTorch model used by this step.
+    image : torch.Tensor (input)
+        Input image volume or tensor.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    Tuple[torch.Tensor, torch.Tensor]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
     """
     flip_sets = [
         tuple(),
@@ -641,6 +1136,33 @@ def tta_mean_probabilities(
 
 
 def class_threshold_tensor(device: torch.device, cfg: Config) -> torch.Tensor:
+    """
+    Description
+    -----------
+    Implement the class threshold tensor helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    device : torch.device (input)
+        Torch device used for tensor and model computation.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    torch.Tensor
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     thresholds = torch.ones(cfg.num_classes, device=device) * cfg.pseudo_min_prob_anatomy
     thresholds[0] = 1.0
     for c in ELECTRODE_CLASSES:
@@ -657,6 +1179,37 @@ def generate_pseudo_labels(
     device: torch.device,
     cfg: Config,
 ) -> List[Path]:
+    """
+    Description
+    -----------
+    Generate predictions, pseudo-labels, figures, or reports. This function implements the generate pseudo labels step.
+    
+    Parameters
+    ----------
+    model : torch.nn.Module (input)
+        PyTorch model used by this step.
+    unlabeled_loader : DataLoader (input)
+        The unlabeled loader value supplied to this function.
+    device : torch.device (input)
+        Torch device used for tensor and model computation.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    List[Path]
+        Generated artifact path, summary object, or status value produced by the workflow branch.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     model.eval()
     accepted_pseudo_files: List[Path] = []
     thresholds = class_threshold_tensor(device, cfg)

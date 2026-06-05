@@ -64,6 +64,33 @@ DEFAULT_WEIGHTS = (0.65, 0.35)
 
 
 def normalize_weights(weights: Sequence[float], count: int) -> List[float]:
+    """
+    Description
+    -----------
+    Normalize values into the representation expected by downstream code. This function implements the normalize weights step.
+    
+    Parameters
+    ----------
+    weights : Sequence[float] (input)
+        Numeric hyperparameter controlling weighting, filtering, or loss behavior. Units: dimensionless.
+    count : int (input)
+        The count value supplied to this function. Units: count.
+    
+    Returns
+    -------
+    List[float]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     if not weights:
         return [1.0 / count] * count
     if len(weights) != count:
@@ -75,6 +102,35 @@ def normalize_weights(weights: Sequence[float], count: int) -> List[float]:
 
 
 def load_ensemble_models(checkpoint_paths: Sequence[Path], cfg: Config, device: torch.device) -> List[torch.nn.Module]:
+    """
+    Description
+    -----------
+    Load data, configuration, weights, or metadata from disk. This function implements the load ensemble models step.
+    
+    Parameters
+    ----------
+    checkpoint_paths : Sequence[Path] (input)
+        Filesystem location used for reading inputs or writing outputs.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    device : torch.device (input)
+        Torch device used for tensor and model computation.
+    
+    Returns
+    -------
+    List[torch.nn.Module]
+        Loaded object, parsed value, or collection of discovered records.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     models: List[torch.nn.Module] = []
     for checkpoint_path in checkpoint_paths:
         model = build_model(cfg).to(device)
@@ -92,6 +148,39 @@ def ensemble_probabilities(
     cfg: Config,
     device: torch.device,
 ) -> np.ndarray:
+    """
+    Description
+    -----------
+    Implement the ensemble probabilities helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    models : Sequence[torch.nn.Module] (input)
+        The models value supplied to this function.
+    weights : Sequence[float] (input)
+        Numeric hyperparameter controlling weighting, filtering, or loss behavior. Units: dimensionless.
+    image_np : np.ndarray (input)
+        The image np value supplied to this function.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    device : torch.device (input)
+        Torch device used for tensor and model computation.
+    
+    Returns
+    -------
+    np.ndarray
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     image = torch.from_numpy(image_np.astype(np.float32)).unsqueeze(0).unsqueeze(0).to(device)
     probs_sum: Optional[torch.Tensor] = None
     for model, weight in zip(models, weights):
@@ -105,6 +194,35 @@ def ensemble_probabilities(
 
 
 def centroid_distances_for_probs(prob_np: np.ndarray, label_np: np.ndarray, cfg: Config) -> Dict[int, float]:
+    """
+    Description
+    -----------
+    Implement the centroid distances for probs helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    prob_np : np.ndarray (input)
+        The prob np value supplied to this function. Units: dimensionless.
+    label_np : np.ndarray (input)
+        The label np value supplied to this function.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    Dict[int, float]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     distances: Dict[int, float] = {}
     for class_id in range(1, cfg.num_classes):
         true_coords = np.argwhere(label_np == class_id)
@@ -118,6 +236,37 @@ def centroid_distances_for_probs(prob_np: np.ndarray, label_np: np.ndarray, cfg:
 
 
 def metrics_from_rows(per_sample_rows: List[Dict[str, object]], cm: np.ndarray, pr_acc: PRCurveAccumulator, cfg: Config) -> Dict[str, object]:
+    """
+    Description
+    -----------
+    Derive metrics from rows for downstream CRT lead localization steps.
+    
+    Parameters
+    ----------
+    per_sample_rows : List[Dict[str, object]] (input)
+        The per sample rows value supplied to this function.
+    cm : np.ndarray (input)
+        The cm value supplied to this function.
+    pr_acc : PRCurveAccumulator (input)
+        The pr acc value supplied to this function.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    Dict[str, object]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     per_sample_df = pd.DataFrame(per_sample_rows)
     per_class_rows = []
     for class_id, class_name in enumerate(CLASS_NAMES):
@@ -192,6 +341,41 @@ def metrics_from_rows(per_sample_rows: List[Dict[str, object]], cm: np.ndarray, 
 
 
 def save_overlay(image_np: np.ndarray, label_np: np.ndarray, pred_np: np.ndarray, case_id: str, cfg: Config, saved_idx: int) -> None:
+    """
+    Description
+    -----------
+    Save a project artifact such as a plot, table, checkpoint, or report. This function implements the save overlay step.
+    
+    Parameters
+    ----------
+    image_np : np.ndarray (input)
+        The image np value supplied to this function.
+    label_np : np.ndarray (input)
+        The label np value supplied to this function.
+    pred_np : np.ndarray (input)
+        The pred np value supplied to this function.
+    case_id : str (input)
+        Internal dataset identifier for a patient or case.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    saved_idx : int (input)
+        Zero-based index selecting an item.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     cmap = plt.get_cmap("tab10", cfg.num_classes)
     union_fg = ((label_np > 0) | (pred_np > 0)).sum(axis=(1, 2))
     slice_idx = int(np.argmax(union_fg)) if np.max(union_fg) > 0 else image_np.shape[0] // 2
@@ -218,6 +402,37 @@ def evaluate_ensemble(
     checkpoint_paths: Sequence[Path],
     weights: Sequence[float],
 ) -> None:
+    """
+    Description
+    -----------
+    Evaluate predictions and summarize model performance. This function implements the evaluate ensemble step.
+    
+    Parameters
+    ----------
+    base_run_dir : Path (input)
+        Filesystem location used for reading inputs or writing outputs.
+    output_run_dir : Path (input)
+        Filesystem location used for reading inputs or writing outputs.
+    checkpoint_paths : Sequence[Path] (input)
+        Filesystem location used for reading inputs or writing outputs.
+    weights : Sequence[float] (input)
+        Numeric hyperparameter controlling weighting, filtering, or loss behavior. Units: dimensionless.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May update model parameters, scheduler state, metric accumulators, or progress output through supplied objects.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     cfg = load_config_for_run(base_run_dir)
     cfg.work_dir = str(output_run_dir)
     cfg.metrics_dir.mkdir(parents=True, exist_ok=True)
@@ -328,6 +543,31 @@ def evaluate_ensemble(
 
 
 def build_arg_parser() -> argparse.ArgumentParser:
+    """
+    Description
+    -----------
+    Build or parse command-line arguments for S13_Ensemble_Evaluation.py.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    argparse.ArgumentParser
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     parser = argparse.ArgumentParser(description="Evaluate a weighted checkpoint ensemble on the validation split.")
     parser.add_argument("--base-run-dir", type=str, default="runs/cardiac_leads_no_spatial_aug_v6")
     parser.add_argument("--output-run-dir", type=str, default="runs/cardiac_leads_ensemble_v3_v6")
@@ -337,6 +577,31 @@ def build_arg_parser() -> argparse.ArgumentParser:
 
 
 def main() -> None:
+    """
+    Description
+    -----------
+    Run the command-line workflow implemented by S13_Ensemble_Evaluation.py.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     args = build_arg_parser().parse_args()
     repo_root = repo_root_from_here()
     base_run_dir = resolve_path(args.base_run_dir, repo_root)

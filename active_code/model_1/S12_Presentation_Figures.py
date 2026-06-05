@@ -21,10 +21,60 @@ CLASS_ORDER = list(range(1, 10))
 
 
 def safe_read_csv(path: Path) -> Optional[pd.DataFrame]:
+    """
+    Description
+    -----------
+    Implement the safe read csv helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    path : Path (input)
+        Filesystem path used by this step.
+    
+    Returns
+    -------
+    Optional[pd.DataFrame]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     return pd.read_csv(path) if path.exists() else None
 
 
 def mean_sem(values: pd.Series) -> Tuple[float, float]:
+    """
+    Description
+    -----------
+    Implement the mean sem helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    values : pd.Series (input)
+        The values value supplied to this function.
+    
+    Returns
+    -------
+    Tuple[float, float]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     clean = pd.to_numeric(values, errors="coerce").dropna()
     if clean.empty:
         return np.nan, np.nan
@@ -33,6 +83,31 @@ def mean_sem(values: pd.Series) -> Tuple[float, float]:
 
 
 def save_pipeline_overview(output_dir: Path) -> Path:
+    """
+    Description
+    -----------
+    Save a project artifact such as a plot, table, checkpoint, or report. This function implements the save pipeline overview step.
+    
+    Parameters
+    ----------
+    output_dir : Path (input)
+        Directory where outputs are written.
+    
+    Returns
+    -------
+    Path
+        Generated artifact path, summary object, or status value produced by the workflow branch.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     output_path = output_dir / "pipeline_overview.png"
     stages = [
         "CT input",
@@ -70,6 +145,33 @@ def save_pipeline_overview(output_dir: Path) -> Path:
 
 
 def save_per_class_centroid_error(errors_df: pd.DataFrame, output_dir: Path) -> Path:
+    """
+    Description
+    -----------
+    Save a project artifact such as a plot, table, checkpoint, or report. This function implements the save per class centroid error step.
+    
+    Parameters
+    ----------
+    errors_df : pd.DataFrame (input)
+        The errors df value supplied to this function.
+    output_dir : Path (input)
+        Directory where outputs are written.
+    
+    Returns
+    -------
+    Path
+        Generated artifact path, summary object, or status value produced by the workflow branch.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     output_path = output_dir / "per_class_centroid_error.png"
     rows = []
     metric = "distance_mm" if "distance_mm" in errors_df.columns and errors_df["distance_mm"].notna().any() else "distance_voxels"
@@ -93,6 +195,33 @@ def save_per_class_centroid_error(errors_df: pd.DataFrame, output_dir: Path) -> 
 
 
 def save_per_class_dice(run_dir: Path, output_dir: Path) -> Optional[Path]:
+    """
+    Description
+    -----------
+    Save a project artifact such as a plot, table, checkpoint, or report. This function implements the save per class dice step.
+    
+    Parameters
+    ----------
+    run_dir : Path (input)
+        Saved run directory.
+    output_dir : Path (input)
+        Directory where outputs are written.
+    
+    Returns
+    -------
+    Optional[Path]
+        Generated artifact path, summary object, or status value produced by the workflow branch.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     metrics_path = run_dir / "metrics" / "per_class_metrics.csv"
     per_class_df = safe_read_csv(metrics_path)
     if per_class_df is None or "dice_mean" not in per_class_df.columns:
@@ -118,6 +247,33 @@ def save_per_class_dice(run_dir: Path, output_dir: Path) -> Optional[Path]:
 
 
 def overlay_path_for_patient(run_dir: Path, patient_id: str) -> Optional[Path]:
+    """
+    Description
+    -----------
+    Implement the overlay path for patient helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    run_dir : Path (input)
+        Saved run directory.
+    patient_id : str (input)
+        Internal dataset identifier for a patient or case.
+    
+    Returns
+    -------
+    Optional[Path]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     exact = run_dir / "overlays" / f"{patient_id}_overlay.png"
     if exact.exists():
         return exact
@@ -126,11 +282,67 @@ def overlay_path_for_patient(run_dir: Path, patient_id: str) -> Optional[Path]:
 
 
 def bullseye_path_for_patient(run_dir: Path, patient_id: str) -> Optional[Path]:
+    """
+    Description
+    -----------
+    Implement the bullseye path for patient helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    run_dir : Path (input)
+        Saved run directory.
+    patient_id : str (input)
+        Internal dataset identifier for a patient or case.
+    
+    Returns
+    -------
+    Optional[Path]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     path = run_dir / "bullseye_plots" / f"{patient_id}_bullseye.png"
     return path if path.exists() else None
 
 
 def draw_image_or_placeholder(ax: plt.Axes, path: Optional[Path], title: str) -> None:
+    """
+    Description
+    -----------
+    Implement the draw image or placeholder helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    ax : plt.Axes (input)
+        Matplotlib figure or axes object used for plotting.
+    path : Optional[Path] (input)
+        Filesystem path used by this step.
+    title : str (input)
+        The title value supplied to this function.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     ax.axis("off")
     ax.set_title(title, fontsize=11)
     if path is None or not path.exists():
@@ -141,6 +353,37 @@ def draw_image_or_placeholder(ax: plt.Axes, path: Optional[Path], title: str) ->
 
 
 def save_example_patient_panel(run_dir: Path, coordinates_df: pd.DataFrame, output_dir: Path, max_patients: int = 3) -> Optional[Path]:
+    """
+    Description
+    -----------
+    Save a project artifact such as a plot, table, checkpoint, or report. This function implements the save example patient panel step.
+    
+    Parameters
+    ----------
+    run_dir : Path (input)
+        Saved run directory.
+    coordinates_df : pd.DataFrame (input)
+        Coordinate value or coordinate collection in the convention required by the caller.
+    output_dir : Path (input)
+        Directory where outputs are written.
+    max_patients : int (input)
+        Internal dataset identifier for a patient or case.
+    
+    Returns
+    -------
+    Optional[Path]
+        Generated artifact path, summary object, or status value produced by the workflow branch.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     overlay_patients = [p.stem.replace("_overlay", "") for p in sorted((run_dir / "overlays").glob("*_overlay.png"))]
     all_patients = sorted(coordinates_df["patient_id"].dropna().unique().tolist())
     patients = overlay_patients[:max_patients] or all_patients[:max_patients]
@@ -164,6 +407,35 @@ def save_example_patient_panel(run_dir: Path, coordinates_df: pd.DataFrame, outp
 
 
 def save_failure_case_panel(run_dir: Path, errors_df: pd.DataFrame, output_dir: Path) -> Optional[Path]:
+    """
+    Description
+    -----------
+    Save a project artifact such as a plot, table, checkpoint, or report. This function implements the save failure case panel step.
+    
+    Parameters
+    ----------
+    run_dir : Path (input)
+        Saved run directory.
+    errors_df : pd.DataFrame (input)
+        The errors df value supplied to this function.
+    output_dir : Path (input)
+        Directory where outputs are written.
+    
+    Returns
+    -------
+    Optional[Path]
+        Generated artifact path, summary object, or status value produced by the workflow branch.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     valid = errors_df[np.isfinite(pd.to_numeric(errors_df["distance_voxels"], errors="coerce"))].copy()
     valid = valid[valid["class_id"].isin(ELECTRODE_CLASSES)]
     if valid.empty:
@@ -189,6 +461,33 @@ def save_failure_case_panel(run_dir: Path, errors_df: pd.DataFrame, output_dir: 
 
 
 def save_training_curves(run_dir: Path, output_dir: Path) -> Optional[Path]:
+    """
+    Description
+    -----------
+    Save a project artifact such as a plot, table, checkpoint, or report. This function implements the save training curves step.
+    
+    Parameters
+    ----------
+    run_dir : Path (input)
+        Saved run directory.
+    output_dir : Path (input)
+        Directory where outputs are written.
+    
+    Returns
+    -------
+    Optional[Path]
+        Generated artifact path, summary object, or status value produced by the workflow branch.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     history_path = run_dir / "training_history_all_stages.csv"
     if not history_path.exists():
         history_path = run_dir / "history_supervised.csv"
@@ -218,6 +517,33 @@ def save_training_curves(run_dir: Path, output_dir: Path) -> Optional[Path]:
 
 
 def save_training_validation_scatter_summary(run_dir: Path, output_dir: Path) -> Optional[Path]:
+    """
+    Description
+    -----------
+    Save a project artifact such as a plot, table, checkpoint, or report. This function implements the save training validation scatter summary step.
+    
+    Parameters
+    ----------
+    run_dir : Path (input)
+        Saved run directory.
+    output_dir : Path (input)
+        Directory where outputs are written.
+    
+    Returns
+    -------
+    Optional[Path]
+        Generated artifact path, summary object, or status value produced by the workflow branch.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     history_path = run_dir / "training_history_all_stages.csv"
     if not history_path.exists():
         history_path = run_dir / "history_supervised.csv"
@@ -239,6 +565,39 @@ def save_training_validation_scatter_summary(run_dir: Path, output_dir: Path) ->
     }
 
     def scatter_metric(ax: plt.Axes, column: str, label: str, color: str, marker: str = "o") -> None:
+        """
+        Description
+        -----------
+        Implement the scatter metric helper for the CRT lead localization pipeline.
+        
+        Parameters
+        ----------
+        ax : plt.Axes (input)
+            Matplotlib figure or axes object used for plotting.
+        column : str (input)
+            The column value supplied to this function.
+        label : str (input)
+            Ground-truth label map or target tensor.
+        color : str (input)
+            The color value supplied to this function.
+        marker : str (input)
+            The marker value supplied to this function.
+        
+        Returns
+        -------
+        None
+            No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+            Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+            Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+        
+        Comments
+        --------
+        - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+        - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+        - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+        - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+        - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+        """
         if column not in history_df.columns:
             ax.text(0.5, 0.5, f"{column} not found", ha="center", va="center")
             return
@@ -283,6 +642,33 @@ def save_training_validation_scatter_summary(run_dir: Path, output_dir: Path) ->
 
 
 def save_clinical_interpretation_summary(errors_df: pd.DataFrame, output_dir: Path) -> Path:
+    """
+    Description
+    -----------
+    Save a project artifact such as a plot, table, checkpoint, or report. This function implements the save clinical interpretation summary step.
+    
+    Parameters
+    ----------
+    errors_df : pd.DataFrame (input)
+        The errors df value supplied to this function.
+    output_dir : Path (input)
+        Directory where outputs are written.
+    
+    Returns
+    -------
+    Path
+        Generated artifact path, summary object, or status value produced by the workflow branch.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     output_path = output_dir / "clinical_interpretation_summary.md"
     valid = errors_df.copy()
     valid["distance_voxels"] = pd.to_numeric(valid["distance_voxels"], errors="coerce")
@@ -312,6 +698,35 @@ def generate_presentation_figures(
     checkpoint_path: Optional[Path] = None,
     force_centroids: bool = False,
 ) -> List[Path]:
+    """
+    Description
+    -----------
+    Generate predictions, pseudo-labels, figures, or reports. This function implements the generate presentation figures step.
+    
+    Parameters
+    ----------
+    run_dir : Path (input)
+        Saved run directory.
+    checkpoint_path : Optional[Path] (input)
+        Filesystem location used for reading inputs or writing outputs.
+    force_centroids : bool (input)
+        Coordinate value or coordinate collection in the convention required by the caller.
+    
+    Returns
+    -------
+    List[Path]
+        Generated artifact path, summary object, or status value produced by the workflow branch.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     run_dir = run_dir.resolve()
     coordinates_path, errors_path = export_centroids(run_dir=run_dir, checkpoint_path=checkpoint_path, force=force_centroids)
     generate_bullseye_plots(run_dir=run_dir, checkpoint_path=checkpoint_path, force_centroids=False)
@@ -337,6 +752,31 @@ def generate_presentation_figures(
 
 
 def build_arg_parser() -> argparse.ArgumentParser:
+    """
+    Description
+    -----------
+    Build or parse command-line arguments for S12_Presentation_Figures.py.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    argparse.ArgumentParser
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     parser = argparse.ArgumentParser(description="Generate final presentation figures from existing model outputs.")
     parser.add_argument("--run-dir", type=str, default=None, help="Completed run directory. Defaults to latest run with a best checkpoint.")
     parser.add_argument("--checkpoint", type=str, default=None, help="Checkpoint path if centroid CSVs must be generated.")
@@ -345,6 +785,31 @@ def build_arg_parser() -> argparse.ArgumentParser:
 
 
 def main() -> None:
+    """
+    Description
+    -----------
+    Run the command-line workflow implemented by S12_Presentation_Figures.py.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     args = build_arg_parser().parse_args()
     repo_root = repo_root_from_here()
     run_dir = resolve_path(args.run_dir, repo_root) if args.run_dir else find_default_run_dir(repo_root)

@@ -43,6 +43,39 @@ class NPZSegmentationDataset(Dataset):
         transform: Optional[Compose] = None,
         with_label: bool = True,
     ) -> None:
+        """
+        Description
+        -----------
+        Initialize the object and store the inputs needed by later method calls.
+        
+        Parameters
+        ----------
+        self : Any (both)
+            Instance receiving this method call.
+        npz_paths : Sequence[Path] (input)
+            Filesystem location used for reading inputs or writing outputs.
+        pseudo_flags : Optional[Sequence[bool]] (input)
+            Boolean option controlling whether the associated behavior is enabled.
+        transform : Optional[Compose] (input)
+            The transform value supplied to this function.
+        with_label : bool (input)
+            Boolean option controlling whether the associated behavior is enabled.
+        
+        Returns
+        -------
+        None
+            No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+            Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+            Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+        
+        Comments
+        --------
+        - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+        - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+        - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+        - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+        - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+        """
         self.npz_paths = [Path(p) for p in npz_paths]
         self.pseudo_flags = list(pseudo_flags) if pseudo_flags is not None else [False] * len(self.npz_paths)
         if len(self.pseudo_flags) != len(self.npz_paths):
@@ -51,9 +84,61 @@ class NPZSegmentationDataset(Dataset):
         self.with_label = with_label
 
     def __len__(self) -> int:
+        """
+        Description
+        -----------
+        Return the number of records available from this dataset or collection.
+        
+        Parameters
+        ----------
+        self : Any (input)
+            Instance receiving this method call.
+        
+        Returns
+        -------
+        int
+            Result produced by the function.
+            Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+            Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+        
+        Comments
+        --------
+        - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+        - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+        - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+        - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+        - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+        """
         return len(self.npz_paths)
 
     def __getitem__(self, index: int):
+        """
+        Description
+        -----------
+        Load one indexed record and return it in the format expected by the DataLoader.
+        
+        Parameters
+        ----------
+        self : Any (input)
+            Instance receiving this method call.
+        index : int (input)
+            Zero-based index selecting an item.
+        
+        Returns
+        -------
+        Any
+            Result produced by the function.
+            Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+            Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+        
+        Comments
+        --------
+        - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+        - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+        - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+        - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+        - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+        """
         path = self.npz_paths[index]
         with np.load(path, allow_pickle=False) as data:
             image = data["image"].astype(np.float32)
@@ -85,6 +170,31 @@ class NPZSegmentationDataset(Dataset):
 
 
 def build_train_transform(cfg: Config) -> Compose:
+    """
+    Description
+    -----------
+    Construct a configured object used by the pipeline. This function implements the build train transform step.
+    
+    Parameters
+    ----------
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    Compose
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     return Compose(
         [
             EnsureChannelFirstd(keys=["image", "label"], channel_dim="no_channel"),
@@ -103,6 +213,31 @@ def build_train_transform(cfg: Config) -> Compose:
 
 
 def build_val_transform() -> Compose:
+    """
+    Description
+    -----------
+    Construct a configured object used by the pipeline. This function implements the build val transform step.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    Compose
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     return Compose(
         [
             EnsureChannelFirstd(keys=["image", "label"], channel_dim="no_channel"),
@@ -112,6 +247,31 @@ def build_val_transform() -> Compose:
 
 
 def build_unlabeled_transform() -> Compose:
+    """
+    Description
+    -----------
+    Construct a configured object used by the pipeline. This function implements the build unlabeled transform step.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    Compose
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     return Compose(
         [
             EnsureChannelFirstd(keys=["image"], channel_dim="no_channel"),
@@ -122,8 +282,29 @@ def build_unlabeled_transform() -> Compose:
 
 def build_gpu_train_augment(cfg: Config) -> Optional[Compose]:
     """
-    These MONAI transforms operate on torch tensors.
-    They are applied after batches are moved to CUDA.
+    Description
+    -----------
+    Construct a configured object used by the pipeline. This function implements the build gpu train augment step.
+    
+    Parameters
+    ----------
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    Optional[Compose]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
     """
     transforms = []
     if cfg.enable_spatial_augmentation:
@@ -166,6 +347,35 @@ def apply_gpu_augment(
     labels: torch.Tensor,
     gpu_aug: Optional[Compose],
 ) -> Tuple[torch.Tensor, torch.Tensor]:
+    """
+    Description
+    -----------
+    Apply a transform or post-processing step to supplied data. This function implements the apply gpu augment step.
+    
+    Parameters
+    ----------
+    images : torch.Tensor (input)
+        Batch of input image volumes or tensors.
+    labels : torch.Tensor (input)
+        Ground-truth label maps or target tensors.
+    gpu_aug : Optional[Compose] (input)
+        The gpu aug value supplied to this function.
+    
+    Returns
+    -------
+    Tuple[torch.Tensor, torch.Tensor]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     if gpu_aug is None:
         return images, labels
 
@@ -188,6 +398,35 @@ def create_train_val_split(
     seed: int,
     val_fraction: float = 0.20,
 ) -> Tuple[List[Path], List[Path]]:
+    """
+    Description
+    -----------
+    Create a split, loader, artifact, or derived data object. This function implements the create train val split step.
+    
+    Parameters
+    ----------
+    labeled_npz_paths : Sequence[Path] (input)
+        Filesystem location used for reading inputs or writing outputs.
+    seed : int (input)
+        The seed value supplied to this function. Units: count.
+    val_fraction : float (input)
+        The val fraction value supplied to this function.
+    
+    Returns
+    -------
+    Tuple[List[Path], List[Path]]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     train_files, val_files = train_test_split(
         list(labeled_npz_paths),
         test_size=val_fraction,
@@ -202,6 +441,35 @@ def create_train_loader(
     pseudo_flags: Sequence[bool],
     cfg: Config,
 ) -> DataLoader:
+    """
+    Description
+    -----------
+    Create a split, loader, artifact, or derived data object. This function implements the create train loader step.
+    
+    Parameters
+    ----------
+    npz_paths : Sequence[Path] (input)
+        Filesystem location used for reading inputs or writing outputs.
+    pseudo_flags : Sequence[bool] (input)
+        Boolean option controlling whether the associated behavior is enabled.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    DataLoader
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     dataset = NPZSegmentationDataset(
         npz_paths=npz_paths,
         pseudo_flags=pseudo_flags,
@@ -223,6 +491,33 @@ def create_val_loader(
     npz_paths: Sequence[Path],
     cfg: Config,
 ) -> DataLoader:
+    """
+    Description
+    -----------
+    Create a split, loader, artifact, or derived data object. This function implements the create val loader step.
+    
+    Parameters
+    ----------
+    npz_paths : Sequence[Path] (input)
+        Filesystem location used for reading inputs or writing outputs.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    DataLoader
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     val_num_workers = max(0, cfg.num_workers // 2)
     dataset = NPZSegmentationDataset(
         npz_paths=npz_paths,
@@ -244,6 +539,33 @@ def create_unlabeled_loader(
     npz_paths: Sequence[Path],
     cfg: Config,
 ) -> DataLoader:
+    """
+    Description
+    -----------
+    Create a split, loader, artifact, or derived data object. This function implements the create unlabeled loader step.
+    
+    Parameters
+    ----------
+    npz_paths : Sequence[Path] (input)
+        Filesystem location used for reading inputs or writing outputs.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    DataLoader
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     unlabeled_num_workers = max(0, cfg.num_workers // 2)
     dataset = NPZSegmentationDataset(
         npz_paths=npz_paths,

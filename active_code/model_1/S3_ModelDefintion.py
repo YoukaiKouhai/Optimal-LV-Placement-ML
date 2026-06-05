@@ -14,7 +14,29 @@ from S1_DataLoading_Preprocessing import Config
 
 def build_model(cfg: Config) -> torch.nn.Module:
     """
-    Flexible MONAI U-Net that can toggle between 2D and 3D.
+    Description
+    -----------
+    Construct a configured object used by the pipeline. This function implements the build model step.
+    
+    Parameters
+    ----------
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    torch.nn.Module
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
     """
     if cfg.spatial_dims not in (2, 3):
         raise ValueError("cfg.spatial_dims must be 2 or 3")
@@ -39,11 +61,35 @@ def prepare_training_batch_for_model(
     training: bool = True,
 ) -> Tuple[torch.Tensor, torch.Tensor]:
     """
-    3D mode:
-        input remains [B, 1, D, H, W]
-    2D mode:
-        select one informative axial slice from each 3D patch
-        output becomes [B, 1, H, W]
+    Description
+    -----------
+    Prepare tensors or metadata for training or inference. This function implements the prepare training batch for model step.
+    
+    Parameters
+    ----------
+    images : torch.Tensor (input)
+        Batch of input image volumes or tensors.
+    labels : torch.Tensor (input)
+        Ground-truth label maps or target tensors.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    training : bool (input)
+        The training value supplied to this function.
+    
+    Returns
+    -------
+    Tuple[torch.Tensor, torch.Tensor]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
     """
     if cfg.spatial_dims == 3:
         return images, labels
@@ -78,12 +124,33 @@ def infer_logits(
     cfg: Config,
 ) -> torch.Tensor:
     """
-    3D mode:
-        sliding-window inference over the full volume
-    2D mode:
-        infer slice-by-slice and reconstruct a 3D logits volume
-    Returns:
-        logits of shape [B, C, D, H, W]
+    Description
+    -----------
+    Run model inference and return output tensors. This function implements the infer logits step.
+    
+    Parameters
+    ----------
+    model : torch.nn.Module (input)
+        PyTorch model used by this step.
+    images : torch.Tensor (input)
+        Batch of input image volumes or tensors.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    
+    Returns
+    -------
+    torch.Tensor
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
     """
     if cfg.spatial_dims == 3:
         return sliding_window_inference(

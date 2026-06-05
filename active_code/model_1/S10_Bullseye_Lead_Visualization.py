@@ -21,6 +21,31 @@ LANDMARK_CLASS_IDS = {"ANT": 7, "Apex": 8, "Base": 9}
 
 
 def _normalize(vec: np.ndarray) -> Optional[np.ndarray]:
+    """
+    Description
+    -----------
+    Normalize values into the representation expected by downstream code. This function implements the normalize step.
+    
+    Parameters
+    ----------
+    vec : np.ndarray (input)
+        The vec value supplied to this function.
+    
+    Returns
+    -------
+    Optional[np.ndarray]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     norm = float(np.linalg.norm(vec))
     if not np.isfinite(norm) or norm < 1e-6:
         return None
@@ -34,11 +59,35 @@ def convert_xyz_to_bullseye(
     ant_xyz: Optional[Sequence[float]],
 ) -> Tuple[float, float]:
     """
-    Convert x-y-z coordinates into a patient-specific bullseye angle/radius.
-
-    Apex and Base define the long axis. ANT defines the angular zero direction
-    after projection perpendicular to that long axis. If any landmark is absent,
-    this falls back to normalized x-y projection and emits a warning.
+    Description
+    -----------
+    Convert convert xyz to bullseye using this project's coordinate and data conventions.
+    
+    Parameters
+    ----------
+    xyz : Sequence[float] (input)
+        Coordinate value or coordinate collection in the convention required by the caller.
+    apex_xyz : Optional[Sequence[float]] (input)
+        Coordinate value or coordinate collection in the convention required by the caller.
+    base_xyz : Optional[Sequence[float]] (input)
+        Coordinate value or coordinate collection in the convention required by the caller.
+    ant_xyz : Optional[Sequence[float]] (input)
+        Coordinate value or coordinate collection in the convention required by the caller.
+    
+    Returns
+    -------
+    Tuple[float, float]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
     """
     point = np.asarray(xyz, dtype=np.float64)
     if not np.isfinite(point).all():
@@ -96,11 +145,65 @@ def convert_xyz_to_bullseye(
 
 
 def zyx_row_to_xyz(row: pd.Series) -> Optional[np.ndarray]:
+    """
+    Description
+    -----------
+    Convert zyx row to xyz using this project's coordinate and data conventions.
+    
+    Parameters
+    ----------
+    row : pd.Series (input)
+        The row value supplied to this function.
+    
+    Returns
+    -------
+    Optional[np.ndarray]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     values = np.array([row["centroid_x"], row["centroid_y"], row["centroid_z"]], dtype=np.float64)
     return values if np.isfinite(values).all() else None
 
 
 def patient_source_points(coordinates_df: pd.DataFrame, patient_id: str, source: str) -> Dict[int, Optional[np.ndarray]]:
+    """
+    Description
+    -----------
+    Implement the patient source points helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    coordinates_df : pd.DataFrame (input)
+        Coordinate value or coordinate collection in the convention required by the caller.
+    patient_id : str (input)
+        Internal dataset identifier for a patient or case.
+    source : str (input)
+        The source value supplied to this function.
+    
+    Returns
+    -------
+    Dict[int, Optional[np.ndarray]]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     points: Dict[int, Optional[np.ndarray]] = {}
     subset = coordinates_df[(coordinates_df["patient_id"] == patient_id) & (coordinates_df["source"] == source)]
     for _, row in subset.iterrows():
@@ -109,6 +212,33 @@ def patient_source_points(coordinates_df: pd.DataFrame, patient_id: str, source:
 
 
 def frame_landmarks(gt_points: Dict[int, Optional[np.ndarray]], pred_points: Dict[int, Optional[np.ndarray]]) -> Tuple[Optional[np.ndarray], Optional[np.ndarray], Optional[np.ndarray]]:
+    """
+    Description
+    -----------
+    Implement the frame landmarks helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    gt_points : Dict[int, Optional[np.ndarray]] (input)
+        The gt points value supplied to this function.
+    pred_points : Dict[int, Optional[np.ndarray]] (input)
+        The pred points value supplied to this function.
+    
+    Returns
+    -------
+    Tuple[Optional[np.ndarray], Optional[np.ndarray], Optional[np.ndarray]]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     apex = gt_points.get(LANDMARK_CLASS_IDS["Apex"])
     if apex is None:
         apex = pred_points.get(LANDMARK_CLASS_IDS["Apex"])
@@ -122,6 +252,31 @@ def frame_landmarks(gt_points: Dict[int, Optional[np.ndarray]], pred_points: Dic
 
 
 def marker_style(class_id: int) -> Tuple[str, str]:
+    """
+    Description
+    -----------
+    Implement the marker style helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    class_id : int (input)
+        Class identifier, class name, or number of modeled classes.
+    
+    Returns
+    -------
+    Tuple[str, str]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     if class_id in (1, 2, 3, 4):
         color = "#1f77b4"
     else:
@@ -131,6 +286,33 @@ def marker_style(class_id: int) -> Tuple[str, str]:
 
 
 def setup_polar_axis(ax: plt.Axes, title: str) -> None:
+    """
+    Description
+    -----------
+    Implement the setup polar axis helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    ax : plt.Axes (input)
+        Matplotlib figure or axes object used for plotting.
+    title : str (input)
+        The title value supplied to this function.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     ax.set_title(title, fontsize=11, pad=18)
     ax.set_theta_zero_location("E")
     ax.set_theta_direction(1)
@@ -145,6 +327,33 @@ def setup_polar_axis(ax: plt.Axes, title: str) -> None:
 
 
 def centroid_error_label(patient_errors: pd.DataFrame, class_id: int) -> Tuple[float, str]:
+    """
+    Description
+    -----------
+    Implement the centroid error label helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    patient_errors : pd.DataFrame (input)
+        Internal dataset identifier for a patient or case.
+    class_id : int (input)
+        Class identifier, class name, or number of modeled classes.
+    
+    Returns
+    -------
+    Tuple[float, str]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     err = patient_errors.loc[class_id, "distance_mm"]
     if not np.isfinite(err):
         err = patient_errors.loc[class_id, "distance_voxels"]
@@ -163,6 +372,47 @@ def plot_single_source_electrodes(
     compact: bool = False,
     annotate_errors: bool = False,
 ) -> None:
+    """
+    Description
+    -----------
+    Create a visualization and save or populate the requested figure. This function implements the plot single source electrodes step.
+    
+    Parameters
+    ----------
+    ax : plt.Axes (input)
+        Matplotlib figure or axes object used for plotting.
+    points : Dict[int, Optional[np.ndarray]] (input)
+        The points value supplied to this function.
+    apex : Optional[np.ndarray] (input)
+        The apex value supplied to this function.
+    base : Optional[np.ndarray] (input)
+        The base value supplied to this function.
+    ant : Optional[np.ndarray] (input)
+        The ant value supplied to this function.
+    patient_errors : pd.DataFrame (input)
+        Internal dataset identifier for a patient or case.
+    source : str (input)
+        The source value supplied to this function.
+    compact : bool (input)
+        The compact value supplied to this function.
+    annotate_errors : bool (input)
+        The annotate errors value supplied to this function.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     legend_handles = []
     legend_labels = []
     is_prediction = source == "Prediction"
@@ -230,6 +480,41 @@ def plot_patient_bullseye(
     compact: bool = False,
     ax: Optional[plt.Axes] = None,
 ) -> Path:
+    """
+    Description
+    -----------
+    Create a visualization and save or populate the requested figure. This function implements the plot patient bullseye step.
+    
+    Parameters
+    ----------
+    patient_id : str (input)
+        Internal dataset identifier for a patient or case.
+    coordinates_df : pd.DataFrame (input)
+        Coordinate value or coordinate collection in the convention required by the caller.
+    errors_df : pd.DataFrame (input)
+        The errors df value supplied to this function.
+    output_path : Path (input)
+        Filesystem location used for reading inputs or writing outputs.
+    compact : bool (input)
+        The compact value supplied to this function.
+    ax : Optional[plt.Axes] (input)
+        Matplotlib figure or axes object used for plotting.
+    
+    Returns
+    -------
+    Path
+        Generated artifact path, summary object, or status value produced by the workflow branch.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     created_fig = ax is None
     if ax is None:
         fig, ax = plt.subplots(figsize=(7.5, 7.5), subplot_kw={"projection": "polar"})
@@ -317,6 +602,37 @@ def plot_patient_gt_vs_prediction_bullseye(
     errors_df: pd.DataFrame,
     output_path: Path,
 ) -> Path:
+    """
+    Description
+    -----------
+    Create a visualization and save or populate the requested figure. This function implements the plot patient gt vs prediction bullseye step.
+    
+    Parameters
+    ----------
+    patient_id : str (input)
+        Internal dataset identifier for a patient or case.
+    coordinates_df : pd.DataFrame (input)
+        Coordinate value or coordinate collection in the convention required by the caller.
+    errors_df : pd.DataFrame (input)
+        The errors df value supplied to this function.
+    output_path : Path (input)
+        Filesystem location used for reading inputs or writing outputs.
+    
+    Returns
+    -------
+    Path
+        Generated artifact path, summary object, or status value produced by the workflow branch.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     gt_points = patient_source_points(coordinates_df, patient_id, "GT")
     pred_points = patient_source_points(coordinates_df, patient_id, "Prediction")
     apex, base, ant = frame_landmarks(gt_points, pred_points)
@@ -359,6 +675,37 @@ def create_combined_gt_vs_prediction_summary(
     output_path: Path,
     max_patients: int = 6,
 ) -> Path:
+    """
+    Description
+    -----------
+    Create a split, loader, artifact, or derived data object. This function implements the create combined gt vs prediction summary step.
+    
+    Parameters
+    ----------
+    coordinates_df : pd.DataFrame (input)
+        Coordinate value or coordinate collection in the convention required by the caller.
+    errors_df : pd.DataFrame (input)
+        The errors df value supplied to this function.
+    output_path : Path (input)
+        Filesystem location used for reading inputs or writing outputs.
+    max_patients : int (input)
+        Internal dataset identifier for a patient or case.
+    
+    Returns
+    -------
+    Path
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     patients = sorted(coordinates_df["patient_id"].dropna().unique().tolist())[:max_patients]
     if not patients:
         raise ValueError("No patients found for GT-vs-prediction bullseye summary.")
@@ -403,6 +750,37 @@ def create_combined_gt_vs_prediction_summary(
 
 
 def create_combined_bullseye_summary(coordinates_df: pd.DataFrame, errors_df: pd.DataFrame, output_path: Path, max_patients: int = 12) -> Path:
+    """
+    Description
+    -----------
+    Create a split, loader, artifact, or derived data object. This function implements the create combined bullseye summary step.
+    
+    Parameters
+    ----------
+    coordinates_df : pd.DataFrame (input)
+        Coordinate value or coordinate collection in the convention required by the caller.
+    errors_df : pd.DataFrame (input)
+        The errors df value supplied to this function.
+    output_path : Path (input)
+        Filesystem location used for reading inputs or writing outputs.
+    max_patients : int (input)
+        Internal dataset identifier for a patient or case.
+    
+    Returns
+    -------
+    Path
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     patients = sorted(coordinates_df["patient_id"].dropna().unique().tolist())[:max_patients]
     if not patients:
         raise ValueError("No patients found for combined bullseye summary.")
@@ -430,6 +808,35 @@ def generate_bullseye_plots(
     checkpoint_path: Optional[Path] = None,
     force_centroids: bool = False,
 ) -> List[Path]:
+    """
+    Description
+    -----------
+    Generate predictions, pseudo-labels, figures, or reports. This function implements the generate bullseye plots step.
+    
+    Parameters
+    ----------
+    run_dir : Path (input)
+        Saved run directory.
+    checkpoint_path : Optional[Path] (input)
+        Filesystem location used for reading inputs or writing outputs.
+    force_centroids : bool (input)
+        Coordinate value or coordinate collection in the convention required by the caller.
+    
+    Returns
+    -------
+    List[Path]
+        Generated artifact path, summary object, or status value produced by the workflow branch.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     run_dir = run_dir.resolve()
     coordinates_path, errors_path = export_centroids(run_dir=run_dir, checkpoint_path=checkpoint_path, force=force_centroids)
     coordinates_df = pd.read_csv(coordinates_path)
@@ -458,6 +865,31 @@ def generate_bullseye_plots(
 
 
 def build_arg_parser() -> argparse.ArgumentParser:
+    """
+    Description
+    -----------
+    Build or parse command-line arguments for S10_Bullseye_Lead_Visualization.py.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    argparse.ArgumentParser
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     parser = argparse.ArgumentParser(description="Generate validation bullseye plots for electrode placement.")
     parser.add_argument("--run-dir", type=str, default=None, help="Completed run directory. Defaults to latest run with a best checkpoint.")
     parser.add_argument("--checkpoint", type=str, default=None, help="Checkpoint path if centroid CSVs must be generated.")
@@ -466,6 +898,31 @@ def build_arg_parser() -> argparse.ArgumentParser:
 
 
 def main() -> None:
+    """
+    Description
+    -----------
+    Run the command-line workflow implemented by S10_Bullseye_Lead_Visualization.py.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     args = build_arg_parser().parse_args()
     repo_root = repo_root_from_here()
     run_dir = resolve_path(args.run_dir, repo_root) if args.run_dir else find_default_run_dir(repo_root)

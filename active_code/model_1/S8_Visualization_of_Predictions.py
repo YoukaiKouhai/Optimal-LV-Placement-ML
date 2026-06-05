@@ -26,6 +26,39 @@ def save_prediction_overlays(
     cfg: Config,
     max_cases: Optional[int] = None,
 ) -> None:
+    """
+    Description
+    -----------
+    Save a project artifact such as a plot, table, checkpoint, or report. This function implements the save prediction overlays step.
+    
+    Parameters
+    ----------
+    model : torch.nn.Module (input)
+        PyTorch model used by this step.
+    val_loader : DataLoader (input)
+        The val loader value supplied to this function.
+    device : torch.device (input)
+        Torch device used for tensor and model computation.
+    cfg : Config (input)
+        Configuration object containing project paths, model settings, and hyperparameters.
+    max_cases : Optional[int] (input)
+        Internal dataset identifier for a patient or case.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     model.eval()
     max_cases = cfg.max_overlay_cases if max_cases is None else max_cases
     if max_cases <= 0:

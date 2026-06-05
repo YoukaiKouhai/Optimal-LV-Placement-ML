@@ -26,20 +26,91 @@ DEFAULT_SIZE = (1920, 1080)
 
 
 def repo_root() -> Path:
+    """
+    Description
+    -----------
+    Implement the repo root helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    Path
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     return Path(__file__).resolve().parents[2]
 
 
 def resolve_path(path_value: str | Path, base: Path) -> Path:
+    """
+    Description
+    -----------
+    Resolve paths or configuration references into concrete runtime values. This function implements the resolve path step.
+    
+    Parameters
+    ----------
+    path_value : str | Path (input)
+        Filesystem location used for reading inputs or writing outputs.
+    base : Path (input)
+        The base value supplied to this function.
+    
+    Returns
+    -------
+    Path
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     path = Path(path_value)
     return path if path.is_absolute() else base / path
 
 
 def patient_sort_key(path: Path) -> Tuple[int, str]:
     """
-    Sort filenames numerically by the leading patient/case number.
-
-    Example:
-        10001_HCT2_img_bullseye_gt_vs_prediction.png -> 10001
+    Description
+    -----------
+    Implement the patient sort key helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    path : Path (input)
+        Filesystem path used by this step.
+    
+    Returns
+    -------
+    Tuple[int, str]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
     """
     match = re.match(r"^(\d+)_", path.name)
     if match:
@@ -51,6 +122,35 @@ def patient_sort_key(path: Path) -> Tuple[int, str]:
 
 
 def find_bullseye_images(input_dir: Path, pattern: str, recursive: bool) -> List[Path]:
+    """
+    Description
+    -----------
+    Find files or records matching the requested criteria. This function implements the find bullseye images step.
+    
+    Parameters
+    ----------
+    input_dir : Path (input)
+        Filesystem location used for reading inputs or writing outputs.
+    pattern : str (input)
+        The pattern value supplied to this function.
+    recursive : bool (input)
+        The recursive value supplied to this function.
+    
+    Returns
+    -------
+    List[Path]
+        Loaded object, parsed value, or collection of discovered records.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     iterator: Iterable[Path] = input_dir.rglob(pattern) if recursive else input_dir.glob(pattern)
     images = sorted((path for path in iterator if path.is_file()), key=patient_sort_key)
     if not images:
@@ -60,6 +160,35 @@ def find_bullseye_images(input_dir: Path, pattern: str, recursive: bool) -> List
 
 
 def fit_image_to_canvas(image: Image.Image, size: Tuple[int, int], background: Tuple[int, int, int]) -> Image.Image:
+    """
+    Description
+    -----------
+    Convert fit image to canvas using this project's coordinate and data conventions.
+    
+    Parameters
+    ----------
+    image : Image.Image (input)
+        Input image volume or tensor.
+    size : Tuple[int, int] (input)
+        The size value supplied to this function.
+    background : Tuple[int, int, int] (input)
+        The background value supplied to this function.
+    
+    Returns
+    -------
+    Image.Image
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May update model parameters, scheduler state, metric accumulators, or progress output through supplied objects.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     target_w, target_h = size
     image = image.convert("RGB")
     scale = min(target_w / image.width, target_h / image.height)
@@ -75,6 +204,35 @@ def fit_image_to_canvas(image: Image.Image, size: Tuple[int, int], background: T
 
 
 def draw_patient_label(frame: Image.Image, image_path: Path, enabled: bool) -> Image.Image:
+    """
+    Description
+    -----------
+    Implement the draw patient label helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    frame : Image.Image (input)
+        The frame value supplied to this function.
+    image_path : Path (input)
+        Filesystem location used for reading inputs or writing outputs.
+    enabled : bool (input)
+        Boolean option controlling whether the associated behavior is enabled.
+    
+    Returns
+    -------
+    Image.Image
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     if not enabled:
         return frame
     draw = ImageDraw.Draw(frame)
@@ -94,6 +252,31 @@ def draw_patient_label(frame: Image.Image, image_path: Path, enabled: bool) -> I
 
 
 def pil_to_bgr(frame: Image.Image) -> np.ndarray:
+    """
+    Description
+    -----------
+    Convert pil to bgr using this project's coordinate and data conventions.
+    
+    Parameters
+    ----------
+    frame : Image.Image (input)
+        The frame value supplied to this function.
+    
+    Returns
+    -------
+    np.ndarray
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     rgb = np.asarray(frame, dtype=np.uint8)
     return cv2.cvtColor(rgb, cv2.COLOR_RGB2BGR)
 
@@ -107,6 +290,43 @@ def create_video(
     background: Tuple[int, int, int],
     show_label: bool,
 ) -> None:
+    """
+    Description
+    -----------
+    Create a split, loader, artifact, or derived data object. This function implements the create video step.
+    
+    Parameters
+    ----------
+    image_paths : List[Path] (input)
+        Filesystem location used for reading inputs or writing outputs.
+    output_path : Path (input)
+        Filesystem location used for reading inputs or writing outputs.
+    size : Tuple[int, int] (input)
+        The size value supplied to this function.
+    fps : float (input)
+        The fps value supplied to this function.
+    seconds_per_image : float (input)
+        The seconds per image value supplied to this function.
+    background : Tuple[int, int, int] (input)
+        The background value supplied to this function.
+    show_label : bool (input)
+        The show label value supplied to this function.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     output_path.parent.mkdir(parents=True, exist_ok=True)
     frame_repeat = max(1, int(round(fps * seconds_per_image)))
     fourcc = cv2.VideoWriter_fourcc(*"mp4v")
@@ -128,6 +348,31 @@ def create_video(
 
 
 def parse_rgb(value: str) -> Tuple[int, int, int]:
+    """
+    Description
+    -----------
+    Implement the parse rgb helper for the CRT lead localization pipeline.
+    
+    Parameters
+    ----------
+    value : str (input)
+        The value value supplied to this function.
+    
+    Returns
+    -------
+    Tuple[int, int, int]
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     parts = [int(part.strip()) for part in value.split(",")]
     if len(parts) != 3 or any(part < 0 or part > 255 for part in parts):
         raise argparse.ArgumentTypeError("RGB color must be three comma-separated values from 0 to 255.")
@@ -135,6 +380,31 @@ def parse_rgb(value: str) -> Tuple[int, int, int]:
 
 
 def parse_args() -> argparse.Namespace:
+    """
+    Description
+    -----------
+    Build or parse command-line arguments for make_bullseye_video.py.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    argparse.Namespace
+        Result produced by the function.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: Does not intentionally modify external state except through mutable objects provided by the caller.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     parser = argparse.ArgumentParser(description="Create a 1080p MP4 from bullseye GT-vs-prediction PNGs.")
     parser.add_argument(
         "--input-dir",
@@ -157,6 +427,31 @@ def parse_args() -> argparse.Namespace:
 
 
 def main() -> None:
+    """
+    Description
+    -----------
+    Run the command-line workflow implemented by make_bullseye_video.py.
+    
+    Parameters
+    ----------
+    None
+        This function does not take input parameters.
+    
+    Returns
+    -------
+    None
+        No value is returned; the function is executed for orchestration, mutation of supplied objects, or file output.
+        Raises: Propagates validation, I/O, shape, or runtime exceptions from underlying libraries when inputs are invalid or unavailable.
+        Side effects: May create directories, write files, print progress, or update checkpoint/model state as part of the pipeline.
+    
+    Comments
+    --------
+    - Preconditions: Inputs must satisfy the path, tensor shape, dtype, and configuration assumptions of the surrounding pipeline.
+    - Postconditions: Returned values or written artifacts follow the conventions used by downstream project scripts.
+    - Usage constraints: Intended for the CRT lead localization research pipeline; validate assumptions before reuse with another dataset.
+    - Performance considerations: Large 3D volumes and model inference can be memory- and GPU-intensive.
+    - Thread safety: No explicit locking is used; avoid sharing mutable models, tensors, or output paths across concurrent calls.
+    """
     args = parse_args()
     root = repo_root()
     input_dir = resolve_path(args.input_dir, root)
